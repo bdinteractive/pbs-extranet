@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+
+	
+
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="_scripts/fancybox/jquery.fancybox.css" type="text/css" media="screen">
+
+	<script type="text/javascript" src="_scripts/fancybox/jquery.fancybox.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+		
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+		<h1>Digital Workplace</h1>
+
+	</div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="clearfix">
+		
+		<div class="leftContentWide non-dashboard">
+
+				<h1 class="page-title">PMWP PROMOS for #699-700 Now Available</h1>
+
+				<section class="post-details">
+					<ul class="post-details-info">
+						<li><i class="pbs-icon-calendar"></i> Jun 7, 2017</li>
+						<li><i class="pbs-icon-bubble"></i> <a href="#">0 Comments</a></li>
+						<li><i class="pbs-icon-share"></i> <a href="#">Share</a></li>
+						<li><i class="pbs-icon-magnify-glass"></i> <a href="#">Compare Updated with Original</a></li>
+					</ul>
+					<ul class="post-details-actions">
+						<li><a href="#"><i class="pbs-icon-printer"></i></a></li>
+						<li><a href="#"><i class="pbs-icon-copy"></i></a></li>
+					</ul>
+				</section><!-- END post-details -->
+
+				<style type="text/css">
+
+					.asset-record-wide .asset-image-links {
+						width: 50%;
+						float: right;
+						padding-left: 25px;
+					}
+					.asset-image-links {
+						margin-bottom: 25px;
+					}
+					.asset-image-links .image {
+						float: left;
+						margin-right: 10px;
+					}
+					.asset-image-links .image-nav a {
+						display: block;
+						margin-left: 10px;
+					}
+					.asset-image-links a {
+						color: #1e67a7;
+						border-bottom: none;
+					}
+					.asset-image-links a:hover {
+						text-decoration: underline;
+					}
+					.asset-image-links ul {
+						width: 50%;
+						float: left;
+					}
+					.asset-image-links h4 {
+						padding: 20px 0;
+  						font-size: 14px;
+					}
+					.asset-record-wide .asset-specs {
+						width: 50%;
+						float: left;
+					}
+					.asset-specs h3,
+					.asset-specs dl {
+						margin-bottom: 15px;
+					}
+					.asset-specs dl {
+						line-height: 30px;
+					}
+					.asset-specs dt {
+						width: 150px;
+						float: left;
+						margin-right: 20px;
+						text-align: right;
+						font-weight: 600;
+					}
+				</style>
+
+
+
+				<section class="asset-record-wide">
+
+					<div class="asset-image-links">
+
+						<nav class="clearfix">
+							<h4>Quick Links:</h4>
+							<ul>
+								<li><a href="">PNWE000699_Promo_20_Saturday.mov</a></li>
+								<li><a href="">PNWE000700_Promo_20_Sunday.mov</a></li>
+							</ul>
+						</nav>
+
+					</div><!-- //asset-image-links -->
+
+					<div class="asset-specs">
+
+						<h3>Asset Information</h3>
+						<dl>
+							<dt>Description:</dt>
+								<dd>Colleges, Promos for Saturdays PNWE #699 and Sundays #700 are now available on the Source.</dd>
+							<dt>Location:</dt>
+								<dd>source.pbs.org (registration and login required)</dd>
+							<dt>Programs:</dt>
+								<dd>PBS Newshour Weekend</dd>
+						</dl>
+
+					</div><!-- //asset-specs -->
+
+				</section>
+
+
+
+
+
+		</div><!-- end of leftContent -->
+
+		
+	</div><!-- end of content -->
+
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+
+
+
+
+
+	<div class="lightbox" style="display:none">
+		<div id="generalContent" class="generalContent">
+			<h5>Overlay</h5>
+			<div class="content">
+
+				<section class="">
+
+					<div class="asset-image-links">
+
+						<div class="clearfix">
+							<img class="image" src="_images/asset-record-temp.png">
+							<nav class="image-nav">
+								<a href="">Download</a>
+								<a href="">Convert</a>
+								<a href="">Add to Lightbox</a>
+								<a href="">Email Asset</a>
+								<a href="">Email URL</a>
+							</nav>
+						</div>
+
+						<nav class="clearfix">
+							<h4>Jump to:</h4>
+							<ul>
+								<li><a href="">Asset Information Graphics</a></li>
+								<li><a href="">Rights Management Graphics</a></li>
+								<li><a href="">Promotional</a></li>
+								<li><a href="">General Audience (GA)</a></li>
+							</ul>
+							<ul>
+								<li><a href="">Brand Information</a></li>
+								<li><a href="">PBS KIDS</a></li>
+								<li><a href="">Technical Specs Graphics</a></li>
+								<li><a href="">File Media</a></li>
+							</ul>
+						</nav>
+
+					</div><!-- //asset-image-links -->
+
+					<div class="asset-specs">
+
+						<h3>DA5-Tumblr.jpg</h3>
+
+						<h3>Asset Information Graphics</h3>
+						<dl>
+							<dt>Asset Title:</dt>
+								<dd>DA5_Digital Media_SocialMediaSkins_Tumblr</dd>
+							<dt>Description:</dt>
+								<dd>JPG</dd>
+							<dt>Content Group:</dt>
+								<dd>General Audience</dd>
+							<dt>Asset Type:</dt>
+								<dd>ImageGraphics, Social Media</dd>
+							<dt>NOLA Code:</dt>
+								<dd>MAST 4500</dd>
+							<dt>File Type:</dt>
+								<dd>images/jpeg</dd>
+						</dl>
+
+						<h3>Rights Management Graphics</h3>
+
+						<h3>Promotional</h3>
+
+						<h3>General Audience (GA)</h3>
+
+						<h3>PBS KIDS</h3>
+
+						<h3>Technical Specs Graphics</h3>
+						<dl>
+							<dt>Import Date:</dt>
+								<dd>02/06/2015</dd>
+							<dt>Modified Date:</dt>
+								<dd>02/06/2015</dd>
+						</dl>
+
+					</div><!-- //asset-specs -->
+
+				</section>
+				
+			</div>
+		</div>
+	</div>
+
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function() {
+			$(".lightboxInt").fancybox({
+				'showCloseButton':'true',
+				'overlayOpacity':'0',
+				'padding':'0',
+				'margin':'0',
+				'scrolling':'yes',
+				onComplete: function(links, index) {
+					$.fancybox.center(true);
+				}
+			});
+		});
+	</script>
+
+	
+	
+</body>
+</html>
