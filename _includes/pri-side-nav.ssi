@@ -1,0 +1,100 @@
+		<div class="primary-slide-menu-wrapper psmw-close">
+
+			<div id="primary-slide-menu">
+
+				<div class="widget-wrapper">
+
+					<div class="widget-primary">
+						<ul>
+							<li><a href=""><i class="pbs-icon-palette"></i> Themes</a></li>
+							<li><a href=""><i class="pbs-icon-activitystream"></i> Activity Stream</a></li>
+							<li><a class="active" href=""><i class="pbs-icon-email"></i> Mail</a></li>
+							<li><a href=""><i class="pbs-icon-users3"></i> IM</a></li>
+							<li><a href=""><i class="pbs-icon-accessibility"></i> My Profile</a></li>
+							<li><a href=""><i class="pbs-icon-thumb-up"></i> My Links</a></li>
+						</ul>
+					</div>
+
+					<div class="widget-primary-accordion">
+						<h5>FOLLOWING <a href="">manage</a></h5>
+						<ul class="open">
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+						</ul>
+					</div>
+
+					<div class="widget-primary-accordion">
+						<h5>GROUPS <a href="">manage</a></h5>
+						<ul>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+						</ul>
+					</div>
+
+					<div class="widget-primary-accordion">
+						<h5>SHARE &amp; STORE <a href="">manage</a></h5>
+						<ul>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+						</ul>
+					</div>
+
+					<div class="widget-primary-accordion">
+						<h5>APPS <a href="">manage</a></h5>
+						<ul>
+							<li><a href="">Subscription 1</a></li>
+							<li><a href="">Lorem Ipsum 2</a></li>
+						</ul>
+					</div>
+
+					<a href="#" class="pbs-button btn-white btn-logout">Logout</a>
+
+				</div>
+
+			</div>
+
+		</div>

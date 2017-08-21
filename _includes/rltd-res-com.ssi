@@ -1,0 +1,170 @@
+<style>
+#screenshot{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	}
+</style>
+
+
+<div id="Rel_Comm_Widget_ph">
+
+	<div class="tbar clearfix">
+		<a dataid="resources" href="#" class="current">Related Resources</a>
+		<a dataid="comments" href="#">Comments</a>
+		<a dataid="memberStations" href="#">Member Stations</a>
+	</div>
+
+	<div class="panel-wrap-resources">
+		
+		<div id="gridlist-switch-wrap">
+			<a href="#" class="doGrid" title="Grid View"></a>
+			<a href="#" class="doList Off" title="List View"></a>
+			<select>
+				<option>Sort By</option>
+			</select>
+		</div>
+		
+		<div id="wdgtRltdRes" class="grid">
+			<div class="slider-content-box">
+				<ul class="ultop">
+				
+					<li class="ultopli clearfix">
+						<div class="imgwrap"><a class="screenshot" rel="_images/cssg_screenshot.png"><img src="_images/filetypes/ft-pdf.png" width="60" height="60" /></a></div>
+						<div class="reswrap">
+							<h5><a class="screenshot" rel="_images/cssg_screenshot.png">Secondary Document or Form</a></h5>
+							<div class="data">
+								Lorem sit amet juito dolor estudio neruo. Es nuci nucio dolor pro
+							</div>
+							<ul>
+								<li class="first">4/6/2010</li>
+								<li><a href="#">Blanca Brow</a></li>
+								<li>PDF</li>
+								<li class="last"><a href="#"><img src="_images/icon_heart.png" /></a></li>
+							</ul>
+						</div>
+					</li>
+					
+					<li class="ultopli clearfix">
+						<div class="imgwrap"><a class="screenshot" rel="_images/cssg_screenshot.png"><img src="_images/filetypes/ft-mp4.png" width="60" height="60" /></a></div>
+						<div class="reswrap">
+							<h5><a class="screenshot" rel="_images/cssg_screenshot.png">A link to another site</a></h5>
+							<div class="data">
+								Lorem sit amet juito dolor estudio neruo. Es nuci nucio dolor pro
+							</div>
+							<ul>
+								<li class="first">4/6/2010</li>
+								<li><a href="#">Blanca Brow</a></li>
+								<li>PDF</li>
+								<li class="last"><a href="#"><img src="_images/icon_heart.png" /></a></li>
+							</ul>
+						</div>
+					</li>
+					
+					<li class="ultopli clearfix">
+						<div class="imgwrap"><a class="screenshot" rel="_images/cssg_screenshot.png"><img src="_images/filetypes/ft-ftp.png" width="60" height="60" /></a></div>
+						<div class="reswrap">
+							<h5><a class="screenshot" rel="_images/cssg_screenshot.png">A FTP site</a></h5>
+							<div class="data">
+								Lorem sit amet juito dolor estudio neruo. Es nuci nucio dolor pro
+							</div>
+							<ul>
+								<li class="first">4/6/2010</li>
+								<li><a href="#">Blanca Brow</a></li>
+								<li>PDF</li>
+								<li class="last"><a href="#"><img src="_images/icon_heart.png" /></a></li>
+							</ul>
+						</div>
+					</li>
+					
+					<li class="ultopli clearfix">
+						<div class="imgwrap"><a class="screenshot" rel="_images/cssg_screenshot.png"><img src="_images/filetypes/ft-pdf.png" width="60" height="60" /></a></div>
+						<div class="reswrap">
+							<h5><a class="screenshot" rel="_images/cssg_screenshot.png">Another Document or Form</a></h5>
+							<div class="data">
+								Lorem sit amet juito dolor estudio neruo. Es nuci nucio dolor pro
+							</div>
+							<ul>
+								<li class="first">4/6/2010</li>
+								<li><a href="#">Blanca Brow</a></li>
+								<li>PDF</li>
+								<li class="last"><a href="#"><img src="_images/icon_heart.png" /></a></li>
+							</ul>
+						</div>
+					</li>
+					
+					<li class="ultopli clearfix">
+						<div class="imgwrap"><a class="screenshot" rel="_images/cssg_screenshot.png"><img src="_images/filetypes/ft-mp4.png" width="60" height="60" /></a></div>
+						<div class="reswrap">
+							<h5><a class="screenshot" rel="_images/cssg_screenshot.png">Another link to some other site</a></h5>
+							<div class="data">
+								Lorem sit amet juito dolor estudio neruo. Es nuci nucio dolor pro
+							</div>
+							<ul>
+								<li class="first">4/6/2010</li>
+								<li><a href="#">Blanca Brow</a></li>
+								<li>PDF</li>
+								<li class="last"><a href="#"><img src="_images/icon_heart.png" /></a></li>
+							</ul>
+						</div>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="panel-wrap-comments">
+		<div id="wdgtRltdCom">
+			<ul class="ultop">
+			
+				<li class="ultopli">
+					<div class="heading odd">
+						<h5>Hillary Howdy</h5>
+						<div class="datetime">3/1/2010 09:05am</div>
+					</div>
+					<div class="data-wrap clearfix">
+						<div class="data comments">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						</div>
+						<div class="data imgwrap">
+							<img src="_images/Photo_Silhouette_small.png" width="40" height="40" border="0" />
+						</div>
+					</div>
+				</li>
+				
+				<li class="ultopli">
+					<div class="heading even">
+						<h5>Hillary Howdy</h5>
+						<div class="datetime">3/1/2010 09:05am</div>
+					</div>
+					<div class="data-wrap clearfix">
+						<div class="data comments">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+						</div>
+						<div class="data imgwrap">
+							<img src="_images/Photo_Silhouette_small.png" width="40" height="40" border="0" />
+						</div>
+					</div>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	
+	
+	
+	
+	<div class="panel-wrap-memberStations" style="display:none;">
+			
+			<p>Updated content goes here.</p>
+			
+	</div>
+	
+	
+	
+	
+</div>

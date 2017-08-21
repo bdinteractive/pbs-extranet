@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<style type="text/css" media="screen">
+	
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+			
+		body { 
+			background: #254d26 url(_images/background-login-01.png) repeat-x top center fixed;
+		}
+		.leftContent p a { color: #ea9022; }
+		#content { border-top-color: #ea9022; }
+		
+		/*	----------------------------------------------------------------------------
+			(1) Footer */
+			
+		.footerRow { background: #00536c; }
+		.footer .footerTable td.footerColLeft { color: #fff; background: #002936 url(_themes/theme5/images/ftrbgarrow.png) right center no-repeat; }
+		.footer .footerTable td.footerColLeft h4 { color: #fff; }
+		.footer ul.footerLinksHorzMenu li a { color: #fff; }
+		.footer ul.footerLinksHorzMenu li a { color: #fff; }
+		.footer ul.footerLinksHorzMenu li { border-right-color: #fff; }
+		.footer .footerMenuPod h6 { color: #fff; border-bottom-color: #fff; }
+		.footer ul.footerLinksVertMenu li, .footer ul.footerLinksVertMenu li a { color: #fff; }
+		.footer .footerMenuPod h6 a { color: #fff; }
+		
+		
+		p { color: #6E6D6D; }
+
+		
+	</style>
+	
+</head>
+
+<body>
+	
+
+	
+		<div id="login-master">
+
+			<img src="_images/login-logo.png" class="logo">
+
+			<div id="login-container" class="clearfix">
+
+				<a href="#" class="help">Help?</a>
+				<div class="welcome-banner"><h3>Welcome to Our Factory of Collaboration</h3></div>
+
+				<form id="main-login">
+					<input type="text" name="username" placeholder="Username" id="username" />
+					<input type="password" name="password" placeholder="Password" id="password" />
+					<a href="#" class="pbs-button btn-green">Sign In</a>
+				</form>
+
+				<a class="right pbs-button btn-blue" style="margin-top: 65px;" href="#"><i class="icon-facebook facebook-login"></i>Sign In with Facebook</a>
+
+			</div>
+
+			<div class="terms-conditions">
+				<p>By logging into the PBS intranet system using your Facebook login credentials, you agree to abide by the same standards and conducts that apply under your employee terms and conditions.</p>
+
+				<h5>For Further Information</h5>
+				<ul class="login-links clearfix">
+					<li><a href="#">Terms of Conditions</a></li>
+					<li><a href="#">Forgot Password?</a></li>
+				</ul>
+			</div>
+
+		</div>
+		
+		<!--<div class="miniFooter clear">
+			<span>&copy; Copyright PBS 2011</span>
+		</div>-->
+	
+
+	
+	<script type="text/javascript" charset="utf-8">
+		// Featured Slider
+		$(document).ready(function(){
+		
+		});
+	</script>
+	
+</body>
+</html>

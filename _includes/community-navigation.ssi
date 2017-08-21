@@ -1,0 +1,43 @@
+		
+<div class="max-width-fixed search-top-bar">
+
+	<div style="height:50px;">
+
+		<div style="margin:0 auto;">
+
+			<div style="height:35px;border-top-right-radius:2px;border-top-left-radius:2px;padding:11px 0 0 20px;background:rgba(255,255,255,0.7);float:right;">
+
+				<form id="find-person" action="#">
+					<input placeholder="Search This Group">
+					<submit><i class="pbs-icon-magnify-glass"></i></submit>
+				</form>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+
+<div class="pbs-community-header">
+
+	<div class="columns max-width-fixed">
+			
+
+		<div style="margin:0 auto;">
+			<div id="pbs-logo"><img src="_images/pbs-logo-bw-sm.png"></div>
+		</div>
+
+		<nav class="primary-navigation">
+			<a href="#">Event Calendar</a>
+			<a href="#">To Do List</a>
+			<a href="#">Visual Assets</a>
+			<a href="#">Share + Store</a>
+			<a href="#">Discussion Forum</a>
+		</nav>
+
+	</div>
+
+</div>

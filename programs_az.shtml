@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>PBS Extranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+	
+	<!-- jquery specific -->
+	<link rel="stylesheet" href="_styles/jqtransform.css" type="text/css" media="screen">
+	
+	<!-- Begin Dashboard includes -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+	
+	
+	<script type="text/javascript" charset="utf-8" src="_scripts/dashboard/libs/jquery-1.7.2.min.js"></script>
+	
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+	
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+		<h1>PBS Search</h1>
+
+	</div>
+	
+	<div id="pbs-content" class="non-dashboard clearfix">
+		
+			<div class="leftContent">
+				
+				<div class="programAZ-header clearfix">
+					
+					<div class="float-left margin-right margin-bottom">
+						<button id="select-tooltip" type="button" class="button" style="width: 100px">Filter By Alpha</button>
+						<div id="select-context">
+							<select class="select multiple white-gradient easy-multiple-selection check-list no-bg" multiple>
+								<option value="A">A</option>
+								<option value="B">B</option>
+								<option value="C">C</option>
+								<option value="D">D</option>
+								<option value="E">E</option>
+								<option value="F">F</option>
+								<option value="G">G</option>
+								<option value="H">H</option>
+								<option value="I">I</option>
+								<option value="J">J</option>
+								<option value="K">K</option>
+								<option value="L">L</option>
+								<option value="M">M</option>
+								<option value="N">N</option>
+								<option value="O">O</option>
+								<option value="P">P</option>
+								<option value="Q">Q</option>
+								<option value="R">R</option>
+								<option value="S">S</option>
+								<option value="T">T</option>
+								<option value="U">U</option>
+								<option value="V">V</option>
+								<option value="W">W</option>
+								<option value="X">X</option>
+								<option value="Y">Y</option>
+								<option value="Z">Z</option>
+							</select>
+						</div>
+					</div>
+				
+				</div>
+				
+				
+				<div class="programsAZ-container clearfix">
+				
+					<h2>A</h2>
+				
+					<div class="programsAZ-row clearfix">
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="programsAZ-row clearfix">
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-pledges"></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="programsAZ-row clearfix">
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="programsAZ-row clearfix">
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+							</ul>
+						</div>
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="programsAZ-row clearfix">
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="programsAZ-row clearfix">
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="programsAZ-row clearfix">
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="programsAZ-row clearfix">
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+							</ul>
+						</div>
+					</div>
+					
+					
+					<div class="programAZ-moreHidden">
+						
+						<div class="programsAZ-row clearfix">
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-pledges"></li>
+								</ul>
+							</div>
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="programsAZ-row clearfix">
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="programsAZ-row clearfix">
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="programsAZ-row clearfix">
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-pledges"></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="programsAZ-row clearfix">
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="programsAZ-row clearfix">
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="programsAZ-row clearfix">
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="programsAZ-row clearfix">
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+				
+					<a class="programAZ-more" href="javascript:void(0);">View More</a>
+					<a class="programAZ-more" style="display: none;" href="javascript:void(0);">View Less</a>
+				
+				</div>
+				
+				
+				<div class="programsAZ-container clearfix">
+				
+					<h2>B</h2>
+				
+					<div class="programsAZ-row clearfix">
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="programsAZ-row clearfix">
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="programsAZ-row clearfix">
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="programsAZ-row clearfix">
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+							</ul>
+						</div>
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="programsAZ-row clearfix">
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="programsAZ-row clearfix">
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="programsAZ-row clearfix">
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="programsAZ-row clearfix">
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+								<li class="icon-underwriting"></li>
+							</ul>
+						</div>
+						<div class="programAZ-listing">
+							<h5>A Place Out of Time <span>COLA</span></h5>
+							<ul class="programAZ-icons">
+								<li class="icon-onDemand"></li>
+								<li class="icon-pledges"></li>
+							</ul>
+						</div>
+					</div>
+					
+					
+					<div class="programAZ-moreHidden">
+						
+						<div class="programsAZ-row clearfix">
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-pledges"></li>
+								</ul>
+							</div>
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="programsAZ-row clearfix">
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="programsAZ-row clearfix">
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="programsAZ-row clearfix">
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-pledges"></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="programsAZ-row clearfix">
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="programsAZ-row clearfix">
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="programsAZ-row clearfix">
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-onDemand"></li>
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="programsAZ-row clearfix">
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+							<div class="programAZ-listing">
+								<h5>A Place Out of Time <span>COLA</span></h5>
+								<ul class="programAZ-icons">
+									<li class="icon-pledges"></li>
+									<li class="icon-underwriting"></li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+				
+					<a class="programAZ-more" href="javascript:void(0);">View More</a>
+					<a class="programAZ-more" style="display: none;" href="javascript:void(0);">View Less</a>
+				
+				</div>
+
+				<div class="programAZ-legend">
+					<ul class="programAZ-icons">
+						<li class="icon-onDemand">On Demand</li>
+						<li class="icon-pledges">Pledges</li>
+						<li class="icon-underwriting">Underwritting</li>
+					</ul>
+				</div>
+				
+				
+			</div><!-- end of leftContent -->
+
+			<div class="rightRail">
+
+
+
+
+
+
+<style type="text/css">
+
+.tabs-content { box-shadow: none; border: none; background: rgba(0, 0, 0, 0.05); padding: 10px 5px 0 5px; }
+.collapsibleComponent { background: #fff; }
+.cc-gradient .actionItems { padding: 13px 7px; }
+
+</style>
+
+
+
+<!-- Wrapper, set tabs style class here -->
+<div class="standard-tabs">
+
+	<!-- Tabs -->
+	<ul class="tabs">
+		<li class="active"><a href="#tab-1">Support</a></li>
+		<li><a href="#tab-2">Traffic</a></li>
+		<li><a href="#tab-3">Engage</a></li>
+	</ul>
+
+	<!-- Content -->
+	<div class="tabs-content">
+
+		<div id="tab-1" class="">
+
+				<div class="collapsibleComponent cc-gradient">
+					<div class="titleBar">
+						<h5>Keyword</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems clearfix">
+						<input placeholder="Type Keyword" type="text" name="" value="" id="">
+						<a class="cc-form-submit" href="javascript:void(0);"></a>
+					</div>
+				</div>
+
+				<div class="collapsibleComponent cc-gradient">
+					<div class="titleBar">
+						<h5>In Rights/Pledge Only</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems checkboxs clearfix">
+						<fieldset>
+							<input type="radio" id="" name="keyword" value="" >
+							<label>In Rights</label>
+						</fieldset>
+						<fieldset>
+							<input type="radio" id="" name="keyword" value="" checked >
+							<label>Pledge Only</label>
+						</fieldset>
+					</div>
+				</div>
+				
+				<div class="collapsibleComponent cc-gradient">
+					<div class="titleBar">
+						<h5>Local Underwriting</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems checkboxs clearfix">
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="" checked >
+							<label class="available">Available</label>
+						</fieldset>
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="notAvailable">Not Available</label>
+						</fieldset>
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="notAvailable">Available Excpet to Competitors</label>
+						</fieldset>
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="notAvailable">Available with Producer Approval</label>
+						</fieldset>
+					</div>
+				</div>
+
+		</div>
+
+		<div id="tab-2" class="">
+
+				<div class="collapsibleComponent cc-gradient">
+					<div class="titleBar">
+						<h5>Feed Date/Channel</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems clearfix">
+						
+						<ul class="calendar clearfix">
+							<li>
+								<span class="pbs-button"><a href="javascript:void(0);"></a></span>
+								<span class="date">01/11/2011</span>
+							</li>
+							<li>
+								<span class="pbs-button"><a href="javascript:void(0);"></a></span>
+								<span class="date">01/11/2012</span>
+							</li>
+						</ul>
+						
+						<select class="select expandable-list" style="width:160px">
+							<option value="option1">Select Channel</option>
+							<option value="option2">Channel 46</option>
+							<option value="option3">Channel 106</option>
+							<option value="option4">Channel 356</option>
+						</select>
+					</div>
+				</div>
+				
+				<div class="collapsibleComponent cc-gradient">
+					
+					<div class="titleBar">
+						<h5>Program Duration</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems clearfix">
+						<div class="rangeBg">
+							<div id="slider-range"></div>
+						</div>
+						<div class="sliderTotals">
+							<ul class="slider-range">
+								<li>30 min</li>
+								<li>60 min</li>
+								<li>90 min</li>
+								<li>120+ min</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="collapsibleComponent cc-gradient">
+					<div class="titleBar">
+						<h5>Video Filter</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems checkboxs clearfix">
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="ratio-4-3">4:3 (>999)</label>
+						</fieldset>
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="ratio-16-9">16:9 (>999)</label>
+						</fieldset>
+					</div>
+					
+					<div class="actionItems checkboxs clearfix">
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="no-icon">SD PAL (>999)</label>
+						</fieldset>
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="no-icon">SD NTSC (>999)</label>
+						</fieldset>
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="no-icon">SD DV (>999)</label>
+						</fieldset>
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="no-icon">SD 720 (>999)</label>
+						</fieldset>
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="no-icon">SD 1080 (>999)</label>
+						</fieldset>
+					</div>
+				</div>
+				
+
+		</div>
+
+		<div id="tab-3" class="">
+
+				<div class="collapsibleComponent cc-gradient">
+					<div class="titleBar">
+						<h5>Producer</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems clearfix">
+						<select class="select expandable-list" style="width:160px">
+							<option value="option1">All Producers</option>
+							<option value="option2">Steven Spielberg</option>
+							<option value="option3">George Lucas</option>
+							<option value="option4">Walt Disney</option>
+						</select>
+					</div>
+				</div>
+				
+				<div class="collapsibleComponent cc-gradient">
+					<div class="titleBar">
+						<h5>Distributor</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems clearfix">
+						<select class="select expandable-list" style="width:160px">
+							<option value="option1">All Distributors</option>
+							<option value="option2">Aardman Animations</option>
+							<option value="option3">Castle Rock</option>
+							<option value="option4">Universal Studios</option>
+						</select>
+					</div>
+				</div>
+				
+				<div class="collapsibleComponent cc-gradient">
+					<div class="titleBar">
+						<h5>Talent</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems clearfix">
+						<select class="select expandable-list" style="width:160px">
+							<option value="option1">All Talent</option>
+							<option value="option2">Cindy Mavrick</option>
+							<option value="option3">Amber McAurther</option>
+							<option value="option4">Johnny Depp</option>
+						</select>
+					</div>
+				</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<!--
+				<div class="collapsibleComponent cc-gradient">
+					<div class="titleBar">
+						<h5>Keyword</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems clearfix">
+						<input placeholder="Type Keyword" type="text" name="" value="" id="">
+						<a class="cc-form-submit" href="javascript:void(0);"></a>
+					</div>
+				</div>
+				
+				<div class="collapsibleComponent cc-gradient">
+					<div class="titleBar">
+						<h5>In Rights/Pledge Only</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems clearfix">
+						<fieldset>
+							<input type="radio" id="" name="keyword" value="" >
+							<label>In Rights</label>
+						</fieldset>
+						<fieldset>
+							<input type="radio" id="" name="keyword" value="" checked >
+							<label>Pledge Only</label>
+						</fieldset>
+					</div>
+				</div>
+				
+				<div class="collapsibleComponent cc-gradient">
+					<div class="titleBar">
+						<h5>Local Underwriting</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems checkboxs clearfix">
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="" checked >
+							<label class="available">Available</label>
+						</fieldset>
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="notAvailable">Not Available</label>
+						</fieldset>
+					</div>
+				</div>
+				
+				<div class="collapsibleComponent cc-gradient">
+					<div class="titleBar">
+						<h5>Feed Date/Channel</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems clearfix">
+						
+						<ul class="calendar clearfix">
+							<li>
+								<span class="pbs-button"><a href="javascript:void(0);"></a></span>
+								<span class="date">01/11/2011</span>
+							</li>
+							<li>
+								<span class="pbs-button"><a href="javascript:void(0);"></a></span>
+								<span class="date">01/11/2012</span>
+							</li>
+						</ul>
+						
+						<select>
+							<option value="option1">Select Channel</option>
+							<option value="option1">Channel 46</option>
+							<option value="option1">Channel 106</option>
+							<option value="option1">Channel 356</option>
+						</select>
+					</div>
+				</div>
+				
+				<div class="collapsibleComponent cc-gradient">
+					
+					<div class="titleBar">
+						<h5>Program Duration</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems clearfix">
+						<div class="rangeBg">
+							<div id="slider-range"></div>
+						</div>
+						<div class="sliderTotals">
+							<ul class="slider-range">
+								<li>30 min</li>
+								<li>60 min</li>
+								<li>90 min</li>
+								<li>120+ min</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="collapsibleComponent cc-gradient">
+					<div class="titleBar">
+						<h5>Video Filter</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems checkboxs clearfix">
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="ratio-4-3">4:3 (>999)</label>
+						</fieldset>
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="ratio-16-9">16:9 (>999)</label>
+						</fieldset>
+					</div>
+					
+					<div class="actionItems checkboxs clearfix">
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="no-icon">SD PAL (>999)</label>
+						</fieldset>
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="no-icon">SD NTSC (>999)</label>
+						</fieldset>
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="no-icon">SD DV (>999)</label>
+						</fieldset>
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="no-icon">SD 720 (>999)</label>
+						</fieldset>
+						<fieldset>
+							<input type="checkbox" id="" name="keyword" value="">
+							<label class="no-icon">SD 1080 (>999)</label>
+						</fieldset>
+					</div>
+				</div>
+				
+				<div class="collapsibleComponent cc-gradient">
+					<div class="titleBar">
+						<h5>Producer</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems clearfix">
+						<select>
+							<option value="option1">All Producers</option>
+							<option value="option1">Steven Spielberg</option>
+							<option value="option2">George Lucas</option>
+							<option value="option2">Walt Disney</option>
+						</select>
+					</div>
+				</div>
+				
+				<div class="collapsibleComponent cc-gradient">
+					<div class="titleBar">
+						<h5>Distributor</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems clearfix">
+						<select>
+							<option value="option1">All Distributors</option>
+							<option value="option1">Aardman Animations</option>
+							<option value="option2">Castle Rock</option>
+							<option value="option2">Universal Studios</option>
+						</select>
+					</div>
+				</div>
+				
+				<div class="collapsibleComponent cc-gradient">
+					<div class="titleBar">
+						<h5>Talent</h5>
+						<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+						<a class="cc-open cc-close" href="javascript:void(0);"></a>
+					</div>
+					<div class="actionItems clearfix">
+						<select>
+							<option value="option1">All Talent</option>
+							<option value="option1">Cindy Mavrick</option>
+							<option value="option2">Amber McAurther</option>
+							<option value="option2">Johnny Depp</option>
+						</select>
+					</div>
+				</div>
+				-->
+				
+			</div>
+
+		</div><!-- end of content -->
+	
+	
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	
+	<script type="text/javascript" src="_scripts/jquery-ui-1.8.20.custom.min.js"></script>
+
+	<!-- Begin Dashboard includes -->
+	<script src="_scripts/dashboard/setup.js"></script>
+	<script src="_scripts/dashboard/developr.input.js"></script>
+	<script src="_scripts/dashboard/developr.tooltip.js"></script>
+	<script src="_scripts/dashboard/developr.tabs.js"></script>
+	
+	<script type="text/javascript" src="_scripts/jquery.jqtransform.js"></script>
+	<script type="text/javascript" charset="utf-8">
+	
+		$(document).ready(function() {
+			
+			$('.programAZ-more').click(function(){
+				var programAZ_hidden = $(this).parent().find('.programAZ-moreHidden');
+				var programAZ_more = $(this).parent().find('.programAZ-more');
+				programAZ_hidden.toggle();
+				programAZ_more.toggle();
+			});
+			
+			$('.cc-open').click(function(){
+				var collapsibleComponent = $(this).parent().parent().find('.actionItems');
+				var collapsibleComponent_btn = $(this).parent().find('.cc-open');
+				collapsibleComponent.toggle();
+				collapsibleComponent_btn.toggle();
+			});
+			
+			$('.checkboxs').jqTransform({imgPath:'_images/'});
+			
+			$( "#slider-range" ).slider({
+				orientation: "vertical",
+				range: true,
+				step: 25,
+				values: [ 0, 100 ]
+			});
+
+			// Call template init (optional, but faster if called manually)
+			$.template.init();
+
+			// Tooltip menu
+			$('#select-tooltip').menuTooltip($('#select-context').hide(), {
+				classes: ['no-padding']
+			});
+
+		});
+		
+	</script>
+	
+</body>
+</html>

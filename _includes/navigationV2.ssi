@@ -1,0 +1,273 @@
+<img class="pbs-logo" src ="_images/logo_PBS_large.png" />
+<img class="pbs-logoPrintable" src ="_images/logo_PBS_print.png" />
+
+<div class="pbs-secondaryMenuWrapper">
+	<form action="announcements_submit" method="get">
+		<ul class="pbs-secondaryMenu">
+			<li class="pbs-short pbs-frontCap"></li>
+			<li class="pbs-short">
+				<ul>
+					<li class="pbs-frontCap"></li>
+					<li class="pbs-first"><a class="pbs-people" href="#"></a></li>
+					<li><a class="pbs-programs" href="#"></a></li>
+					<li class="pbs-last"><a class="pbs-all" href="#"></a></li>
+					<li class="pbs-inputCap"></li>
+					<li class="pbs-inputBg"><input type="text" name="q" id="q" /></li>
+					<li class="pbs-inputLast"><button type="submit" name="btntop-search" id="btntop-search" class="pbs-utilsSearch"></button></li>
+				</ul>
+			</li>
+			<li class="pbs-tall pbs-midCap"></li>
+			<li class="pbs-tall pbs-first"><a href="#">LEADING &rarr; CHANGE</a></li>
+			<li class="pbs-tall"><a href="#">PBS CORPORATE AREAS</a></li>
+			<li class="pbs-tall pbs-last"><a href="#">OUR CASE</a></li>
+			<li class="pbs-tall pbs-endCap"></li>
+		</ul>
+	</form>
+</div>
+
+
+<div class="pbs-primaryMenuWrapper">
+	<ul class="pbs-primaryMenu clearfix">
+		
+		<li class="pbs-levelOne pbs-noHover">
+			<div class="pbs-buttonOne pbs-first"></div>
+		
+			<a class="pbs-button pbs-buttonOne pbs-first pbs-icon-watch" href="#">WATCH</a>
+			<div class="pbs-dropDownMenuTwo pbs-levelTwoMenu pbs-threeCol clearfix">
+				
+				<ul class="pbs-subMenu">
+					<li class="pbs-title"><a href="#">FINANCES &amp; TRAVEL</a></li>
+					<li class="pbs-first"><a href="#">Billing</a></li>
+					<li><a href="#">Budget Management</a></li>
+					<li><a href="#">Contracts and Vendors</a></li>
+					<li><a href="#">Expense Reporting</a></li>
+					<li><a href="#">Financial Requests</a></li>
+					<li><a href="#">Travel</a></li>
+					<li><a href="#">Payroll</a></li>
+				</ul>
+				
+				<ul class="pbs-subMenu">
+					<li class="pbs-title"><a href="#">SERVICES</a></li>
+					<li class="pbs-first"><a href="#">Computers</a></li>
+					<li><a href="#">Help Desks and Hotlines</a></li>
+					<li><a href="#">Mail Service</a></li>
+					<li><a href="#">Phones and Email</a></li>
+					<li><a href="#">Technology Systems</a></li>
+					<li><a href="#">WiFi and the Internet</a></li>
+				</ul>
+				
+				<ul class="pbs-subMenu pbs-noBorder">
+					<li class="pbs-title"><a href="#">THE OFFICE</a></li>
+					<li class="pbs-first"><a href="#">Commuting and Parking</a></li>
+					<li><a href="#">Emergencies</a></li>
+					<li><a href="#">Procurement and Assets</a></li>
+					<li><a href="#">Safety, Security and Wellness</a></li>
+					<li><a href="#">Printing and Copying</a></li>
+					<li><a href="#">Office Supplies</a></li>
+					<li><a href="#">Visitors at PBS</a></li>
+					<li><a href="#">Workspaces, Kitchens &amp; Facilities</a></li>
+				</ul>
+			</div>
+			
+		</li>
+		
+		<li class="pbs-levelOne">
+			<a class="pbs-button pbs-buttonTwo" href="#">ADVANCEMENT</a>
+
+
+<div class="pbs-dropDownMenuTwo pbs-levelTwoMenu pbs-fiveCol clearfix" style="height:240px;">
+	<span style="color: #FFFFCC; margin-left: 16px;">&nbsp;Please wait a moment for menu to load. </span>
+
+<div id="cbMainContent">
+<ul id="EktronEditorsMenuc4e412fb-73c7-47fd-94a9-46ab53d15bb8" class="EktronEditorsMenu" style="display:none;">
+<li><a href="#" onclick="javascript:EkTbWebMenuPopUpWindow('/WorkArea/historyarea.aspx?action=report&amp;id=60129836766&amp;showbackbutton=false&amp;LangType=1033', 'History', 9999,9999, 1, 1);return false;"><img src="/WorkArea/images/ui/icons/history.png" alt="View History" title="View History"><span>View History</span></a></li><li><a href="#" onclick="javascript:EkTbWebMenuPopUpWindow('/WorkArea/tasks.aspx?action=AddTask&amp;cid=60129836766&amp;LangType=1033&amp;folder_id=60129542830&amp;ContentNav=%5c%5cSystem%20Files%5c%5cAdvancement%20Menu&amp;TreeVisible=Content&amp;callbackpage=exit.htm', 'AddTask', 9999,9999, 1, 1);return false;"><img src="/WorkArea/images/ui/icons/task.png" alt="Add Task" title="Add Task"><span>Add Task</span></a></li><li><a href="#" onclick="javascript:EkTbWebMenuPopUpWindow('/WorkArea/workarea.aspx?tab=properties&amp;page=content.aspx&amp;folder_id=60129542830&amp;ContentNav=%5c%5cSystem%20Files%5c%5cAdvancement%20Menu&amp;TreeVisible=Content&amp;action=view&amp;id=60129836766&amp;LangType=1033', 'Admin400', 9999,9999, 1, 1);return false;"><img src="/WorkArea/images/ui/icons/properties.png" alt="Properties" title="Properties"><span>Properties</span></a></li><li><a href="#" onclick="javascript:EkTbWebMenuPopUpWindow('/WorkArea/workarea.aspx?LangType=1033&amp;page=content.aspx&amp;ContentNav=\&amp;TreeVisible=Content&amp;action=ViewContentByCategory&amp;id=0', 'Admin400', 9999,9999, 1, 1);return false;"><img src="/WorkArea/images/ui/icons/wrenchOrange.png" alt="Workarea" title="Workarea"><span>Workarea</span></a></li><li><a href="#" onclick="javascript:EkTbWebMenuPopUpWindow('/WorkArea/login.aspx?action=logout', 'Login', 250, 190, 0, 0);return false;"><img src="/WorkArea/images/ui/icons/lockGo.png" alt="Logout" title="Logout"><span>Logout</span></a></li>
+</ul>
+<ul style="padding: 0 12px 12px 10px; margin: 24px 0 12px 0; color: #fff; font-size: 11px; padding-bottom: 10px; overflow: hidden; list-style-type: none; position: relative; top: -30px; "><li style="padding-bottom: 10px; margin: 16px 0 0 5px;"><span><a style="text-transform:uppercase; text-decoration: none; float: left; width: 130px; padding-left: 12px;  font-family: Arial, Helvetica, sans-serif; color: #fff; font-size 11px; font-weight:bold; background: url(/z/e/_images/bullet_dot.png) left top no-repeat; list-style-type: none;" target="_top" href="/pledge">Pledge</a></span><span style="color: #fff; font-size: 11px; float: left; min-height: 20px; width: 490px; padding-left: 10px; font-weight: normal; border-left: 1px dotted #777; font-family: Arial, Helvetica, sans-serif; ">Here you will find general information about programming, premiums, highlights, statistics and essential fundraising content.<br></span></li><li><br></li><li style="padding-bottom: 10px; margin: 16px 0 0 5px;"><span><a style="text-transform:uppercase; text-decoration: none; float: left; width: 130px; padding-left: 12px;  font-family: Arial, Helvetica, sans-serif; color: #fff; font-size 11px; font-weight:bold; background: url(/z/e/_images/bullet_dot.png) left top no-repeat; list-style-type: none;" target="_top" href="/pledgestatistics/">Pledge Highlights + Statistics</a></span><span style="color: #fff; font-size: 11px; float: left; min-height: 20px; width: 490px; padding-left: 10px; font-weight: normal; border-left: 1px dotted #777; font-family: Arial, Helvetica, sans-serif; ">Share pledge results on-the-fly and download PBS Summary reports.<br></span></li><li><br></li><li style="padding-bottom: 10px; margin: 16px 0 0 5px;"><span><a style="text-transform:uppercase; text-decoration: none; float: left; width: 130px; padding-left: 12px;  font-family: Arial, Helvetica, sans-serif; color: #fff; font-size 11px; font-weight:bold; background: url(/z/e/_images/bullet_dot.png) left top no-repeat; list-style-type: none;" target="_top" href="/PBS_Foundation">PBS Foundation</a></span><span style="color: #fff; font-size: 11px; float: left; min-height: 20px; width: 490px; padding-left: 10px; font-weight: normal; border-left: 1px dotted #777; font-family: Arial, Helvetica, sans-serif; ">An overview of the organization and ways to work collaboratively with member stations.<br></span></li><li><br></li><li style="padding-bottom: 10px; margin: 16px 0 0 5px;"><span><a style="text-transform:uppercase; text-decoration: none; float: left; width: 130px; padding-left: 12px;  font-family: Arial, Helvetica, sans-serif; color: #fff; font-size 11px; font-weight:bold; background: url(/z/e/_images/bullet_dot.png) left top no-repeat; list-style-type: none;" target="_top" href="/devchat">DevChat</a></span><span style="color: #fff; font-size: 11px; float: left; min-height: 20px; width: 490px; padding-left: 10px; font-weight: normal; border-left: 1px dotted #777; font-family: Arial, Helvetica, sans-serif; ">A quick link to an external discussion board.  This forum is not part of myPBS and is solely managed by the PBS Development department.<br></span></li><li><br></li></ul>
+</div>
+                
+</div>
+
+			
+			<!--<div class="pbs-dropDownMenuTwo pbs-levelTwoMenu clearfix">
+				
+				<ul class="pbs-subMenu">
+					<li class="pbs-title"><a href="#">FINANCES &amp; TRAVEL</a></li>
+					<li class="pbs-first"><a href="#">Billing</a></li>
+					<li><a href="#">Budget Management</a></li>
+					<li><a href="#">Contracts and Vendors</a></li>
+					<li><a href="#">Expense Reporting</a></li>
+					<li><a href="#">Financial Requests</a></li>
+					<li><a href="#">Travel</a></li>
+					<li><a href="#">Payroll</a></li>
+				</ul>
+				
+				<ul class="pbs-subMenu">
+					<li class="pbs-title"><a href="#">SERVICES</a></li>
+					<li class="pbs-first"><a href="#">Computers</a></li>
+					<li><a href="#">Help Desks and Hotlines</a></li>
+					<li><a href="#">Mail Service</a></li>
+					<li><a href="#">Phones and Email</a></li>
+					<li><a href="#">Technology Systems</a></li>
+					<li><a href="#">WiFi and the Internet</a></li>
+				</ul>
+				
+				<ul class="pbs-subMenu">
+					<li class="pbs-title"><a href="#">THE OFFICE</a></li>
+					<li class="pbs-first"><a href="#">Commuting and Parking</a></li>
+					<li><a href="#">Emergencies</a></li>
+					<li><a href="#">Procurement and Assets</a></li>
+					<li><a href="#">Safety, Security and Wellness</a></li>
+					<li><a href="#">Printing and Copying</a></li>
+					<li><a href="#">Office Supplies</a></li>
+					<li><a href="#">Visitors at PBS</a></li>
+					<li><a href="#">Workspaces, Kitchens &amp; Facilities</a></li>
+				</ul>
+				
+				<ul class="pbs-subMenu">
+					<li class="pbs-title"><a href="#">THE PBS BRAND</a></li>
+					<li class="pbs-first"><a href="#">Brand Guides</a></li>
+					<li><a href="#">The Explorer</a></li>
+					<li><a href="#">Marketing a Project</a></li>
+					<li><a href="#">Templates and Logos</a></li>
+					<li><a href="#">The Press and Social Media</a></li>
+					<li><a href="#">PBS Websites</a></li>
+				</ul>
+				
+				<ul class="pbs-subMenu pbs-noBorder">
+					<li class="pbs-title"><a href="#">EMPLOYMENT</a></li>
+					<li class="pbs-first"><a href="#">Diversity</a></li>
+					<li><a href="#">Employee Handbook</a></li>
+					<li><a href="#">Recruiting</a></li>
+					<li><a href="#">Job Openings</a></li>
+					<li><a href="#">Leaving PBS</a></li>
+					<li><a href="#">Time Off</a></li>
+					<li><a href="#">Performance</a></li>
+				</ul>
+			</div>-->
+			
+		</li>
+		
+		<li class="pbs-levelOne">
+			<a class="pbs-button pbs-buttonThree" href="#">ENGAGE + PROMOTE</a>
+			
+			<div class="pbs-dropDownMenuThree pbs-levelTwoMenu">
+				
+				<ul class="pbs-iconMenu clearfix">
+					<li class="pbs-icon_announcements"><img src="_images/icon_navAnnouncements.png" /><a href="#">Announcements</a></li>
+					<li class="pbs-icon_people"><img src="_images/icon_navPeople.png" /><a href="#">People</a></li>
+					<li class="pbs-icon_yellowPages"><img src="_images/icon_navYellowpages.png" /><a href="#">Yellow Pages</a></li>
+				</ul>
+				
+				<ul class="pbs-colLeft">
+					<li><a href="#">Announcements</a></li>
+					<li><a href="#">Corporate Calendar</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Green Team and other Social Media Groups</a></li>
+					<li><a href="#">Interns</a></li>
+					<li><a href="#">Marketplace</a></li>
+					<li><a href="#">People Directory</a></li>
+				</ul>
+				
+				<ul class="pbs-colRight">
+					<li><a href="#">Photo Share</a></li>
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Scoop</a></li>
+					<li><a href="#">Staff Bulletin Board</a></li>
+					<li><a href="#">Volunteering</a></li>
+					<li><a href="#">Yellow Pages</a></li>
+				</ul>
+				
+			</div>
+			
+		</li>
+		
+		<li class="pbs-levelOne">
+			<a class="pbs-button pbs-buttonFour" href="#">SURVEYS + REPORTS</a>
+			
+			<div class="pbs-dropDownMenuFour pbs-levelTwoMenu">
+				
+				<ul class="pbs-iconMenu clearfix">
+					<li class="pbs-icon_conferenceRooms"><img src="_images/icon_navConferencerooms.png" /><a href="#">Conference Rooms</a></li>
+					<li class="pbs-icon_corporateCalendar"><img src="_images/icon_navCorporatecal.png" /><a href="#">Corporate Calendar</a></li>
+				</ul>
+				
+				<ul class="pbs-colLeft">
+					<li><a href="#">Corporate Calendar</a></li>
+					<li><a href="#">Conference Room Booking</a></li>
+					<li><a href="#">Meetings and Annual Conferences</a></li>
+				</ul>
+				
+				<ul class="pbs-colRight">
+					<li><a href="#">Meet Me Conference Call Booking</a></li>
+					<li><a href="#">Teleconference Room Booking</a></li>
+				</ul>
+				
+			</div>
+		</li>
+		
+		<li class="pbs-levelOne">
+			<a class="pbs-button pbs-buttonFive" href="#">A - Z</a>
+			
+			<div class="pbs-dropDownMenuFive pbs-levelTwoMenu">
+				
+				<ul class="pbs-iconMenu clearfix">
+					<li class="pbs-icon_medical"><img src="_images/icon_navMedical.png" /><a href="#">Medical</a></li>
+					<li class="pbs-icon_pbsUniversity"><img src="_images/icon_navUniversity.png" /><a href="#">PBS University</a></li>
+					<li class="pbs-icon_allForms"><img src="_images/icon_navPiggy.png" /><a href="#">All Forms</a></li>
+				</ul>
+				
+				<ul class="pbs-colLeft">
+					<li><a href="#">Dental Insurance</a></li>
+					<li><a href="#">Disability</a></li>
+					<li><a href="#">Medical Insurance</a></li>
+					<li><a href="#">Prescription</a></li>
+					<li><a href="#">Reimbursement Accounts</a></li>
+					<li><a href="#">Retirement and Savings</a></li>
+					<li><a href="#">Vision Insurance</a></li>
+				</ul>
+				
+				<ul class="pbs-colRight">
+					<li><a href="#">PBS University</a></li>
+					<li><a href="#">Professional Development and Education Benefits</a></li>
+					<li><a href="#">Work Life Balance</a></li>
+					<li><a href="#">Perks</a></li>
+				</ul>
+				
+			</div>
+		</li>
+
+		<li class="pbs-levelOne"><a class="pbs-button pbs-buttonSix pbs-icon" href="#"><img src="_images/icon_calendar.png" /></a></li>
+
+		<li class="pbs-levelOne"><a class="pbs-button pbs-buttonSeven pbs-icon" href="#"><img src="_images/icon_antenna.png" /></a></li>
+		
+		<li class="pbs-levelOne">
+			<a class="pbs-button pbs-buttonEight pbs-icon" href="#"><img src="_images/icon_favorite.png" /></a>
+			
+			<div class="pbs-dropDownMenuSix pbs-levelTwoMenu">
+				
+				<ul class="pbs-subMenu">
+					<li class="pbs-title"><a href="#">FAVORITES</a> <a class="pbs-right" href="#">all</a></li>
+					<li class="pbs-first"><a href="#">Brand Value Brochure</a></li>
+					<li><a href="#">Peabody's to PBS</a></li>
+					<li><a href="#">Story Title: Super School News - 30th season</a></li>
+					<li><a href="#">ShareiT!</a></li>
+				</ul>
+				
+				<ul class="pbs-subMenu">
+					<li class="pbs-title pbs-second"><a href="#">WATCH-LIST</a> <a class="pbs-right" href="#">all</a></li>
+					<li class="pbs-first"><a href="#">Announcements (18 New)</a></li>
+					<li><a href="#">Conference Blog (0 New)</a></li>
+					<li><a href="#">Build Online Discussion Board (1 New)</a></li>
+					<li><a href="#">PBS KIDS (0 New)</a></li>
+				</ul>
+				
+			</div>
+			
+		</li>
+		
+		<li class="pbs-levelOne"><a class="pbs-button pbs-buttonNine pbs-icon" href="#"><img src="_images/icon_bookmark.png" /></a></li>
+		
+	</ul>
+	
+	<div class="pbs-endCap"></div>
+</div>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+
+		<!-- Begin Dashboard includes -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css?v=1">
+
+	<!-- DataTables -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/DataTables/jquery.dataTables.css?v=1">
+	
+	
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+
+
+
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="_styles/jquery.jscrollpane.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_scripts/fancybox/fancybox.css" type="text/css" media="screen">
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+		
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+		<h1>Digital Workplace</h1>
+
+	</div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="clearfix">
+		
+		<div class="leftContentWide">
+			
+				<h1 class="page-title">Colleagues</h1>
+
+				<section class="post-details">
+					<ul class="post-details-info">
+						<li><i class="pbs-icon-bubble"></i> <a href="#">0 Comments</a></li>
+						<li><i class="pbs-icon-share"></i> <a href="#">Share</a></li>
+					</ul>
+					<ul class="post-details-actions">
+						<li><a href="#"><i class="pbs-icon-printer"></i></a></li>
+						<li><a href="#"><i class="pbs-icon-copy"></i></a></li>
+					</ul>
+				</section><!-- END post-details -->
+
+				<div class="columns">
+
+					<!-- First row -->
+					<div class="six-columns">
+
+						<div class="standard-tabs same-height">
+
+							<!-- Tabs -->
+							<ul class="tabs">
+								<li class="active"><a href="#tab-1">Colleagues (3)</a></li>
+								<li><a href="#tab-2">Pending (3)</a></li>
+								<li><a href="#tab-3">Invited (3)</a></li>
+								<li><a href="#tab-4">Add Folder</a></li>
+							</ul>
+
+							<!-- Content -->
+							<div class="tabs-content">
+								<div id="tab-1" class="with-padding">
+
+									<ul>
+										<li>Jack Sparrow</li>
+										<li>Cindy Crawford</li>
+										<li>Walt Disney</li>
+									</ul>
+
+								</div>
+								<div id="tab-2" class="with-padding">
+
+									<ul>
+										<li>Mark Simmons</li>
+										<li>Jenny Len</li>
+										<li>Sam Brock</li>
+									</ul>
+
+								</div>
+								<div id="tab-3" class="with-padding">
+
+									<ul>
+										<li>Fred Sanders</li>
+										<li>Ben Smith</li>
+										<li>Becky Blalock</li>
+									</ul>
+
+								</div>
+								<div id="tab-4" class="with-padding">
+
+									<span class="input">
+										<input type="text" name="pseudo-input-1" id="pseudo-input-1" class="input-unstyled" placeholder="Folder Name">
+										<a href="javascript:void(0)" class="button compact">Add</a>
+									</span>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="six-columns">
+						
+
+					</div>
+				
+
+		</div><!-- end of leftContent -->
+
+		
+	</div><!-- end of content -->
+
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+
+	<!-- Begin Dashboard includes -->
+	<script src="_scripts/dashboard/setup.js"></script>
+	<script type="text/javascript" src="_scripts/dashboard/developr.accordions.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.auto-resizing.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.message.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.confirm.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.tabs.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.input.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.modal.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.table.js"></script>
+	
+</body>
+</html>

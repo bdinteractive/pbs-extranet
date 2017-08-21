@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v2.css" type="text/css" media="screen">
+	
+	<!-- jquery specific -->
+	<link rel="stylesheet" href="_styles/jquery.jscrollpane.css" type="text/css" media="screen">
+	
+	<script type="text/javascript" charset="utf-8" src="_scripts/jquery-1.6.1.min.js"></script>
+	
+	<style type="text/css" media="screen">
+	
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+			
+		body { background: #00779C url(_themes/theme4/images/background_page.png) top center no-repeat; }
+		.leftContent a { color: #289a8a; }
+		.contentBorderTop { border-bottom-color: #289a8a; }
+		
+		/*	----------------------------------------------------------------------------
+			(1) Footer */
+			
+		.footerRow { background: #00536c; }
+		.footer .footerTable td.footerColLeft { color: #fff; background: #002936 url(_themes/theme4/images/ftrbgarrow.png) right center no-repeat; }
+		.footer .footerTable td.footerColLeft h4 { color: #fff; }
+		.footer ul.footerLinksHorzMenu li a { color: #fff; }
+		.footer ul.footerLinksHorzMenu li a { color: #fff; }
+		.footer ul.footerLinksHorzMenu li { border-right-color: #fff; }
+		.footer .footerMenuPod h6 { color: #fff; border-bottom-color: #fff; }
+		.footer ul.footerLinksVertMenu li, .footer ul.footerLinksVertMenu li a { color: #fff; }
+		.footer .footerMenuPod h6 a { color: #fff; }
+		
+		
+		/*	----------------------------------------------------------------------------
+			(2) Content 004 */
+			
+		#WidgetPageContact .content { background: #D7FFF9; }
+		#WidgetPageContact .content ul.socialActions li { border-right-color: #289a8a; }
+		#WidgetPageContact .content ul.socialActions li a { color: #289a8a; }
+		
+		#WidgetRelatedEvents .content .event a.dateName { color: #289A8A; }
+		#WidgetRelatedEvents .bottom a { color: #289A8A; background: url("_themes/theme4/images/Themed-Arrow.png") center right no-repeat;}
+		
+		#WidgetRelatedAnnouncements .content .event a.dateName { color: #289A8A; }
+		
+		
+		p { font-size: 14px; color: #6E6D6D; line-height: 20px; font-family: Arial, Helvetica, sans-serif; }
+		
+		
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V2 include -->
+		
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/leftnav.ssi" -->
+	
+	<!-- Content glow top and border -->
+	<div class="contentGlowTop"><div class="contentBorderTop"></div></div>
+	
+	<div id="content" class="clearfix">
+		
+		<!-- Page Label, Breadcrumb, Share and User Menus Begins -->
+		<div class="userArea clearfix">
+			<ul class="breadcrumb">
+				<li><a href="#">Intranet Home</a></li>
+				<li class="last">New to PBS</li>
+			</ul>
+			<div class="userDropdown">
+				<a class="userDropdownName" href="#">John Smith</a>
+				<ul class="userDropDownMenu">
+					<li class="bottomPadded"><span class="userName">John Smith</span></li>
+					<li><a href="empty-page.shtml">My Contact Information</a></li>
+					<li><a href="Manage-Form.shtml">Manage Forms</a></li>
+					<li><a href="empty-page.shtml">Workarea</a></li>
+					<li><a href="empty-page.shtml">Sign Out</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="pageTitleTools clearfix">
+			<div class="colLeft">
+				<h2 class="pageTitle">New to PBS</h2>
+				<ul class="socialIcons" class="clearfix">
+					<li class="share"><a href="#">Share</a></li>
+					<li class="printerFriendly"><a href="#">Printer Friendly</a></li>
+				</ul>
+			</div>
+			<div class="moreTools">
+				<ul>
+					<li><a class="follow" href="#">Follow</a></li>
+					<li><a class="others" href="#">Other Followers</a></li>
+					<li><a class="history" href="#">Read History</a></li>
+				</ul>
+			</div>
+
+		</div>
+		<!-- End of Page Label, Breadcrumb, Share and User Menus -->
+
+		<img style="margin:10px auto;text-align:center;display:block;" src="_images/pbs-human-resouces-header.png">
+		
+		<div class="leftContent rightBorder">
+				
+				<h3>The Strategic Plan</h3>
+				<p class="clearfix">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis esnim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiata, tellus.</p>
+
+				<p class="clearfix">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis esnim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiata, tellus.</p>
+			
+				
+				<div class="threeColWidgetWrapper clearfix">
+					
+					<!-- Department Resources Widget Begins -->
+					<div id="DepartmentResources" class="threeColWidgetPod twoCol clearfix">
+						<h5><img style="text-align:center;display:block;" src="_images/pbs-human-resouces-header-small.png"></h5>
+					
+						<div class="ContentText-DataWrap">
+							<div class="content">
+								<div class="ContentList">
+									<h6>Resource Group A</h6>
+									<ul>
+										<li><a href="#">Lorem Ipsum Dolor 1</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 2</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 3</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 4</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 5</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 6</a></li>
+									</ul>
+								</div> 
+								<div class="ContentList">
+									<h6>Resource Group B</h6>
+									<ul>
+										<li><a href="#">Lorem Ipsum Dolor 1</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 2</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 3</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 4</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 5</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 6</a></li>
+									</ul>
+								</div>
+								<div class="ContentList">
+									<h6>Resource Group C</h6>
+									<ul>
+										<li><a href="#">Lorem Ipsum Dolor 1</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 2</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 3</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 4</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 5</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 6</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End of Department Resources Widget -->
+				
+					<!-- Department Resources Widget Begins -->
+					<div id="DepartmentResources" class="threeColWidgetPod twoCol clearfix">
+						<h5><img style="text-align:center;display:block;" src="_images/pbs-human-resouces-header-small.png"></h5>
+					
+						<div class="ContentText-DataWrap">
+							<div class="content">
+								<div class="ContentList">
+									<h6>Resource Group A</h6>
+									<ul>
+										<li><a href="#">Lorem Ipsum Dolor 1</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 2</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 3</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 4</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 5</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 6</a></li>
+									</ul>
+								</div> 
+								<div class="ContentList">
+									<h6>Resource Group B</h6>
+									<ul>
+										<li><a href="#">Lorem Ipsum Dolor 1</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 2</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 3</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 4</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 5</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 6</a></li>
+									</ul>
+								</div>
+								<div class="ContentList">
+									<h6>Resource Group C</h6>
+									<ul>
+										<li><a href="#">Lorem Ipsum Dolor 1</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 2</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 3</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 4</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 5</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 6</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End of Department Resources Widget -->
+				
+				</div><!-- end of threeColWidgetWrapper -->
+
+				<div style="height:400px;width:100%;background:#333;border:solid 1px #999;"></div>
+				
+			
+		</div><!-- end of leftContent -->
+		
+		<div class="rightRail">
+			
+				<div id="WidgetExectiveBlog">
+					<div class="tbar clearfix">
+						<h5>Excecutive Blog</h5>
+						<a href="#"></a>
+					</div>
+					<div class="viewport">
+						<div class="panel first">
+							<ul class="content clearfix">
+								<li class="first"><img src="_images/media_library/photo-executive.png" width="98" height="112" border="0" /></li>
+								<li class="last">
+									<ul>
+										<li>By: Michael Jones</li>
+										<li>On: 7/11/2009</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="panel scroller">
+							<div class="content">
+									<p>PBS Supernova, an annual technology conference, recently convened for the first time on the East Coast, a change that was evident in the composition of the conference attendees and the direction of the overall conversation. The PBS MediaShift blog looks at the top three topics from the conference: public policy, PBS Supernova, an annual technology conference, recently convened for the first time on the East Coast, a change that was evident in the composition of the conference attendees and the direction of the overall conversation. The PBS MediaShift blog looks at the top three topics from the conference: public policy,</p>
+							</div>
+						</div>
+					</div>
+					<div class="bottom"></div>
+				</div>
+
+
+					<!-- People at PBS Widget Begins -->
+					<div id="" class="threeColWidgetPod clearfix">
+						<h5>People at PBS</h5>
+						
+						<ul class="dottedList">
+							<li class="clearfix">
+								<img src="_images/icon_coreMgt.png" alt="Core Management" />
+								<h6><a href="#">Leadership Team</a></h6>
+								CEO, COO and More
+							</li>
+							<li class="clearfix">
+								<img src="_images/icon_deptColl.png" alt="Leadership Team" />
+								<h6><a href="#">Leadership Team</a></h6>
+								Peers in your Division
+							</li>
+							<li class="clearfix">
+								<img src="_images/icon_coreMgt.png" alt="Human Resources" />
+								<h6><a href="#">Human Resources</a></h6>
+								Benefits and Professional Development
+							</li>
+							<li class="clearfix">
+								<img src="_images/icon_admin.png" alt="Administration" />
+								<h6><a href="#">Administration</a></h6>
+								Workspaces and Office Management
+							</li>
+							<li class="clearfix">
+								<img src="_images/icon_helpDesk.png" alt="Help Desk" />
+								<h6><a href="#">Help Desk</a></h6>
+								Computer Assistance
+							</li>
+						</ul>
+					</div>
+					<!-- End of People at PBS Widget -->
+
+					<!-- People at PBS Widget Begins -->
+					<div id="" class="threeColWidgetPod clearfix">
+						<h5>Additional Resources and Tools</h5>
+						
+						<ul class="dottedList">
+							<li class="clearfix">
+								<h6><a href="#">Leadership Team</a></h6>
+								CEO, COO and More
+							</li>
+							<li class="clearfix">
+								<h6><a href="#">Leadership Team</a></h6>
+								Peers in your Division
+							</li>
+							<li class="clearfix">
+								<h6><a href="#">Human Resources</a></h6>
+								Benefits and Professional Development
+							</li>
+							<li class="clearfix">
+								<h6><a href="#">Administration</a></h6>
+								Workspaces and Office Management
+							</li>
+							<li class="clearfix">
+								<h6><a href="#">Help Desk</a></h6>
+								Computer Assistance
+							</li>
+						</ul>
+					</div>
+					<!-- End of People at PBS Widget -->
+				
+			
+		</div><!-- end of rightRail -->
+		
+	</div><!-- end of content -->
+	
+	<div class="contentGlowBottom"></div>
+	
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/department.js"></script>
+	<script type="text/javascript" src="_scripts/widget-execblog.js"></script>
+	
+</body>
+</html>

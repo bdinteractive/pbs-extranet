@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>PBS Extranet</title>
+
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
+	<!-- global resources -->
+	<!--<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">-->
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<!--<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">-->
+	
+	<!-- jquery specific -->
+	<!--<link rel="stylesheet" href="_styles/jquery.jscrollpane.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/jqtransform.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/css-dock.css" type="text/css" media="screen">-->
+	
+	
+	
+	<!-- Begin Dashboard includes -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/reset.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/dashboard.css?v=1">
+
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/modal.css">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css">
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/agenda.css?v=1">
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+
+
+	<link rel="stylesheet" href="_styles/custom-community.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+
+
+
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+	
+	
+	<script type="text/javascript" charset="utf-8" src="_scripts/dashboard/libs/jquery-1.7.2.min.js"></script>
+	
+	<!-- theme specific -->
+	<!--<script type="text/javascript" charset="utf-8" src="_scripts/themes.js"></script>-->
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+
+
+
+	</style>
+	
+</head>
+
+<body>
+
+
+	<!-- Navigation -->
+	<!--#include file="_includes/community-navigation.ssi" -->
+
+
+	<div class="columns with-padding max-width-fixed">
+
+		<!-- First row -->
+		<div class="seven-columns"></div>
+
+		<div class="five-columns align-right">
+			
+			<h1 style="color:#fff;">Our Community</h1>
+
+		</div>
+
+
+	</div>
+	
+	<div class="columns with-padding max-width-fixed large-margin-bottom white-bg">
+
+
+		<div class="four-columns twelve-columns-mobile">
+
+		<div class="block margin-bottom">
+			<h3 class="block-title off-white-bg">Quick Search</h3>
+			<div class="with-padding">
+				<input type="text" class="input mid-margin-bottom full-width">
+				<a href="#" class="button sml-margin-bottom blue-gradient">Submit</a>
+				<h4 class="underline margin-bottom">&nbsp;</h4>
+				<a href="#">Advanced Search</a>
+			</div>
+		</div>
+
+
+		<div class="block margin-bottom">
+			<h3 class="block-title off-white-bg">Events</h3>
+
+				<ul class="events">
+
+					<!-- Link markup -->
+					<li>
+						<span class="event-date with-month">
+							8 <span class="event-month">April</span>
+						</span>
+						<h4>Next month event</h4>
+						<p>Another description text</p>
+					</li>
+
+					<!-- Span markup -->
+					<li>
+						<span class="event-date with-month">
+							10 <span class="event-month">April</span>
+						</span>
+						<h4>Next month event</h4>
+						<p>Another description text</p>
+					</li>
+
+					<!-- No wrapper markup, with month -->
+					<li>
+						<span class="event-date with-month">
+							21 <span class="event-month">April</span>
+						</span>
+						<h4>Next month event</h4>
+						<p>Another description text</p>
+					</li>
+
+				</ul>
+
+		</div>
+
+
+		<div class="block margin-bottom">
+			<h3 class="block-title off-white-bg">Photo Albums</h3>
+			<div class="with-padding">
+
+				<div class="columns">
+
+					<!-- First row -->
+					<div class="three-columns">
+						<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+					</div>
+					<div class="three-columns">
+						<img alt="" src="_images/user-johnsnow-50.jpg" height="50" width="50">
+					</div>
+					<div class="three-columns">
+						<img alt="" src="_images/user-jessicabrown-50.jpg" height="50" width="50">
+					</div>
+					<div class="three-columns">
+						<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+					</div>
+					<div class="three-columns">
+						<img alt="" src="_images/user-jessicabrown-50.jpg" height="50" width="50">
+					</div>
+					<div class="three-columns">
+						<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+					</div>
+					<div class="three-columns">
+						<img alt="" src="_images/user-johnsnow-50.jpg" height="50" width="50">
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="block margin-bottom">
+			<h3 class="block-title off-white-bg">Members</h3>
+			<div class="with-padding">
+
+				<div class="columns">
+
+					<!-- First row -->
+					<div class="three-columns">
+						<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+					</div>
+					<div class="three-columns">
+						<img alt="" src="_images/user-johnsnow-50.jpg" height="50" width="50">
+					</div>
+					<div class="three-columns">
+						<img alt="" src="_images/user-jessicabrown-50.jpg" height="50" width="50">
+					</div>
+					<div class="three-columns">
+						<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+					</div>
+					<div class="three-columns">
+						<img alt="" src="_images/user-jessicabrown-50.jpg" height="50" width="50">
+					</div>
+					<div class="three-columns">
+						<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+					</div>
+					<div class="three-columns">
+						<img alt="" src="_images/user-johnsnow-50.jpg" height="50" width="50">
+					</div>
+				</div>
+
+			</div>
+
+			</div>
+		</div>
+
+
+
+
+		<div class="eight-columns twelve-columns-mobile">
+
+
+			<div class="contribution-box">
+				<div class="cont-wrapper">
+
+
+					<div class="cont-content active js-cont-clip">
+						<input type="text" class="full-input" placeholder="Say what is on your mind..."></textarea>
+					</div>
+
+					<div class="cont-content js-cont-upload">
+						<div id="photo-upload"><i class="pbs-icon-camera-alt"></i> Start Uploading Your Photos</div>
+					</div>
+
+					<div class="cont-content js-cont-video">
+						<input type="text" class="full-input" placeholder="Enter video url here..."></textarea>
+						<input type="text" class="full-input" placeholder="Say something about this vieo..."></textarea>
+					</div>
+
+					<div class="cont-content js-cont-event">
+						<input type="text" class="full-input" placeholder="Give this event a title"></textarea>
+						<input type="text" class="full-input" placeholder="Event description"></textarea>
+					</div>
+
+					<div class="cont-content js-cont-message">
+						<form class="cont-message-step active js-step-01">
+							<h4>Choose from your circles</h4>
+							<fieldset>
+								<input id="js-cont-groups" name="circles" type="radio" class="">
+								<label><i class="pbs-icon-group"></i> Groups</label>
+							</fieldset>
+							<fieldset>
+								<input id="js-cont-network" name="circles" type="radio" class="">
+								<label><i class="pbs-icon-language"></i> Colleague Network</label>
+							</fieldset>
+							<fieldset>
+								<input id="js-cont-forum" name="circles" type="radio" class="">
+								<label><i class="pbs-icon-messages"></i> Discussion Forum</label>
+							</fieldset>
+						</form>
+						<form class="cont-message-step clearfix js-step-02">
+							<h4>Choose group</h4>
+							<fieldset>
+								<input id="js-cont-group-a" name="group" type="radio" class="">
+								<label>- Group A</label>
+							</fieldset>
+							<fieldset>
+								<input id="js-cont-group-b" name="group" type="radio" class="">
+								<label>- Group B</label>
+							</fieldset>
+							<fieldset>
+								<input id="js-cont-group-c" name="group" type="radio" class="">
+								<label>- Group C</label>
+							</fieldset>
+							<fieldset>
+								<input id="js-cont-group-d" name="group" type="radio" class="">
+								<label>- Group D</label>
+							</fieldset>
+							<fieldset>
+								<input id="js-cont-group-e" name="group" type="radio" class="">
+								<label>- Group E</label>
+							</fieldset>
+						</form>
+						<form class="cont-message-step clearfix js-step-03">
+							<input type="text" class="wysiwyg" placeholder="Add Topic">
+							<textarea id="cleditor" class="wysiwyg"></textarea>
+							<a href="#" class="button blue-gradient float-right">Submit</a>
+							<a href="#" class="button small-margin-right grey-gradient float-right">Cancel</a>
+						</form>
+					</div>
+
+					<div class="cont-content js-cont-announcement">
+						<input type="text" class="full-input" placeholder="Give this annoucment a title"></textarea>
+						<input type="text" class="full-input" placeholder="Announcement description"></textarea>
+					</div>
+
+
+
+				</div>
+				<div class="cont-controls">
+					<nav>
+						<a class="js-control active with-tooltip" data-match="clip" href="#" title="Status" data-tooltip-options='{"classes":["anthracite-gradient"],"position":"bottom"}'><i class="pbs-icon-pencil"></i></a>
+						<a class="js-control with-tooltip" data-match="upload" href="#" title="Photo" data-tooltip-options='{"classes":["anthracite-gradient"],"position":"bottom"}'><i class="pbs-icon-camera"></i></a>
+						<a class="js-control with-tooltip" data-match="video" href="#" title="Video" data-tooltip-options='{"classes":["anthracite-gradient"],"position":"bottom"}'><i class="pbs-icon-play"></i></a></a>
+						<a class="js-control with-tooltip" data-match="event" href="#" title="Event" data-tooltip-options='{"classes":["anthracite-gradient"],"position":"bottom"}'><i class="pbs-icon-calendar5"></i></a></a>
+						<a class="js-control with-tooltip" data-match="message" href="#" title="Message" data-tooltip-options='{"classes":["anthracite-gradient"],"position":"bottom"}'><i class="pbs-icon-comment"></i></a></a>
+						<a class="js-control with-tooltip" data-match="announcement" href="#" title="Announcement" data-tooltip-options='{"classes":["anthracite-gradient"],"position":"bottom"}'><i class="pbs-icon-megaphone"></i></a></a>
+					</nav>
+				</div>
+			</div><!-- /END Contribution Box -->
+
+
+			<div class="activity-stream">
+
+				<div class="activity-stream-post single-message clearfix">
+					<div class="activity-post">
+						<div class="activity-msg"><i class="pbs-icon-workingatpbs"></i> <a href="#">Tarun Patel</a> joined the group joosa</div>
+					</div>
+
+				</div><!-- /activity-stream-post PARENT -->
+
+				<div class="activity-stream-post parent-post clearfix">
+					<div class="activity-avatar">
+						<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+						<a class="follow" href="#">Follow</a>
+					</div>
+					<div class="activity-post">
+						<div class="activity-msg">Super User shared 4 photos in college</div>
+						<div class="activity-static-assets">
+							<a href=""><img src="_images/temp-speaker-1.png"></a>
+							<a href=""><img src="_images/temp-speaker-2.png"></a>
+							<a href=""><img src="_images/temp-speaker-1.png"></a>
+							<a href=""><img src="_images/temp-speaker-2.png"></a>
+						</div>
+						<div class="activity-msg marked">Generators on the Internet tend the repeated chuncks necessary making this true many web sites on the internet.</div>
+					</div>
+
+				</div><!-- /activity-stream-post PARENT -->
+
+					<div class="activity-stream-post parent-post clearfix">
+						<div class="activity-timestamp">
+							<h3>10/29/2014</h3>
+							<h4>6:30:01 AM</h4>
+							<h4>David Garin</h4>
+						</div>
+						<div class="activity-avatar">
+							<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+							<a class="follow" href="#1">Follow</a>
+						</div>
+						<div class="activity-post">
+							<div class="activity-msg"><a href="#2">R Byars-Sargent</a> has created the <a href="#3">What role does social play in the workplace</a> group <span class="as-more">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum mollis malesuada. Nam egestas egestas accumsan. Maecenas gravida dolor ut quam dapibus lacinia. Praesent dapibus libero nec tempor aliquam. Pellentesque eget consequat lorem, ut luctus nibh.</span></div>
+							<div class="activity-action">
+								<ul class="clearfix">
+									<li><a href="#4">Unlike</a></li>
+									<li><a href="#5">Reply</a></li>
+									<li><a href="#6">Share</a></li>
+									<li><a href="#7" class="js-as-more">More</a></li>
+									<li>4 hours ago</li>
+								</ul>
+							</div>
+
+
+							<div class="activity-stream-actions activity-stream-post child-post">
+								You like this
+							</div><!-- /activity-stream-actions -->
+
+							<div class="activity-stream-post child-post clearfix">
+								<div class="activity-avatar">
+									<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+								</div>
+								<div class="activity-post">
+									<div class="activity-msg"><a href="#8">R Byars-Sargent</a> I liked my own group! <span class="as-more">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum mollis malesuada. Nam egestas egestas accumsan. Maecenas gravida dolor ut quam dapibus lacinia. Praesent dapibus libero nec tempor aliquam. Pellentesque eget consequat lorem, ut luctus nibh.</span></div>
+									<div class="activity-action clearfix">
+										<ul class="clearfix">
+											<li>3 hours ago </li>
+											<li><a href="#9">Unlike</a></li>
+											<li><a href="#a">Reply</a></li>
+											<li><a href="#b">Share</a></li>
+											<li><a href="#c" class="js-as-more">More</a></li>
+										</ul>
+										<div>You like this.</div>
+									</div>
+								</div>
+							</div><!-- /activity-stream-post CHILD -->
+
+							<div class="activity-stream-post child-post clearfix">
+								<div class="activity-avatar">
+									<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+								</div>
+								<div class="activity-post">
+									<div class="activity-action clearfix">
+										<input type="text" placeholder="Write a Reply...">
+									</div>
+								</div>
+							</div><!-- /activity-stream-post CHILD -->
+						</div>
+
+					</div><!-- /activity-stream-post PARENT -->
+
+
+
+					<div class="activity-stream-post parent-post clearfix">
+
+						<div class="activity-timestamp">
+							<h3>10/29/2014</h3>
+							<h4>6:30:01 AM</h4>
+							<h4>David Garin</h4>
+						</div>
+						<div class="activity-avatar">
+							<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+							<a class="follow" href="#d">Follow</a>
+						</div>
+						<div class="activity-post">
+							<div class="activity-msg"><a href="#e">Nicole Eley-Carr</a> (Program Manager) has <a href="#f">#joined</a> the pbs.org network. Take a moment to welcome Nicole.<span class="as-more">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum mollis malesuada. Nam egestas egestas accumsan. Maecenas gravida dolor ut quam dapibus lacinia. Praesent dapibus libero nec tempor aliquam. Pellentesque eget consequat lorem, ut luctus nibh.</span></div>
+							<div class="activity-action">
+								<ul class="clearfix">
+									<li><a href="#g">Like</a></li>
+									<li><a href="#h">Reply</a></li>
+									<li><a href="#i">Share</a></li>
+									<li><a href="#j" class="js-as-more">More</a></li>
+									<li>November 20, 2012 at 1:12pm</li>
+								</ul>
+							</div>
+
+
+							<div class="activity-stream-actions activity-stream-post child-post">
+								<a class="joined" href="#">Joined</a>
+							</div><!-- /activity-stream-actions -->
+
+
+
+							<div class="activity-stream-post child-post clearfix">
+								<div class="activity-avatar">
+									<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+								</div>
+								<div class="activity-post">
+									<div class="activity-msg"><a href="#k">Sandy Avriette</a> Welcome Nicole! <span class="as-more">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum mollis malesuada. Nam egestas egestas accumsan. Maecenas gravida dolor ut quam dapibus lacinia. Praesent dapibus libero nec tempor aliquam. Pellentesque eget consequat lorem, ut luctus nibh.</span></div>
+									<div class="activity-action clearfix">
+										<ul class="clearfix">
+											<li>November 26, 2012 at 9:15pm </li>
+											<li><a href="#l">Like</a></li>
+											<li><a href="#m">Reply</a></li>
+											<li><a href="#n">Share</a></li>
+											<li><a href="#o" class="js-as-more">More</a></li>
+										</ul>
+										<div><a href="#p">Nicole Eley-Carr</a> likes this.</div>
+									</div>
+								</div>
+							</div><!-- /activity-stream-post CHILD -->
+
+							<div class="activity-stream-post child-post clearfix">
+								<div class="activity-avatar">
+									<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+								</div>
+								<div class="activity-post">
+									<div class="activity-msg"><a href="#q">Nicole Elery-Carr</a> Thanks Sandy! <span class="as-more">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum mollis malesuada. Nam egestas egestas accumsan. Maecenas gravida dolor ut quam dapibus lacinia. Praesent dapibus libero nec tempor aliquam. Pellentesque eget consequat lorem, ut luctus nibh.</span></div>
+									<div class="activity-action clearfix">
+										<ul class="clearfix">
+											<li>November 26, 2012 at 9:24pm </li>
+											<li><a href="#r">Like</a></li>
+											<li><a href="#s">Reply</a></li>
+											<li><a href="#t">Share</a></li>
+											<li><a href="#u" class="js-as-more">More</a></li>
+										</ul>
+									</div>
+								</div>
+							</div><!-- /activity-stream-post CHILD -->
+
+
+							<div class="activity-stream-post child-post activity-show-comments">
+								<a class="" href="#v">Expand all comments</a>
+							</div><!-- /activity-stream-actions -->
+
+
+							<div class="activity-comments-collapse"><!-- begin collapse -->
+
+								<div class="activity-stream-post child-post clearfix">
+									<div class="activity-avatar">
+										<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+									</div>
+									<div class="activity-post">
+										<div class="activity-msg"><a href="#w">Nicole Elery-Carr</a> Thanks Sandy! <span class="as-more">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum mollis malesuada. Nam egestas egestas accumsan. Maecenas gravida dolor ut quam dapibus lacinia. Praesent dapibus libero nec tempor aliquam. Pellentesque eget consequat lorem, ut luctus nibh.</span></div>
+										<div class="activity-action clearfix">
+											<ul class="clearfix">
+												<li>November 26, 2012 at 9:24pm </li>
+												<li><a href="#x">Like</a></li>
+												<li><a href="#y">Reply</a></li>
+												<li><a href="#z">Share</a></li>
+												<li><a href="#qw" class="js-as-more">More</a></li>
+											</ul>
+										</div>
+									</div>
+								</div><!-- /activity-stream-post CHILD -->
+
+								<div class="activity-stream-post child-post clearfix">
+									<div class="activity-avatar">
+										<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+									</div>
+									<div class="activity-post">
+										<div class="activity-msg"><a href="#we">Nicole Elery-Carr</a> Thanks Sandy! <span class="as-more">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum mollis malesuada. Nam egestas egestas accumsan. Maecenas gravida dolor ut quam dapibus lacinia. Praesent dapibus libero nec tempor aliquam. Pellentesque eget consequat lorem, ut luctus nibh.</span></div>
+										<div class="activity-action clearfix">
+											<ul class="clearfix">
+												<li>November 26, 2012 at 9:24pm </li>
+												<li><a href="#er">Like</a></li>
+												<li><a href="#rt">Reply</a></li>
+												<li><a href="#ty">Share</a></li>
+												<li><a href="#yu" class="js-as-more">More</a></li>
+											</ul>
+										</div>
+									</div>
+								</div><!-- /activity-stream-post CHILD -->
+
+								<div class="activity-stream-post child-post clearfix">
+									<div class="activity-avatar">
+										<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+									</div>
+									<div class="activity-post">
+										<div class="activity-msg"><a href="#ui">Nicole Elery-Carr</a> Thanks Sandy! <span class="as-more">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum mollis malesuada. Nam egestas egestas accumsan. Maecenas gravida dolor ut quam dapibus lacinia. Praesent dapibus libero nec tempor aliquam. Pellentesque eget consequat lorem, ut luctus nibh.</span></div>
+										<div class="activity-action clearfix">
+											<ul class="clearfix">
+												<li>November 26, 2012 at 9:24pm </li>
+												<li><a href="#io">Like</a></li>
+												<li><a href="#op">Reply</a></li>
+												<li><a href="#pa">Share</a></li>
+												<li><a href="#as" class="js-as-more">More</a></li>
+											</ul>
+										</div>
+									</div>
+								</div><!-- /activity-stream-post CHILD -->
+
+								<div class="activity-stream-post child-post activity-hide-comments">
+									<a class="" href="#sd">Hide comments</a>
+								</div><!-- /activity-stream-actions -->
+
+							</div><!-- /end collapse -->
+
+
+
+
+							<div class="activity-stream-post child-post clearfix">
+								<div class="activity-avatar">
+									<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+								</div>
+								<div class="activity-post">
+									<div class="activity-action clearfix">
+										<input type="text" placeholder="Write a Reply...">
+									</div>
+								</div>
+							</div><!-- /activity-stream-post CHILD -->
+						</div>
+
+					</div><!-- /activity-stream-post PARENT -->
+
+					<div class="activity-stream-post parent-post clearfix">
+
+						<div class="activity-timestamp">
+							<h3>10/29/2014</h3>
+							<h4>6:30:01 AM</h4>
+							<h4>David Garin</h4>
+						</div>
+						<div class="activity-avatar">
+							<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+							<a class="follow" href="#">Follow</a>
+						</div>
+						<div class="activity-post">
+							<div class="activity-msg"><a href="#">Scott Gebhardt</a> has created the <a href="#jk">IT</a> group</div>
+							<div class="activity-action">
+								<ul class="clearfix">
+									<li><a href="#df">Like</a></li>
+									<li><a href="#fg">Reply</a></li>
+									<li><a href="#gh">Share</a></li>
+									<li><a href="#hj">More</a></li>
+									<li>November 19, 2012 at 9:36pm</li>
+								</ul>
+							</div>
+						</div>
+
+					</div><!-- /activity-stream-post PARENT -->
+
+				</div><!-- /activity-stream -->
+
+				<div style="text-align:center;">
+					<nav class="date-pagination">
+						<a href="#"><i class="pbs-icon-circle-left"></i></a>
+						<a href="#">Sun, Nov 02</a>
+						<a href="#">Mon, Nov 03</a>
+						<a href="#">Tue, Nov 04</a>
+						<a href="#">Wed, Nov 05</a>
+						<a href="#">Thu, Nov 06</a>
+						<a href="#" class="active">Fri, Nov 07</a>
+						<a href="#">Sat, Nov 08</a>
+						<a href="#"><i class="pbs-icon-circle-right"></i></a>
+					</nav>
+				</div>
+
+			</div>
+
+
+		</div><!-- end of leftContent -->
+
+
+
+
+
+
+	</div><!-- end of columns-->
+
+
+
+	
+	<!--<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	
+	<script type="text/javascript" src="_scripts/jquery-ui-1.8.20.custom.min.js"></script>-->
+
+	<!-- Begin Dashboard includes -->
+	<script src="_scripts/dashboard/setup.js"></script>
+	<script type="text/javascript" src="_scripts/dashboard/developr.accordions.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.auto-resizing.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.message.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.confirm.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.tabs.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.input.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.modal.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.table.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.tooltip.js"></script>
+
+
+	
+	<!--<script type="text/javascript" charset="utf-8" src="_scripts/css-dock.js"></script>
+	<script type="text/javascript" charset="utf-8" src="_scripts/fisheye_patched.js"></script>
+	
+	<script type="text/javascript" src="_scripts/jquery.jqtransform.js"></script>-->
+	<script type="text/javascript" charset="utf-8">
+	
+		$(document).ready(function() {
+			
+			$('.js-control').on('click', function(e){
+				e.preventDefault();
+				var match = $(this).data('match');
+				$('.contribution-box .cont-content, .contribution-box .js-control').removeClass('active');
+				console.log('js-cont-'+match);
+				$('.contribution-box').find('.js-cont-'+match).addClass('active');
+				$(this).addClass('active');
+			});
+
+			$('.js-step-01 input').on('click', function(e){
+				$(this).parents('.js-cont-message').find('.js-step-02').addClass('active');
+			});
+
+			$('.js-step-02 input').on('click', function(e){
+				$(this).parents('.js-cont-message').find('.js-step-03').addClass('active');
+			});
+
+		});
+		
+	</script>
+	
+</body>
+</html>

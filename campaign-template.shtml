@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <title>PBS Intranet</title>
+    
+    <!-- global resources -->
+    <link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+    
+    <!--[if IE 7]>
+        <link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+    <![endif]-->
+    
+    <!-- top menu specific -->
+    <link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+    <!-- jquery specific -->
+    <link rel="stylesheet" href="_styles/jquery.jscrollpane.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="_styles/jqtransform.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="_styles/css-dock.css" type="text/css" media="screen">
+    
+    <link type="text/css" rel="stylesheet" href="_scripts/carousel/css/cj-carousel.css" />
+
+
+    <!-- Begin Dashboard includes -->
+
+    <!-- For all browsers -->
+    <link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+    <link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+    
+    <link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+    <link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+    <link rel="stylesheet" href="_styles/dashboard/styles/table.css?v=1">
+
+    <!-- DataTables -->
+    <link rel="stylesheet" href="_scripts/dashboard/libs/DataTables/jquery.dataTables.css?v=1">
+    
+    
+    
+    <!-- For progressively larger displays -->
+    <link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+    <link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+    <link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+    <link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+    <!-- Additional styles -->
+    <link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+
+    <!-- JavaScript at bottom except for Modernizr -->
+    <script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+    
+    <!-- End Dashboard includes -->
+
+    <!-- Webfonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="_scripts/carousel/js/Jacked.min.js"></script>
+    <script type="text/javascript" src="_scripts/carousel/js/jquery.cj-carousel.js"></script>
+    
+    <style type="text/css" media="screen">
+        /*  ----------------------------------------------------------------------------
+            (x) Themes */
+        body { 
+            background-color: #000;
+            background-image: url(_themes/theme5/images/background_page.png); 
+        }
+        p { color: #6E6D6D; }
+
+        .leftContent p a { color: #ea9022; }
+        #pbs-content { border-top-color: #ea9022; }
+    </style>
+    
+    <!-- Microsoft clear type rendering -->
+    <meta http-equiv="cleartype" content="on">
+    
+</head>
+
+<body>
+
+    <div id="pbsheader">
+        <!-- Navigation V4 include -->
+        <!--#include file="_includes/navigationV4.ssi" -->
+
+        <!-- Primary Side Nav include -->
+        <!--#include file="_includes/pri-side-nav.ssi" -->
+        
+
+    </div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+    <div id="userPage">
+
+        <div class="user-details">
+            <a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+        </div>
+
+        <h1></h1>
+
+    </div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="clearfix">
+		
+		<!-- Page Label, Breadcrumb, Share and User Menus Begins -->
+		<div class="userArea clearfix">
+			<ul class="breadcrumb">
+				<li><a href="#">Extranet Home</a></li>
+				<li class="last">Page Title</li>
+			</ul>
+			<div class="userDropdownB" style="margin-right: -10px;">
+				<a class="userDropdownGroups" href="#"><img src="_images/icon-facebook-groups.png" /></a>
+				<ul class="userDropDownMenu">
+					<li class="bottomPadded clearfix"><img src="_images/icon-facebook-groups.png" style="float:left;" /><span class="header header-icon">Groups I Created</span></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 1',url:'facebook_group.shtml'})">Group 1</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 2',url:'facebook_group.shtml'})">Group 2</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 3',url:'facebook_group.shtml'})">Group 3</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 4',url:'facebook_group.shtml'})">Group 4</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 5',url:'facebook_group.shtml'})">Group 5</a></li>
+					<li class="bottomPadded" style="padding-top: 10px;"><span class="header">Groups I'm Part Of</span></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 1',url:'facebook_group.shtml'})">Group 1</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 2',url:'facebook_group.shtml'})">Group 2</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 3',url:'facebook_group.shtml'})">Group 3</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 4',url:'facebook_group.shtml'})">Group 4</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 5',url:'facebook_group.shtml'})">Group 5</a></li>
+				</ul>
+			</div>
+			<div class="userDropdown" style="margin-right: 10px; margin-top: 10px">
+				<a class="userDropdownName" href="#">Welcome, John Smith</a>
+				<ul class="userDropDownMenu">
+					<li class="bottomPadded"><span class="userName">John Smith</span></li>
+					<li><a href="empty-page.shtml">My Contact Information</a></li>
+					<li><a href="Manage-Form.shtml">Manage Forms</a></li>
+					<li><a href="empty-page.shtml">Workarea</a></li>
+					<li><a href="empty-page.shtml">Sign Out</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="pageTitleTools clearfix">
+			<div class="colLeft">
+				<h4>Campaign XYZ</h4>
+			</div>
+
+		</div>
+		<!-- End of Page Label, Breadcrumb, Share and User Menus -->
+
+		
+			<div class="leftContent rightBorder">
+
+
+
+
+
+
+<!-- Begin carousel markup -->
+        <div class="cj-wrapper">
+        	
+            <!-- 
+            
+                autoPlay: Auto spin the carousel, true/false
+                animateIn: Animate the carousel in, true/false
+                hoverShine: The HTML5 Canvas "shine" effect on mouseover, true/false
+                reflection: Use image reflection, true/false
+                reflectionAlpha: The reflection's transparency level, 0-1
+            	
+                spacing: The spacing between items
+                rotateX: Negative number allows you to see the carousel items in the back better
+                rotateZ: Rotates the carousel on an angle
+                translateZ: Adds depth to the carousel
+                
+                speed: The speed at which the carousel moves (without mouse interaction)
+                threshold: This number is used to speed up the carousel during mouse interaction
+                
+                fallbackColumns: The number of columns to create for the fallback thumb grid mode
+                fallbackSpacing: The spacing to be applied to the items in fallback thumb grid mode
+                smartphonesUseFallback: Choose to use the thumbnail frid for smartphones, true/false
+                smartphoneFallbackIsResponsive: Choose to use display the thumbnails in a blocked/vertical presentation, true/false
+                
+            -->    
+                
+			<div class="cj-carousel" 
+            	
+                data-autoplay="true"
+                data-animateIn="true"  
+                data-hoverShine="true" 
+                data-reflection="true" 
+                data-reflectAlpha="0.5" 
+                data-captionsAlwaysVisible="false" 
+                
+            	data-spacing="60" 
+                data-rotateX="-6" 
+                data-rotateZ="0" 
+                data-translateZ="-300" 
+                
+                data-speed="0.1" 
+                data-threshold=".0025" 
+                
+                data-fallbackColumns="4" 
+                data-fallbackSpacing="5" 
+                data-smartphonesUseFallback="true" 
+                data-smartphoneFallbackIsResponsive="true"
+             
+                
+            ><!-- end of tag -->
+                
+				<div class="cj-container">
+                	
+                    <!-- 
+                    	Begin carousel item
+                        To create a new item, duplicate a "figure"
+                        To eliminate an item, delete a "figure"
+                    -->     
+					<figure>
+                    	
+                        <!-- data-url = optional url to click through to -->
+                        <!-- data-target = the window target for an option url, "_parent" or "_blank" --> 
+                        <!-- For no link, delete the "data-url" attribute -->
+                        <div class="cj-thumb" data-url="" data-target="_blank">
+                        	
+                            <!-- The image to load, place the image url inside the "data-src" attribute -->
+                    		<img src="_scripts/carousel/img/pixel.gif" data-src="_scripts/carousel/img/1.jpg" width="250" height="150" alt="CSS3 3D Carousel" />
+                            
+                            <!-- Optional carousel caption, delete entirely for no caption -->
+                            <div class="cj-caption">
+                        		
+                                <!-- Any HTML can go inside this container -->
+                                <div>
+                            
+                                    <h3>CSS3 3D Transforms</h3>
+                                    
+                                    <p>This is some text and this is some more and this is some more</p>
+                                    
+                                </div>
+                            
+                            </div>
+                            
+                        </div>
+                            
+                    </figure>
+                    <!-- End carousel item -->
+					
+                    <figure>
+                    	
+                        <div class="cj-thumb" data-url="" data-target="_blank">
+                        
+                    		<img src="_scripts/carousel/img/pixel.gif" data-src="_scripts/carousel/img/2.jpg" width="250" height="150" alt="CSS3 3D Carousel" />
+                            
+                            <div class="cj-caption">
+                        
+                                <div>
+                            
+                                    <h3>Firefox, Webkit & Android</h3>
+                                    
+                                </div>
+                            
+                            </div>
+                            
+                        </div>
+                            
+                    </figure>
+                    
+                    <figure>
+                    	
+                        <div class="cj-thumb" data-url="" data-target="_blank">
+                        
+                    		<img src="_scripts/carousel/img/pixel.gif" data-src="_scripts/carousel/img/3.jpg" width="250" height="150" alt="CSS3 3D Carousel" />
+                            
+                            <div class="cj-caption">
+                        
+                                <div>
+                            
+                                    <h3>Thumbnail Grid Fallback</h3>
+                                    
+                                </div>
+                            
+                            </div>
+                            
+                        </div>
+                            
+                    </figure>
+                    
+                    <figure>
+                    	
+                        <div class="cj-thumb" data-url="" data-target="_blank">
+                        
+                    		<img src="_scripts/carousel/img/pixel.gif" data-src="_scripts/carousel/img/4.jpg" width="250" height="150" alt="CSS3 3D Carousel" />
+                            
+                            <div class="cj-caption">
+                        
+                                <div>
+                            		
+                                    <h3>Works on iPad/Android</h3>
+                                    
+                                    <p>This is some text and this is some more and this is some more</p>
+                                    
+                                </div>
+                            
+                            </div>
+                            
+                        </div>
+                            
+                    </figure>
+                    
+                    <figure>
+                    	
+                        <div class="cj-thumb" data-url="" data-target="_blank">
+                        
+                    		<img src="_scripts/carousel/img/pixel.gif" data-src="_scripts/carousel/img/5.jpg" width="250" height="150" alt="CSS3 3D Carousel" />
+                            
+                            <div class="cj-caption">
+                        
+                                <div>
+                            
+                                    <h3>HTML5, CSS3 &amp; jQuery</h3>
+                                    
+                                </div>
+                            
+                            </div>
+                            
+                        </div>
+                            
+                    </figure>
+                    
+                    <figure>
+                    	
+                        <div class="cj-thumb" data-url="" data-target="_blank">
+                        
+                    		<img src="_scripts/carousel/img/pixel.gif" data-src="_scripts/carousel/img/6.jpg" width="250" height="150" alt="CSS3 3D Carousel" />
+                            
+                            <div class="cj-caption">
+                        
+                                <div>
+                            		
+                                    <h3>Animation Frame Rendering</h3>
+                                    
+                                </div>
+                            
+                            </div>
+                            
+                        </div>
+                            
+                    </figure>
+                    
+                    <figure>
+                    	
+                        <div class="cj-thumb" data-url="" data-target="_blank">
+                        
+                    		<img src="_scripts/carousel/img/pixel.gif" data-src="_scripts/carousel/img/7.jpg" width="250" height="150" alt="CSS3 3D Carousel" />
+                            
+                            <div class="cj-caption">
+                        
+                                <div>
+                            
+                                    <h3>Powered by JACKED</h3>
+                                    
+                                    <p>CSS3 + requestAnimationFrame</p>
+                                    
+                                </div>
+                            
+                            </div>
+                            
+                        </div>
+                            
+                    </figure>
+                    
+                    <figure>
+                    	
+                        <div class="cj-thumb" data-url="" data-target="_blank">
+                        
+                    		<img src="_scripts/carousel/img/pixel.gif" data-src="_scripts/carousel/img/8.jpg" width="250" height="150" alt="CSS3 3D Carousel" />
+                            
+                            <div class="cj-caption">
+                        
+                                <div>
+                            
+                                    <h3>Only on CodeCanyon!</h3>
+                                    
+                                </div>
+                            
+                            </div>
+                            
+                        </div>
+                            
+                    </figure>
+                    
+				</div>
+            
+			</div>
+            
+		</div>
+        <!-- End carousel markup -->
+
+				<h3>Campaign XYZ</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu mi risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam aliquet, urna id hendrerit tempus, mi elit scelerisque lectus, eu elementum massa mi sed magna. Ut molestie diam tempor augue sollicitudin a dapibus justo tempus. Donec imperdiet sagittis diam, ut ultrices enim feugiat vitae. Pellentesque mi odio, malesuada a rutrum pharetra, sagittis et enim. Nam vulputate velit quis lectus pellentesque eget cursus turpis luctus. Mauris iaculis facilisis scelerisque. Ut viverra viverra gravida. Pellentesque at mauris et ante scelerisque ultricies eget et magna. Donec at volutpat eros. Proin diam quam, bibendum nec tristique et, ultrices vitae justo. Fusce pulvinar auctor interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et condimentum ante. Nunc congue pulvinar pretium.</p>
+
+		
+
+			
+				
+				<div class="threeColWidgetWrapper">
+					
+					<!-- People at PBS Widget Begins -->
+					<div id="" class="threeColWidgetPod clearfix">
+						<h5>People at PBS</h5>
+						
+						<ul class="dottedList">
+							<li class="clearfix">
+								<img src="_images/icon_coreMgt.png" alt="Core Management" />
+								<h6><a href="#">Leadership Team</a></h6>
+								CEO, COO and More
+							</li>
+							<li class="clearfix">
+								<img src="_images/icon_deptColl.png" alt="Leadership Team" />
+								<h6><a href="#">Leadership Team</a></h6>
+								Peers in your Division
+							</li>
+							<li class="clearfix">
+								<img src="_images/icon_coreMgt.png" alt="Human Resources" />
+								<h6><a href="#">Human Resources</a></h6>
+								Benefits and Professional Development
+							</li>
+							<li class="clearfix">
+								<img src="_images/icon_admin.png" alt="Administration" />
+								<h6><a href="#">Administration</a></h6>
+								Workspaces and Office Management
+							</li>
+							<li class="clearfix">
+								<img src="_images/icon_helpDesk.png" alt="Help Desk" />
+								<h6><a href="#">Help Desk</a></h6>
+								Computer Assistance
+							</li>
+						</ul>
+					</div>
+					<!-- End of People at PBS Widget -->
+				
+					<!-- Department Resources Widget Begins -->
+					<div id="DepartmentResources" class="threeColWidgetPod clearfix">
+						<h5>Department Resources</h5>
+					
+						<div class="ContentText-DataWrap">
+							<div class="content">
+								<div class="ContentList">
+									<h6>Resource Group A</h6>
+									<ul>
+										<li><a href="#">Lorem Ipsum Dolor 1</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 2</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 3</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 4</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 5</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 6</a></li>
+									</ul>
+								</div> 
+								<div class="ContentList">
+									<h6>Resource Group B</h6>
+									<ul>
+										<li><a href="#">Lorem Ipsum Dolor 1</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 2</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 3</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 4</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 5</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 6</a></li>
+									</ul>
+								</div>
+								<div class="ContentList">
+									<h6>Resource Group C</h6>
+									<ul>
+										<li><a href="#">Lorem Ipsum Dolor 1</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 2</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 3</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 4</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 5</a></li>
+										<li><a href="#">Lorem Ipsum Dolor 6</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End of Department Resources Widget -->
+				
+					<!-- Video Gallery Widget Begins -->
+					<div id="" class="threeColWidgetPod clearfix">
+						<h5>Gallery</h5>
+						
+						<ul class="dottedListGallery">
+							<li class="clearfix">
+								<img src="_images/media_library/Video-image-2.png" alt="video image 2" />
+								<div onClick="location.href='#';" class="playBtn"></div>
+								<h6><a class="" href="#">Video #1</a></h6>
+								lorem ipsum dolor sit amet consecte
+							</li>
+							<li class="clearfix">
+								<img src="_images/media_library/Video-image-2.png" alt="video image 2" />
+								<div onClick="location.href='#';" class="playBtn"></div>
+								<h6><a class="" href="#">Video #2</a></h6>
+								lorem ipsum dolor sit amet consecte
+							</li>
+							<li class="clearfix">
+								<img src="_images/media_library/Video-image-2.png" alt="video image 2" />
+								<div onClick="location.href='#';" class="playBtn"></div>
+								<h6><a class="" href="#">Video #3</a></h6>
+								lorem ipsum dolor sit amet consecte
+							</li>
+							<li class="clearfix">
+								<img src="_images/media_library/Video-image-2.png" alt="video image 2" />
+								<div onClick="location.href='#';" class="playBtn"></div>
+								<h6><a class="" href="#">Video #4</a></h6>
+								lorem ipsum dolor sit amet consecte
+							</li>
+						</ul>
+					</div>
+					<!-- End of Video Gallery Widget -->
+				
+				</div><!-- end of threeColWidgetWrapper -->
+
+			</div><!-- end of leftContent -->
+
+		<div class="rightRail">
+			
+			<!-- New Employee Roadmap Widget Begins -->
+			<div id="WidgetChecklist" class="clearfix">
+				<div class="gradientHeader">
+					<h2>Full Asset Library</h2>
+				</div>
+				<div class="text-select clearfix">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.</p>
+				</div>
+				<div class="subheader">Group A</div>
+				<div class="checklist">
+					<ul>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+					</ul>
+				</div>
+				<div class="subheader">Group B</div>
+				<div class="checklist">
+					<ul>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+					</ul>
+				</div>
+				<div class="subheader">Group C</div>
+				<div class="checklist">
+					<ul>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+					</ul>
+				</div>
+			</div>
+			<!-- End of New Employee Roadmap Widget -->
+			
+		</div><!-- end of rightRail -->
+
+		</div><!-- end of content -->
+	
+	
+    <div id="footer">
+        <!-- Footer Include -->
+        <!--#include file="_includes/footer.ssi" -->
+    </div><!-- end of footer -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jqtransform.js"></script>
+	<!--<script type="text/javascript" src="_scripts/jquery-ui-1.8.20.custom.min.js"></script>-->
+
+	<script type="text/javascript" src="_scripts/department.js"></script>
+
+	
+	<!-- Begin Dashboard includes -->
+	<!--<script src="_scripts/dashboard/setup.js"></script>
+	<script src="_scripts/dashboard/developr.input.js"></script>
+	<script src="_scripts/dashboard/developr.navigable.js"></script>
+	<script src="_scripts/dashboard/developr.notify.js"></script>
+	<script src="_scripts/dashboard/developr.scroll.js"></script>
+	<script src="_scripts/dashboard/developr.progress-slider.js"></script>
+	<script src="_scripts/dashboard/developr.tooltip.js"></script>
+	<script src="_scripts/dashboard/developr.content-panel.js"></script>
+	
+	<script src="_scripts/dashboard/developr.tabs.js"></script>
+	<script src="_scripts/dashboard/developr.table.js"></script>-->
+
+	<!-- Plugins -->
+	<script src="_scripts/dashboard/libs/jquery.tablesorter.min.js"></script>
+	<script src="_scripts/dashboard/libs/DataTables/jquery.dataTables.min.js"></script>
+
+	<script type="text/javascript" charset="utf-8" src="_scripts/css-dock.js"></script>
+	<script type="text/javascript" charset="utf-8" src="_scripts/fisheye_patched.js"></script>
+	
+	<script type="text/javascript" charset="utf-8">
+
+		// Call template init (optional, but faster if called manually)
+		//$.template.init();
+
+	</script>
+	
+</body>
+</html>

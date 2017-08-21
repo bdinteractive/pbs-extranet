@@ -1,0 +1,671 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+
+	<link rel="stylesheet" href="_styles/classic.css">
+	<link rel="stylesheet" href="_styles/classic.date.css">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+	<script src="_scripts/modernizr.custom.63321.js"></script>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+		<h1>PBS Search</h1>
+
+	</div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="non-dashboard clearfix">
+
+		<div class="leftContentWide">
+			<h2 class="pageTitle">Showing Results for <span class="italic">"Status Post Format"</span></h2>
+		</div>
+
+		<div class="leftRail">
+
+			<div class="pbs-widget widget-search">
+				<form>
+					<input type="text" name="search-input" placeholder="Search anything" value="">
+					<submit><i class="pbs-icon-magnify-glass"></i></submit>
+				</form>
+			</div>
+
+			<div class="pbs-widget widget-program-only clearfix">
+				<input type="checkbox" class="left">
+				<span class="left">Programming Only</span>
+			</div>
+
+			<div class="widget-date-picker clearfix">
+				<form class="wrapper left">
+					<input type="text" id="datepicker_start">
+					<span class="icon-wrapper"><i class="pbs-icon-calendar6"></i></span>
+				</form>
+				<span class="dash left"> - </span>
+				<form class="wrapper right">
+					<input type="text" id="datepicker_end">
+					<span class="icon-wrapper"><i class="pbs-icon-calendar6"></i></span>
+				</form>
+			</div>
+
+			<div class="pbs-widget widget-accordion-list">
+				<h5>Filter by Categories <i class="pbs-icon-keyboard-arrow-up"></i></h5>
+				<ul>
+					<li class="active"><i class="pbs-icon-plus"></i> Everything <span>68</span></li>
+					<li class="hide active">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="pbs-widget widget-tags">
+				<h5>Search Tags <i class="pbs-icon-keyboard-arrow-up"></i></h5>
+				<ul>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+				</ul>
+			</div>
+
+			<div class="pbs-widget widget-accordion-list">
+				<h5>Archive <i class="pbs-icon-keyboard-arrow-up"></i></h5>
+				<ul>
+					<li class="active"><i class="pbs-icon-plus"></i> 2014 January <span>15</span></li>
+					<li class="hide active">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 Feburary <span>7</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 April <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 Feburary <span>7</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 April <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 Feburary <span>7</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 April <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 Feburary <span>7</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 April <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 Feburary <span>7</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 April <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+				</ul>
+			</div>
+			
+			
+		</div><!-- end of rightRail -->
+		
+		<div class="rightContent">
+
+			<div class="search-result-filter">
+				<ul>
+					<li><a class="pbs-button btn-primary" href="#">Pledge <i class="pbs-icon-cancel-circle"></i></a></li>
+					<li><a class="pbs-button btn-primary" href="#">Keyword > Health Care <i class="pbs-icon-cancel-circle"></i></a></li>
+					<li><a class="pbs-button btn-primary" href="#">Forms <i class="pbs-icon-cancel-circle"></i></a></li>
+				</ul>
+			</div>
+
+			<div class="search-result-best-bets">
+				<div class="content">
+					<h2 class="pageTitle">Best Bets for <span class="italic">"Status Post Format"</span></h2>
+
+					<h4>Information Associated to program(s)</h4>
+					<ul class="scroll">
+						<li><a class="" href="#">Penguins: Spy in the Huddle, A Nature Special Presentation</a> (2) Program Dashboard</li>
+						<li><a class="" href="#">Penguins: Spy in the Huddle, A Nature Special Presentation</a> (17) Program Dashboard</li>
+						<li><a class="" href="#">Penguins: Spy in the Huddle, A Nature Special Presentation</a> (2) Program Dashboard</li>
+						<li><a class="" href="#">Penguins: Spy in the Huddle, A Nature Special Presentation</a> (17) Program Dashboard</li>
+						<li><a class="" href="#">Penguins: Spy in the Huddle, A Nature Special Presentation</a> (2) Program Dashboard</li>
+						<li><a class="" href="#">Penguins: Spy in the Huddle, A Nature Special Presentation</a> (17) Program Dashboard</li>
+						<li><a class="" href="#">Penguins: Spy in the Huddle, A Nature Special Presentation</a> (2) Program Dashboard</li>
+						<li><a class="" href="#">Penguins: Spy in the Huddle, A Nature Special Presentation</a> (17) Program Dashboard</li>
+						<li><a class="" href="#">Penguins: Spy in the Huddle, A Nature Special Presentation</a> (2) Program Dashboard</li>
+						<li><a class="" href="#">Penguins: Spy in the Huddle, A Nature Special Presentation</a> (17) Program Dashboard</li>
+					</ul>
+
+					<h4>Information linked to Topic(s)</h4>
+					<ul>
+						<li><a class="" href="#">Rundowns</a></li>
+						<li><a class="" href="#">Schedule Change Announcement</a></li>
+					</ul>
+				</div>
+			</div>
+
+
+				<div class="search-result-pod-list">
+					<div class="content">
+
+						<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-quotes-right"></i> Quote</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar4"></i> 1 month ago</a></li>
+							<li><a href="#"><i class="pbs-icon-earth3"></i> Globe</a></li>
+							<li><a href="#"><i class="pbs-icon-share"></i> Share</a></li>
+							<li><a href="#"><i class="pbs-icon-mail"></i> Email</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">Read More</a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list">
+					<div class="img-wrapper left" style="background-image:url(_images/temp-search-image-02.jpg);"></div>
+					<div class="content">
+
+						<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-camera"></i> Photo</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+							<li><a href="#"><i class="pbs-icon-bubbles"></i> 19</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+						</ul>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+
+						<ul class="right tags-row">
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Blue Tag</a></li>
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Red Tag</a></li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">Read More</a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list">
+					<div class="img-wrapper left" style="background-image:url(_images/temp-search-image-01.jpg);"></div>
+					<div class="content">
+
+						<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-link"></i> Link</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+							<li><a href="#"><i class="pbs-icon-heart"></i> Like</a></li>
+							<li><a href="#"><i class="pbs-icon-share"></i> Share</a></li>
+							<li><a href="#"><i class="pbs-icon-mail"></i> Email</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+						</ul>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+
+						<ul class="right tags-row">
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Blue Tag</a></li>
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Red Tag</a></li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">Read More</a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list">
+					<div class="content">
+
+						<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-music"></i> Audio</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+							<li><a href="#"><i class="pbs-icon-bubbles"></i> 19</a></li>
+							<li><a href="#"><i class="pbs-icon-share"></i> Share</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+						</ul>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+
+						<ul class="right tags-row">
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Blue Tag</a></li>
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Red Tag</a></li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">Read More</a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list">
+					<div class="img-wrapper left" style="background-image:url(_images/temp-search-image-02.jpg);"></div>
+					<div class="content">
+
+						<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-camera"></i> Photo</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+							<li><a href="#"><i class="pbs-icon-bubbles"></i> 19</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+						</ul>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+
+						<ul class="right tags-row">
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Blue Tag</a></li>
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Red Tag</a></li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">Read More</a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list">
+					<div class="img-wrapper left" style="background-image:url(_images/temp-search-image-02.jpg);"></div>
+					<div class="content">
+
+						<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-link"></i> Link</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+							<li><a href="#"><i class="pbs-icon-bubbles"></i> 19</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+						</ul>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+
+						<ul class="right tags-row">
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Blue Tag</a></li>
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Red Tag</a></li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">Read More</a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+
+				<ul class="pbs-pagination">
+					<li><a href="#"><i class="pbs-icon-keyboard-arrow-left"></i></a></li>
+					<li><a href="#">1</a></li>
+					<li><a class="active" href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a class="btn-primary" href="#"><i class="pbs-icon-keyboard-arrow-right"></i></a></li>
+				</ul>
+
+				<select id="cd-dropdown" name="cd-dropdown" class="cd-select">
+					<option value="-1" selected>Show 10 items/page</option>
+					<option value="1" class="icon-monkey">Show 20 items/page</option>
+					<option value="2" class="icon-bear">Show 30 items/page</option>
+					<option value="3" class="icon-squirrel">Show 40 items/page</option>
+					<option value="4" class="icon-elephant">Show all items/page</option>
+				</select>
+
+
+				
+				<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
+		
+			
+		</div><!-- end of leftContent -->
+		
+	</div><!-- end of content -->
+	
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/department.js"></script>
+
+	<script type="text/javascript" src="_scripts/jquery.dropdown.js"></script>
+
+	<script type="text/javascript" src="_scripts/picker.js"></script>
+	<script type="text/javascript" src="_scripts/picker.date.js"></script>
+	<script type="text/javascript" src="_scripts/legacy.js"></script>
+
+	
+
+	<script type="text/javascript">
+		$( function() {
+			$( '#cd-dropdown' ).dropdown( {
+				gutter : 5
+			});
+		});
+		$('#datepicker_start').pickadate({
+			showMonthsShort: true,
+			format: 'dd/mm/yy'
+		});
+		$('#datepicker_end').pickadate({
+			showMonthsShort: true,
+			format: 'dd/mm/yy'
+
+		});
+	</script>
+	
+</body>
+</html>

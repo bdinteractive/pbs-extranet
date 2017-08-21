@@ -1,0 +1,167 @@
+/* ----------------------------------------------------------------------------
+	Purpose:
+	Theme 3 CSS Styles for PBS intranet website
+	$Last Updated: 12-September-2011 11:00:00PM Brad Dedon $
+/*	----------------------------------------------------------------------------
+	Table Of Contents
+	1. Footer
+	2. Announcements
+	3. Pagination
+*/
+
+
+/*	----------------------------------------------------------------------------
+	(x) Themes */
+	
+body { background: #1D4220 url(images/background_page.png) top center no-repeat; }
+.contentBorderTop { border-bottom-color: #7ea114; }
+
+/*	----------------------------------------------------------------------------
+	(1) Footer */
+	
+.footerRow { background: #142e16; }
+.footer .footerTable td.footerColLeft { color: #fff; background: #0a170b url(images/ftrbgarrow.png) right center no-repeat; }
+.footer .footerTable td.footerColLeft h4 { color: #fff; }
+.footer ul.footerLinksHorzMenu li a { color: #fff; }
+.footer ul.footerLinksHorzMenu li a { color: #fff; }
+.footer ul.footerLinksHorzMenu li { border-right-color: #fff; }
+.footer .footerMenuPod h6 { color: #fff; border-bottom-color: #fff; }
+.footer ul.footerLinksVertMenu li, .footer ul.footerLinksVertMenu li a { color: #fff; }
+.footer .footerMenuPod h6 a { color: #fff; }
+
+
+/*	----------------------------------------------------------------------------
+	(2) Announcements */
+
+/* Table row specifics */
+.announcementsClips tbody tr:hover { }
+.announcementsClips tbody tr:hover td.posted { background-color: #7ea114; background-image: url(images/news_arrow_hp_alert.png); border-color: #7ea114; }
+.announcementsClips tbody tr:hover td.posted h6 { color: white; }
+.announcementsClips tbody tr:hover td.thread { background: #faf6ed; border-color: #7ea114; border-right: none; }
+.announcementsClips tbody tr:hover td.replies { background: #faf6ed; border-color: #7ea114; }
+.announcementsClips tbody tr:hover td.alert { background: #faf6ed; border-color: #7ea114; border-left: none; }
+.announcementsClips tbody tr:hover td.author { background: #faf6ed; border-color: #7ea114; }
+
+/* Table data */
+.announcementsClips td.posted h6 { color: #9B9B9B; }
+.announcementsClips td.thread { background: #FAFAFA; }
+.announcementsClips td.replies { background: #FAFAFA; }
+.announcementsClips td.alert { background: #FAFAFA; }
+.announcementsClips td.author { background: #FAFAFA; }
+
+
+/*	----------------------------------------------------------------------------
+	(3) Pagination */
+.contentPagination ul li a.active { background: #7ea114; }
+
+
+
+
+
+
+
+/*	----------------------------------------------------------------------------
+	(x) Themes */
+	
+body { background: #1D4220 url(../../_themes/theme3/images/background_page.png) top center no-repeat; }
+.leftContent a { color: #7ea114; }
+.contentBorderTop { border-bottom-color: #7EA114; }
+
+/*	----------------------------------------------------------------------------
+	(1) Footer */
+	
+.footerRow { background: #142e16; }
+.footer .footerTable td.footerColLeft { color: #fff; background: #0a170b url(../../_themes/theme3/images/ftrbgarrow.png) right center no-repeat; }
+.footer .footerTable td.footerColLeft h4 { color: #fff; }
+.footer ul.footerLinksHorzMenu li a { color: #fff; }
+.footer ul.footerLinksHorzMenu li a { color: #fff; }
+.footer ul.footerLinksHorzMenu li { border-right-color: #fff; }
+.footer .footerMenuPod h6 { color: #fff; border-bottom-color: #fff; }
+.footer ul.footerLinksVertMenu li, .footer ul.footerLinksVertMenu li a { color: #fff; }
+.footer .footerMenuPod h6 a { color: #fff; }
+
+
+/*	----------------------------------------------------------------------------
+	(2) Homepage */
+	
+#homepageMessageArea .announcement { padding: 0 0 25px 575px; }
+#homepageMessageArea .subline { padding: 0 0 4px 5px; font-size: 10pt; text-transform: uppercase; font-weight: bold; color: #B2EB3C; }
+#homepageMessageArea .mainline { overflow: hidden; font-size: 32px; font-weight: bold; margin-top: 5px; }
+#homepageMessageArea .mainline .txtLeft { color: #52d2bf; background: #045f74; float: left; padding: 3px 5px 2px 5px; }
+#homepageMessageArea .mainline .txtRight { color: #52d2bf; background: #045f74; float: left; padding: 3px 5px 2px 5px; }
+#homepageMessageArea .longTxt { color: #fff; font-size: 12px; font-weight: bold; width: 300px; padding: 7px 0 0 5px; }
+
+a.widgetThemedArrow { color: #7EA114; background: url("_themes/theme4/images/Themed-Arrow.png") right no-repeat; }
+
+.widgetBottomBorder .message { color: #7EA114; }
+
+/*	----------------------------------------------------------------------------
+	(3) Theme Switcher */
+
+#themeSwitcher { width: 960px; margin: 0 auto; text-align: right; margin-bottom: -4px; }
+#themeSwitcher ul { float: right; }
+#themeSwitcher ul li { float: left; }
+#themeSwitcher a { border-bottom: solid 2px #b1b1b1; background-color: #f4f3f5; padding: 3px 7px; margin-left: 1px; font-size: 11px; font-weight: bold; color: #7EA114;
+	/* vendor specific gradient style */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e0e0de');
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e0e0de));
+	background-image: -moz-linear-gradient(top,  #fff,  #e0e0de);
+}
+#themeSwitcher ul li a.active { background: #7EA114; color: #fff; border-top-color: #7EA114;  border-bottom-color: #7EA114;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7EA114', endColorstr='#7EA114');
+}
+
+/*	----------------------------------------------------------------------------
+	(x) Pagination */
+
+.contentPagination ul li a.active { background: #7EA114; }
+
+/*	----------------------------------------------------------------------------
+	(x) Conference Room Widget */
+	
+.OpenConfrRoom { background: #F7FFE5; }
+.OpenConfrRoom ul.confRoom li.book a { color: #7EA114; }
+
+/*	----------------------------------------------------------------------------
+	(x) Spotlight Widget */
+.ColleagueSpotlight ul.socialActions li { border-right-color: #7EA114; }
+.ColleagueSpotlight ul.socialActions li a { color: #7EA114; }
+
+
+/*	----------------------------------------------------------------------------
+	(x) Upcoming Events Widget */
+
+.Timeofday-Listing { background: #E5FFA8; }
+#content-BottomWrapr div.UpcomingEvents { border-right-color: #D6D6D6; }
+.UpcomingEvents ul.eventsTabs li:hover { background: #536E02; }
+.UpcomingEvents ul.eventsTabs li.current { background: #7EA114; }
+.UpcomingEvents ul.eventsTabs li a span.dn-arrow { border-left-color: #fff; border-right-color: #fff; border-top-color: #7EA114; }
+
+
+/*	----------------------------------------------------------------------------
+	(x) Headliners Widget */
+
+.Headliners { border-right-color: #D6D6D6; }
+.Headliners h2 { color: #333333;}
+.Headliners h3 { color: #7EA114;}
+.Headliners img { border-color: #CCC;}
+#content-BottomWrapr div.Headliners { border-right-color: #D6D6D6; }
+
+/*	----------------------------------------------------------------------------
+	(x) News Widget */
+	
+#Tb_Ann_Listing td.Announcement_impt { background-color: #fafafa; border-top-color: #CCC; color: #34302d; }
+#Tb_Ann_Listing td.Announcement_impt h2 { color: #34302d; }
+#Tb_Ann_Listing td.date_impt { background-color: #7EA114; border-top-color: #7EA114; border-left-color: #7EA114; border-bottom-color: #7EA114; }
+#Tb_Ann_Listing td.date_impt h6 { color: #FFF; }
+#Tb_Ann_Listing td.date_impt h7 { color: #FFF; }
+#Tb_Ann_Listing td.Arrow_impt { border-top-color: #7EA114; background-image: url(../../_themes/theme3/images/news_arrow_hp_alert.png); border-bottom-color: #7EA114; }
+#Tb_Ann_Listing td.Announcement_impt { background-color: #E5FFA8; border-top-color: #7EA114; border-bottom-color: #7EA114; }
+#Tb_Ann_Listing td.Announcement_impt_text h2 { color: #34302d; }
+#Tb_Ann_Listing td.Announcement_impt_text { color: #34302d; }
+#Tb_Ann_Listing td.Alert_impt { background-color: #E5FFA8; border-top-color: #7EA114; border-right-color: #7EA114; border-bottom-color: #7EA114; }
+
+#content-toparea-wrpwidgets div.OnNow-Wrpr h2{ color: #7EA114; }
+#content-toparea-wrpwidgets table.TabText td a.current span.dn-arrow { border-top-color: #7EA114; }
+#content-toparea-wrpwidgets table.TabText td a.current { background-color: #7EA114; }
+#content-toparea-wrpwidgets table.TabText td a.default:hover { background: #536E02; }

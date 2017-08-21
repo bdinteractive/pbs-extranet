@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	
+	<!-- jquery specific -->
+	
+	<!-- jquery specific -->
+	
+	<script type="text/javascript" charset="utf-8" src="_scripts/jquery-1.6.1.min.js"></script>
+	
+	<style type="text/css" media="screen">
+	
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+			
+		body { background: #fff; background-position: fixed; }
+		#pbsheader { height: auto; }
+		.content-wrapper {
+			width: 940px;
+			margin: 0 auto;
+			background: #fff;
+		}
+		.content-scrollable {
+			height: 580px;
+			overflow: auto;
+		}
+		.groups-footer {
+			height: 144px;
+			/*background: transparent url(_images/foreground-groups.png);*/
+			position: absolute;
+			bottom: 0;
+			z-index: 700;
+			width: 100%;
+
+			pointer-events:none;
+			background:url(_images/groups-trans-click.png);
+		}
+		.content-scrollable ul {
+			margin-left: 350px;
+		}
+		.miniFooter ul,
+		.miniFooter span {
+			margin-top: 10px;
+		}
+		.groups-footer .miniFooter,
+		.groups-footer #footer {
+			height: auto;
+			width: 100%;
+		}
+
+		.groups-footer .miniFooter { background: #00779C; }
+		.groups-footer #footer {
+			padding-top: 102px;
+		}
+		.groups-left-bubbles {
+			background: transparent url(_images/groups-bubbles-left.png) no-repeat;
+			width: 305px;
+			height: 102px;
+			position: absolute;
+			left: 0;
+		}
+		.groups-right-bubbles {
+			background: transparent url(_images/groups-bubbles-right.png) no-repeat;
+			width: 250px;
+			height: 104px;
+			position: absolute;
+			right: -2px;
+		}
+	</style>
+	
+</head>
+
+<body>
+
+	
+	<div class="content-wrapper" style="">
+		<div class="content-scrollable">
+			<ul>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+				<li><a href="http://google.com">PBS Public Broadcasting Service Link</a></li>
+			</ul>
+
+			<img src="_images/temp-content.jpg">
+			<img src="_images/temp-content.jpg">
+		</div>
+	</div>
+
+	<div class="groups-footer">
+		<div class="groups-left-bubbles"></div>
+		<div class="groups-right-bubbles"></div>
+		<div id="footer">
+			<!-- Footer Include -->
+			<!--#include file="_includes/footer.ssi" -->
+		</div><!-- end of footer -->
+	</div>
+	
+
+
+</body>
+</html>
+
+
+
+
+

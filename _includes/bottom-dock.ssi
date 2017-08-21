@@ -1,0 +1,19 @@
+<<div class="dock-wrapper">
+	<!--<div class="dock" id="dockBottom">
+
+
+		<div class="dock-containerBottom">
+		<div class="cap left"></div>
+			<a class="dock-itemBottom" href="#"><span>PBS Arts</span><img src="_images/css-dock/art.png" alt="PBS Arts" /></a> 
+			<a class="dock-itemBottom" href="#"><span>Sherlock Homes</span><img src="_images/css-dock/sherlock.png" alt="Sherlock Homes" /></a> 
+			<a class="dock-itemBottom" href="#"><span>TV Pledges</span><img src="_images/css-dock/pledge.png" alt="TV Pledges" /></a> 
+			<a class="dock-itemBottom" href="#"><span>Half the Sky</span><img src="_images/css-dock/half-sky.png" alt="Half the Sky" /></a> 
+			<a class="dock-itemBottom" href="#"><span>40+ Initiative</span><img src="_images/css-dock/40Plus.png" alt="40+ Initiative" /></a> 
+		</div>
+	</div>-->
+
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+</div>

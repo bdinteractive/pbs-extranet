@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+
+		<!-- Begin Dashboard includes -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css?v=1">
+
+	<!-- DataTables -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/DataTables/jquery.dataTables.css?v=1">
+	
+	
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+
+
+
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+		
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+		<h1>PBS Tables</h1>
+
+	</div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="clearfix">
+
+		<!-- Page Label, Breadcrumb, Share and User Menus Begins -->
+		<div class="userArea clearfix">
+			<ul class="breadcrumb">
+				<li><a href="#">Extranet Home</a></li>
+				<li class="last">Tables with Simple Sorting</li>
+			</ul>
+			<div class="userDropdownB" style="margin-right: -10px;">
+				<a class="userDropdownGroups" href="#"><img src="_images/icon-facebook-groups.png" /></a>
+				<ul class="userDropDownMenu">
+					<li class="bottomPadded clearfix"><img src="_images/icon-facebook-groups.png" style="float:left;" /><span class="header header-icon">Groups I Created</span></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 1',url:'facebook_group.shtml'})">Group 1</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 2',url:'facebook_group.shtml'})">Group 2</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 3',url:'facebook_group.shtml'})">Group 3</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 4',url:'facebook_group.shtml'})">Group 4</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 5',url:'facebook_group.shtml'})">Group 5</a></li>
+					<li class="bottomPadded" style="padding-top: 10px;"><span class="header">Groups I'm Part Of</span></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 1',url:'facebook_group.shtml'})">Group 1</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 2',url:'facebook_group.shtml'})">Group 2</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 3',url:'facebook_group.shtml'})">Group 3</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 4',url:'facebook_group.shtml'})">Group 4</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 5',url:'facebook_group.shtml'})">Group 5</a></li>
+				</ul>
+			</div>
+			<div class="userDropdown" style="margin-right: 10px; margin-top: 10px">
+				<a class="userDropdownName" href="#">Welcome, John Smith</a>
+				<ul class="userDropDownMenu">
+					<li class="bottomPadded"><span class="userName">John Smith</span></li>
+					<li><a href="empty-page.shtml">My Contact Information</a></li>
+					<li><a href="Manage-Form.shtml">Manage Forms</a></li>
+					<li><a href="empty-page.shtml">Workarea</a></li>
+					<li><a href="empty-page.shtml">Sign Out</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="pageTitleTools clearfix">
+			<div class="colLeft">
+				<h2 class="pageTitle">Tables with Simple Sorting</h2>
+			</div>
+
+		</div>
+		<!-- End of Page Label, Breadcrumb, Share and User Menus -->
+		
+			<div class="leftContentWide">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt feugiat tincidunt. Nunc tincidunt eros non lectus tristique imperdiet. Nunc vulputate, nulla non tristique mattis, magna nibh fringilla nisi, fringilla imperdiet quam arcu ut neque. Donec pellentesque urna faucibus lacus condimentum fermentum ac id felis.</p>
+			</div>
+				
+				
+				
+				<div class="">
+
+					<div class="table-header silver-gradient glossy button-height">
+						<div class="float-right">
+							Search&nbsp;<input type="text" name="table_search" id="table_search" value="" class="input mid-margin-left">
+						</div>
+
+						With selected:
+						<select name="select90" class="select grey-gradient glossy mid-margin-left">
+							<option value="0">Delete</option>
+							<option value="1">Duplicate</option>
+							<option value="2">Put offline</option>
+							<option value="3">Put online</option>
+							<option value="4">Move to trash</option>
+						</select>
+						<button type="submit" class="button grey-gradient glossy">Go</button>
+					</div>
+					
+					<style type="text/css" media="screen">
+						table { border-collapse: collapse; }
+					</style>
+					
+					
+					<table class="table responsive-table" id="sorting-example1">
+
+						<thead>
+							<tr>
+								<th scope="col"><input type="checkbox" name="check-all" id="check-all" value="1"></th>
+								<th scope="col">Text</th>
+								<th scope="col" width="15%" class="align-center hide-on-mobile">Date</th>
+								<th scope="col" width="15%" class="align-center hide-on-mobile-portrait">Status</th>
+								<th scope="col" width="15%" class="hide-on-tablet">Tags</th>
+								<th scope="col" width="100" class="align-right">Actions</th>
+							</tr>
+						</thead>
+
+						<tfoot>
+							<tr>
+								<td colspan="6">
+									6 entries found
+								</td>
+							</tr>
+						</tfoot>
+
+						<tbody>
+							<tr>
+								<th scope="row" class="checkbox-cell"><input type="checkbox" name="checked[]" id="check-1" value="1"></th>
+								<td>John Doe</td>
+								<td>Jul 5, 2011</td>
+								<td>Enabled</td>
+								<td><small class="tag">User</small> <small class="tag">Client</small> <small class="tag green-bg">Valid</small></td>
+								<td class="low-padding">
+									<span class="select compact full-width" tabindex="0">
+										<a href="#" class="select-value">Edit</a>
+										<span class="select-arrow"></span>
+										<span class="drop-down">
+											<a href="#">Put offline</a>
+											<a href="#">Review</a>
+											<a href="#">Put to trash</a>
+											<a href="#">Delete</a>
+										</span>
+									</span>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row" class="checkbox-cell"><input type="checkbox" name="checked[]" id="check-2" value="2"></th>
+								<td>John Appleseed</td>
+								<td>Jul 5, 2011</td>
+								<td>Enabled</td>
+								<td><small class="tag orange-bg">Non-verified</small></td>
+								<td class="low-padding">
+									<span class="select compact full-width" tabindex="0">
+										<a href="#" class="select-value">Edit</a>
+										<span class="select-arrow"></span>
+										<span class="drop-down">
+											<a href="#">Put offline</a>
+											<a href="#">Review</a>
+											<a href="#">Put to trash</a>
+											<a href="#">Delete</a>
+										</span>
+									</span>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row" class="checkbox-cell"><input type="checkbox" name="checked[]" id="check-3" value="3"></th>
+								<td>Sheldon Cooper</td>
+								<td>Jul 4, 2011</td>
+								<td>Enabled</td>
+								<td><small class="tag">User</small> <small class="tag green-bg">Valid</small></td>
+								<td class="low-padding">
+									<span class="select compact full-width" tabindex="0">
+										<a href="#" class="select-value">Edit</a>
+										<span class="select-arrow"></span>
+										<span class="drop-down">
+											<a href="#">Put offline</a>
+											<a href="#">Review</a>
+											<a href="#">Put to trash</a>
+											<a href="#">Delete</a>
+										</span>
+									</span>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row" class="checkbox-cell"><input type="checkbox" name="checked[]" id="check-4" value="4"></th>
+								<td>Rage Guy</td>
+								<td>Jun 25, 2011</td>
+								<td>Enabled</td>
+								<td><small class="tag red-bg">Fake</small></td>
+								<td class="low-padding">
+									<span class="select compact full-width" tabindex="0">
+										<a href="#" class="select-value">Edit</a>
+										<span class="select-arrow"></span>
+										<span class="drop-down">
+											<a href="#">Put offline</a>
+											<a href="#">Review</a>
+											<a href="#">Put to trash</a>
+											<a href="#">Delete</a>
+										</span>
+									</span>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row" class="checkbox-cell"><input type="checkbox" name="checked[]" id="check-5" value="5"></th>
+								<td>Thomas A. Anderson</td>
+								<td>Jun 16, 2011</td>
+								<td>Enabled</td>
+								<td><small class="tag">User</small> <small class="tag">Client</small> <small class="tag green-bg">Valid</small></td>
+								<td class="low-padding">
+									<span class="select compact full-width" tabindex="0">
+										<a href="#" class="select-value">Edit</a>
+										<span class="select-arrow"></span>
+										<span class="drop-down">
+											<a href="#">Put offline</a>
+											<a href="#">Review</a>
+											<a href="#">Put to trash</a>
+											<a href="#">Delete</a>
+										</span>
+									</span>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row" class="checkbox-cell"><input type="checkbox" name="checked[]" id="check-6" value="6"></th>
+								<td>Jane Doe</td>
+								<td>May 19, 2011</td>
+								<td>Enabled</td>
+								<td><small class="tag">User</small> <small class="tag">Client</small></td>
+								<td class="low-padding">
+									<span class="select compact full-width" tabindex="0">
+										<a href="#" class="select-value">Edit</a>
+										<span class="select-arrow"></span>
+										<span class="drop-down">
+											<a href="#">Put offline</a>
+											<a href="#">Review</a>
+											<a href="#">Put to trash</a>
+											<a href="#">Delete</a>
+										</span>
+									</span>
+								</td>
+							</tr>
+						</tbody>
+
+					</table>
+					
+					<form method="post" action="" class="clearfix with-mid-padding button-height anthracite-gradient">
+						<div class="float-right">
+							<div class="button-group">
+								<a href="#" title="First page" class="button anthracite-gradient glossy"><span class="icon-previous"></span></a>
+								<a href="#" title="Previous page" class="button anthracite-gradient glossy"><span class="icon-backward"></span></a>
+							</div>
+
+							<div class="button-group">
+								<a href="#" title="Page 1" class="button anthracite-gradient glossy">1</a>
+								<a href="#" title="Page 2" class="button anthracite-gradient glossy active">2</a>
+								<a href="#" title="Page 3" class="button anthracite-gradient glossy">3</a>
+								<a href="#" title="Page 4" class="button anthracite-gradient glossy">4</a>
+							</div>
+
+							<div class="button-group">
+								<a href="#" title="Next page" class="button anthracite-gradient glossy"><span class="icon-forward"></span></a>
+								<a href="#" title="Last page" class="button anthracite-gradient glossy"><span class="icon-next"></span></a>
+							</div>
+						</div>
+					</form>
+				
+			</div><!-- end of leftContent -->
+		
+	</div><!-- end of content -->
+	
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/department.js"></script>
+
+		<!-- Begin Dashboard includes -->
+	<script src="_scripts/dashboard/setup.js"></script>
+	<script src="_scripts/dashboard/developr.input.js"></script>
+	<script src="_scripts/dashboard/developr.navigable.js"></script>
+	<script src="_scripts/dashboard/developr.notify.js"></script>
+	<script src="_scripts/dashboard/developr.scroll.js"></script>
+	<script src="_scripts/dashboard/developr.progress-slider.js"></script>
+	<script src="_scripts/dashboard/developr.tooltip.js"></script>
+	<script src="_scripts/dashboard/developr.content-panel.js"></script>
+	
+	<script src="_scripts/dashboard/developr.table.js"></script>
+
+	<!-- Plugins -->
+	<script src="_scripts/dashboard/libs/jquery.tablesorter.min.js"></script>
+	<script src="_scripts/dashboard/libs/DataTables/jquery.dataTables.min.js"></script>
+
+		<script type="text/javascript" charset="utf-8">
+
+		// Call template init (optional, but faster if called manually)
+		$.template.init();
+
+		// Table sort - styled
+		$('#sorting-example1').tablesorter({
+			headers: {
+				0: { sorter: false },
+				5: { sorter: false }
+			}
+		}).on('click', 'tbody td', function(event){
+			// Do not process if something else has been clicked
+			if (event.target !== this){
+				return;
+			}
+
+			var tr = $(this).parent(),
+				row = tr.next('.row-drop'),
+				rows;
+
+			// If click on a special row
+			if (tr.hasClass('row-drop')){
+				return;
+			}
+
+			// If there is already a special row
+			if (row.length > 0){
+				// Un-style row
+				tr.children().removeClass('anthracite-gradient glossy');
+
+				// Remove row
+				row.remove();
+
+				return;
+			}
+
+			// Remove existing special rows
+			rows = tr.siblings('.row-drop');
+			if (rows.length > 0){
+				// Un-style previous rows
+				rows.prev().children().removeClass('anthracite-gradient glossy');
+
+				// Remove rows
+				rows.remove();
+			}
+
+			// Style row
+			tr.children().addClass('anthracite-gradient glossy');
+
+			// Add fake row
+			$('<tr class="row-drop">'+
+				'<td colspan="'+tr.children().length+'">'+
+					'<div class="float-right">'+
+						'<button type="submit" class="button glossy mid-margin-right">'+
+							'<span class="button-icon"><span class="icon-mail"></span></span>'+
+							'Send mail'+
+						'</button>'+
+						'<button type="submit" class="button glossy">'+
+							'<span class="button-icon red-gradient"><span class="icon-cross"></span></span>'+
+							'Remove'+
+						'</button>'+
+					'</div>'+
+					'<strong>Name:</strong> John Doe<br>'+
+					'<strong>Account:</strong> admin<br>'+
+					'<strong>Last connect:</strong> 05-07-2011<br>'+
+					'<strong>Email:</strong> john@doe.com'+
+				'</td>'+
+			'</tr>').insertAfter(tr);
+
+		}).on('sortStart', function(){
+			var rows = $(this).find('.row-drop');
+			if (rows.length > 0){
+				// Un-style previous rows
+				rows.prev().children().removeClass('anthracite-gradient glossy');
+
+				// Remove rows
+				rows.remove();
+			}
+		});
+
+	</script>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

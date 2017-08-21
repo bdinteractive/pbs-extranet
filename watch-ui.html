@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<script type="text/javascript" charset="utf-8" src="_scripts/jquery-1.6.1.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="_scripts/jquery.tinyscrollbar.min.js"></script>
+
+	<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+	<link href="_styles/watch-ui.css" rel="stylesheet">
+	
+</head>
+
+<body>
+
+	<div class="video-info-container">
+
+		<h5>You’re Currently Watching</h5>
+
+		<div class="video-description">
+			<h1>Frank Loyd Wright’s Guggenheim</h2>
+			<h6>Video Description</h6>
+			<p>In June 1943, Frank Lloyd Wright received a letter from Hilla Rebay, the art advisor to Solomon R. Guggenheim, asking the architect to design a new building to house Guggenheim's four-year-old Museum of Non-Objective Painting.</p>
+		</div>
+
+		<div class="video-ratings clearfix">
+			<h6>Viewer Ratings</h6>
+			<div class="rating-stars"><span class="active-stars" style="width: 60px;"></span></div>
+			<a class="button button_rate-video" href="#"><div>Rate Video</div></a>
+		</div>
+
+		<div class="video-comments">
+			<h6>Viewer Comments</h6>
+			<div id="viewer-comments">
+				<div class="scrollbar"><div class="track"><div class="thumb"></div></div></div>
+				<div class="viewport">
+					<div class="overview">
+						<ul>
+							<li>
+								<span>By Mike Miller, 12/22/2011</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus nisi vestibulum metus congue dignissim. In vitae purus sit amet tellus iaculis cursus id quis mi.</p>
+							</li>
+							<li>
+								<span>By Mike Miller, 12/22/2011</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus nisi vestibulum metus congue dignissim. In vitae purus sit amet tellus iaculis cursus id quis mi.</p>
+							</li>
+							<li>
+								<span>By Mike Miller, 12/22/2011</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus nisi vestibulum metus congue dignissim. In vitae purus sit amet tellus iaculis cursus id quis mi.</p>
+							</li>
+							<li>
+								<span>By Mike Miller, 12/22/2011</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus nisi vestibulum metus congue dignissim. In vitae purus sit amet tellus iaculis cursus id quis mi.</p>
+							</li>
+							<li>
+								<span>By Mike Miller, 12/22/2011</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus nisi vestibulum metus congue dignissim. In vitae purus sit amet tellus iaculis cursus id quis mi.</p>
+							</li>
+							<li>
+								<span>By Mike Miller, 12/22/2011</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus nisi vestibulum metus congue dignissim. In vitae purus sit amet tellus iaculis cursus id quis mi.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="video-player-container">
+		<video id="example_video_1" class="video-js vjs-default-skin" controls autoplay preload="auto" width="700" height="450" poster="http://video-js.zencoder.com/oceans-clip.png" data-setup='{}'>
+			<source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+			<source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
+			<source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />
+		</video>
+		<div class="social-buttons">
+			<a class="button button_grey" href="#"><span class="button_type-add">Add Comments</span></a>
+		</div>
+	</div>
+
+	<script src="http://vjs.zencdn.net/c/video.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#viewer-comments').tinyscrollbar();
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>PBS Extranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v2.css" type="text/css" media="screen">
+	
+	<!-- jquery specific -->
+	<link rel="stylesheet" href="_styles/jquery.jscrollpane.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/jqtransform.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/css-dock.css" type="text/css" media="screen">
+	
+	
+	
+	
+	
+	<!-- Begin Dashboard includes -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+	
+	
+	
+	
+	<script type="text/javascript" charset="utf-8" src="_scripts/dashboard/libs/jquery-1.7.2.min.js"></script>
+	
+	<!-- theme specific -->
+	<script type="text/javascript" charset="utf-8" src="_scripts/themes.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { background: #00779C url(_themes/theme4/images/background_page.png) top center no-repeat; }
+		.contentBorderTop { border-bottom-color: #289a8a; }
+		
+		/*	----------------------------------------------------------------------------
+			(1) Footer */
+		.miniFooter { background: #00779C; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V2 include -->
+		<!--#include file="_includes/navigationV2.ssi" -->
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/leftnav.ssi" -->
+	
+	<!-- Content glow top and border -->
+	<div class="contentGlowTop"><div class="contentBorderTop"></div></div>
+	
+	<div id="pbs-content" class="clearfix">
+
+				<!-- Page Label, Breadcrumb, Share and User Menus Begins -->
+		<div class="userArea clearfix">
+			<ul class="breadcrumb">
+				<li><a href="#">Extranet Home</a></li>
+				<li><a href="#">Site Search</a></li>
+				<li><a href="#">Logos :: PBS</a></li>
+				<li class="last">Ads :: Banner</li>
+			</ul>
+		</div>
+
+		<div class="pageTitleTools clearfix" style="padding-bottom:10px;">
+				<span class="left">
+					Specify a View: 
+					<span class="button-group">
+						<label for="radio-buttons-1" class="button green-active">
+							<input type="radio" name="radio-buttons" id="radio-buttons-1" value="1">
+							Last 60 Days
+						</label>
+						<label for="radio-buttons-2" class="button green-active">
+							<input type="radio" name="radio-buttons" id="radio-buttons-2" value="2">
+							Future Needs
+						</label>
+						<label for="radio-buttons-3" class="button green-active">
+							<input type="radio" name="radio-buttons" id="radio-buttons-3" value="3" checked>
+							All
+						</label>
+					</span>
+				</span>
+
+				<!-- Search Tabs -->
+				<div class="search-tabs-wrapper right">
+					<div class="search-tabs-inner">
+						<h5>Drill Down By:</h5>
+						
+						<!-- Wrapper, set tabs style class here -->
+						<div class="standard-tabs">
+
+							<!-- Tabs -->
+							<ul class="tabs">
+								<li class="active"><a href="#tab-1">Asset</a></li>
+								<li><a href="#tab-2">Type</a></li>
+								<li><a href="#tab-3">Programs</a></li>
+							</ul>
+
+							<!-- Content -->
+							<div id="facet-tabs" class="tabs-content">
+
+								<div id="tab-1" class="">
+									<div class="collapsibleComponent cc-gradient">
+										<div class="titleBar">
+											<h5>Logos</h5>
+											<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+											<a class="cc-open cc-close" href="javascript:void(0);"></a>
+										</div>
+										<div class="actionItems checkboxs clearfix">
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="" checked >
+												<label class="">PBS</label>
+											</fieldset>
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="">
+												<label class="">Co Branded</label>
+											</fieldset>
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="">
+												<label class="">Be More</label>
+											</fieldset>
+										</div>
+									</div>
+
+									<div class="collapsibleComponent cc-gradient">
+										<div class="titleBar">
+											<h5>Ads</h5>
+											<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+											<a class="cc-open cc-close" href="javascript:void(0);"></a>
+										</div>
+										<div class="actionItems checkboxs clearfix">
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="" checked >
+												<label class="">Banner</label>
+											</fieldset>
+										</div>
+									</div>
+
+									<div class="collapsibleComponent cc-gradient">
+										<div class="titleBar">
+											<h5>Print</h5>
+											<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+											<a class="cc-open cc-close" href="javascript:void(0);"></a>
+										</div>
+										<div class="actionItems checkboxs clearfix">
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="" checked >
+												<label class="">Posters</label>
+											</fieldset>
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="">
+												<label class="">Documents</label>
+											</fieldset>
+										</div>
+									</div>
+								</div><!-- /END Tab-1 -->
+
+								<div id="tab-2" class="">
+									<div class="collapsibleComponent cc-gradient">
+										<div class="titleBar">
+											<h5>Logos</h5>
+											<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+											<a class="cc-open cc-close" href="javascript:void(0);"></a>
+										</div>
+										<div class="actionItems checkboxs clearfix">
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="">
+												<label class="available">Available</label>
+											</fieldset>
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="">
+												<label class="notAvailable">Not Available</label>
+											</fieldset>
+										</div>
+									</div>
+
+									<div class="collapsibleComponent cc-gradient">
+										<div class="titleBar">
+											<h5>Ads</h5>
+											<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+											<a class="cc-open cc-close" href="javascript:void(0);"></a>
+										</div>
+										<div class="actionItems checkboxs clearfix">
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="" checked >
+												<label class="available">Available</label>
+											</fieldset>
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="">
+												<label class="notAvailable">Not Available</label>
+											</fieldset>
+										</div>
+									</div>
+
+									<div class="collapsibleComponent cc-gradient">
+										<div class="titleBar">
+											<h5>Print</h5>
+											<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+											<a class="cc-open cc-close" href="javascript:void(0);"></a>
+										</div>
+										<div class="actionItems checkboxs clearfix">
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="" checked >
+												<label class="available">Available</label>
+											</fieldset>
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="">
+												<label class="notAvailable">Not Available</label>
+											</fieldset>
+										</div>
+									</div>
+								</div><!-- /END Tab-2 -->
+
+								<div id="tab-3" class="">
+									<div class="collapsibleComponent cc-gradient">
+										<div class="titleBar">
+											<h5>Logos</h5>
+											<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+											<a class="cc-open cc-close" href="javascript:void(0);"></a>
+										</div>
+										<div class="actionItems checkboxs clearfix">
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="" checked >
+												<label class="available">Available</label>
+											</fieldset>
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="">
+												<label class="notAvailable">Not Available</label>
+											</fieldset>
+										</div>
+									</div>
+
+									<div class="collapsibleComponent cc-gradient">
+										<div class="titleBar">
+											<h5>Ads</h5>
+											<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+											<a class="cc-open cc-close" href="javascript:void(0);"></a>
+										</div>
+										<div class="actionItems checkboxs clearfix">
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="" checked >
+												<label class="available">Available</label>
+											</fieldset>
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="">
+												<label class="notAvailable">Not Available</label>
+											</fieldset>
+										</div>
+									</div>
+
+									<div class="collapsibleComponent cc-gradient">
+										<div class="titleBar">
+											<h5>Print</h5>
+											<a class="cc-open" style="display: none;" href="javascript:void(0);"></a>
+											<a class="cc-open cc-close" href="javascript:void(0);"></a>
+										</div>
+										<div class="actionItems checkboxs clearfix">
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="" checked >
+												<label class="available">Available</label>
+											</fieldset>
+											<fieldset>
+												<input type="checkbox" id="" name="keyword" value="">
+												<label class="notAvailable">Not Available</label>
+											</fieldset>
+										</div>
+									</div>
+								</div><!-- /END Tab-3 -->
+
+							</div><!-- /END Facet Tabs -->
+
+						</div><!-- /END Standard Tabs -->
+					</div><!-- /END Search Tabs Inner -->
+				</div><!-- /END search-tabs-wrapper -->
+
+		</div><!-- /END pageTitleTools -->
+		
+		<!-- End of Page Label, Breadcrumb, Share and User Menus -->
+		
+			<div class="leftContentWide" id="search-results-horz">
+				
+				<div id="searchSlider" class="slider-content-box-wrapper">
+
+					<div class="slider-content-box">
+
+						<ul class="video-search-results clearfix">
+							<li style="position: relative;">
+								<a class="results-description" href="#"><p>Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.</p></a>
+								<!--<div class="bubblePop" style="position: absolute; border:solid 1px gray; width:100px; height:100px; text-align:center; background-color: #00ff00;">FFF</div>-->
+								<h3>Frank Loyd Wright’s Guggenheim</h3>
+								<ul class="results-video-info">
+									<li>added by <a href="#">uno</a></li>
+									<li class="likes">No likes yet</li>
+									<li class="meta"><span class="watches"></span><span class="email"></span><span class="star"></span><span class="magnified"></span></li>
+								</ul>
+								<!--<div class="bubblePop" style="position: absolute; border:solid 1px gray; width:100px; height:100px; text-align:center; background-color: #00ff00;">FFF</div>-->
+							</li>
+							<li>
+								<a href="#"><img src="_images/temp-thumb2-videoSearch.jpg"></a>
+								<span class="info-spot">
+									<span class="icon-info-round"></span>
+									<span class="info-bubble">
+										Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.
+									</span>
+								</span>
+								<h3>Call the Midwife</h3>
+								<ul class="results-video-info">
+									<li>added by <a href="#">SeeingStructure</a></li>
+									<li class="likes"><a href="#">uno</a> likes this.</li>
+									<li class="meta"><span class="watches"></span><span class="email"></span><span class="star"></span><span class="magnified"></span></li>
+								</ul>
+							</li>
+							<li>
+								<a class="results-icon" href="#"><img src="_images/icon-pdf-large.png"></a>
+								<h3>Fresh Tastes</h3>
+								<ul class="results-video-info">
+									<li>added by <a href="#">minkyPurple</a></li>
+									<li class="likes">No likes yet</li>
+									<li class="meta"><span class="watches"></span><span class="email"></span><span class="star"></span><span class="magnified"></span></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#"><img src="_images/temp-thumb4-videoSearch.jpg"></a>
+								<span class="info-spot">
+									<span class="icon-info-round"></span>
+									<span class="info-bubble">
+										Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.
+									</span>
+								</span>
+								<h3>PBS 2012 Elections</h3>
+								<ul class="results-video-info">
+									<li>added by <a href="#">JimmyJohns</a></li>
+									<li class="likes"><a href="#">Jacksom</a> and 35 others likes this.</li>
+									<li class="meta"><span class="watches"></span><span class="email"></span><span class="star"></span><span class="magnified"></span></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#"><img src="_images/temp-thumb2-videoSearch.jpg"></a>
+								<span class="info-spot">
+									<span class="icon-info-round"></span>
+									<span class="info-bubble">
+										Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.
+									</span>
+								</span>
+								<h3>Call the Midwife</h3>
+								<ul class="results-video-info">
+									<li>added by <a href="#">SeeingStructure</a></li>
+									<li class="likes"><a href="#">uno</a> likes this.</li>
+									<li class="meta"><span class="watches"></span><span class="email"></span><span class="star"></span><span class="magnified"></span></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#"><img src="_images/temp-thumb3-videoSearch.jpg"></a>
+								<span class="info-spot">
+									<span class="icon-info-round"></span>
+									<span class="info-bubble">
+										Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.
+									</span>
+								</span>
+								<h3>Fresh Tastes</h3>
+								<ul class="results-video-info">
+									<li>added by <a href="#">minkyPurple</a></li>
+									<li class="likes">No likes yet</li>
+									<li class="meta"><span class="watches"></span><span class="email"></span><span class="star"></span><span class="magnified"></span></li>
+								</ul>
+							</li>
+							<li>
+								<a class="results-icon-text" href="#"><img src="_images/icon-pdf-large.png"><p>Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.</p></a>
+								<span class="info-spot">
+									<span class="icon-info-round"></span>
+									<span class="info-bubble">
+										Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.
+									</span>
+								</span>
+								<h3>Frank Loyd Wright’s Guggenheim</h3>
+								<ul class="results-video-info">
+									<li>added by <a href="#">uno</a></li>
+									<li class="likes">No likes yet</li>
+									<li class="meta"><span class="watches"></span><span class="email"></span><span class="star"></span><span class="magnified"></span></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#"><img src="_images/temp-thumb2-videoSearch.jpg"></a>
+								<span class="info-spot">
+									<span class="icon-info-round"></span>
+									<span class="info-bubble">
+										Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.
+									</span>
+								</span>
+								<h3>Call the Midwife</h3>
+								<ul class="results-video-info">
+									<li>added by <a href="#">SeeingStructure</a></li>
+									<li class="likes"><a href="#">uno</a> likes this.</li>
+									<li class="meta"><span class="watches"></span><span class="email"></span><span class="star"></span><span class="magnified"></span></li>
+								</ul>
+							</li>
+							<li>
+								<a class="results-icon-text" href="#"><img src="_images/icon-pdf-large.png"><p>Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.</p></a>
+								<span class="info-spot">
+									<span class="icon-info-round"></span>
+									<span class="info-bubble">
+										Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.
+									</span>
+								</span>
+								<h3>Frank Loyd Wright’s Guggenheim</h3>
+								<ul class="results-video-info">
+									<li>added by <a href="#">uno</a></li>
+									<li class="likes">No likes yet</li>
+									<li class="meta"><span class="watches"></span><span class="email"></span><span class="star"></span><span class="magnified"></span></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#"><img src="_images/temp-thumb2-videoSearch.jpg"></a>
+								<span class="info-spot">
+									<span class="icon-info-round"></span>
+									<span class="info-bubble">
+										Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.
+									</span>
+								</span>
+								<h3>Call the Midwife</h3>
+								<ul class="results-video-info">
+									<li>added by <a href="#">SeeingStructure</a></li>
+									<li class="likes"><a href="#">uno</a> likes this.</li>
+									<li class="meta"><span class="watches"></span><span class="email"></span><span class="star"></span><span class="magnified"></span></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#"><img src="_images/temp-thumb3-videoSearch.jpg"></a>
+								<span class="info-spot">
+									<span class="icon-info-round"></span>
+									<span class="info-bubble">
+										Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.
+									</span>
+								</span>
+								<h3>Fresh Tastes</h3>
+								<ul class="results-video-info">
+									<li>added by <a href="#">minkyPurple</a></li>
+									<li class="likes">No likes yet</li>
+									<li class="meta"><span class="watches"></span><span class="email"></span><span class="star"></span><span class="magnified"></span></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#"><img src="_images/temp-thumb4-videoSearch.jpg"></a>
+								<span class="info-spot">
+									<span class="icon-info-round"></span>
+									<span class="info-bubble">
+										Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.
+									</span>
+								</span>
+								<h3>PBS 2012 Elections</h3>
+								<ul class="results-video-info">
+									<li>added by <a href="#">JimmyJohns</a></li>
+									<li class="likes"><a href="#">Jacksom</a> and 35 others likes this.</li>
+									<li class="meta"><span class="watches"></span><span class="email"></span><span class="star"></span><span class="magnified"></span></li>
+								</ul>
+							</li>
+							<li>
+								<a class="results-description" href="#"><p> Proin fringilla, leo non gravida volutpat, ipsum dui congue augue, vel fermentum turpis enim.</p></a>
+								<h3>Call the Midwife</h3>
+								<ul class="results-video-info">
+									<li>added by <a href="#">SeeingStructure</a></li>
+									<li class="likes"><a href="#">uno</a> likes this.</li>
+									<li class="meta"><span class="watches"></span><span class="email"></span><span class="star"></span><span class="magnified"></span></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#"><img src="_images/temp-thumb3-videoSearch.jpg"></a>
+								<span class="info-spot">
+									<span class="icon-info-round"></span>
+									<span class="info-bubble">
+										Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.
+									</span>
+								</span>
+								<h3>Fresh Tastes</h3>
+								<ul class="results-video-info">
+									<li>added by <a href="#">minkyPurple</a></li>
+									<li class="likes">No likes yet</li>
+									<li class="meta"><span class="watches"></span><span class="email"></span><span class="star"></span><span class="magnified"></span></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#"><img src="_images/temp-thumb-videoSearch.jpg"></a>
+								<span class="info-spot">
+									<span class="icon-info-round"></span>
+									<span class="info-bubble">
+										Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.
+									</span>
+								</span>
+								<h3>Frank Loyd Wright’s Guggenheim</h3>
+								<ul class="results-video-info">
+									<li>added by <a href="#">uno</a></li>
+									<li class="likes">No likes yet</li>
+									<li class="meta"><span class="watches"></span><span class="email"></span><span class="star"></span><span class="magnified"></span></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#"><img src="_images/temp-thumb3-videoSearch.jpg"></a>
+								<span class="info-spot">
+									<span class="icon-info-round"></span>
+									<span class="info-bubble">
+										Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.
+									</span>
+								</span>
+								<h3>Fresh Tastes</h3>
+								<ul class="results-video-info">
+									<li>added by <a href="#">minkyPurple</a></li>
+									<li class="likes">No likes yet</li>
+									<li class="meta"><span class="watches"></span><span class="email"></span><span class="star"></span><span class="magnified"></span></li>
+								</ul>
+							</li>
+
+						</ul>
+
+					</div>
+
+				</div>
+					
+				
+			</div><!-- end of leftContent -->
+
+
+
+		</div><!-- end of content -->
+	
+	
+	<!--bottom dock -->
+	<!--#include file="_includes/bottom-dock.ssi" -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jqtransform.js"></script>
+	<script type="text/javascript" src="_scripts/jquery-ui-1.8.20.custom.min.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.actual.js"></script>
+
+	<!-- Begin Dashboard includes -->
+	<script src="_scripts/dashboard/setup.js"></script>
+	<script src="_scripts/dashboard/developr.input.js"></script>
+	<script src="_scripts/dashboard/developr.tabs.js"></script>
+
+	<script type="text/javascript" charset="utf-8" src="_scripts/css-dock.js"></script>
+	<script type="text/javascript" charset="utf-8" src="_scripts/fisheye_patched.js"></script>
+
+	<script type="text/javascript" charset="utf-8" src="_scripts/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" charset="utf-8" src="_scripts/jquery.bouncebubble.js"></script>
+
+	<script type="text/javascript">
+
+		// Call template init (optional, but faster if called manually)
+		$.template.init();
+
+		$(document).ready(function() {
+			$('.cc-open').click(function(){
+				var collapsibleComponent = $(this).parent().parent().find('.actionItems');
+				var collapsibleComponent_btn = $(this).parent().find('.cc-open');
+				collapsibleComponent.toggle();
+				collapsibleComponent_btn.toggle();
+			});
+
+			$('#facet-tabs').hide();
+			$('.tabs .active').removeClass('active');
+
+			$('#facet-tabs').on('mouseleave',function(e){
+				$('#facet-tabs').hide();
+				$('.tabs .active').removeClass('active');
+			});
+			$('.standard-tabs .tabs a').on('click',function(){
+				$('#facet-tabs').show();
+			});
+			
+			$('.checkboxs').jqTransform({imgPath:'_images/'});
+
+			$('#button-sureBets').click(function(){
+				$('#facet-sureBets').slideToggle('fast');
+			});
+			$('#button-findFast').click(function(){
+				$('#facet-findFast').slideToggle('fast');
+			});
+			initGridSlider();
+			$('.directorySearchBar .directorySearchGroup div.box div.viewport').jScrollPane({
+				verticalDragMinHeight: 23, verticalDragMaxHeight: 23
+			});
+			$('.directorySearchBar').hide();
+
+			$('.bubblePop').bounce({ 'text': 'Cras congue, magna sed rutrum venenatis, augue odio dignissim neque, quis elementum nulla.'});
+		});
+
+		function initGridSlider() {
+			var liCount = $('ul.video-search-results > li').length;
+			myCount = liCount / 2;
+			var liWidth = $('ul.video-search-results li:first').outerWidth(true);
+			var widthAllowance = 10; /* just a little horizontal allowance */
+			var totalWidth = (liCount * liWidth) + widthAllowance;
+			totalWidth = totalWidth / 2;
+			$('.slider-content-box').css('width',totalWidth);
+			$('.slider-content-box-wrapper').jScrollPane({ horizontalDragMinWidth:71, horizontalDragMaxWidth:71});
+		}
+	</script>
+	
+</body>
+</html>

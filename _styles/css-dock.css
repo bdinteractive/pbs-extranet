@@ -1,0 +1,54 @@
+
+div.cap.left {
+	position: absolute;
+	bottom: 0px;
+	left: -30px;
+}
+div.cap {
+	display: block;
+	height: 50px;
+	width: 30px;
+	background: url('../_images/css-dock/dock-background-left-white.png') no-repeat left bottom;
+}
+
+/* dock - bottom */
+#dockBottom {
+	width: 100%;
+	margin: 0 auto;
+	bottom: 0;
+	position: fixed;
+
+	z-index: 9999;
+	height: 50px; 
+	text-align: center;
+
+	/*background: url('../_images/white.gif') no-repeat center;*/
+	background-size: 960px 50px;
+}
+.dock-containerBottom {
+	position: absolute;
+	height: 50px;
+	padding-left: 55px;
+
+	width: 960px;
+	background: url('../_images/css-dock/dock-background-left-white.png') no-repeat right bottom;
+}
+a.dock-itemBottom {
+	display: block; 
+	font: bold 12px Arial, Helvetica, sans-serif;
+	width: 40px; 
+	color: #000; 
+	bottom: 10px; 
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+}
+.dock-itemBottom span {
+	display: none;
+	padding-left: 20px;
+}
+.dock-itemBottom img {
+	border: none; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}

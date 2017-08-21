@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>PBS Extranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v2.css" type="text/css" media="screen">
+	
+	<!-- jquery specific -->
+	<link rel="stylesheet" href="_styles/jquery.jscrollpane.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/jqtransform.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/css-dock.css" type="text/css" media="screen">
+	
+	
+	
+	
+	
+	<!-- Begin Dashboard includes -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css?v=1">
+
+	<!-- DataTables -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/DataTables/jquery.dataTables.css?v=1">
+	
+	
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+	
+	
+	
+	
+	<script type="text/javascript" charset="utf-8" src="_scripts/dashboard/libs/jquery-1.7.2.min.js"></script>
+	
+	<!-- theme specific -->
+	<script type="text/javascript" charset="utf-8" src="_scripts/themes.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { background: #00779C url(_themes/theme4/images/background_page.png) top center no-repeat; }
+		.contentBorderTop { border-bottom-color: #289a8a; }
+		
+		/*	----------------------------------------------------------------------------
+			(1) Footer */
+		.miniFooter { background: #00779C; }
+	</style>
+	
+	<!-- Microsoft clear type rendering -->
+	<meta http-equiv="cleartype" content="on">
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V2 include -->
+		<!--#include file="_includes/navigationV2.ssi" -->
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/leftnav.ssi" -->
+	
+	<!-- Content glow top and border -->
+	<div class="contentGlowTop"><div class="contentBorderTop"></div></div>
+	
+	<div id="pbs-content" class="clearfix">
+		
+		<!-- Page Label, Breadcrumb, Share and User Menus Begins -->
+		<div class="userArea clearfix">
+			<ul class="breadcrumb">
+				<li><a href="#">Extranet Home</a></li>
+				<li class="last">Content Archive</li>
+			</ul>
+			<div class="userDropdownB" style="margin-right: -10px;">
+				<a class="userDropdownGroups" href="#"><img src="_images/icon-facebook-groups.png" /></a>
+				<ul class="userDropDownMenu">
+					<li class="bottomPadded clearfix"><img src="_images/icon-facebook-groups.png" style="float:left;" /><span class="header header-icon">Groups I Created</span></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 1',url:'facebook_group.shtml'})">Group 1</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 2',url:'facebook_group.shtml'})">Group 2</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 3',url:'facebook_group.shtml'})">Group 3</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 4',url:'facebook_group.shtml'})">Group 4</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 5',url:'facebook_group.shtml'})">Group 5</a></li>
+					<li class="bottomPadded" style="padding-top: 10px;"><span class="header">Groups I'm Part Of</span></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 1',url:'facebook_group.shtml'})">Group 1</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 2',url:'facebook_group.shtml'})">Group 2</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 3',url:'facebook_group.shtml'})">Group 3</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 4',url:'facebook_group.shtml'})">Group 4</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 5',url:'facebook_group.shtml'})">Group 5</a></li>
+				</ul>
+			</div>
+			<div class="userDropdown" style="margin-right: 10px; margin-top: 10px">
+				<a class="userDropdownName" href="#">Welcome, John Smith</a>
+				<ul class="userDropDownMenu">
+					<li class="bottomPadded"><span class="userName">John Smith</span></li>
+					<li><a href="empty-page.shtml">My Contact Information</a></li>
+					<li><a href="Manage-Form.shtml">Manage Forms</a></li>
+					<li><a href="empty-page.shtml">Workarea</a></li>
+					<li><a href="empty-page.shtml">Sign Out</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="pageTitleTools clearfix">
+			<div class="colLeft">
+				<h4>Case Library</h4>
+				<h5>Overview</h5>
+			</div>
+
+		</div>
+		<!-- End of Page Label, Breadcrumb, Share and User Menus -->
+		
+			<div class="leftContentWide">
+
+
+
+
+<script type="text/javascript" src="_scripts/iscroll.js"></script>
+<script type="text/javascript">
+var myScroll;
+
+function loaded() {
+	myScroll = new iScroll('wrapper', {
+		snap: 'li',
+		momentum: false,
+		hScrollbar: false,
+		onScrollStart: function () {
+			//$('#thelist .active').removeClass('active');
+			//$('#thelist li:eq('+this.currPageX+')').addClass('active');
+		},
+		onScrollMove: function(){
+			$('#thelist .active').removeClass('active');
+		},
+		onScrollEnd: function () {
+			//$('#thelist .active').removeClass('active');
+			var curSlide = this.currPageX;
+			$('#thelist li:eq('+curSlide+')').addClass('active');
+		}
+	 });
+	myScroll.scrollToPage(2, 0, 200);
+	//$('#thelist li:eq(0)').addClass('active');
+	$('#wrapper').css({'width':'700px','overflow':'visible'});
+
+	myScroll2 = new iScroll('wrapper2', {
+		snap: 'li',
+		momentum: false,
+		hScrollbar: false,
+		onScrollStart: function () {
+			//$('#thelist2 .active').removeClass('active');
+			//$('#thelist li:eq('+this.currPageX+')').addClass('active');
+		},
+		onScrollMove: function(){
+			$('#thelist2 .active').removeClass('active');
+		},
+		onScrollEnd: function () {
+			$('#thelist2 .active').removeClass('active');
+			var curSlide = this.currPageX;
+			$('#thelist2 li:eq('+curSlide+')').addClass('active');
+		}
+	 });
+	myScroll2.scrollToPage(2, 0, 200);
+	//$('#thelist2 li:eq(0)').addClass('active');
+	$('#wrapper2').css({'width':'700px','overflow':'visible'});
+
+	myScroll3 = new iScroll('wrapper3', {
+		snap: 'li',
+		momentum: false,
+		hScrollbar: false,
+		onScrollStart: function () {
+			//$('#thelist3 .active').removeClass('active');
+			//$('#thelist li:eq('+this.currPageX+')').addClass('active');
+		},
+		onScrollMove: function(){
+			$('#thelist3 .active').removeClass('active');
+		},
+		onScrollEnd: function () {
+			$('#thelist3 .active').removeClass('active');
+			var curSlide = this.currPageX;
+			$('#thelist3 li:eq('+curSlide+')').addClass('active');
+		}
+	 });
+	myScroll3.scrollToPage(2, 0, 200);
+	//$('#thelist3 li:eq(0)').addClass('active');
+	$('#wrapper3').css({'width':'700px','overflow':'visible'});
+
+}
+
+document.addEventListener('DOMContentLoaded', loaded, false);
+</script>
+
+<style type="text/css" media="all">
+#wrapper,
+#wrapper2,
+#wrapper3 {
+	/*width:300px;
+	height:160px;*/
+
+	width:140px;
+	height:35px;
+
+	float:left;
+	position:relative;	/* On older OS versions "position" and "z-index" must be defined, */
+	z-index:1;			/* it seems that recent webkit is less picky and works anyway. */
+	/*overflow:hidden;*/
+/*
+	background:#aaa;
+	
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+	*/
+	/*background:#e3e3e3;*/
+	margin-bottom: 1px;
+
+	position: absolute;
+	left: 300px;
+	top: 0;
+}
+#wrapper {
+	height: 45px;
+}
+#wrapper2 {
+	top: 1px;
+}
+#wrapper3 {
+	top: 2px;
+}
+
+#scroller,
+#scroller2,
+#scroller3{
+	width:1680px;
+	height:100%;
+	float:left;
+	padding:0;
+}
+
+#scroller ul,
+#scroller2 ul,
+#scroller3 ul {
+	list-style:none;
+	display:block;
+	float:left;
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	text-align:left;
+}
+
+#scroller li,
+#scroller2 li,
+#scroller3 li {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+	display:block;
+	float:left;
+	/*width:300px;
+	height:160px;*/
+	text-align:left;
+	font-family:arial;
+	font-size: 14px;
+	/*line-height:140%;*/
+
+	height: 35px;
+	width: 140px;
+	color: #BBB;
+	/*padding: 5px;
+	margin-right: 1px;*/
+	padding: 10px;
+}
+
+
+
+#scroller li:hover,
+#scroller2 li:hover,
+#scroller3 li:hover {
+	cursor: pointer;
+}
+
+
+#scroller li {
+	height: 45px;
+	font:18px/25px Helvetica, Arial, sans-serif
+}
+#scroller2 li {
+	font:15px/15px Helvetica, Arial, sans-serif
+}
+#scroller3 li {
+	font:13px/15px Helvetica, Arial, sans-serif
+}
+
+#scroller li.active {
+	color: #fff;
+	background: #00779C;
+	background: #00779C url(_images/icons-handle.png) 122px 18px no-repeat;
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+
+  -moz-box-shadow:    0px 0px 10px 3px #999;
+  -webkit-box-shadow: 0px 0px 10px 3px #999;
+  box-shadow:         0px 0px 10px 3px #999;
+}
+#scroller2 li.active {
+	color: #fff;
+	background: #7E7E7E;
+	background: #7E7E7E url(_images/icons-handle.png) 122px 12px no-repeat;
+
+  -moz-box-shadow:    0px 5px 10px 3px #999;
+  -webkit-box-shadow: 0px 5px 10px 3px #999;
+  box-shadow:         0px 5px 10px 3px #999;
+}
+#scroller3 li.active {
+	color: #666666;
+	background: #D7D7D7;
+	background: #D7D7D7 url(_images/icons-handle.png) 122px 12px no-repeat;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+
+  -moz-box-shadow:    0px 10px 10px 3px #999;
+  -webkit-box-shadow: 0px 10px 10px 3px #999;
+  box-shadow:         0px 10px 10px 3px #999;
+}
+
+#nav {
+	width:300px;
+	float:left;
+}
+
+#prev, #next {
+	float:left;
+	font-weight:bold;
+	font-size:14px;
+	padding:5px 0;
+	width:80px;
+}
+
+#next {
+	float:right;
+	text-align:right;
+}
+
+#indicator, #indicator > li {
+	display:block; float:left;
+	list-style:none;
+	padding:0; margin:0;
+}
+
+#indicator {
+	width:110px;
+	padding:12px 0 0 30px;
+}
+
+#indicator > li {
+	text-indent:-9999em;
+	width:8px; height:8px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	border-radius:4px;
+	background:#ddd;
+	overflow:hidden;
+	margin-right:4px;
+}
+
+#indicator > li.active {
+	background:#888;
+}
+
+#indicator > li:last-child {
+	margin:0;
+}
+
+#swipe-wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 700px;
+	height: 115px;
+	overflow: hidden;
+
+	background: #eee;
+
+background: -moz-linear-gradient(left,  rgba(127,124,124,0.3) 0%, rgba(138,135,136,0.3) 1%, rgba(238,238,243,0.3) 10%, rgba(238,238,243,0.3) 50%, rgba(238,238,243,0.3) 90%, rgba(127,124,124,0.3) 99%, rgba(127,124,124,0.3) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(127,124,124,0.3)), color-stop(1%,rgba(138,135,136,0.3)), color-stop(10%,rgba(238,238,243,0.3)), color-stop(50%,rgba(238,238,243,0.3)), color-stop(90%,rgba(238,238,243,0.3)), color-stop(99%,rgba(127,124,124,0.3)), color-stop(100%,rgba(127,124,124,0.3))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(127,124,124,0.3) 0%,rgba(138,135,136,0.3) 1%,rgba(238,238,243,0.3) 10%,rgba(238,238,243,0.3) 50%,rgba(238,238,243,0.3) 90%,rgba(127,124,124,0.3) 99%,rgba(127,124,124,0.3) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(127,124,124,0.3) 0%,rgba(138,135,136,0.3) 1%,rgba(238,238,243,0.3) 10%,rgba(238,238,243,0.3) 50%,rgba(238,238,243,0.3) 90%,rgba(127,124,124,0.3) 99%,rgba(127,124,124,0.3) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(127,124,124,0.3) 0%,rgba(138,135,136,0.3) 1%,rgba(238,238,243,0.3) 10%,rgba(238,238,243,0.3) 50%,rgba(238,238,243,0.3) 90%,rgba(127,124,124,0.3) 99%,rgba(127,124,124,0.3) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(127,124,124,0.3) 0%,rgba(138,135,136,0.3) 1%,rgba(238,238,243,0.3) 10%,rgba(238,238,243,0.3) 50%,rgba(238,238,243,0.3) 90%,rgba(127,124,124,0.3) 99%,rgba(127,124,124,0.3) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d7f7c7c', endColorstr='#4d7f7c7c',GradientType=1 ); /* IE6-9 */
+
+border: 1px solid #CCC;
+   -moz-box-shadow:    inset 0 0 2px #fff;
+   -webkit-box-shadow: inset 0 0 2px #fff;
+   box-shadow:         inset 0 0 2px #fff;
+
+   padding: 0 10px;
+}
+.swiper { position: relative; box-shadow: 0px 1px 0px #e4e4e4; }
+.arrows { height: 35px;
+	top: 0;
+	z-index: 999; 
+}
+.arrows2 { height: 45px;
+	top: 0;
+	z-index: 999; 
+}
+.swiper:hover .arrows { background: url(_images/arrows.png); opacity: 0.5; }
+.swiper:hover .arrows2 { background: url(_images/arrows.png) 0 4px ; opacity: 0.5; }
+
+
+
+
+
+.left-right{
+-webkit-box-shadow:10px 0 12px -8px #00688B,-10px 0 12px -8px #00688B;
+-moz-box-shadow:10px 0 12px -8px #00688B,-10px 0 12px -8px #00688B;
+box-shadow:10px 0 12px -8px rgba(0,0,0,0.5) inset,-10px 0 12px -8px rgba(0,0,0,0.5) inset;
+}
+
+</style>
+
+
+<p>Spin each row to select your combination. By dragging  the handles below &#60;&nbsp;<img src="_images/icons-handle-black.png" />&nbsp;&#62;, you can spin different values into focus.</p>
+
+
+	<div id="swipe-wrapper" class="left-right">
+		<div class="swiper with-tooltip" title="This is a tooltip for the first ROW">
+			<div class="arrows2"></div>
+			<div id="wrapper">
+				<div id="scroller">
+					<ul id="thelist">
+						<li><strong>Our Colleges</strong></li>
+						<li><strong>In the News</strong></li>
+						<li><strong>Honor Roll</strong></li>
+						<li><strong>Corporate</strong></li>
+						<li><strong>Prime Time</strong></li>
+						<li><strong>Day Time</strong></li>
+						<li><strong>Children's</strong></li>
+						<li><strong>Kids</strong></li>
+						<li><strong>Art</strong></li>
+						<li><strong>Politics</strong></li>
+						<li><strong>Classroom</strong></li>
+						<li><strong>Support</strong></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="swiper with-tooltip" title="This is a tooltip for the second ROW">
+			<div class="arrows"></div>
+			<div id="wrapper2">
+				<div id="scroller2">
+					<ul id="thelist2">
+						<li><strong>&amp; January</strong></li>
+						<li><strong>&amp; February</strong></li>
+						<li><strong>&amp; March</strong></li>
+						<li><strong>&amp; April</strong></li>
+						<li><strong>&amp; May</strong></li>
+						<li><strong>&amp; June</strong></li>
+						<li><strong>&amp; July</strong></li>
+						<li><strong>&amp; August</strong></li>
+						<li><strong>&amp; September</strong></li>
+						<li><strong>&amp; October</strong></li>
+						<li><strong>&amp; November</strong></li>
+						<li><strong>&amp; December</strong></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="swiper with-tooltip" title="This is a tooltip and for the thrid ROW">
+			<div class="arrows"></div>
+			<div id="wrapper3">
+				<div id="scroller3">
+					<ul id="thelist3">
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+
+	</div>
+
+
+</div>
+
+
+					
+					<style type="text/css" media="screen">
+						table { border-collapse: collapse; }
+					</style>
+
+					
+					<div class="with-padding">
+					<table class="table responsive-table " id="sorting-example1">
+
+						<thead>
+							<tr>
+								<th scope="col">Text</th>
+								<th scope="col" width="15%" class="align-center hide-on-mobile-portrait">Benefit</th>
+								<th scope="col" width="15%" class="hide-on-tablet">Tags</th>
+							</tr>
+						</thead>
+
+						<tfoot>
+							<tr>
+								<td colspan="6">
+									6 entries found
+								</td>
+							</tr>
+						</tfoot>
+
+						<tbody>
+							<tr>
+								<td>Art Programs</td>
+								<td>Benefit #2</td>
+								<td><small class="tag">User</small> <small class="tag">Client</small> <small class="tag green-bg">Valid</small></td>
+							</tr>
+							<tr>
+								<td>Children's Programs</td>
+								<td>Benefit #1</td>
+								<td><small class="tag orange-bg">Non-verified</small></td>
+							</tr>
+							<tr>
+								<td>Membership Renewal</td>
+								<td>Benefit #1</td>
+								<td><small class="tag">User</small> <small class="tag green-bg">Valid</small></td>
+							</tr>
+							<tr>
+								<td>Estate Planning</td>
+								<td>Benefit #3</td>
+								<td><small class="tag red-bg">Fake</small></td>
+							</tr>
+							<tr>
+								<td>End of year Appeal</td>
+								<td>Benefit #2</td>
+								<td><small class="tag">User</small> <small class="tag">Client</small> <small class="tag green-bg">Valid</small></td>
+							</tr>
+							<tr>
+								<td>Member Event</td>
+								<td>Benefit #1</td>
+								<td><small class="tag">User</small> <small class="tag">Client</small></td>
+							</tr>
+						</tbody>
+
+					</table>
+					
+					<form method="post" action="" class="clearfix with-mid-padding button-height anthracite-gradient">
+						<div class="float-right">
+							<div class="button-group">
+								<a href="#" title="First page" class="button anthracite-gradient glossy"><span class="icon-previous"></span></a>
+								<a href="#" title="Previous page" class="button anthracite-gradient glossy"><span class="icon-backward"></span></a>
+							</div>
+
+							<div class="button-group">
+								<a href="#" title="Page 1" class="button anthracite-gradient glossy">1</a>
+								<a href="#" title="Page 2" class="button anthracite-gradient glossy active">2</a>
+								<a href="#" title="Page 3" class="button anthracite-gradient glossy">3</a>
+								<a href="#" title="Page 4" class="button anthracite-gradient glossy">4</a>
+							</div>
+
+							<div class="button-group">
+								<a href="#" title="Next page" class="button anthracite-gradient glossy"><span class="icon-forward"></span></a>
+								<a href="#" title="Last page" class="button anthracite-gradient glossy"><span class="icon-next"></span></a>
+							</div>
+						</div>
+					</form>
+				
+				
+				</div>
+				
+				
+			</div><!-- end of leftContent -->
+
+		</div><!-- end of content -->
+	
+	
+	<!--bottom dock -->
+	<!--#include file="_includes/bottom-dock.ssi" -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jqtransform.js"></script>
+	<!--<script type="text/javascript" src="_scripts/jquery-ui-1.8.20.custom.min.js"></script>-->
+	
+	<!-- Begin Dashboard includes -->
+	<script src="_scripts/dashboard/setup.js"></script>
+	<script src="_scripts/dashboard/developr.input.js"></script>
+	<script src="_scripts/dashboard/developr.navigable.js"></script>
+	<script src="_scripts/dashboard/developr.notify.js"></script>
+	<script src="_scripts/dashboard/developr.scroll.js"></script>
+	<script src="_scripts/dashboard/developr.progress-slider.js"></script>
+	<script src="_scripts/dashboard/developr.tooltip.js"></script>
+	<script src="_scripts/dashboard/developr.content-panel.js"></script>
+	
+	<script src="_scripts/dashboard/developr.tabs.js"></script>
+	<script src="_scripts/dashboard/developr.table.js"></script>
+
+	<!-- Plugins -->
+	<script src="_scripts/dashboard/libs/jquery.tablesorter.min.js"></script>
+	<script src="_scripts/dashboard/libs/DataTables/jquery.dataTables.min.js"></script>
+
+	<script type="text/javascript" charset="utf-8" src="_scripts/css-dock.js"></script>
+	<script type="text/javascript" charset="utf-8" src="_scripts/fisheye_patched.js"></script>
+	
+	<script type="text/javascript" charset="utf-8">
+
+		// Call template init (optional, but faster if called manually)
+		$.template.init();
+
+		// Table sort - styled
+		$('#sorting-example1').tablesorter({
+			headers: {
+				0: { sorter: false },
+				5: { sorter: false }
+			}
+		}).on('click', 'tbody td', function(event){
+			// Do not process if something else has been clicked
+			if (event.target !== this){
+				return;
+			}
+
+			var tr = $(this).parent(),
+				row = tr.next('.row-drop'),
+				rows;
+
+			// If click on a special row
+			if (tr.hasClass('row-drop')){
+				return;
+			}
+
+			// If there is already a special row
+			if (row.length > 0){
+				// Un-style row
+				tr.children().removeClass('anthracite-gradient glossy');
+
+				// Remove row
+				row.remove();
+
+				return;
+			}
+
+			// Remove existing special rows
+			rows = tr.siblings('.row-drop');
+			if (rows.length > 0){
+				// Un-style previous rows
+				rows.prev().children().removeClass('anthracite-gradient glossy');
+
+				// Remove rows
+				rows.remove();
+			}
+
+			// Style row
+			tr.children().addClass('anthracite-gradient glossy');
+
+			// Add fake row
+			$('<tr class="row-drop">'+
+				'<td colspan="'+tr.children().length+'">'+
+					'<div class="float-right">'+
+						'<button type="submit" class="button glossy mid-margin-right">'+
+							'<span class="button-icon"><span class="icon-mail"></span></span>'+
+							'Send mail'+
+						'</button>'+
+						'<button type="submit" class="button glossy">'+
+							'<span class="button-icon red-gradient"><span class="icon-cross"></span></span>'+
+							'Remove'+
+						'</button>'+
+					'</div>'+
+					'<strong>Name:</strong> John Doe<br>'+
+					'<strong>Account:</strong> admin<br>'+
+					'<strong>Last connect:</strong> 05-07-2011<br>'+
+					'<strong>Email:</strong> john@doe.com'+
+				'</td>'+
+			'</tr>').insertAfter(tr);
+
+		}).on('sortStart', function(){
+			var rows = $(this).find('.row-drop');
+			if (rows.length > 0){
+				// Un-style previous rows
+				rows.prev().children().removeClass('anthracite-gradient glossy');
+
+				// Remove rows
+				rows.remove();
+			}
+		});
+
+	</script>
+	
+</body>
+</html>

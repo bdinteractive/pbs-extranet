@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+
+		<!-- Begin Dashboard includes -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css?v=1">
+
+	<!-- DataTables -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/DataTables/jquery.dataTables.css?v=1">
+	
+	
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+
+
+
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+		
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+	</div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="non-dashboard clearfix">
+
+		<div class="leftContentWide"></div>
+
+		<div class="leftContentWide">
+
+			<div class="columns">
+
+				<!-- First row -->
+				<div class="four-columns pbs-help-pod">
+					
+					<span class="circleIcon left"><i class="pbs-icon-home-outline"></i></span>
+					<div class="content">
+						<h4>My Place</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+				</div>
+				<div class="four-columns align-center pbs-help-pod">
+					
+					<h1>The Trusted Choice for <span style="color:red;font-weight:600;">Daily News</span></h1>
+
+				</div>
+				<div class="four-columns pbs-help-pod">
+					
+					<span class="circleIcon left"><i class="pbs-icon-users4"></i></span>
+					<div class="content">
+						<h4>Community &amp; Groups</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+				</div>
+
+				<!-- Second row -->
+				<div class="new-row four-columns pbs-help-pod no-border">
+					
+					<span class="circleIcon left"><i class="pbs-icon-tv2"></i></span>
+					<div class="content">
+						<h4>Programs</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+				</div>
+				<div class="four-columns pbs-help-pod no-border">
+					
+					<span class="circleIcon left"><i class="pbs-icon-checkbox-checked"></i></span>
+					<div class="content">
+						<h4>Following</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+				</div>
+				<div class="four-columns pbs-help-pod no-border">
+					
+					<span class="circleIcon left"><i class="pbs-icon-settings-voice"></i></span>
+					<div class="content">
+						<h4>Frequently Asked Questions</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+				</div>
+
+				<!-- FAKE row -->
+				<div class="new-row four-columns pbs-help-pod no-border">
+					
+					<span class="circleIcon left"><i class="pbs-icon-mobile"></i></span>
+					<div class="content">
+						<h4>Programs</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+				</div>
+				<div class="four-columns pbs-help-pod no-border">
+					
+					<span class="circleIcon left"><i class="pbs-icon-share2"></i></span>
+					<div class="content">
+						<h4>Following</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+				</div>
+				<div class="four-columns pbs-help-pod no-border">
+					
+					<span class="circleIcon left"><i class="pbs-icon-calendar3"></i></span>
+					<div class="content">
+						<h4>Frequently Asked Questions</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+				</div>
+
+				<!-- FAKE row -->
+				<div class="new-row four-columns pbs-help-pod no-border">
+					
+					<span class="circleIcon left"><i class="pbs-icon-cog"></i></span>
+					<div class="content">
+						<h4>Programs</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+				</div>
+				<div class="four-columns pbs-help-pod no-border">
+					
+					<span class="circleIcon left"><i class="pbs-icon-vcard"></i></span>
+					<div class="content">
+						<h4>Following</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+				</div>
+				<div class="four-columns pbs-help-pod no-border">
+					
+					<span class="circleIcon left"><i class="pbs-icon-settings-voice"></i></span>
+					<div class="content">
+						<h4>Frequently Asked Questions</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+				</div>
+
+				<!-- Third row -->
+				<div class="new-row twelve-columns large-margin-bottom pbs-help-strip">
+					
+					<h3 class="left">Stay in the know about site developments. <span style="color:red;font-weight:600;">Receive our blog!</span></h3>
+					<a href="" class="btn right">Subscribe now!</a>
+
+				</div>
+
+				<!-- Fourth row -->
+				<div class="new-row six-columns">
+
+					<h3 class="help-pod-red-title">Promotional Asset Tip Sheets</h3>
+					
+					<span class="circleIcon left"><i class="pbs-icon-tv2"></i></span>
+					<div class="content">
+						<h4>Programs</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+					<span class="circleIcon left"><i class="pbs-icon-tv2"></i></span>
+					<div class="content">
+						<h4>Programs</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+					<div class="widget-content-accordion">
+						<h5><i class="pbs-icon-accordion"></i> Creating Groups Tip Sheets</h5>
+						<div class="accordian-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+
+					<div class="widget-content-accordion">
+						<h5><i class="pbs-icon-accordion"></i> Browser Tip Sheets</h5>
+						<div class="accordian-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="six-columns">
+
+					<h3 class="help-pod-grey-title">myFirstClassPBSConnect-ion Blog Posts</h3>
+					
+ 					<img class="help-pod-img" src="_images/bigstock-Woman-In-Raincoat-Going-For-Bi-11599616-121x74.jpg">
+					<div class="content">
+						<h4>Programs</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+					<img class="help-pod-img" src="_images/bigstock-Woman-In-Raincoat-Going-For-Bi-11599616-121x74.jpg">
+					<div class="content">
+						<h4>Programs</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+					<img class="help-pod-img" src="_images/bigstock-Woman-In-Raincoat-Going-For-Bi-11599616-121x74.jpg">
+					<div class="content">
+						<h4>Programs</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+				</div>
+
+
+
+
+
+
+			</div>
+
+
+		</div>
+
+
+
+		
+	</div><!-- end of content -->
+	
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/department.js"></script>
+
+		<!-- Begin Dashboard includes -->
+	<script src="_scripts/dashboard/setup.js"></script>
+	<script src="_scripts/dashboard/developr.input.js"></script>
+	<script src="_scripts/dashboard/developr.navigable.js"></script>
+	<script src="_scripts/dashboard/developr.notify.js"></script>
+	<script src="_scripts/dashboard/developr.scroll.js"></script>
+	<script src="_scripts/dashboard/developr.progress-slider.js"></script>
+	<script src="_scripts/dashboard/developr.tooltip.js"></script>
+	<script src="_scripts/dashboard/developr.content-panel.js"></script>
+	
+	<script src="_scripts/dashboard/developr.table.js"></script>
+
+	<!-- Plugins -->
+	<script src="_scripts/dashboard/libs/jquery.tablesorter.min.js"></script>
+	<script src="_scripts/dashboard/libs/DataTables/jquery.dataTables.min.js"></script>
+
+	
+</body>
+</html>

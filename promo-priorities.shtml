@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+
+	<!-- Begin Dashboard includes -->
+
+	<!-- CAN BE DELETED IF NOT NEEDED -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/reset.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/dashboard.css?v=1">
+
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/modal.css">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css">
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/agenda.css?v=1">
+	
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+
+
+
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+		
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+	</div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="non-dashboard clearfix">
+
+		<section class="promo-poster">
+
+			<div class="left promo-info">
+				<h2>General Audience Promotion Priorities</h2>
+				<h1>Fall 2015</h1>
+				<section class="post-details">
+					<ul class="post-details-info">
+						<li><i class="pbs-icon-plus"></i> Follow This Space</li>
+						<li><i class="pbs-icon-feed4"></i> RSS</li>
+						<li><i class="pbs-icon-bubble"></i> <a href="#">6 Comments</a></li>
+						<li><i class="pbs-icon-share"></i> <a href="#">Share</a></li>
+					</ul>
+				</section><!-- END post-details -->
+			</div>
+
+		</section>
+
+		<nav id="promo-navigation" class="promo-navigation clearfix">
+			<ul>
+				<li><a class="active" href="#">Previous Season</a></li>
+				<li><a href="#">Next Season</a></li>
+			</ul>
+		</nav><!-- END conf-navigation -->
+
+
+		<div class="leftRail">
+
+			<!-- Related Events Widget Begins -->
+			<div id="WidgetRelatedAnnouncements">
+				<div class="tbar clearfix">
+					<h4>Related Announcements</h4>
+				</div>
+				
+				<div class="content"> 
+				
+					<div class="event clearfix">
+						<div class="photo circle">
+							<img src="_images/bigstock-Closeup-portrait-of-beautiful-21945236-73x44.jpg">
+						</div>
+						<a class="title" href="#">Built on Brotherhood, Club Lives Up to Name</a>
+						<ul class="meta">
+							<li><a href="#">SPORTS</a></li>
+							<li>Feb 12 2013</li>
+						</ul>
+					</div>
+
+					<div class="event clearfix">
+						<div class="photo circle">
+							<img src="_images/bigstock-Woman-In-Raincoat-Going-For-Bi-11599616-73x44.jpg">
+						</div>
+						<a class="title" href="#">Nuclear Fusion Closer to Becoming a Reality</a>
+						<ul class="meta">
+							<li><a href="#">SCIENCE</a></li>
+							<li>Feb 12 2013</li>
+						</ul>
+					</div>
+
+					<div class="event clearfix">
+						<div class="photo circle">
+							<img src="_images/bigstock-Closeup-portrait-of-beautiful-21945236-73x44.jpg">
+						</div>
+						<a class="title" href="#">Built on Brotherhood, Club Lives Up to Name</a>
+						<ul class="meta">
+							<li><a href="#">SPORTS</a></li>
+							<li>Feb 12 2013</li>
+						</ul>
+					</div>
+				
+				</div>
+			</div>
+			<!-- End of Related Events Widget -->
+			
+			
+		</div><!-- END Left Rail -->
+
+
+	
+		<div class="rightContent">
+
+			<div class="promo-list">
+
+				<div class="promo-header clearfix">
+					<h4 style="width:60%;">Contact</h4>
+					<h4 style="width:20%;" class="center">Status</h4>
+					<h4 style="width:20%;" class="center">Date</h4>
+				</div>
+
+				<div class="promo-content-wrapper">
+
+					<div class="promo-content">
+						<div class="promo-contact">
+							<h3>Lorem ipsum dolor sit amet, consectetur</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+							<a class="dashboard-link" href="#"><i class="pbs-icon-circle-right"></i> Dashboard</a>
+						</div>
+						<div class="promo-status red">
+							<span>Epic</span>
+						</div>
+						<div class="promo-date">
+							8 <span class="promo-month">April</span>
+						</div>
+					</div>
+
+					<div class="promo-content">
+						<div class="promo-contact">
+							<h3>Lorem ipsum dolor sit amet, consectetur</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+						</div>
+						<div class="promo-status yellow">
+							Popout
+						</div>
+						<div class="promo-date">
+							1 <span class="promo-month">May</span>
+						</div>
+					</div>
+
+					<div class="promo-content">
+						<div class="promo-contact">
+							<h3>Lorem ipsum dolor sit amet, consectetur</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+						</div>
+						<div class="promo-status yellow">
+							Popout
+						</div>
+						<div class="promo-date">
+							6 <span class="promo-month">May</span>
+						</div>
+					</div>
+
+					<div class="promo-content">
+						<div class="promo-contact">
+							<h3>Lorem ipsum dolor sit amet, consectetur</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+							<a class="dashboard-link" href="#"><i class="pbs-icon-circle-right"></i> Dashboard</a>
+						</div>
+						<div class="promo-status red">
+							Epic
+						</div>
+						<div class="promo-date">
+							26 <span class="promo-month">June</span>
+						</div>
+					</div>
+
+					<div class="promo-content">
+						<div class="promo-contact">
+							<h3>Lorem ipsum dolor sit amet, consectetur</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+						</div>
+						<div class="promo-status red">
+							Epic
+						</div>
+						<div class="promo-date">
+							29 <span class="promo-month">June</span>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		
+
+		</div><!-- end of rightContent -->
+
+
+
+		
+	</div><!-- end of content -->
+	
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.14/jquery.scrollTo.min.js"></script>
+
+	<!-- Begin Dashboard includes -->
+
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+
+			// This allows for the page animation when link clicked
+
+
+		});
+
+	</script>
+
+	<!-- CAN BE DELETED IF NOT NEEDED -->
+
+	<script src="_scripts/dashboard/setup.js"></script>
+
+	
+</body>
+</html>

@@ -1,0 +1,6 @@
+
+<ul id="right-sticky-nav">
+	<li><a href="#">Help</a></li>
+	<li><a href="#" style="top:25px;">Internal</a></li>
+	<li><a href="#" class="live-chat">Live Chat <i class="pbs-icon-live-chat"></i></a></li>
+</ul>

@@ -1,0 +1,616 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/reset.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	<link rel="stylesheet" media="print" href="_styles/dashboard/print.css?v=1">
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+	<!-- For Retina displays -->
+	<link rel="stylesheet" media="only all and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5)" href="css/2x.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/agenda.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/dashboard.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/modal.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/progress-slider.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/calendars.css?v=1">
+
+	<!-- DataTables -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/DataTables/jquery.dataTables.css">
+
+	<link rel="stylesheet" href="_styles/classic.css">
+	<link rel="stylesheet" href="_styles/classic.date.css">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+	<script src="_scripts/modernizr.custom.63321.js"></script>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+
+
+
+		/* Advisories Board style */
+
+		#pbs-content.fullWidth {
+			width: 100%;
+		}
+		.rightResponsiveContent {
+			padding: 15px;
+		}
+
+		#advisories-board {
+			width: inherit;
+		}
+
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+		<h1>PBS Search</h1>
+
+	</div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="non-dashboard fullWidth clearfix">
+
+
+
+
+
+
+
+
+<div class="columns">
+
+<div class="left-column-250px">
+	<!-- First row -->
+	<div class="left-column">
+
+			<div class="widget-date-picker clearfix">
+				<form class="wrapper left">
+					<input type="text" id="datepicker_start">
+					<span class="icon-wrapper"><i class="pbs-icon-calendar6"></i></span>
+				</form>
+				<span class="dash left"> - </span>
+				<form class="wrapper right">
+					<input type="text" id="datepicker_end">
+					<span class="icon-wrapper"><i class="pbs-icon-calendar6"></i></span>
+				</form>
+			</div>
+
+			<div class="pbs-widget widget-accordion-list">
+				<h5>Filter by Categories <i class="pbs-icon-keyboard-arrow-up"></i></h5>
+				<ul>
+					<li class="active"><i class="pbs-icon-plus"></i> Everything <span>68</span></li>
+					<li class="hide active">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+				</ul>
+			</div>
+
+	</div><!-- /END Column -->
+
+	<div class="right-column">
+		
+		<table id="advisories-board" class="table">
+
+				<thead>
+					<tr>
+						<th scope="col" class="header">Posted</th>
+						<th scope="col">Channel</th>
+						<th scope="col" class="header">Feed Date</th>
+						<th scope="col">Title</th>
+						<th scope="col" class="header">NOLA</th>
+						<th scope="col">Package</th>
+						<th scope="col" class="header">Descrepancy</th>
+						<th scope="col" class="header">Posted By</th>
+						<th scope="col">Comments</th>
+						<th scope="col">Me Too/Not Me</th>
+						<th scope="col" class="header">Refeed</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>04/22/2015</td>
+						<td>HD01</td>
+						<td>04/25/2015</td>
+						<td>HD PROMO REEL</td>
+						<td>HDPR000967</td>
+						<td>(HD-Base) P453669-001</td>
+						<td>Did Not Air</td>
+						<td>Pugh, Other</td>
+						<td>10</td>
+						<td>12/4</td>
+						<td>04/25/2015</td>
+					</tr>
+					<tr>
+						<td>04/22/2015</td>
+						<td>NRT</td>
+						<td>04/23/2015</td>
+						<td><a href="javascript:openModal();">Call the Midwife</a></td>
+						<td>CMID000405</td>
+						<td>(HD-Pledge Event p452637-001</td>
+						<td>Catergory 2</td>
+						<td>Shaw, KUSM</td>
+						<td><a href="javascript:openModal();">2</a></td>
+						<td>11</td>
+						<td><a href="javascript:openModal();">04/25/2015</a></td>
+					</tr>
+					<tr>
+						<td>04/21/2015</td>
+						<td>HD04</td>
+						<td>04/21/2015</td>
+						<td>My Sinatra: A Musica...</td>
+						<td>MYSI000000</td>
+						<td>(HD-Base) P453669-001</td>
+						<td>No Video</td>
+						<td>Yatlor, Other</td>
+						<td></td>
+						<td>
+							<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
+							<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>04/22/2015</td>
+						<td>HD01</td>
+						<td>04/25/2015</td>
+						<td>HD PROMO REEL</td>
+						<td>HDPR000967</td>
+						<td>(HD-Base) P453669-001</td>
+						<td>Did Not Air</td>
+						<td>Pugh, Other</td>
+						<td>10</td>
+						<td>12/4</td>
+						<td>04/25/2015</td>
+					</tr>
+					<tr>
+						<td>04/22/2015</td>
+						<td>NRT</td>
+						<td>04/23/2015</td>
+						<td><a href="javascript:openModal();">Call the Midwife</a></td>
+						<td>CMID000405</td>
+						<td>(HD-Pledge Event p452637-001</td>
+						<td>Catergory 2</td>
+						<td>Shaw, KUSM</td>
+						<td><a href="javascript:openModal();">2</a></td>
+						<td>11</td>
+						<td><a href="javascript:openModal();">04/25/2015</a></td>
+					</tr>
+					<tr>
+						<td>04/21/2015</td>
+						<td>HD04</td>
+						<td>04/21/2015</td>
+						<td>My Sinatra: A Musica...</td>
+						<td>MYSI000000</td>
+						<td>(HD-Base) P453669-001</td>
+						<td>No Video</td>
+						<td>Yatlor, Other</td>
+						<td></td>
+						<td>
+							<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
+							<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>04/22/2015</td>
+						<td>HD01</td>
+						<td>04/25/2015</td>
+						<td>HD PROMO REEL</td>
+						<td>HDPR000967</td>
+						<td>(HD-Base) P453669-001</td>
+						<td>Did Not Air</td>
+						<td>Pugh, Other</td>
+						<td>10</td>
+						<td>12/4</td>
+						<td>04/25/2015</td>
+					</tr>
+					<tr>
+						<td>04/22/2015</td>
+						<td>NRT</td>
+						<td>04/23/2015</td>
+						<td><a href="javascript:openModal();">Call the Midwife</a></td>
+						<td>CMID000405</td>
+						<td>(HD-Pledge Event p452637-001</td>
+						<td>Catergory 2</td>
+						<td>Shaw, KUSM</td>
+						<td><a href="javascript:openModal();">2</a></td>
+						<td>11</td>
+						<td><a href="javascript:openModal();">04/25/2015</a></td>
+					</tr>
+					<tr>
+						<td>04/21/2015</td>
+						<td>HD04</td>
+						<td>04/21/2015</td>
+						<td>My Sinatra: A Musica...</td>
+						<td>MYSI000000</td>
+						<td>(HD-Base) P453669-001</td>
+						<td>No Video</td>
+						<td>Yatlor, Other</td>
+						<td></td>
+						<td>
+							<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
+							<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>04/22/2015</td>
+						<td>HD01</td>
+						<td>04/25/2015</td>
+						<td>HD PROMO REEL</td>
+						<td>HDPR000967</td>
+						<td>(HD-Base) P453669-001</td>
+						<td>Did Not Air</td>
+						<td>Pugh, Other</td>
+						<td>10</td>
+						<td>12/4</td>
+						<td>04/25/2015</td>
+					</tr>
+					<tr>
+						<td>04/22/2015</td>
+						<td>NRT</td>
+						<td>04/23/2015</td>
+						<td><a href="javascript:openModal();">Call the Midwife</a></td>
+						<td>CMID000405</td>
+						<td>(HD-Pledge Event p452637-001</td>
+						<td>Catergory 2</td>
+						<td>Shaw, KUSM</td>
+						<td><a href="javascript:openModal();">2</a></td>
+						<td>11</td>
+						<td><a href="javascript:openModal();">04/25/2015</a></td>
+					</tr>
+					<tr>
+						<td>04/21/2015</td>
+						<td>HD04</td>
+						<td>04/21/2015</td>
+						<td>My Sinatra: A Musica...</td>
+						<td>MYSI000000</td>
+						<td>(HD-Base) P453669-001</td>
+						<td>No Video</td>
+						<td>Yatlor, Other</td>
+						<td></td>
+						<td>
+							<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
+							<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>04/22/2015</td>
+						<td>HD01</td>
+						<td>04/25/2015</td>
+						<td>HD PROMO REEL</td>
+						<td>HDPR000967</td>
+						<td>(HD-Base) P453669-001</td>
+						<td>Did Not Air</td>
+						<td>Pugh, Other</td>
+						<td>10</td>
+						<td>12/4</td>
+						<td>04/25/2015</td>
+					</tr>
+					<tr>
+						<td>04/22/2015</td>
+						<td>NRT</td>
+						<td>04/23/2015</td>
+						<td><a href="javascript:openModal();">Call the Midwife</a></td>
+						<td>CMID000405</td>
+						<td>(HD-Pledge Event p452637-001</td>
+						<td>Catergory 2</td>
+						<td>Shaw, KUSM</td>
+						<td><a href="javascript:openModal();">2</a></td>
+						<td>11</td>
+						<td><a href="javascript:openModal();">04/25/2015</a></td>
+					</tr>
+					<tr>
+						<td>04/21/2015</td>
+						<td>HD04</td>
+						<td>04/21/2015</td>
+						<td>My Sinatra: A Musica...</td>
+						<td>MYSI000000</td>
+						<td>(HD-Base) P453669-001</td>
+						<td>No Video</td>
+						<td>Yatlor, Other</td>
+						<td></td>
+						<td>
+							<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
+							<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+						</td>
+						<td></td>
+					</tr>
+				</tbody>
+
+			</table>
+
+	</div><!-- /END Column -->
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="leftRail">
+
+
+			
+			
+		</div><!-- end of rightRail -->
+		
+		<div class="rightResponsiveContent">
+
+			
+		
+			
+		</div><!-- end of leftContent -->
+		
+	</div><!-- end of content -->
+	
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/department.js"></script>
+
+	<script type="text/javascript" src="_scripts/jquery.dropdown.js"></script>
+
+	<script type="text/javascript" src="_scripts/picker.js"></script>
+	<script type="text/javascript" src="_scripts/picker.date.js"></script>
+	<script type="text/javascript" src="_scripts/legacy.js"></script>
+
+	
+
+	<script type="text/javascript">
+		$( function() {
+			$( '#cd-dropdown' ).dropdown( {
+				gutter : 5
+			});
+		});
+		$('#datepicker_start').pickadate({
+			showMonthsShort: true,
+			format: 'dd/mm/yy'
+		});
+		$('#datepicker_end').pickadate({
+			showMonthsShort: true,
+			format: 'dd/mm/yy'
+
+		});
+	</script>
+	
+</body>
+</html>

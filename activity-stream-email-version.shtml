@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>PBS Email</title>
+	
+</head>
+
+<body>
+
+
+<table style="width:700px;margin:0 auto;border-collapse:border;font-size:14px;font-family: Helvetica, Arial, sans-serif;color:#333;">
+	<tr>
+		<td style="padding:15px 10px;color:#999;font-size:12px;">
+			PBS Posted Daily Digest | myPBS Digital Workplace
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img src="_images/email-header-2016.jpg" style="border-top-left-radius:6px;border-top-right-radius:6px;">
+		</td>
+	</tr>
+	<tr>
+		<td style="padding:0 10px 15px 10px;">
+			<h1 style="font-size:30px;color:#980064;margin:0;padding:0;">myPBS Daily Digest</h1>
+		</td>
+	</tr>
+	<tr>
+		<td style="padding:0 10px 15px 10px;">
+			<table style="width:100%;margin:0 auto;border-collapse:border;">
+				<tr>
+					<td>
+						<h2 style="font-size:22px;color:#9f1b32;margin:0;padding:0;">PBS Posted</h2>
+					</td>
+					<td>
+						<span style="float:right;font-weight:bold;color:#615161;">5/5/2016</span>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="padding:0 10px;">
+			<h4 style="font-size:16px;color:#444;margin:0 0 10px 0;padding:0;">Announcements <span style="font-size:11px;">&#10095;</span> Programming</h4>
+			<table style="width:100%;margin:0 auto;border-collapse:border;margin-bottom:20px;">
+				<tr style="vertical-align:top;">
+					<td style="width:100px;">
+						10/29/2014<br>
+						6:30:01 AM
+					</td>
+					<td>
+						<p style="margin-top:0;"><a style="color:#9f1b32;" href="#">R Byars-Sargent</a> posted <a style="color:#9f1b32;font-weight:bold;" href="#">It's a Small Small World</a> Generators on the Internet tend the repeated chuncks necessary making this true many web sites on the internet.</p>
+					</td>
+					<td style="width:150px;text-align:right;">
+						<a style="background-color:#9f1b32;padding:10px 15px;border-radius:6px;color:#de7c31;display:inline-block;text-decoration:none;font-weight:bold;" href="#">take me there</a>
+					</td>
+				</tr>
+			</table>
+			<table style="width:100%;margin:0 auto;border-collapse:border;margin-bottom:20px;">
+				<tr style="vertical-align:top;">
+					<td style="width:100px;">
+						10/29/2014<br>
+						6:30:01 AM
+					</td>
+					<td>
+						<p style="margin-top:0;"><a style="color:#9f1b32;" href="#">R Byars-Sargent</a> posted <a style="color:#9f1b32;font-weight:bold;" href="#">Have a Nice Day</a> Generators on the Internet tend the repeated chuncks necessary making this true many web sites on the internet...</p>
+					</td>
+					<td style="width:150px;text-align:right;">
+						<a style="background-color:#9f1b32;padding:10px 15px;border-radius:6px;color:#de7c31;display:inline-block;text-decoration:none;font-weight:bold;" href="#">take me there</a>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="padding:0 10px;">
+			<h4 style="font-size:16px;color:#444;margin:0 0 10px 0;padding:0;">Programming <span style="font-size:11px;">&#10095;</span> Program Offers</h4>
+			<table style="width:100%;margin:0 auto;border-collapse:border;margin-bottom:20px;">
+				<tr style="vertical-align:top;">
+					<td style="width:100px;">
+						10/29/2014<br>
+						6:30:01 AM
+					</td>
+					<td>
+						<p style="margin-top:0;"><a style="color:#9f1b32;" href="#">R Byars-Sargent</a> posted <a style="color:#9f1b32;font-weight:bold;" href="#">You're Nice, Too YRNT 0000</a> Generators on the Internet tend the repeated chuncks necessary making this true many web sites on the internet...</p>
+					</td>
+					<td style="width:150px;text-align:right;">
+						<a style="background-color:#9f1b32;padding:10px 15px;border-radius:6px;color:#de7c31;display:inline-block;text-decoration:none;font-weight:bold;" href="#">take me there</a>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<hr>
+			<table style="width:100%;margin:0 auto;padding:10px 0 0 0;border-collapse:border;">
+				<tr style="vertical-align:top;">
+					<td>
+						<p style="margin-top:0;font-size:12px;color:#999;">myPBS Digital Workplace<br>
+							Contact us at myPBS@pbs.org or (703) 739-8102</p>
+					</td>
+					<td style="width: 80px;">
+						<a style="background-image: url(https://i4.createsend1.com/static/eb/customise/13-the-blueprint-3/images/forward.png);background-color: gray;text-decoration: none;transition: opacity 0.1s ease-in;color: #ffffff;background-repeat: no-repeat;background-size: 200px 56px;border-radius: 2px;display: block;font-size: 11px;font-weight: bold;line-height: 11px;padding: 8px 11px 7px 28px;text-align: left;" href="#" left-align-text="true">Forward</a>
+					</td>
+				</tr>
+			</table>
+			<table style="width:100%;margin:0 auto;border-collapse:border;color:#999;margin-bottom:10px;">
+				<tr style="vertical-align:top;">
+					<td>
+						<p style="margin:0 0 5px 0;font-size:12px;color:#999;">You're subscribed to this email through your mypbs personal preferences on myPBS</p>
+						<p style="margin:0;font-size:12px;color:#999;"><a style="color:#999;font-size:12px;" href="#">Preferences</a>  |  <a style="color:#999;font-size:12px;" href="#">Unsubscribe</a></p>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+
+	
+</body>
+</html>

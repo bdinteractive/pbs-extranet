@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+
+		<!-- Begin Dashboard includes -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css?v=1">
+
+	<!-- DataTables -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/DataTables/jquery.dataTables.css?v=1">
+	
+	
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+
+
+
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+
+
+
+		/* 
+			Resets defualt browser settings
+			reset.css
+		*/
+		:focus { outline:0; }
+
+
+		#container {
+			width:800px;
+			padding:10px;
+			margin:0 auto;
+			position:relative;
+			z-index:0;
+		}
+
+		#frame {
+			position:absolute;
+			z-index:0;
+			width:960px;
+			height:380px;
+			top:-3px;
+			left:-80px;
+		}
+
+		#example {
+			width:780px;
+			height:350px;
+			position:relative;
+		}
+
+		#ribbon {
+			position:absolute;
+			top:-3px;
+			left:-15px;
+			z-index:500;
+		}
+
+		/*
+			Slideshow style
+		*/
+
+		#slides {
+			position:absolute;
+			top:15px;
+			left:16px;
+			z-index:100;
+		}
+
+		/*
+			Slides container
+			Important:
+			Set the width of your slides container
+			If height not specified height will be set by the slide content
+			Set to display none, prevents content flash
+		*/
+
+		.slides_container {
+			width:770px;
+			height:270px;
+			overflow:hidden;
+			position:relative;
+			display:none;
+		}
+
+		/*
+			Each slide
+			Important:
+			Set the width of your slides
+			Offeset for the 20px of padding
+			If height not specified height will be set by the slide content
+			Set to display block
+		*/
+
+		#slides .slide {
+			/*padding:20px;*/
+			width:770px;
+			height:270px;
+			display:block;
+		}
+
+		#slides .slide > p {
+			position: absolute;
+			top: 75px;
+			left: 300px;
+			width: 450px;
+		}
+
+		/*
+			Next/prev buttons
+		*/
+		#slides .next,#slides .prev {
+			position:absolute;
+			top:107px;
+			left:-23px;
+			width:24px;
+			height:43px;
+			display:block;
+			z-index:101;
+		}
+
+		#slides .next {
+			left:785px;
+		}
+
+		/*
+			Pagination
+		*/
+
+		.pagination {
+			margin:26px auto 0;
+			width:100px;
+		}
+
+		.pagination li {
+			float:left;
+			margin:0 1px;
+			list-style:none;
+		}
+
+		.pagination li a {
+			display:block;
+			width:12px;
+			height:0;
+			padding-top:12px;
+			background-image:url(_scripts/slidesjs/img/pagination.png);
+			background-position:0 0;
+			float:left;
+			overflow:hidden;
+		}
+
+		.pagination li.current a {
+			background-position:0 -12px;
+		}
+
+		/*
+			Footer
+		*/
+
+
+		/*
+			Type and anchors
+		*/
+
+
+
+		#slides .link {
+			display:block;
+			margin-top:10px;
+			font-weight:800;
+		}
+
+		/*
+			Caption
+		*/
+
+		.caption {
+			z-index:500;
+			position:absolute;
+			bottom:-35px;
+			left:0;
+			height:70px;
+			padding:5px 20px 0 20px;
+			background:#000;
+			background:rgba(0,0,0,.5);
+			width:780px;
+			font-size:1.3em;
+			line-height:1.33;
+			color:#fff;
+			border-top:1px solid #000;
+			text-shadow:none;
+		}
+		.caption p {
+			color:#fff;
+			width: 700px;
+		}
+	</style>
+	
+	<!-- Microsoft clear type rendering -->
+	<meta http-equiv="cleartype" content="on">
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+		
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+		<h1></h1>
+
+	</div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="clearfix">
+		
+		<!-- Page Label, Breadcrumb, Share and User Menus Begins -->
+		<div class="userArea clearfix">
+			<ul class="breadcrumb">
+				<li><a href="#">Extranet Home</a></li>
+				<li class="last">Page Title</li>
+			</ul>
+			<div class="userDropdownB" style="margin-right: -10px;">
+				<a class="userDropdownGroups" href="#"><img src="_images/icon-facebook-groups.png" /></a>
+				<ul class="userDropDownMenu">
+					<li class="bottomPadded clearfix"><img src="_images/icon-facebook-groups.png" style="float:left;" /><span class="header header-icon">Groups I Created</span></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 1',url:'facebook_group.shtml'})">Group 1</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 2',url:'facebook_group.shtml'})">Group 2</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 3',url:'facebook_group.shtml'})">Group 3</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 4',url:'facebook_group.shtml'})">Group 4</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 5',url:'facebook_group.shtml'})">Group 5</a></li>
+					<li class="bottomPadded" style="padding-top: 10px;"><span class="header">Groups I'm Part Of</span></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 1',url:'facebook_group.shtml'})">Group 1</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 2',url:'facebook_group.shtml'})">Group 2</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 3',url:'facebook_group.shtml'})">Group 3</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 4',url:'facebook_group.shtml'})">Group 4</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 5',url:'facebook_group.shtml'})">Group 5</a></li>
+				</ul>
+			</div>
+			<div class="userDropdown" style="margin-right: 10px; margin-top: 10px">
+				<a class="userDropdownName" href="#">Welcome, John Smith</a>
+				<ul class="userDropDownMenu">
+					<li class="bottomPadded"><span class="userName">John Smith</span></li>
+					<li><a href="empty-page.shtml">My Contact Information</a></li>
+					<li><a href="Manage-Form.shtml">Manage Forms</a></li>
+					<li><a href="empty-page.shtml">Workarea</a></li>
+					<li><a href="empty-page.shtml">Sign Out</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="pageTitleTools clearfix">
+			<div class="colLeft">
+				<h4>Page Title</h4>
+			</div>
+
+		</div>
+		<!-- End of Page Label, Breadcrumb, Share and User Menus -->
+		
+			<div class="leftContentWide">
+
+				<div id="container">
+					<div id="example">
+						<img src="_scripts/slidesjs/img/new-ribbon.png" width="112" height="112" alt="New Ribbon" id="ribbon">
+						<div id="slides">
+							<div class="slides_container">
+								<div class="slide">
+									<a href="http://www.flickr.com/photos/jliba/4665625073/" title="145.365 - Happy Bokeh Thursday! | Flickr - Photo Sharing!" target="_blank"><img src="_images/temp-slide.jpg" width="800" height="275" alt="Slide 1"></a>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+									<div class="caption" style="bottom:0">
+										<p>Happy New Year!</p>
+									</div>
+								</div>
+								<div class="slide">
+									<a href="http://www.flickr.com/photos/jliba/4665625073/" title="145.365 - Happy Bokeh Thursday! | Flickr - Photo Sharing!" target="_blank"><img src="_images/temp-slide2.jpg" width="800" height="275" alt="Slide 1"></a>
+									<div class="caption" style="bottom:0">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									</div>
+								</div>
+							</div>
+							<a href="#" class="prev"><img src="_scripts/slidesjs/img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+							<a href="#" class="next"><img src="_scripts/slidesjs/img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+						</div>
+						<img src="_scripts/slidesjs/img/example-frame-wide.png" width="960" height="341" alt="Example Frame" id="frame">
+					</div>
+				</div>
+
+
+			</div>
+				
+				
+				
+		</div><!-- end of leftContent -->
+
+	</div><!-- end of content -->
+
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+	
+
+
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jqtransform.js"></script>
+	<!--<script type="text/javascript" src="_scripts/jquery-ui-1.8.20.custom.min.js"></script>-->
+	
+	<!-- Begin Dashboard includes -->
+	<script src="_scripts/dashboard/setup.js"></script>
+	<script src="_scripts/dashboard/developr.input.js"></script>
+	<script src="_scripts/dashboard/developr.navigable.js"></script>
+	<script src="_scripts/dashboard/developr.notify.js"></script>
+	<script src="_scripts/dashboard/developr.scroll.js"></script>
+	<script src="_scripts/dashboard/developr.progress-slider.js"></script>
+	<script src="_scripts/dashboard/developr.tooltip.js"></script>
+	<script src="_scripts/dashboard/developr.content-panel.js"></script>
+	
+	<script src="_scripts/dashboard/developr.tabs.js"></script>
+	<script src="_scripts/dashboard/developr.table.js"></script>
+
+	<!-- Plugins -->
+	<script src="_scripts/dashboard/libs/jquery.tablesorter.min.js"></script>
+	<script src="_scripts/dashboard/libs/DataTables/jquery.dataTables.min.js"></script>
+
+	<script type="text/javascript" charset="utf-8" src="_scripts/css-dock.js"></script>
+	<script type="text/javascript" charset="utf-8" src="_scripts/fisheye_patched.js"></script>
+	
+	<script type="text/javascript" charset="utf-8">
+
+		// Call template init (optional, but faster if called manually)
+		$.template.init();
+
+	</script>
+
+	<script src="_scripts/slidesjs/js/slides.min.jquery.js"></script>
+	<script>
+		$(function(){
+			// Set starting slide to 1
+			var startSlide = 1;
+			// Get slide number if it exists
+			if (window.location.hash) {
+				startSlide = window.location.hash.replace('#','');
+			}
+			// Initialize Slides
+			$('#slides').slides({
+				preload: true,
+				preloadImage: '_scripts/slidesjs/img/loading.gif',
+				generatePagination: true,
+				play: 5000,
+				pause: 2500,
+				hoverPause: true,
+				// Get the starting slide
+				start: startSlide,
+				animationStart: function(current){
+					$('.caption').animate({
+						bottom:-35
+					},100);
+					if (window.console && console.log) {
+						// example return of current slide number
+						console.log('animationStart on slide: ', current);
+					};
+				},
+				animationComplete: function(current){
+					$('.caption').animate({
+						bottom:0
+					},200);
+					if (window.console && console.log) {
+						// example return of current slide number
+						console.log('animationComplete on slide: ', current);
+					};
+				},
+				slidesLoaded: function() {
+					$('.caption').animate({
+						bottom:0
+					},200);
+				}
+			});
+		});
+	</script>
+	
+</body>
+</html>

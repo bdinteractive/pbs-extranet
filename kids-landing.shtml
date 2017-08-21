@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>PBS Extranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+	
+	<!-- jquery specific -->
+	<link rel="stylesheet" href="_styles/jquery.jscrollpane.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/jqtransform.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/css-dock.css" type="text/css" media="screen">
+
+	<link href="http://vjs.zencdn.net/5.10.4/video-js.css" rel="stylesheet">
+	
+	
+	
+	<!-- Begin Dashboard includes -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/modal.css">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css">
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+	
+	
+	<script type="text/javascript" charset="utf-8" src="_scripts/dashboard/libs/jquery-1.7.2.min.js"></script>
+	
+	<!-- theme specific -->
+	<script type="text/javascript" charset="utf-8" src="_scripts/themes.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+		<h1>Programming</h1>
+
+	</div>
+	
+	<div id="pbs-content" class="clearfix">
+		
+		<div class="leftContentWide">
+
+			<h1 class="page-title">PBS Kids 24/7 Services</h1>
+
+			<section class="post-details">
+				<ul class="post-details-info">
+					<li><i class="pbs-icon-bubble"></i> <a href="#">6 Comments</a></li>
+					<li><i class="pbs-icon-share"></i> <a href="#">Share</a></li>
+				</ul>
+			</section><!-- END post-details -->
+
+
+			<nav id="portal-navigation" class="kids-portal-navigation clearfix">
+				<ul>
+					<li><a class="active" href="#about">About</a></li>
+					<li><a href="#program-tools">Program Tools</a></li>
+					<li><a href="#faq">FAQs</a></li>
+					<li><a href="#contacts">Contacts</a></li>
+				</ul>
+			</nav><!-- END navigation -->
+
+
+
+
+			<section class="clearfix">
+
+				<div class="halfSection left">
+
+					<div class="kids-headlines">
+					
+						<div class="carousel js-carousel">
+
+							<button class="carousel__btn carousel__btn--left" disabled><</button>
+							<button class="carousel__btn carousel__btn--right">></button>
+
+							<div class="carousel__window">
+
+								<div class="carousel__items">
+
+									<div class="carousel__item">
+										<img src="_images/image-01.png">
+										<div class="carousel__caption">
+											Lorem ipsum dolor sit amet
+										</div>
+										<div class="carousel__copy">
+											<h3>Headline</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Fusce aliquam rhoncus placerat. Nulla pulvinar arcu non urna blandit dapibus. Phasellus felis felis, porta in hendrerit in, laoreet sit amet sapien.</p>
+										</div>
+									</div><!-- /end carousel__item -->
+
+									<div class="carousel__item">
+										<img src="_images/image-02.png">
+										<div class="carousel__caption">
+											Lorem ipsum dolor sit amet
+										</div>
+										<div class="carousel__copy">
+											<h3>Headline</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Fusce aliquam rhoncus placerat. Nulla pulvinar arcu non urna blandit dapibus. Phasellus felis felis, porta in hendrerit in, laoreet sit amet sapien.</p>
+										</div>
+									</div><!-- /end carousel__item -->
+
+									<div class="carousel__item">
+										<img src="_images/image-01.png">
+										<div class="carousel__copy">
+											<h3>Headline</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Fusce aliquam rhoncus placerat. Nulla pulvinar arcu non urna blandit dapibus. Phasellus felis felis, porta in hendrerit in, laoreet sit amet sapien.</p>
+										</div>
+									</div><!-- /end carousel__item -->
+
+								</div><!-- Carousel__Products -->
+
+							</div><!-- Carousel__Window -->
+
+						</div><!-- Carousel -->
+
+					</div>
+
+					<div id="program-tools" class="kids-content">
+
+						<img src="_images/header-program-tools.png">
+
+						<div class="clearfix">
+
+							<div class="kids-content__item">
+								<img src="_images/8cEaGGMca.png">
+								<a href="">Onboard</a>
+								<a href="">FAQ</a>
+								<a href="">How To</a>
+								<a href="">Sign up for email</a>
+							</div>
+							<div class="kids-content__item">
+								<img src="_images/8cEaGGMca.png">
+								<a href="">Week by Week</a>
+								<a href="">Grids</a>
+								<a href="">Schedule View</a>
+								<a href="">Listings</a>
+							</div>
+							<div class="kids-content__item">
+								<img src="_images/8cEaGGMca.png">
+								<a href="">Scheduling</a>
+								<a href="">Announcements</a>
+								<a href="">Advisories</a>
+								<a href="">Refeeds</a>
+							</div>
+
+						</div>
+
+						<div class="kids-content__links">
+							<a class="kids-btn-content" href="#">Read More</a>
+						</div>
+
+					</div>
+
+
+					<div id="faq" class="kids-faq">
+
+						<img src="_images/header-faqs.png">
+
+						<div class="clearfix">
+
+							<div class="kids-faq__item">
+								<img src="_images/8cEaGGMca.png">
+								<p>Duis aute irure dolor in reprehenderit in voluptate velit <a href="">esse cillum dolore eu fugiat</a> nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+
+							<div class="kids-faq__item">
+								<img src="_images/8cEaGGMca.png">
+								<p>Duis aute irure dolor in reprehenderit in voluptate velit <a href="">esse cillum dolore eu fugiat</a> nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+
+							<div class="kids-faq__item">
+								<img src="_images/8cEaGGMca.png">
+								<p>Duis aute irure dolor in reprehenderit in voluptate velit <a href="">esse cillum dolore eu fugiat</a> nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+
+						</div>
+
+					</div>
+
+
+
+
+					<div class="widget-content-accordion">
+						<h5><i class="pbs-icon-accordion"></i> General</h5>
+						<div class="accordian-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+
+					<div class="widget-content-accordion">
+						<h5><i class="pbs-icon-accordion"></i> My Place</h5>
+						<div class="accordian-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+
+					<div class="widget-content-accordion">
+						<h5><i class="pbs-icon-accordion"></i> Group Spaces</h5>
+						<div class="accordian-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+
+					<div class="widget-content-accordion">
+						<h5><i class="pbs-icon-accordion"></i> Program Dashboard</h5>
+						<div class="accordian-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+
+
+
+
+
+				</div>
+
+
+				<div class="halfSection right">
+					
+					<div id="announcements" class="kids-announcements clearfix">
+						<img src="_images/header-announcements.png">
+
+						<div class="kids-announcements__tabs">
+							<a class="active" href="announcements_01">24/7</a>
+							<a href="announcements_02">NPS</a>
+						</div>
+
+						<div id="announcements_01" class="kids-announcements__tab">
+
+							<div class="kids-announcements__item">
+								<div class="kids-announcements__meta">
+									<div class="kids-announcements__avatar clearfix">
+										<img alt="" src="_images/user-johnsnow-50.jpg" height="50" width="50">
+									</div>
+									<div class="kids-announcements__subject">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+									<span class="kids-announcements__time">1/30/16 3:00 pm</span> <span class="kids-announcements__name">Somename</span>
+								</div>
+							</div>
+							<div class="kids-announcements__item">
+								<div class="kids-announcements__meta">
+									<div class="kids-announcements__avatar clearfix">
+										<img alt="" src="_images/user-johnsnow-50.jpg" height="50" width="50">
+									</div>
+									<div class="kids-announcements__subject">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+									<span class="kids-announcements__time">1/30/16 3:00 pm</span> <span class="kids-announcements__name">Somename</span>
+								</div>
+							</div>
+							<div class="kids-announcements__item">
+								<div class="kids-announcements__meta">
+									<div class="kids-announcements__avatar clearfix">
+										<img alt="" src="_images/user-johnsnow-50.jpg" height="50" width="50">
+									</div>
+									<div class="kids-announcements__subject">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+									<span class="kids-announcements__time">1/30/16 3:00 pm</span> <span class="kids-announcements__name">Somename</span>
+								</div>
+							</div>
+						</div>
+
+						<div id="announcements_02" class="kids-announcements__tab hide">
+
+							<div class="kids-announcements__item">
+								<div class="kids-announcements__meta">
+									<div class="kids-announcements__avatar clearfix">
+										<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+									</div>
+									<div class="kids-announcements__subject">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+									<span class="kids-announcements__time">1/30/16 3:00 pm</span> <span class="kids-announcements__name">Somename</span>
+								</div>
+							</div>
+							<div class="kids-announcements__item">
+								<div class="kids-announcements__meta">
+									<div class="kids-announcements__avatar clearfix">
+										<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+									</div>
+									<div class="kids-announcements__subject">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+									<span class="kids-announcements__time">1/30/16 3:00 pm</span> <span class="kids-announcements__name">Somename</span>
+								</div>
+							</div>
+							<div class="kids-announcements__item">
+								<div class="kids-announcements__meta">
+									<div class="kids-announcements__avatar clearfix">
+										<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+									</div>
+									<div class="kids-announcements__subject">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+									<span class="kids-announcements__time">1/30/16 3:00 pm</span> <span class="kids-announcements__name">Somename</span>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="kids-announcements__links">
+							<a class="pbs-button btn-primary" href="#">See More</a>
+						</div>
+
+					</div>
+
+					<div id="assets" class="kids-assets">
+						<img src="_images/header-assets.png">
+						
+						<h5 class="kids-asset__title">Most Recent</h5>
+
+						<div class="kids-asset__item">
+							<div class="kids-asset__type">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+							<div class="kids-asset__purpose">Promotion Purpose = PBS Kids 24/7</div>
+							<div class="kids-asset__numbers">1-2-1 1:2</div>
+						</div>
+
+						<div class="kids-asset__item">
+							<div class="kids-asset__type">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+							<div class="kids-asset__purpose">Promotion Purpose = PBS Kids 24/7</div>
+							<div class="kids-asset__numbers">1-2-1 1:2</div>
+						</div>
+
+						<div class="kids-asset__item">
+							<div class="kids-asset__type">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+							<div class="kids-asset__purpose">Promotion Purpose = PBS Kids 24/7</div>
+							<div class="kids-asset__numbers">1-2-1 1:2</div>
+						</div>
+
+						<div class="kids-assets__links">
+							<a class="pbs-button btn-primary" href="#">See More</a>
+							<a class="kids-assets__link" href="#">Leave myPBS</a>
+						</div>
+
+					</div>
+
+					<iframe src="" height="600" width="100%"></iframe>
+
+
+				</div>
+
+			</section>
+
+
+
+
+
+
+			<section id="contacts" class="kids-contacts clearfix">
+				<img src="_images/header-contact.png">
+
+				<div class="kids-contacts__item clearfix">
+					<div class="kids-contacts__meta">
+						<div class="kids-contacts__avatar clearfix">
+							<img alt="" src="_images/user-johnsnow-50.jpg" height="50" width="50">
+						</div>
+						<a class="kids-contacts__fullname" href="#">First Name, Last Name</a>
+						<span class="contacts__title">Job Title</span>
+					</div>
+					<div class="kids-conatacts__other">
+						<span>Area of Expertise</span>
+					</div>
+				</div>
+				<div class="kids-contacts__item clearfix">
+					<div class="kids-contacts__meta">
+						<div class="kids-contacts__avatar clearfix">
+							<img alt="" src="_images/user-johnsnow-50.jpg" height="50" width="50">
+						</div>
+						<a class="kids-contacts__fullname" href="#">First Name, Last Name</a>
+						<span class="kids-contacts__title">Job Title</span>
+					</div>
+					<div class="kids-conatacts__other">
+						<span>Area of Expertise</span>
+					</div>
+				</div>
+			</section>
+
+			<section class="breadcrumb clearfix">
+				<ul>
+					<li><a href="#"><i class="pbs-icon-home-outline"></i></a></li>
+					<li><a href="#">Programming</a></li>
+					<li>Kids 24/7</li>
+				</ul>
+			</section><!-- END breadcrumb -->
+
+
+		</div><!-- end of leftContent -->
+
+
+	</div><!-- end of content -->
+
+
+	<div class="user-profile">
+
+	</div>
+
+
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.14/jquery.scrollTo.min.js"></script>
+
+	<!-- Begin Dashboard includes -->
+	<script src="_scripts/dashboard/setup.js"></script>
+	<script type="text/javascript" src="_scripts/dashboard/developr.accordions.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.auto-resizing.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.message.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.confirm.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.tabs.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.input.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.modal.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.table.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.tooltip.js"></script>
+
+
+
+
+    <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <script src="http://vjs.zencdn.net/5.10.4/video.js"></script>
+
+	<script type="text/javascript" charset="utf-8">
+	
+		$(document).ready(function() {
+			
+			$('.announcements__tabs a').on('click', function(e){
+				e.preventDefault();
+				var loc = $(this).attr('href');
+				$('.announcements__tab').addClass('hide');
+				$('#'+loc).removeClass('hide');
+
+				$('.announcements__tabs a').removeClass('active');
+				$(this).addClass('active');
+			});
+
+			// This allows for the page animation when link clicked
+			$('#portal-navigation a').click(function(){
+				$.scrollTo( this.hash, 800);
+				$(this.hash).find('span.message').text( this.title );
+				return false;
+			});
+
+		    /* Carousel Code */
+		    if($('.js-carousel')){
+		      console.log('Carousels True');
+		      $.each($('.js-carousel'),function(){
+		        var _this = $(this);
+		        var podWith = _this.find('.carousel__item').outerWidth(true);
+		        var count = _this.find('.carousel__item').length;
+		        var podMarginRight = parseInt(_this.find('.carousel__item').css('marginRight'));
+		        console.log(count);
+		        //_this.find('.carousel__items').width((podWith * count) - podMarginRight);
+
+		        /* Carousel Buttons */
+
+		          var moveLength = 445;
+		          
+
+		          _this.find('.carousel__btn--right').on('click',function(){
+		          	// $(".video-js")[0].player.pause(); 
+		            var _thisBtn = $(this);
+		            _thisBtn.siblings('button').prop('disabled', false );
+		            var carouselWindow = _this.find('.carousel__window');
+		            carouselWindow.animate({
+		              scrollLeft: '+='+moveLength+'px',
+		            }, 'fast', function(){
+		              console.log('Right: '+carouselWindow.scrollLeft());
+		              if(carouselWindow.scrollLeft() + carouselWindow.innerWidth() >= carouselWindow[0].scrollWidth){
+		                _thisBtn.prop( "disabled", true );
+		              }
+		            });
+		          });
+		          _this.find('.carousel__btn--left').on('click',function(){
+		          	// $(".video-js")[0].player.pause();
+		            var _thisBtn = $(this);
+		            _thisBtn.siblings('button').prop('disabled', false );
+		            var carouselWindow = _this.find('.carousel__window');
+		            carouselWindow.animate({
+		              scrollLeft: '-='+moveLength+'px'
+		            }, 'fast', function(){
+		              var leftPos = carouselWindow.scrollLeft();
+		              if(leftPos == 0){
+		                _thisBtn.prop('disabled', true );
+		              }
+		            });
+		          });
+
+		      });
+		    }else{
+		      console.log('Carousels False');
+		    }
+
+		});
+		
+	</script>
+	
+</body>
+</html>

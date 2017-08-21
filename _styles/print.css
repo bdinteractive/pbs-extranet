@@ -1,0 +1,43 @@
+/* ----------------------------------------------------------------------------
+	Purpose:
+	Global CSS Styles for PBS intranet website
+	$Last Updated: 21-September-2011 12:00:00PM Brad Dedon $
+/*	----------------------------------------------------------------------------
+	Table Of Contents
+	1. Resets & Defaults
+*/
+
+
+
+/*	----------------------------------------------------------------------------
+	(1) Defaults & Resets */
+/*	----------------------------------------
+	(1a) Defaults & Resets - Resets */
+body * {
+	/*display: none;*/
+}
+
+#pbsheader .logo { display: none; }
+#pbsheader .logoPrintable { }
+
+#pbsheader .secondaryMenuWrapper { display: none; }
+#pbsheader .primaryMenuWrapper { display: none; }
+#content { display: block; }
+#headerAlertMessage { display: none; }
+#sidenav-tools-bar { display: none; }
+
+h1, h2, h3, h4, h5, h6 { display: block; }
+
+.leftContent, .leftContentWide { display: block; }
+.printDisclaimer { display: block; }
+
+
+.contentGlowTop { display: none; }
+.contentGlowBottom { display: none; }
+#footer { display: block; }
+#footer .miniFooter ul { display: none; }
+.rightRail { display: none; }
+
+.pageTitleTools .socialIcons { display: none; }
+.pageTitleTools .moreTools { display: none; }
+.userArea { display: none; }

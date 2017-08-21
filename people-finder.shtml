@@ -1,0 +1,444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+
+	<link rel="stylesheet" href="_styles/classic.css">
+	<link rel="stylesheet" href="_styles/classic.date.css">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+	<script src="_scripts/modernizr.custom.63321.js"></script>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+		<h1>PBS People Finder Search</h1>
+
+	</div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="non-dashboard clearfix">
+
+		<div class="leftContentWide">
+			<h2 class="pageTitle">Showing Results for <span class="italic">"Lisa"</span></h2>
+		</div>
+
+		<div class="leftRail">
+
+			<div class="pbs-widget widget-search">
+				<form>
+					<input type="text" name="search-input" placeholder="Search Person" value="">
+					<submit><i class="pbs-icon-magnify-glass"></i></submit>
+				</form>
+			</div>
+
+			<div class="pbs-widget widget-accordion-list">
+				<h5>Narrow by Categories <i class="pbs-icon-keyboard-arrow-up"></i></h5>
+				<ul>
+					<li class="active"><i class="pbs-icon-plus"></i> Everything <span>68</span></li>
+					<li class="hide active">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+				</ul>
+			</div>
+			
+			
+		</div><!-- end of rightRail -->
+		
+		<div class="rightContent">
+
+
+				<div class="search-result-pod-list clearfix">
+
+					<div class="img-wrapper user-profile left" style="background-image:url(_images/temp-speaker-2.png);"></div>
+					
+					<div class="content clearfix">
+
+						<h4>Lisa Richards</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-link"></i> My Links</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar"></i> Feb 27 2014</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Lisa Richards</a></li>
+						</ul>
+
+						<ul class="user-row">
+							<li>Title</li>
+							<li>Phone Number</li>
+							<li>Job Functions</li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">View Profile</a>
+						<a class="pbs-button btn-primary icon-right" href="#">Send Mail <i class="pbs-icon-mail"></i></a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list clearfix">
+
+					<div class="img-wrapper user-profile left" style="background-image:url(_images/temp-speaker-2.png);"></div>
+					
+					<div class="content clearfix">
+
+						<h4>Lisa Richards</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-link"></i> My Links</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar"></i> Feb 27 2014</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Lisa Richards</a></li>
+						</ul>
+
+						<ul class="user-row">
+							<li>Title</li>
+							<li>Phone Number</li>
+							<li>Job Functions</li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">View Profile</a>
+						<a class="pbs-button btn-primary icon-right" href="#">Send Mail <i class="pbs-icon-mail"></i></a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list clearfix">
+
+					<div class="img-wrapper user-profile left" style="background-image:url(_images/temp-speaker-2.png);"></div>
+					
+					<div class="content clearfix">
+
+						<h4>Lisa Richards</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-link"></i> My Links</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar"></i> Feb 27 2014</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Lisa Richards</a></li>
+						</ul>
+
+						<ul class="user-row">
+							<li>Title</li>
+							<li>Phone Number</li>
+							<li>Job Functions</li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">View Profile</a>
+						<a class="pbs-button btn-primary icon-right" href="#">Send Mail <i class="pbs-icon-mail"></i></a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list clearfix">
+
+					<div class="img-wrapper user-profile left" style="background-image:url(_images/temp-speaker-2.png);"></div>
+					
+					<div class="content clearfix">
+
+						<h4>Lisa Richards</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-link"></i> My Links</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar"></i> Feb 27 2014</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Lisa Richards</a></li>
+						</ul>
+
+						<ul class="user-row">
+							<li>Title</li>
+							<li>Phone Number</li>
+							<li>Job Functions</li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">View Profile</a>
+						<a class="pbs-button btn-primary icon-right" href="#">Send Mail <i class="pbs-icon-mail"></i></a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list clearfix">
+
+					<div class="img-wrapper user-profile left" style="background-image:url(_images/temp-speaker-2.png);"></div>
+					
+					<div class="content clearfix">
+
+						<h4>Lisa Richards</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-link"></i> My Links</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar"></i> Feb 27 2014</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Lisa Richards</a></li>
+						</ul>
+
+						<ul class="user-row">
+							<li>Title</li>
+							<li>Phone Number</li>
+							<li>Job Functions</li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">View Profile</a>
+						<a class="pbs-button btn-primary icon-right" href="#">Send Mail <i class="pbs-icon-mail"></i></a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+
+				<ul class="pbs-pagination">
+					<li><a href="#"><i class="pbs-icon-keyboard-arrow-left"></i></a></li>
+					<li><a href="#">1</a></li>
+					<li><a class="active" href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a class="btn-primary" href="#"><i class="pbs-icon-keyboard-arrow-right"></i></a></li>
+				</ul>
+
+				<select id="cd-dropdown" name="cd-dropdown" class="cd-select">
+					<option value="-1" selected>Show 10 items/page</option>
+					<option value="1" class="icon-monkey">Show 20 items/page</option>
+					<option value="2" class="icon-bear">Show 30 items/page</option>
+					<option value="3" class="icon-squirrel">Show 40 items/page</option>
+					<option value="4" class="icon-elephant">Show all items/page</option>
+				</select>
+			
+		</div><!-- end of leftContent -->
+		
+	</div><!-- end of content -->
+	
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/department.js"></script>
+
+	<script type="text/javascript" src="_scripts/jquery.dropdown.js"></script>
+
+	<script type="text/javascript" src="_scripts/picker.js"></script>
+	<script type="text/javascript" src="_scripts/picker.date.js"></script>
+	<script type="text/javascript" src="_scripts/legacy.js"></script>
+
+	
+
+	<script type="text/javascript">
+		$( function() {
+			$( '#cd-dropdown' ).dropdown( {
+				gutter : 5
+			});
+		});
+		$('#datepicker_start').pickadate({
+			showMonthsShort: true,
+			format: 'dd/mm/yy'
+		});
+		$('#datepicker_end').pickadate({
+			showMonthsShort: true,
+			format: 'dd/mm/yy'
+
+		});
+	</script>
+	
+</body>
+</html>

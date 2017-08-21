@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	
+	<!-- jquery specific -->
+	
+	<!-- jquery specific -->
+	
+	<script type="text/javascript" charset="utf-8" src="_scripts/jquery-1.6.1.min.js"></script>
+	
+	<style type="text/css" media="screen">
+	
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+			
+		body { background: #fff; }
+		#pbsheader { height: auto; }
+		
+	</style>
+	
+	<script type="text/javascript" charset="utf-8">
+		var windowTitle = decodeURIComponent(window.location.search.replace("?", ""));
+		$(document).ready(function() {
+			$('#page-title-window').text(windowTitle);
+		});
+		
+	</script>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V2 include -->
+		<img class="logo" src ="_images/logo_PBS_window.png" />
+	</div><!-- end of header -->
+	
+	<div class="pageTitleTools clearfix">
+		<h2 id="page-title-window"></h2>
+	</div>
+	
+</body>
+</html>

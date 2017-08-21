@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	
+	<!-- jquery specific -->
+	
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+
+</head>
+
+<body>
+
+	<div id="pbs-error-header">
+		<!-- Navigation V2 include -->
+		<img class="pbs-logo" src ="_images/logo_PBS_error.png" />
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+
+	
+	<!-- Content glow top and border -->
+	
+	<div id="pbs-content" class="clearfix">
+		
+		<div class="leftContentWide errorMessage">
+			<h1 class="errorHeader">Error 404</h1>
+		</div>
+		<!-- End of Page Label, Breadcrumb, Share and User Menus -->
+		
+		<div class="leftContentWide errorMessage">
+		
+			<span class="errorIcon"><i class="pbs-icon-align-justify"></i></span>
+			<h2 class="errorHeader">Page <span>Not Found</span></h2>
+
+			<p>We're sorry but we can't seem to find the page you requested.<br>
+				This might be becasue you have tyoed the web address incorrectly</p>
+
+			<p>In the menatime, try one of the options listed below</p>
+
+			<nav>
+				<h4>Go To Page:</h4>
+				<a href=""><i class="pbs-icon-navigate-next"></i> Home Page</a>
+				<a href=""><i class="pbs-icon-navigate-next"></i> Blog</a>
+				<a href=""><i class="pbs-icon-navigate-next"></i> Contact</a>
+			</nav>
+			
+		</div>
+		
+	</div><!-- end of content -->
+	
+	
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	
+</body>
+</html>

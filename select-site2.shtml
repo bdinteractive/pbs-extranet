@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS</title>
+	
+	<!-- global resources -->
+	<link href='_styles/site-selection.css' rel='stylesheet' type='text/css'>
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
+	
+</head>
+
+<body>
+	<section id="site-selection">
+		<div id="flex-content">
+			<h1>Select a Site</h1>
+
+			<div class="btn-group">
+				<a href="#" class="btn btn-primary">Staff Intranet</a>
+				<a href="#" class="btn btn-clear">Member Station Digital Workplace</a>
+			</div>
+		</div>
+	</section>
+	<section id="sticky-footer">
+		<p>Thanks for the shortcut, but I know my way around</p>
+		<a href="#" class="btn btn-secondary">Remember My Selection</a>
+	</section>
+</body>
+</html>

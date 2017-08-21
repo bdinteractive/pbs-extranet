@@ -1,0 +1,13 @@
+
+<div class="miniFooter">
+	<ul>
+		<li><a href="#">Help</a></li>
+		<li><a href="#">Terms of Use</a></li>
+		<li class="last"><a href="#">Contact</a></li>
+	</ul>
+
+	<span>&copy; Copyright PBS 2011</span>
+	
+	<div class="printDisclaimer">This page may contain material that is confidential or proprietary to PBS and is intended solely for use by the approved myPBS.org account holder. Any review, reliance or distribution of such material by others, or forwarding of such material without express permission, is strictly prohibited. If you are not the approved myPBS.org account holder, please notify help@mypbs.org and destroy all copies.</div>
+
+</div>

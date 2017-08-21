@@ -1,0 +1,240 @@
+/* ----------------------------------------------------------------------------
+	Purpose:
+	V2 Navigation CSS Styles for PBS intranet website
+	$Last Updated: 12-September-2011 11:00:00PM Brad Dedon $
+/*	----------------------------------------------------------------------------
+	Table Of Contents
+	1. Primary Navigation 
+		a. Button widths
+		b. Generic button styles
+		c. Dropdown widths
+		d. Generics
+		e. Menu Specific
+	2. Secondary Navigation
+		a. Tall buttons
+		b. Short buttons
+*/
+
+
+#pbsheader .pbs-primaryMenuWrapper { float: left; height: 48px; /*width: 835px;*/ }
+
+/*	----------------------------------------------------------------------------
+	(1) Primary Navigation */
+	
+#pbsheader .pbs-primaryMenuWrapper .pbs-endCap {
+	float: right;
+	height: 48px;
+	width: 4px;
+	background: url(../_images/sprite_primary_endCap.png) top right no-repeat;
+}
+ul.pbs-primaryMenu { display: block; float: left; /*width: 835px;*/ padding-top: 3px; margin-top: -3px; background: url(../_images/background_primary_nav.png) repeat-x; }
+ul.pbs-primaryMenu li.pbs-levelOne {
+	float: left;
+	height: 48px;
+	position: relative;
+}
+ul.pbs-primaryMenu li.pbs-levelOne:hover { background: url(../_images/sprite_primary_nav.png) repeat-x; }
+/* First Button hide override (Program A-Z removal for launch, see html for hidden content) */
+ul.pbs-primaryMenu li.pbs-noHover:hover { background: none; }
+
+ul.pbs-primaryMenu li.pbs-levelOne a.pbs-button {
+	height: 29px;
+	display: block;
+	padding: 14px 0 0 0;
+	text-align: center;
+	font-size: 1.0em;
+	font-weight: bold;
+	color: #fff; 
+	border-left: 1px solid #3c3f42;
+	border-right: 1px solid #57585b;
+}
+ul.pbs-primaryMenu li.pbs-levelOne:last-child a.pbs-button { border-right: none; }
+ul.pbs-primaryMenu li.pbs-levelOne a.pbs-button:hover {
+	text-decoration: none;
+}
+
+/* Defines button widths, this deals with OS/browser issues regarding 
+	font sizes/widths/anti-aliasing, so the btn width is hard coded */
+ul.pbs-primaryMenu li.pbs-levelOne a.pbs-buttonOne { width: 120px; }
+ul.pbs-primaryMenu li.pbs-levelOne a.pbs-buttonTwo { width: 119px; }
+ul.pbs-primaryMenu li.pbs-levelOne a.pbs-buttonThree { width: 160px; }
+ul.pbs-primaryMenu li.pbs-levelOne a.pbs-buttonFour { width: 170px; }
+ul.pbs-primaryMenu li.pbs-levelOne a.pbs-buttonFive { width: 50px; }
+ul.pbs-primaryMenu li.pbs-levelOne a.pbs-buttonSix { width: 50px; }
+ul.pbs-primaryMenu li.pbs-levelOne a.pbs-buttonSeven { width: 50px; }
+ul.pbs-primaryMenu li.pbs-levelOne a.pbs-buttonEight { width: 50px; }
+ul.pbs-primaryMenu li.pbs-levelOne a.pbs-buttonNine { width: 50px; }
+
+/* Generic button styles */
+ul.pbs-primaryMenu li.pbs-levelOne a.pbs-first { border-left: none; }
+ul.pbs-primaryMenu li.pbs-levelOne a.pbs-favorite, ul.pbs-primaryMenu li.pbs-levelOne a.pbs-notice { padding-top: 10px; height: 33px; }
+ul.pbs-primaryMenu li.pbs-levelOne a.pbs-icon { border-right: none; /*padding: 10px 10px 4px 9px;*/ padding: 10px 0 4px 0; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuOne, ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuTwo, ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuThree, ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFour, ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFive, ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuSix { 
+	display: none;
+	border: none;
+	position: absolute;
+	top: 43px;
+	left: 0;
+}
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-levelTwoMenu {
+	color: #fff;
+	font-size: 11px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	background: url(../_images/background_dropDownMenu.png) repeat-x;
+	z-index: 1000;
+	
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-o-border-radius-bottomright: 5px;
+	-o-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+
+	-moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+	-o-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Dropdown widths defined here */
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-levelTwoMenu a { color: #fff; font-size: 11px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuOne { width: 660px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuTwo { width: 694px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuThree { width: 360px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFour { width: 300px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFive { width: 345px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuSix { width: 165px; }
+
+/* Hides and shows the dropdown on btn hover */
+ul.pbs-primaryMenu li.pbs-levelOne:hover .pbs-levelTwoMenu { display: block; }
+
+/* Generic dropdown styles */
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-levelTwoMenu .pbs-first { border-bottom: 1px dotted #AAA; margin: 24px 0 12px 0; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-levelTwoMenu .pbs-subMenu { padding: 0 12px 12px 10px; }
+
+/* Menu Specific Styles */
+
+/* FORMS */
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-threeCol { width: 418px !important; }
+ul.pbs-primaryMenu li.pbs-levelOne a.pbs-icon-watch { background: url('../_images/icon-remote-black.png') center left no-repeat; padding-left: 28px; width: 70px; margin-left: 21px; }
+
+/* PROGRAMS A-Z */
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuOne .pbs-subMenu .pbs-bullet { padding-left: 12px; background: url(../_images/bullet_dot.png) left top no-repeat; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuOne .pbs-subMenu .pbs-colLeft { float: left; width: 120px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuOne .pbs-subMenu .pbs-colLeft a { font-weight: bold; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuOne .pbs-subMenu .pbs-colRight { float: left; min-height: 20px; width: 490px; padding-left: 10px; font-weight: normal; border-left: 1px dotted #777; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuOne .pbs-subMenu .pbs-colRight ul { float: left; padding-right: 10px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuOne .pbs-subMenu .pbs-colRight ul li { float: left; padding: 0 3px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuOne .pbs-subMenu .pbs-colRight ul li a { font-weight: bold; }
+
+/* Working at PBS */
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuTwo ul.pbs-subMenu { float: left; width: 138px; padding: 0; border-right: 1px dotted #AAA; padding-bottom: 100%; margin-bottom: -100%; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuTwo ul.pbs-subMenu li.pbs-title { background: #1A1B1B; text-align: center; border-bottom: 1px dotted #AAA; padding: 22px 0 14px 0; margin: 0; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuTwo ul.pbs-subMenu li.pbs-title a { font-weight: bold; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuTwo ul.pbs-subMenu li { background: url(../_images/bullet_dot.png) left top no-repeat; padding: 0 10px 6px 14px; margin-left: 5px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuTwo ul.pbs-subMenu li.pbs-first { margin: 16px 0 0 5px; border: none; }
+
+/* Community */
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuThree ul.pbs-iconMenu { background: #1A1B1B; border-bottom: 1px dotted #999; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuThree ul.pbs-iconMenu li { float: left; width: 110px; /*height: 25px;*/ text-align: center; padding: 10px 0 15px 0; /*padding-top: 50px;*/ }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuThree ul.pbs-iconMenu li a { font-weight: bold; display: block; margin-top: 5px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuThree ul.pbs-iconMenu li.pbs-icon_announcements { margin-left: 14px; /*background: url(../_images/sprite_navIcons.png) no-repeat; margin-left: 14px;*/ }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuThree ul.pbs-iconMenu li.pbs-icon_people { /*background: url(../_images/sprite_navIcons.png) -110px 0 no-repeat;*/ }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuThree ul.pbs-iconMenu li.pbs-icon_yellowPages { /*background: url(../_images/sprite_navIcons.png) -220px 0 no-repeat;*/ }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuThree ul.pbs-colLeft, ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuThree ul.pbs-colRight { float: left; width: 108px; padding: 6px 16px 2px 30px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuThree ul.pbs-colLeft li, ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuThree ul.pbs-colRight li { padding: 5px 0 5px 0; }
+
+/* Scheduling */
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFour ul.pbs-iconMenu { background: #1A1B1B; border-bottom: 1px dotted #999; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFour ul.pbs-iconMenu li { float: left; width: 110px; /*height: 25px;*/ text-align: center; padding: 10px 0 15px 0; /*padding-top: 50px;*/ }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFour ul.pbs-iconMenu li a { font-weight: bold; display: block; margin-top: 5px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFour ul.pbs-iconMenu li.pbs-icon_conferenceRooms { /*background: url(../_images/sprite_navIcons.png) 0 -75px no-repeat;*/ margin-left: 24px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFour ul.pbs-iconMenu li.pbs-icon_corporateCalendar { /*background: url(../_images/sprite_navIcons.png) -110px -75px no-repeat;*/ margin-left: 24px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFour ul.pbs-colLeft, ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFour ul.pbs-colRight { float: left; width: 80px; padding: 6px 16px 2px 30px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFour ul.pbs-colLeft li, ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFour ul.pbs-colRight li { padding: 5px 0 5px 0; }
+
+/* Benefits and Education */
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFive ul.pbs-iconMenu { background: #1A1B1B; border-bottom: 1px dotted #999; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFive ul.pbs-iconMenu li { float: left; width: 110px; /*height: 25px;*/ text-align: center; padding: 10px 0 15px 0; /*padding-top: 50px;*/ }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFive ul.pbs-iconMenu li img { height: 45px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFive ul.pbs-iconMenu li a { font-weight: bold; display: block; margin-top: 5px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFive ul.pbs-iconMenu li.pbs-icon_medical { /*background: url(../_images/sprite_navIcons.png) 0 -150px no-repeat;*/ margin-left: 7px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFive ul.pbs-iconMenu li.pbs-icon_pbsUniversity { /*background: url(../_images/sprite_navIcons.png) -110px -150px no-repeat;*/ }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFive ul.pbs-iconMenu li.pbs-icon_allForms { /*background: url(../_images/sprite_navIcons.png) -220px -150px no-repeat;*/ }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFive ul.pbs-colLeft, ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFive ul.pbs-colRight { float: left; width: 98px; padding: 6px 16px 2px 30px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFive ul.pbs-colLeft li, ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuFive ul.pbs-colRight li { padding: 5px 0 5px 0; }
+
+/* Favorites */
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuSix ul.pbs-subMenu { float: left; padding: 0; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuSix ul.pbs-subMenu li.pbs-title { background: url(../_images/background_dropDownMenu_firstSmall.png) repeat-x; text-align: left; border-bottom: 1px dotted #AAA; padding: 20px 14px 12px 14px; margin: 0; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuSix ul.pbs-subMenu li.pbs-second { border-top: 1px dotted #AAA; padding: 17px 14px 11px 14px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuSix ul.pbs-subMenu li.pbs-title a { font-weight: bold; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuSix ul.pbs-subMenu li { background: url(../_images/bullet_dot.png) left top no-repeat; padding: 0 14px 6px 14px; margin-left: 5px; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuSix ul.pbs-subMenu li a { font-weight: normal; }
+ul.pbs-primaryMenu li.pbs-levelOne .pbs-dropDownMenuSix ul.pbs-subMenu li.pbs-first { margin: 16px 0 0 5px; border: none; }
+
+
+/*	----------------------------------------------------------------------------
+	(2) Secondary Navigation */
+	
+#pbsheader .pbs-secondaryMenuWrapper { /* float: right; */ height: 28px; }
+#pbsheader .pbs-secondaryMenuWrapper form { position: relative; }
+ul.pbs-secondaryMenu {
+	position: absolute;
+	right: 0;
+}
+ul.pbs-secondaryMenu li.pbs-short {
+	float: left;
+	height: 22px;
+	margin-top: 3px;
+	padding-top: 3px;
+	overflow: hidden;
+	background: url(../_images/sprite_secondary_nav.png) 0 -56px repeat-x;
+}
+ul.pbs-secondaryMenu li.pbs-tall {
+	float: left;
+	height: 21px;
+	padding-top: 7px;
+	overflow: hidden;
+	background: url(../_images/sprite_secondary_nav.png) repeat-x;
+	border-left: 1px solid #3C3D3D;
+	border-right: 1px solid #9B9B9B;
+}
+
+/* Tall button styles */
+ul.pbs-secondaryMenu li.pbs-tall a { padding: 0 9px; font-size: 10px; font-weight: bold; color: #fff; }
+ul.pbs-secondaryMenu li.pbs-tall a:hover { text-decoration: none; text-shadow: 0 0 3px rgba(255, 255, 255, 0.75); }
+ul.pbs-secondaryMenu li.pbs-first { border-left: none; }
+ul.pbs-secondaryMenu li.pbs-last { border-right: none; }
+ul.pbs-secondaryMenu li.pbs-frontCap { width: 85px; background: url(../_images/sprite_secondary_nav.png) 0 -109px no-repeat; border: none; }
+ul.pbs-secondaryMenu li.pbs-midCap { width: 33px; background: url(../_images/sprite_secondary_nav.png) 0 -81px no-repeat; border: none; }
+ul.pbs-secondaryMenu li.pbs-endCap { width: 9px; background: url(../_images/sprite_secondary_nav.png) 0 -28px no-repeat; border: none; }
+
+/* Short button styles */
+ul.pbs-secondaryMenu li.pbs-short li {
+	float: left;
+	height: 18px;
+	padding: 1px 5px 0 5px;
+	background: url(../_images/sprite_secondary_utilsMenu.png) 0 -19px repeat-x;
+	border-left: 1px solid #3C3D3D;
+	border-right: 1px solid #9B9B9B;
+}
+ul.pbs-secondaryMenu li.pbs-short li.pbs-first { border-left: none; padding-left: 0; }
+ul.pbs-secondaryMenu li.pbs-short li.pbs-last { border-right: none; padding-right: 2px; }
+ul.pbs-secondaryMenu li.pbs-short li.pbs-frontCap { width: 11px; padding: 1px 0 0 0; background: url(../_images/sprite_secondary_utilsMenu.png) no-repeat; border: none; }
+ul.pbs-secondaryMenu li.pbs-short li a { width: 17px; height: 16px; display: block; }
+ul.pbs-secondaryMenu li.pbs-short li a.pbs-people { background: url(../_images/sprite_utilsIcons.png) 0 0 no-repeat; }
+ul.pbs-secondaryMenu li.pbs-short li a.pbs-people:hover { background-position: 0 -16px; }
+ul.pbs-secondaryMenu li.pbs-short li a.pbs-programs { background: url(../_images/sprite_utilsIcons.png) -17px 0 no-repeat; }
+ul.pbs-secondaryMenu li.pbs-short li a.pbs-programs:hover { background-position: -17px -16px; }
+ul.pbs-secondaryMenu li.pbs-short li a.pbs-all { background: url(../_images/sprite_utilsIcons.png) -34px 0 no-repeat; }
+ul.pbs-secondaryMenu li.pbs-short li a.pbs-all:hover { background-position: -34px -16px; }
+ul.pbs-secondaryMenu li.pbs-short li.pbs-inputCap { background: url(../_images/sprite_secondary_utilsMenu.png) 0 -38px repeat-x; border: none; }
+ul.pbs-secondaryMenu li.pbs-short li.pbs-inputBg { background: url(../_images/sprite_secondary_utilsMenu.png) 0 -57px repeat-x; border: none; }
+ul.pbs-secondaryMenu li.pbs-short li.pbs-inputBg input { border: none; height: 17px; width: 200px; background: none transparent; }
+ul.pbs-secondaryMenu li.pbs-short li.pbs-inputLast { height: 19px; border: none; padding: 0; background: url(../_images/button_utils_search.png) no-repeat; }
+ul.pbs-secondaryMenu li.pbs-short li .pbs-utilsSearch { border: none; width: 54px; height: 19px; background: none transparent; cursor: pointer; }
+

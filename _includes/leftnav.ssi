@@ -1,0 +1,199 @@
+<div id="sidenav-tools-bar">
+	<div class="inner-wrapper">
+		
+		<div class="tools-bar-widget-wrapper">
+			<div class="tools-bar-widget">
+			<!--
+				<ul class="tools-bar-widget-tbar clearfix">
+					<li class="tbar discussion"><a dataid="wdisq" href="#">EMAIL</a></li>
+					<li class="tbar onefourzero"><a dataid="w140" href="#">THE BUZZ</a></li>
+				</ul>
+			-->
+				
+				<div class="tools-bar-widget-body">
+					<a id="sidenav-tools-bar-close" href=""></a>
+
+
+
+
+
+
+
+
+
+					<!-- this is for the 1-4-ZERO panel -->
+					<div id="widget-panel-14ZERO">
+						<div class="active-title"><span>THE BUZZ</span><a href="">View All</a></div>
+						<ul class="list-wrap">
+							<li>
+								<div class="list clearfix">
+									<div class="picture-wrap"><img src="_images/new.png" /></div>
+									<div class="content-wrap">
+										<h5>New site launches with new features</h5>
+										<div class="content">
+											Class aptent taciti sociosqu.  nulla neque in tempor sed nisi taciti.
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="list clearfix">
+									<div class="picture-wrap"><img src="_images/star.png" /></div>
+									<div class="content-wrap">
+										<h5>President Coming into office</h5>
+										<div>
+											Class aptent taciti sociosqu.  nulla neque in tempor sed nisi taciti.
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="list clearfix">
+									<div class="picture-wrap"><img src="_images/sport_football.png" /></div>
+									<div class="content-wrap">
+										<h5>Fantasy Football</h5>
+										<div>
+											Class aptent taciti sociosqu.  nulla neque in tempor sed nisi taciti.
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- end of the 1-4-ZERO panel -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<!-- this is for the Email panel -->
+					<div id="widget-panel-discussionboard">
+						<div class="active-title"><span>EMAIL</span><a href="">View All</a></div>
+						<ul class="list-wrap">
+							<li>
+								<div class="list clearfix">
+									<div class="arrow-wrap"><img src="_images/email.png" /></div>
+									<div class="content-wrap">
+										<a href="javascript:void(0);"><h5>Subject: This Afternoons meeting</h5></a>
+										<div class="content">
+											Class aptent taciti sociosqu.  nulla neque in tempor sed nisi taciti.
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="list clearfix">
+									<div class="arrow-wrap"><img src="_images/email.png" /></div>
+									<div class="content-wrap">
+										<a href="javascript:void(0);"><h5>Subject: Ricks going away party</h5></a>
+										<div class="content">
+											Class aptent taciti sociosqu.  nulla neque in tempor sed nisi taciti.
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="list clearfix">
+									<div class="arrow-wrap"><img src="_images/email.png" /></div>
+									<div class="content-wrap">
+										<a href="javascript:void(0);"><h5>Subject: Pizza in the break room</h5></a>
+										<div class="content">
+											Class aptent taciti sociosqu.  nulla neque in tempor sed nisi taciti.
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="list clearfix">
+									<div class="arrow-wrap"><img src="_images/email.png" /></div>
+									<div class="content-wrap">
+										<a href="javascript:void(0);"><h5>Subject: Need report on 4 things</h5></a>
+										<div>
+											Class aptent taciti sociosqu.  nulla neque in tempor sed nisi taciti.
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- end of the Email panel -->
+
+
+
+
+
+
+					<!-- this is for the Phone Directory panel -->
+					<div id="widget-panel-phoneDirectory">
+						<div class="active-title"><span>PHONE DIRECTORY</span><a href="">Advanced Search</a></div>
+						<div style="padding:20px;color:#535353;" class="clearfix">
+
+						<style>
+							.phoneDirectory fieldset { border: none; padding-bottom: 15px; }
+							.phoneDirectory legend { font-size: 14px; }
+							.phoneDirectory input { padding: 6px; border: solid 1px #C4C4C4; background: #FCF5FF; }
+
+						</style>
+
+
+							<form class="phoneDirectory">
+								<fieldset>
+									<legend>First Name</legend>
+									<input type="text" size="30">
+								</fieldset>
+								<fieldset>
+									<legend>Last Name</legend>
+									<input type="text" size="30">
+								</fieldset>
+								<fieldset style="padding-bottom:17px;border-bottom:solid 1px #C4C4C4;margin-bottom:20px;">
+									<legend>Department</legend><br />
+										<select class="select expandable-list white-gradient" style="width:160px">
+											<option value="option1">Accounting</option>
+											<option value="option2">Media</option>
+											<option value="option3">Support</option>
+											<option value="option4">IT</option>
+										</select>
+								</fieldset>
+
+								<a href="#" title="Last page" class="button white-gradient">Search</a>
+							</form>
+
+						</div>
+					</div>
+					<!-- end of the Phone Directory panel -->
+
+
+
+
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+				
+		<div class="widget-icon-bar">
+			<a dataid="w140" href="javascript:void(0);" title="The Buzz" class="sidetool menu01 widgetize"></a>
+			<a href="javascript:void(0);" title="Q&A" class="sidetool menu02"></a>
+			<a dataid="wdisq" href="javascript:void(0);" title="Email" class="sidetool menu03 widgetize"><span class="notifyEmailAmount">4</span></a>
+			<a dataid="phone" href="javascript:void(0);" title="Phone Directory" class="sidetool menu04 widgetize"></a>
+			<a href="javascript:void(0);" title="My PBS" class="sidetool menu05"></a>
+		</div>
+		
+	</div>
+</div><!-- end of sidenav -->

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+
+	<!-- Begin Dashboard includes -->
+
+	<!-- CAN BE DELETED IF NOT NEEDED -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css?v=1">
+	
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+
+
+
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+		
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+	</div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="non-dashboard clearfix">
+
+		<nav class="conf-navigation clearfix">
+			<ul>
+				<li><a href="#">About the Conference</a></li>
+				<li><a href="#">Keynotes</a></li>
+				<li><a class="active" href="#">Artifacts</a></li>
+			</ul>
+		</nav><!-- END conf-navigation -->
+	
+		<div class="leftContentWide">
+
+			<h2>Artifacts grouped by Agenda</h2>
+
+		</div>
+
+		<div class="leftContentWide">
+
+			<section class="conf-agenda-nav">
+
+				<ul class="js-pbs-category-expose">
+					<li><a href="#" data-category="day01">Day 1</a></li>
+					<li><a href="#" data-category="day02">Day 2</a></li>
+					<li><a class="active" href="#" data-category="day03">Day 3</a></li>
+				</ul>
+
+				<h5>Downloads</h5>
+
+			</section>
+
+
+			<section class="hide js-pbs-content-expose" id="day01">
+
+
+				<div class="conf-agenda-item clearfix">
+
+					<div class="conf-item-time">
+						<i class="offset-circle"></i>
+						<span><i class="pbs-icon-query-builder"></i> 2:00 PM</span>
+					</div>
+
+					<div class="conf-agenda-assets">
+						<ul class="meta clearfix">
+							<li class="icon"><img src="_images/icon-microsoft-powerpoint.png"></li>
+							<li><a href="">Presentation</a></li>
+							<li><a class="btn" href="">Download Asset</a></li>
+						</ul>
+						<ul class="meta clearfix">
+							<li class="icon"><img src="_images/icon-microsoft-word.png"></li>
+							<li><a href="">Transcript</a></li>
+							<li><a class="btn" href="">Download Asset</a></li>
+						</ul>
+					</div>
+
+					<div class="search-result-pod-list">
+						<div class="content">
+
+							<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+							<ul class="meta-row">
+								<li><a href="#"><i class="pbs-icon-camera"></i> Photo</a></li>
+								<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+								<li><a href="#"><i class="pbs-icon-bubbles"></i> 19</a></li>
+								<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+							</ul>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+
+						</div>
+					</div><!-- /end Search-Result-Pod-List -->
+
+				</div><!-- END conf-agenda-item -->
+
+
+			</section><!-- END day01 -->
+
+
+			<section class="hide js-pbs-content-expose" id="day02">
+
+
+				<div class="conf-agenda-item clearfix">
+
+					<div class="conf-item-time">
+						<i class="offset-circle"></i>
+						<span><i class="pbs-icon-query-builder"></i> 2:00 PM</span>
+					</div>
+
+					<div class="conf-agenda-assets">
+						<ul class="meta clearfix">
+							<li class="icon"><img src="_images/icon-microsoft-powerpoint.png"></li>
+							<li><a href="">Presentation</a></li>
+							<li><a class="btn" href="">Download Asset</a></li>
+						</ul>
+						<ul class="meta clearfix">
+							<li class="icon"><img src="_images/icon-microsoft-word.png"></li>
+							<li><a href="">Transcript</a></li>
+							<li><a class="btn" href="">Download Asset</a></li>
+						</ul>
+					</div>
+
+					<div class="search-result-pod-list">
+						<div class="content">
+
+							<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+							<ul class="meta-row">
+								<li><a href="#"><i class="pbs-icon-camera"></i> Photo</a></li>
+								<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+								<li><a href="#"><i class="pbs-icon-bubbles"></i> 19</a></li>
+								<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+							</ul>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+
+						</div>
+					</div><!-- /end Search-Result-Pod-List -->
+
+				</div><!-- END conf-agenda-item -->
+
+
+				<div class="conf-agenda-item">
+
+					<div class="conf-item-time">
+						<i class="offset-circle"></i>
+						<span><i class="pbs-icon-query-builder"></i> 3:00 PM</span>
+					</div>
+
+					<div class="conf-agenda-assets">
+						<ul class="meta clearfix">
+							<li class="icon"><img src="_images/icon-microsoft-powerpoint.png"></li>
+							<li><a href="">Presentation</a></li>
+							<li><a class="btn" href="">Download Asset</a></li>
+						</ul>
+					</div>
+
+					<div class="search-result-pod-list">
+						<div class="content">
+
+							<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+							<ul class="meta-row">
+								<li><a href="#"><i class="pbs-icon-camera"></i> Photo</a></li>
+								<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+								<li><a href="#"><i class="pbs-icon-bubbles"></i> 19</a></li>
+								<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+							</ul>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+
+						</div>
+					</div><!-- /end Search-Result-Pod-List -->
+
+				</div><!-- END conf-agenda-item -->
+
+
+			</section><!-- END day02 -->
+
+
+
+			<section class="js-pbs-content-expose" id="day03">
+
+
+				<div class="conf-agenda-item clearfix">
+
+					<div class="conf-item-time">
+						<i class="offset-circle"></i>
+						<span><i class="pbs-icon-query-builder"></i> 2:00 PM</span>
+					</div>
+
+					<div class="conf-agenda-assets">
+						<ul class="meta clearfix">
+							<li class="icon"><img src="_images/icon-microsoft-powerpoint.png"></li>
+							<li><a href="">Presentation</a></li>
+							<li><a class="btn" href="">Download Asset</a></li>
+						</ul>
+						<ul class="meta clearfix">
+							<li class="icon"><img src="_images/icon-microsoft-word.png"></li>
+							<li><a href="">Transcript</a></li>
+							<li><a class="btn" href="">Download Asset</a></li>
+						</ul>
+					</div>
+
+					<div class="search-result-pod-list">
+						<div class="content">
+
+							<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+							<ul class="meta-row">
+								<li><a href="#"><i class="pbs-icon-camera"></i> Photo</a></li>
+								<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+								<li><a href="#"><i class="pbs-icon-bubbles"></i> 19</a></li>
+								<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+							</ul>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+
+						</div>
+					</div><!-- /end Search-Result-Pod-List -->
+
+				</div><!-- END conf-agenda-item -->
+
+
+				<div class="conf-agenda-item">
+
+					<div class="conf-item-time">
+						<i class="offset-circle"></i>
+						<span><i class="pbs-icon-query-builder"></i> 3:00 PM</span>
+					</div>
+
+					<div class="conf-agenda-assets">
+						<ul class="meta clearfix">
+							<li class="icon"><img src="_images/icon-microsoft-powerpoint.png"></li>
+							<li><a href="">Presentation</a></li>
+							<li><a class="btn" href="">Download Asset</a></li>
+						</ul>
+					</div>
+
+					<div class="search-result-pod-list">
+						<div class="content">
+
+							<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+							<ul class="meta-row">
+								<li><a href="#"><i class="pbs-icon-camera"></i> Photo</a></li>
+								<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+								<li><a href="#"><i class="pbs-icon-bubbles"></i> 19</a></li>
+								<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+							</ul>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+
+						</div>
+					</div><!-- /end Search-Result-Pod-List -->
+
+				</div><!-- END conf-agenda-item -->
+
+				<div class="conf-agenda-item clearfix">
+
+					<div class="conf-item-time">
+						<i class="offset-circle"></i>
+						<span><i class="pbs-icon-query-builder"></i> 4:00 PM</span>
+					</div>
+
+					<div class="conf-agenda-assets">
+						<ul class="meta clearfix">
+							<li class="icon"><img src="_images/icon-microsoft-word.png"></li>
+							<li><a href="">Transcript</a></li>
+							<li><a class="btn" href="">Download Asset</a></li>
+						</ul>
+					</div>
+
+					<div class="search-result-pod-list">
+						<div class="content">
+
+							<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+							<ul class="meta-row">
+								<li><a href="#"><i class="pbs-icon-camera"></i> Photo</a></li>
+								<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+								<li><a href="#"><i class="pbs-icon-bubbles"></i> 19</a></li>
+								<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+							</ul>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+
+						</div>
+					</div><!-- /end Search-Result-Pod-List -->
+
+				</div><!-- END conf-agenda-item -->
+
+
+			</section><!-- END day03 -->
+
+
+
+		</div><!-- end of leftContent -->
+		
+	</div><!-- end of content -->
+	
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+
+	<!-- Begin Dashboard includes -->
+
+	<!-- CAN BE DELETED IF NOT NEEDED -->
+
+	<script src="_scripts/dashboard/setup.js"></script>
+
+	
+</body>
+</html>

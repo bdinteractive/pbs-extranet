@@ -1,0 +1,266 @@
+<style type="text/css">
+    
+                .calTodayDay
+        {
+              color: black;
+              background-color: #cccccc;
+        }
+        .calSelector
+        {
+              background-color: #cccccc;
+        }
+
+        .calNextPrev
+        {
+              vertical-align: sub;
+        }
+
+        .calDayHeader
+        {
+              font-size: 7pt;
+              background-color: #cccccc;
+              font-weight: bold;
+        }
+
+        .calSelectedDay
+        {
+              font-weight: bold;
+              color: white;
+              background-color: #666666;
+        }
+
+        .calTitle
+        {
+              font-weight: bold;
+              border-left-color: black;
+              border-bottom-color: black;
+              border-top-color: black;
+              background-color: #999999;
+              border-right-color: black;
+        }
+
+        .calWeekendDay
+        {
+              background-color: "#FFF1D6";
+        }
+
+        .calOtherMonthDay
+        {
+              color: gray;
+        }
+
+		.calendar_control a { font-size: 11px; }
+
+        
+
+</style>
+
+<div class="calendar_control">
+
+	<form method="post" action="/ra/calendar.aspx" id="form1">
+		<div class="aspNetHidden">
+			<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value=""/>
+			<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value=""/>
+			<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUIOTkyNTA4NTFkZAJKDrHNhYmixKGgt+AxnSNB5Z2ovv0xzvzMw1vvj2WV"/>
+		</div>
+		<script type="text/javascript">
+	//<![CDATA[
+	var theForm = document.forms['form1'];
+	if (!theForm) {
+	    theForm = document.form1;
+	}
+	function __doPostBack(eventTarget, eventArgument) {
+	    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+	        theForm.__EVENTTARGET.value = eventTarget;
+	        theForm.__EVENTARGUMENT.value = eventArgument;
+	        theForm.submit();
+	    }
+	}
+	//]]>
+		</script>
+		<div class="aspNetHidden">
+			<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWWQLT7cfZBQL7uOKUBgL6uLqEAQLwjPMFAvCM7+oLAs/j/cEMAs/j6aYEAs/jhYsPAs/jsdAGAs/jrbUOAs/j2ZkJAs/j9X4Cz+PhwwsCz+Pd+gYCz+PJ3wECqvrftgMCqvrLmwoCqvrn4AUCqvqTxQwCqvqPqgQCqvq7jw8CqvrX0wYCqvrDuA4Cqvq/0AwCqvqrtQQCgdG5rAkCgdHVcAKB0cHVCwKB0f26AwKB0emfCgKB0YXkBQKB0bHJDAKB0a2uBAKB0ZnFAgKB0bWqCgKsu/ltAqy7lbIIAqy7gZcDAqy7vfwKAqy7qcEFAqy7xaUNAqy78YoEAqy77e8PAqy72YYKAqy79esFAtGgxuEIAtCgnvEPAtqU1/AOAtqUy58FAuX72bQCAuX7zdMKAuX7of4BAuX7laUIAuX7iUAC5fv97AcC5fvRiw4C5fvFtgUC5fv5jwgC5fvtqg8CgOL7ww0CgOLv7gQCgOLDlQsCgOK3sAICgOKr3woCgOKf+gECgOLzpggCgOLnTQKA4pulAgKA4o/ACgKryZ3ZBwKryfGFDgKryeWgBQKrydnPDQKryc3qBAKryaGRCwKryZW8AgKryYnbCgKryb2wDAKryZHfBAKGo92YDgKGo7HHBgKGo6XiDQKGo5mJBAKGo420CwKGo+HQAwKGo9X/CgKGo8maAQKGo/3zBAKGo9GeC9Addf77SdzTGCnhXZU6TxtA+VtZW24e9OCB3X46SLr8"/>
+		</div>
+		<table id="calStartDate1" cellspacing="0" cellpadding="4" title="Calendar" style="width:210px;height:180px;border-width:1px;border-style:none;margin-bottom:10px;border-color:#999999;background-color:#FFF1D6;border-collapse:collapse;">
+		<tr>
+			<td colspan="7" style="background-color:#F8E0B2;border-color:Black;">
+				<table cellspacing="0" style="color:Black;font-family:Verdana;font-size:8pt;font-weight:bold;width:100%;border-collapse:collapse;">
+				<tr>
+					<td valign="bottom" style="width:15%;">
+						<a href="javascript:__doPostBack('calStartDate1','V4322')" style="color:Black;padding-left: 5px;" title="Go to the previous month">&lt;</a>
+					</td>
+					<td align="center" style="width:70%;">
+						<strong>December 2011</strong>
+					</td>
+					<td align="right" valign="bottom" style="width:15%;">
+						<a href="javascript:__doPostBack('calStartDate1','V4383')" style="color:Black;padding-right:5px;" title="Go to the next month">&gt;</a>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<th align="center" abbr="Sunday" scope="col" style="background-color:#F5C362;font-size:7pt;font-weight:bold;">
+				S
+			</th>
+			<th align="center" abbr="Monday" scope="col" style="background-color:#F5C362;font-size:7pt;font-weight:bold;">
+				M
+			</th>
+			<th align="center" abbr="Tuesday" scope="col" style="background-color:#F5C362;font-size:7pt;font-weight:bold;">
+				T
+			</th>
+			<th align="center" abbr="Wednesday" scope="col" style="background-color:#F5C362;font-size:7pt;font-weight:bold;">
+				W
+			</th>
+			<th align="center" abbr="Thursday" scope="col" style="background-color:#F5C362;font-size:7pt;font-weight:bold;">
+				T
+			</th>
+			<th align="center" abbr="Friday" scope="col" style="background-color:#F5C362;font-size:7pt;font-weight:bold;">
+				F
+			</th>
+			<th align="center" abbr="Saturday" scope="col" style="background-color:#F5C362;font-size:7pt;font-weight:bold;">
+				S
+			</th>
+		</tr>
+		<tr>
+			<td align="center" style="color:Gray;background-color:#F8E0B2;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4348')" style="color:Gray" title="November 27">27</a>
+			</td>
+			<td align="center" style="color:Gray;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4349')" style="color:Gray" title="November 28">28</a>
+			</td>
+			<td align="center" style="color:Gray;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4350')" style="color:Gray" title="November 29">29</a>
+			</td>
+			<td align="center" style="color:Gray;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4351')" style="color:Gray" title="November 30">30</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4352')" style="color:Black" title="December 01">1</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4353')" style="color:Black" title="December 02">2</a>
+			</td>
+			<td align="center" style="background-color:#F8E0B2;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4354')" style="color:Black" title="December 03">3</a>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" style="color:Black;background-color:#F5C362;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4355')" style="color:Black" title="December 04">4</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4356')" style="color:Black" title="December 05">5</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4357')" style="color:Black" title="December 06">6</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4358')" style="color:Black" title="December 07">7</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4359')" style="color:Black" title="December 08">8</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4360')" style="color:Black" title="December 09">9</a>
+			</td>
+			<td align="center" style="background-color:#F8E0B2;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4361')" style="color:Black" title="December 10">10</a>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" style="background-color:#F8E0B2;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4362')" style="color:Black" title="December 11">11</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4363')" style="color:Black" title="December 12">12</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4364')" style="color:Black" title="December 13">13</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4365')" style="color:Black" title="December 14">14</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4366')" style="color:Black" title="December 15">15</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4367')" style="color:Black" title="December 16">16</a>
+			</td>
+			<td align="center" style="background-color:#F8E0B2;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4368')" style="color:Black" title="December 17">17</a>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" style="background-color:#F8E0B2;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4369')" style="color:Black" title="December 18">18</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4370')" style="color:Black" title="December 19">19</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4371')" style="color:Black" title="December 20">20</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4372')" style="color:Black" title="December 21">21</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4373')" style="color:Black" title="December 22">22</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4374')" style="color:Black" title="December 23">23</a>
+			</td>
+			<td align="center" style="background-color:#F8E0B2;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4375')" style="color:Black" title="December 24">24</a>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" style="background-color:#F8E0B2;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4376')" style="color:Black" title="December 25">25</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4377')" style="color:Black" title="December 26">26</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4378')" style="color:Black" title="December 27">27</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4379')" style="color:Black" title="December 28">28</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4380')" style="color:Black" title="December 29">29</a>
+			</td>
+			<td align="center" style="width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4381')" style="color:Black" title="December 30">30</a>
+			</td>
+			<td align="center" style="background-color:#F8E0B2;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4382')" style="color:Black" title="December 31">31</a>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" style="color:Gray;background-color:#F8E0B2;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4383')" style="color:Gray" title="January 01">1</a>
+			</td>
+			<td align="center" style="color:Gray;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4384')" style="color:Gray" title="January 02">2</a>
+			</td>
+			<td align="center" style="color:Gray;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4385')" style="color:Gray" title="January 03">3</a>
+			</td>
+			<td align="center" style="color:Gray;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4386')" style="color:Gray" title="January 04">4</a>
+			</td>
+			<td align="center" style="color:Gray;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4387')" style="color:Gray" title="January 05">5</a>
+			</td>
+			<td align="center" style="color:Gray;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4388')" style="color:Gray" title="January 06">6</a>
+			</td>
+			<td align="center" style="color:Gray;background-color:#F8E0B2;width:14%;">
+				<a href="javascript:__doPostBack('calStartDate1','4389')" style="color:Gray" title="January 07">7</a>
+			</td>
+		</tr>
+		</table>
+	</form>
+
+</div>

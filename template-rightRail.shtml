@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+
+		<!-- Begin Dashboard includes -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css?v=1">
+
+	<!-- DataTables -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/DataTables/jquery.dataTables.css?v=1">
+	
+	
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+
+
+
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+		
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+		<h1>Template Right Rail</h1>
+
+	</div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="non-dashboard clearfix">
+
+		<!-- Page Label, Breadcrumb, Share and User Menus Begins -->
+		<div class="userArea clearfix">
+			<ul class="breadcrumb">
+				<li><a href="#">Extranet Home</a></li>
+				<li class="last">Template Right Rail</li>
+			</ul>
+			<div class="userDropdownB" style="margin-right: -10px;">
+				<a class="userDropdownGroups" href="#"><img src="_images/icon-facebook-groups.png" /></a>
+				<ul class="userDropDownMenu">
+					<li class="bottomPadded clearfix"><img src="_images/icon-facebook-groups.png" style="float:left;" /><span class="header header-icon">Groups I Created</span></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 1',url:'facebook_group.shtml'})">Group 1</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 2',url:'facebook_group.shtml'})">Group 2</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 3',url:'facebook_group.shtml'})">Group 3</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 4',url:'facebook_group.shtml'})">Group 4</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 5',url:'facebook_group.shtml'})">Group 5</a></li>
+					<li class="bottomPadded" style="padding-top: 10px;"><span class="header">Groups I'm Part Of</span></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 1',url:'facebook_group.shtml'})">Group 1</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 2',url:'facebook_group.shtml'})">Group 2</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 3',url:'facebook_group.shtml'})">Group 3</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 4',url:'facebook_group.shtml'})">Group 4</a></li>
+					<li><a href="javascript:openSocialWindow({width:600,height:500,loc:'fb_group',name:'Facebook Group 5',url:'facebook_group.shtml'})">Group 5</a></li>
+				</ul>
+			</div>
+			<div class="userDropdown" style="margin-right: 10px; margin-top: 10px">
+				<a class="userDropdownName" href="#">Welcome, John Smith</a>
+				<ul class="userDropDownMenu">
+					<li class="bottomPadded"><span class="userName">John Smith</span></li>
+					<li><a href="empty-page.shtml">My Contact Information</a></li>
+					<li><a href="Manage-Form.shtml">Manage Forms</a></li>
+					<li><a href="empty-page.shtml">Workarea</a></li>
+					<li><a href="empty-page.shtml">Sign Out</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="pageTitleTools clearfix">
+			<div class="colLeft">
+				<h2 class="pageTitle">Template Right Rail</h2>
+			</div>
+
+		</div>
+		<!-- End of Page Label, Breadcrumb, Share and User Menus -->
+		
+		<div class="leftContent">
+		
+			<h3>Paragraph Title One (h3)</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nulla odio, sagittis a tempus at, tincidunt nec mi. Quisque nec nulla velit. Nullam turpis ante, condimentum vitae ullamcorper at, condimentum at tellus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus dignissim, lorem at aliquam pharetra, purus eros placerat sem, at aliquet dui enim bibendum erat. Morbi metus nunc, lacinia sed scelerisque at, faucibus eu orci. Cras felis elit, feugiat quis facilisis non, ullamcorper vitae mi. Phasellus lobortis odio et nunc convallis mattis. Donec porta sapien eget erat suscipit at mollis nisl adipiscing. Vivamus fermentum turpis vel urna posuere ut sagittis ipsum condimentum. Morbi fringilla tristique porta.</p>
+
+			<h4>Paragraph Title Two (h4)</h4>
+			<p>Nam vel massa nisi. Aliquam nisl eros, semper sed suscipit ut, pretium eget lectus. Etiam vehicula ante a velit dapibus adipiscing. Quisque a eros enim. Proin rutrum, risus quis suscipit fringilla, dui erat eleifend justo, vitae imperdiet tellus felis et sem. Duis quis eleifend nulla. Fusce sit amet elit nec ligula pretium malesuada. Phasellus vitae magna quis nisi condimentum condimentum. Etiam fermentum, nunc vitae rhoncus mollis, lectus velit scelerisque sapien, non auctor odio lacus a turpis. Curabitur nec eros ac velit pellentesque adipiscing.</p>
+		
+			<h4>Paragraph Title Three (h4)</h4>
+			<p>Nam vel massa nisi. Aliquam nisl eros, semper sed suscipit ut, pretium eget lectus. Etiam vehicula ante a velit dapibus adipiscing. Quisque a eros enim. Proin rutrum, risus quis suscipit fringilla, dui erat eleifend justo, vitae imperdiet tellus felis et sem. Duis quis eleifend nulla. Fusce sit amet elit nec ligula pretium malesuada. Phasellus vitae magna quis nisi condimentum condimentum. Etiam fermentum, nunc vitae rhoncus mollis, lectus velit scelerisque sapien, non auctor odio lacus a turpis. Curabitur nec eros ac velit pellentesque adipiscing.</p>
+		
+			<h4>Paragraph Title Three (h4)</h4>
+			<p>Nam vel massa nisi. Aliquam nisl eros, semper sed suscipit ut, pretium eget lectus. Etiam vehicula ante a velit dapibus adipiscing. Quisque a eros enim. Proin rutrum, risus quis suscipit fringilla, dui erat eleifend justo, vitae imperdiet tellus felis et sem. Duis quis eleifend nulla. Fusce sit amet elit nec ligula pretium malesuada. Phasellus vitae magna quis nisi condimentum condimentum. Etiam fermentum, nunc vitae rhoncus mollis, lectus velit scelerisque sapien, non auctor odio lacus a turpis. Curabitur nec eros ac velit pellentesque adipiscing.</p>
+		
+		</div>
+		
+		<div class="rightRail">
+			
+		</div>
+		
+	</div><!-- end of content -->
+	
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/department.js"></script>
+
+		<!-- Begin Dashboard includes -->
+	<script src="_scripts/dashboard/setup.js"></script>
+	<script src="_scripts/dashboard/developr.input.js"></script>
+	<script src="_scripts/dashboard/developr.navigable.js"></script>
+	<script src="_scripts/dashboard/developr.notify.js"></script>
+	<script src="_scripts/dashboard/developr.scroll.js"></script>
+	<script src="_scripts/dashboard/developr.progress-slider.js"></script>
+	<script src="_scripts/dashboard/developr.tooltip.js"></script>
+	<script src="_scripts/dashboard/developr.content-panel.js"></script>
+
+	
+</body>
+</html>

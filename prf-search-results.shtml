@@ -1,0 +1,802 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+
+	<!-- jquery specific -->
+	<link rel="stylesheet" href="_styles/jqtransform.css" type="text/css" media="screen">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+	<!-- Begin Dashboard includes -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css?v=1">
+
+	<!-- DataTables -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/DataTables/jquery.dataTables.css?v=1">
+	
+	
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+
+
+		.search-result-pod-list .content {
+			max-height: inherit;
+		}
+
+		.search-result-pod-list .content .meta-row li {
+			padding-top: 0;
+		}
+		.search-result-pod-list .content .meta-row + .pbs-button {
+			margin: -16px 25px 0 0;
+			float: right;
+		}
+		.search-result-pod-list .content .meta-row {
+			float: left;
+		}
+		.search-result-pod-list .content {
+			padding: 16px 20px 15px 20px;
+		}
+		.search-result-pod-list .content .pbs-icon-play {
+			margin-right: 8px;
+			/*font-size: 24px;
+			color: #98A3AE;*/
+			margin-top: -13px;
+		}
+		.definition.inline > dd {
+			margin-bottom: 4px;
+		}
+		.definition.inline > dt {
+			margin-left: -130px;
+			width: 130px;
+			font-style: normal;
+		}
+
+		.pbs-facet-widget a {
+			color: #0000FF;
+			font-size: 11px;
+			padding: 5px 0;
+			display: block;
+			text-align: right;
+			text-decoration: underline;
+		}
+
+		.pbs-facet-scroll {
+			height: 170px;
+			overflow-y: scroll;
+		}
+		.pbs-facet-scroll label {
+			font-size: 11px;
+			line-height: 11px;
+		}
+
+		.pbs-facet-restrict {
+			height: 185px;
+			overflow: hidden;
+		}
+		.pbs-facet-restrict label {
+			font-size: 11px;
+			line-height: 11px;
+		}
+		.pbs-facet-restrict.open {
+			height: auto;
+		}
+
+
+
+		.checkboxs fieldset { 
+			float: none;
+			display: block;
+			margin-bottom: 15px; 
+		}
+		.actionItems input {
+			width: 120px;
+			padding-left: 5px;
+			padding-right: 30px;
+			height: 30px;
+			border: solid 1px #ebebeb;
+			background: white;
+			border-radius: 3px;
+			float: left;
+		}
+		.actionItems fieldset {
+			float: left;
+			margin-right: 10px;
+			display: inline-block;
+			border: none;
+		}
+		.actionItems label { 
+			display: block;
+			/* float: left; */
+			line-height: 11px;
+			padding-left: 24px;
+		}
+		.actionItems fieldset > span {
+			margin-top: 0;
+		}
+
+		
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+		<h1>PBS General Audience Promotional Priorities</h1>
+
+	</div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="non-dashboard clearfix">
+
+		<div class="leftContentWide">
+			<h2 class="pageTitle">Search and Refinements</h2>
+		</div>
+
+		<div class="leftRail">
+
+			<div class="pbs-widget widget-search">
+				<form>
+					<input type="text" name="search-input" placeholder="Search anything" value="">
+					<submit><i class="pbs-icon-magnify-glass"></i></submit>
+				</form>
+			</div>
+
+			<div class="columns">
+
+				<!-- ROW -->
+				<div class="six-columns large-margin-bottom pbs-facet-widget">
+
+					<h5 class="mid-margin-bottom">CAREER LEVEL</h5>
+
+					<div class="pbs-facet-restrict js-restricted-parent">
+
+						<div class="actionItems checkboxs clearfix">
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="" checked >
+								<label>All Types All Types</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Senior Senior Senior</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Available Excpet to Competitors</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Junior Junior Junior</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Middle Middle Middle</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Expert Expert Expert</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="" checked >
+								<label>All Types All Types</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Senior Senior Senior</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Available Excpet to Competitors</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Junior Junior Junior</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Middle Middle Middle</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Expert Expert Expert</label>
+							</fieldset>
+						</div>
+
+					</div>
+
+					<a href="#" class="js-restricted">more</a>
+
+				</div><!-- END column -->
+
+				<div class="six-columns large-margin-bottom pbs-facet-widget">
+
+					<h5 class="mid-margin-bottom">JOB TYPES</h5>
+
+					<div class="pbs-facet-restrict js-restricted-parent">
+
+						<div class="actionItems checkboxs clearfix">
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="" checked >
+								<label>All Types All Types</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Senior Senior Senior</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Available Excpet to Competitors</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Junior Junior Junior</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Middle Middle Middle</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Expert Expert Expert</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="" checked >
+								<label>All Types All Types</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Senior Senior Senior</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Available Excpet to Competitors</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Junior Junior Junior</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Middle Middle Middle</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Expert Expert Expert</label>
+							</fieldset>
+						</div>
+
+					</div>
+
+					<a href="#" class="js-restricted">more</a>
+
+				</div><!-- END column -->
+
+
+			</div><!-- END columns -->
+
+			<div class="columns">
+
+				<!-- ROW -->
+				<div class="six-columns large-margin-bottom pbs-facet-widget">
+
+					<h5 class="mid-margin-bottom">CAREER LEVEL</h5>
+
+					<div class="pbs-facet-restrict js-restricted-parent">
+
+						<div class="actionItems checkboxs clearfix">
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="" checked >
+								<label>All Types All Types</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Senior Senior Senior</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Available Excpet to Competitors</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Junior Junior Junior</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Middle Middle Middle</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Expert Expert Expert</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="" checked >
+								<label>All Types All Types</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Senior Senior Senior</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Available Excpet to Competitors</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Junior Junior Junior</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Middle Middle Middle</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Expert Expert Expert</label>
+							</fieldset>
+						</div>
+
+					</div>
+
+					<a href="#" class="js-restricted">more</a>
+
+				</div><!-- END column -->
+
+				<div class="six-columns large-margin-bottom pbs-facet-widget">
+
+					<h5 class="mid-margin-bottom">JOB TYPES</h5>
+
+					<div class="pbs-facet-restrict js-restricted-parent">
+
+						<div class="actionItems checkboxs clearfix">
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="" checked >
+								<label>All Types All Types</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Senior Senior Senior</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Available Excpet to Competitors</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Junior Junior Junior</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Middle Middle Middle</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Expert Expert Expert</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="" checked >
+								<label>All Types All Types</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Senior Senior Senior</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Available Excpet to Competitors</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Junior Junior Junior</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Middle Middle Middle</label>
+							</fieldset>
+							<fieldset>
+								<input type="checkbox" id="" name="keyword" value="">
+								<label>Expert Expert Expert</label>
+							</fieldset>
+						</div>
+
+					</div>
+
+					<a href="#" class="js-restricted">more</a>
+
+				</div><!-- END column -->
+
+
+			</div><!-- END columns -->
+
+			<div class="columns">
+
+
+				<div class="new-row twelve-columns large-margin-bottom align-center">
+
+					<select class="white-bg select">
+						<option>Sort by: Default Sorting</option>
+						<option>Some other value</option>
+						<option>Another type of value</option>
+					</select>
+
+				</div>
+
+				<div class="new-row twelve-columns large-margin-bottom align-center">
+
+					<a href="#" class="button orange-gradient">Reset Defaults</a>
+
+				</div>
+
+
+
+			</div>
+
+
+			
+			
+			
+		</div><!-- end of leftRail -->
+		
+		<div class="rightContent">
+
+			<!--<div class="search-result-filter">
+				<ul>
+					<li><a class="pbs-button btn-primary" href="#">Pledge <i class="pbs-icon-cancel-circle"></i></a></li>
+					<li><a class="pbs-button btn-primary" href="#">Keyword > Health Care <i class="pbs-icon-cancel-circle"></i></a></li>
+					<li><a class="pbs-button btn-primary" href="#">Forms <i class="pbs-icon-cancel-circle"></i></a></li>
+				</ul-->
+
+
+				<div class="search-result-pod-list">
+					<div class="content clearfix">
+
+						<h4>Type: Reading Rainbow</h4>
+
+						<div class="clearfix" style="padding-top:10px;">
+
+							<ul class="meta-row">
+								<li><a href=""><i class="pbs-icon-sphere"></i> FORUM</a></li>
+								<li><a href=""><i class="pbs-icon-link"></i> My Links</a></li>
+								<li><a href=""><i class="pbs-icon-share"></i> Share</a></li>
+								<li><a href=""><i class="pbs-icon-calendar"></i> Dec 23 2014</a></li>
+							</ul>
+
+							<ul class="meta-row right">
+								<li><a href=""><i class="pbs-icon-circle-right"></i> Program Dashboard</a></li>
+							</ul>
+
+						</div>
+
+						<dl class="definition inline mid-margin-top large-margin-bottom">
+							<dt>Program</dt>
+							<dd>Lorem Ipsum</dd>
+							<dt>Episode</dt>
+							<dd>Lorem Ipsum</dd>
+							<dt>Duration</dt>
+							<dd>00:00:00</dd>
+							<dt>Feed Details</dt>
+							<dd>HDPR 555, Mar 5 2013</dd>
+						</dl>
+
+						<nav>
+							<a class="pbs-button btn-primary" href="#">Read More</a>
+							<a class="pbs-button btn-primary" href="#"><i class="pbs-icon-play"></i> Watch Video</a>
+							<a class="pbs-button btn-primary" href="#">Download Asset</a>
+
+							<span class="right">
+								<span class="left" style="margin-right:15px;">Open Reel Report</span>
+								<a href="#"><img width="24" src="_images/icon-pdf-color.png"></a>
+								<a href="#"><img width="24" src="_images/icon-excel-color.png"></a>
+							</span>
+						</nav>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list">
+					<div class="content clearfix">
+
+						<h4>Type: Reading Rainbow</h4>
+
+						<div class="clearfix" style="padding-top:10px;">
+
+							<ul class="meta-row">
+								<li><a href=""><i class="pbs-icon-sphere"></i> FORUM</a></li>
+								<li><a href=""><i class="pbs-icon-link"></i> My Links</a></li>
+								<li><a href=""><i class="pbs-icon-share"></i> Share</a></li>
+								<li><a href=""><i class="pbs-icon-calendar"></i> Dec 23 2014</a></li>
+							</ul>
+
+							<ul class="meta-row right">
+								<li><a href=""><i class="pbs-icon-circle-right"></i> Program Dashboard</a></li>
+							</ul>
+
+						</div>
+
+						<dl class="definition inline mid-margin-top large-margin-bottom">
+							<dt>Program</dt>
+							<dd>Lorem Ipsum</dd>
+							<dt>Episode</dt>
+							<dd>Lorem Ipsum</dd>
+							<dt>Duration</dt>
+							<dd>00:00:00</dd>
+							<dt>Feed Details</dt>
+							<dd>HDPR 555, Mar 5 2013</dd>
+						</dl>
+
+						<nav>
+							<a class="pbs-button btn-primary" href="#">Read More</a>
+							<a class="pbs-button btn-primary" href="#"><i class="pbs-icon-play"></i> Watch Video</a>
+							<a class="pbs-button btn-primary" href="#">Download Asset</a>
+
+							<span class="right">
+								<span class="left" style="margin-right:15px;">Open Reel Report</span>
+								<a href="#"><img width="24" src="_images/icon-pdf-color.png"></a>
+								<a href="#"><img width="24" src="_images/icon-excel-color.png"></a>
+							</span>
+						</nav>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list">
+					<div class="content clearfix">
+
+						<h4>Type: Reading Rainbow</h4>
+
+						<div class="clearfix" style="padding-top:10px;">
+
+							<ul class="meta-row">
+								<li><a href=""><i class="pbs-icon-sphere"></i> FORUM</a></li>
+								<li><a href=""><i class="pbs-icon-link"></i> My Links</a></li>
+								<li><a href=""><i class="pbs-icon-share"></i> Share</a></li>
+								<li><a href=""><i class="pbs-icon-calendar"></i> Dec 23 2014</a></li>
+							</ul>
+
+							<ul class="meta-row right">
+								<li><a href=""><i class="pbs-icon-circle-right"></i> Program Dashboard</a></li>
+							</ul>
+
+						</div>
+
+						<dl class="definition inline mid-margin-top large-margin-bottom">
+							<dt>Program</dt>
+							<dd>Lorem Ipsum</dd>
+							<dt>Episode</dt>
+							<dd>Lorem Ipsum</dd>
+							<dt>Duration</dt>
+							<dd>00:00:00</dd>
+							<dt>Feed Details</dt>
+							<dd>HDPR 555, Mar 5 2013</dd>
+						</dl>
+
+						<nav>
+							<a class="pbs-button btn-primary" href="#">Read More</a>
+							<a class="pbs-button btn-primary" href="#"><i class="pbs-icon-play"></i> Watch Video</a>
+							<a class="pbs-button btn-primary" href="#">Download Asset</a>
+
+							<span class="right">
+								<span class="left" style="margin-right:15px;">Open Reel Report</span>
+								<a href="#"><img width="24" src="_images/icon-pdf-color.png"></a>
+								<a href="#"><img width="24" src="_images/icon-excel-color.png"></a>
+							</span>
+						</nav>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list">
+					<div class="content clearfix">
+
+						<h4>Type: Reading Rainbow</h4>
+
+						<div class="clearfix" style="padding-top:10px;">
+
+							<ul class="meta-row">
+								<li><a href=""><i class="pbs-icon-sphere"></i> FORUM</a></li>
+								<li><a href=""><i class="pbs-icon-link"></i> My Links</a></li>
+								<li><a href=""><i class="pbs-icon-share"></i> Share</a></li>
+								<li><a href=""><i class="pbs-icon-calendar"></i> Dec 23 2014</a></li>
+							</ul>
+
+							<ul class="meta-row right">
+								<li><a href=""><i class="pbs-icon-circle-right"></i> Program Dashboard</a></li>
+							</ul>
+
+						</div>
+
+						<dl class="definition inline mid-margin-top large-margin-bottom">
+							<dt>Program</dt>
+							<dd>Lorem Ipsum</dd>
+							<dt>Episode</dt>
+							<dd>Lorem Ipsum</dd>
+							<dt>Duration</dt>
+							<dd>00:00:00</dd>
+							<dt>Feed Details</dt>
+							<dd>HDPR 555, Mar 5 2013</dd>
+						</dl>
+
+						<nav>
+							<a class="pbs-button btn-primary" href="#">Read More</a>
+							<a class="pbs-button btn-primary" href="#"><i class="pbs-icon-play"></i> Watch Video</a>
+							<a class="pbs-button btn-primary" href="#">Download Asset</a>
+
+							<span class="right">
+								<span class="left" style="margin-right:15px;">Open Reel Report</span>
+								<a href="#"><img width="24" src="_images/icon-pdf-color.png"></a>
+								<a href="#"><img width="24" src="_images/icon-excel-color.png"></a>
+							</span>
+						</nav>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list">
+					<div class="content clearfix">
+
+						<h4>Type: Reading Rainbow</h4>
+
+						<div class="clearfix" style="padding-top:10px;">
+
+							<ul class="meta-row">
+								<li><a href=""><i class="pbs-icon-sphere"></i> FORUM</a></li>
+								<li><a href=""><i class="pbs-icon-link"></i> My Links</a></li>
+								<li><a href=""><i class="pbs-icon-share"></i> Share</a></li>
+								<li><a href=""><i class="pbs-icon-calendar"></i> Dec 23 2014</a></li>
+							</ul>
+
+							<ul class="meta-row right">
+								<li><a href=""><i class="pbs-icon-circle-right"></i> Program Dashboard</a></li>
+							</ul>
+
+						</div>
+
+						<dl class="definition inline mid-margin-top large-margin-bottom">
+							<dt>Program</dt>
+							<dd>Lorem Ipsum</dd>
+							<dt>Episode</dt>
+							<dd>Lorem Ipsum</dd>
+							<dt>Duration</dt>
+							<dd>00:00:00</dd>
+							<dt>Feed Details</dt>
+							<dd>HDPR 555, Mar 5 2013</dd>
+						</dl>
+
+						<nav>
+							<a class="pbs-button btn-primary" href="#">Read More</a>
+							<a class="pbs-button btn-primary" href="#"><i class="pbs-icon-play"></i> Watch Video</a>
+							<a class="pbs-button btn-primary" href="#">Download Asset</a>
+
+							<span class="right">
+								<span class="left" style="margin-right:15px;">Open Reel Report</span>
+								<a href="#"><img width="24" src="_images/icon-pdf-color.png"></a>
+								<a href="#"><img width="24" src="_images/icon-excel-color.png"></a>
+							</span>
+						</nav>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+
+				<ul class="pbs-pagination">
+					<li><a href="#"><i class="pbs-icon-keyboard-arrow-left"></i></a></li>
+					<li><a href="#">1</a></li>
+					<li><a class="active" href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a class="btn-primary" href="#"><i class="pbs-icon-keyboard-arrow-right"></i></a></li>
+				</ul>
+
+
+				
+				<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
+		
+			
+		</div><!-- end of leftContent -->
+		
+	</div><!-- end of content -->
+	
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/department.js"></script>
+
+	<!-- Begin Dashboard includes -->
+	<script src="_scripts/dashboard/setup.js"></script>
+	<script src="_scripts/dashboard/developr.input.js"></script>
+	<script src="_scripts/dashboard/developr.navigable.js"></script>
+	<script src="_scripts/dashboard/developr.notify.js"></script>
+	<script src="_scripts/dashboard/developr.scroll.js"></script>
+	<script src="_scripts/dashboard/developr.progress-slider.js"></script>
+	<script src="_scripts/dashboard/developr.tooltip.js"></script>
+	<script src="_scripts/dashboard/developr.content-panel.js"></script>
+
+	<script type="text/javascript" src="_scripts/jquery.jqtransform.js"></script>
+
+	<script type="text/javascript">
+
+		$('.checkbox').enableInput();
+		$('.select').enableInput();
+
+		$('.checkboxs').jqTransform({imgPath:'_images/'});
+
+	</script>
+	
+</body>
+</html>

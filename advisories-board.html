@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Advisories Board</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- http://davidbcalhoun.com/2010/viewport-metatag -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/reset.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	<link rel="stylesheet" media="print" href="_styles/dashboard/print.css?v=1">
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+	<!-- For Retina displays -->
+	<link rel="stylesheet" media="only all and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5)" href="css/2x.css?v=1">
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/agenda.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/dashboard.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/modal.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/progress-slider.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/calendars.css?v=1">
+
+
+	<link rel="stylesheet" href="_fonts/style.css">
+
+	<!-- Google code prettifier -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/google-code-prettify/sunburst.css?v=1">
+
+	<!-- glDatePicker -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/glDatePicker/developr.css?v=1">
+
+	<!-- CLEditor -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/CLEditor/jquery.cleditor.css">
+
+	<!-- DataTables -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/DataTables/jquery.dataTables.css">
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+
+	<!-- iOS web-app metas -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<!-- Startup image for web apps -->
+	<link rel="apple-touch-startup-image" href="_images/dashboard/splash/ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+	<link rel="apple-touch-startup-image" href="_images/dashboard/splash/ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+	<link rel="apple-touch-startup-image" href="_images/dashboard/splash/iphone.png" media="screen and (max-device-width: 320px)">
+
+	<!-- Microsoft clear type rendering -->
+	<meta http-equiv="cleartype" content="on">
+
+
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+
+	<style type="text/css">
+
+	.pbs-overrides ul {
+		margin-left: 0;
+	}
+	.pbs-overrides .tag {
+		background: none;
+	}
+	.widget-search input {
+		padding: 0 12px;
+		width: 67%;
+		float: none;
+	}
+	.widget-search submit {
+		width: 16%;
+	}
+	.pbs-pagination li a {
+		line-height: 31px;
+	}
+
+
+	.pbs-widget {
+		background-color: #fff;
+	}
+	.pbs-widget ul {
+		padding-right: 0;
+		margin-left: 0;
+	}
+
+	.table a {
+		color: blue;
+		text-decoration: none;
+	}
+	.table a:hover {
+		border-bottom: none;
+		text-decoration: underline;
+	}
+
+	.table thead {
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.table tbody {
+		font-size: 12px;
+	}
+
+	</style>
+
+
+</head>
+
+<body class="clearfix with-menu reversed">
+
+	<!-- Prompt IE 6 users to install Chrome Frame -->
+	<!--[if lt IE 7]><p class="message red-gradient simpler">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+	<!-- Button to open/hide menu -->
+	<a href="#" id="open-menu"><span>Menu</span></a>
+
+	<!-- Main content -->
+	<section role="main" id="main" class="pbs-overrides">
+
+		<table id="advisories-board" class="table responsive-table">
+
+			<thead>
+				<tr>
+					<th scope="col" class="header">Posted</th>
+					<th scope="col">Channel</th>
+					<th scope="col" class="header">Feed Date</th>
+					<th scope="col">Title</th>
+					<th scope="col" class="header">NOLA</th>
+					<th scope="col">Package</th>
+					<th scope="col" class="header">Descrepancy</th>
+					<th scope="col" class="header">Posted By</th>
+					<th scope="col">Comments</th>
+					<th scope="col">Me Too/Not Me</th>
+					<th scope="col" class="header">Refeed</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>04/22/2015</td>
+					<td>HD01</td>
+					<td>04/25/2015</td>
+					<td>HD PROMO REEL</td>
+					<td>HDPR000967</td>
+					<td>(HD-Base) P453669-001</td>
+					<td>Did Not Air</td>
+					<td>Pugh, Other</td>
+					<td>10</td>
+					<td>12/4</td>
+					<td>04/25/2015</td>
+				</tr>
+				<tr>
+					<td>04/22/2015</td>
+					<td>NRT</td>
+					<td>04/23/2015</td>
+					<td><a href="javascript:openModal();">Call the Midwife</a></td>
+					<td>CMID000405</td>
+					<td>(HD-Pledge Event p452637-001</td>
+					<td>Catergory 2</td>
+					<td>Shaw, KUSM</td>
+					<td><a href="javascript:openModal();">2</a></td>
+					<td>11</td>
+					<td><a href="javascript:openModal();">04/25/2015</a></td>
+				</tr>
+				<tr>
+					<td>04/21/2015</td>
+					<td>HD04</td>
+					<td>04/21/2015</td>
+					<td>My Sinatra: A Musica...</td>
+					<td>MYSI000000</td>
+					<td>(HD-Base) P453669-001</td>
+					<td>No Video</td>
+					<td>Yatlor, Other</td>
+					<td></td>
+					<td>
+						<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
+						<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>04/22/2015</td>
+					<td>HD01</td>
+					<td>04/25/2015</td>
+					<td>HD PROMO REEL</td>
+					<td>HDPR000967</td>
+					<td>(HD-Base) P453669-001</td>
+					<td>Did Not Air</td>
+					<td>Pugh, Other</td>
+					<td>10</td>
+					<td>12/4</td>
+					<td>04/25/2015</td>
+				</tr>
+				<tr>
+					<td>04/22/2015</td>
+					<td>NRT</td>
+					<td>04/23/2015</td>
+					<td><a href="javascript:openModal();">Call the Midwife</a></td>
+					<td>CMID000405</td>
+					<td>(HD-Pledge Event p452637-001</td>
+					<td>Catergory 2</td>
+					<td>Shaw, KUSM</td>
+					<td><a href="javascript:openModal();">2</a></td>
+					<td>11</td>
+					<td><a href="javascript:openModal();">04/25/2015</a></td>
+				</tr>
+				<tr>
+					<td>04/21/2015</td>
+					<td>HD04</td>
+					<td>04/21/2015</td>
+					<td>My Sinatra: A Musica...</td>
+					<td>MYSI000000</td>
+					<td>(HD-Base) P453669-001</td>
+					<td>No Video</td>
+					<td>Yatlor, Other</td>
+					<td></td>
+					<td>
+						<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
+						<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>04/22/2015</td>
+					<td>HD01</td>
+					<td>04/25/2015</td>
+					<td>HD PROMO REEL</td>
+					<td>HDPR000967</td>
+					<td>(HD-Base) P453669-001</td>
+					<td>Did Not Air</td>
+					<td>Pugh, Other</td>
+					<td>10</td>
+					<td>12/4</td>
+					<td>04/25/2015</td>
+				</tr>
+				<tr>
+					<td>04/22/2015</td>
+					<td>NRT</td>
+					<td>04/23/2015</td>
+					<td><a href="javascript:openModal();">Call the Midwife</a></td>
+					<td>CMID000405</td>
+					<td>(HD-Pledge Event p452637-001</td>
+					<td>Catergory 2</td>
+					<td>Shaw, KUSM</td>
+					<td><a href="javascript:openModal();">2</a></td>
+					<td>11</td>
+					<td><a href="javascript:openModal();">04/25/2015</a></td>
+				</tr>
+				<tr>
+					<td>04/21/2015</td>
+					<td>HD04</td>
+					<td>04/21/2015</td>
+					<td>My Sinatra: A Musica...</td>
+					<td>MYSI000000</td>
+					<td>(HD-Base) P453669-001</td>
+					<td>No Video</td>
+					<td>Yatlor, Other</td>
+					<td></td>
+					<td>
+						<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
+						<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>04/22/2015</td>
+					<td>HD01</td>
+					<td>04/25/2015</td>
+					<td>HD PROMO REEL</td>
+					<td>HDPR000967</td>
+					<td>(HD-Base) P453669-001</td>
+					<td>Did Not Air</td>
+					<td>Pugh, Other</td>
+					<td>10</td>
+					<td>12/4</td>
+					<td>04/25/2015</td>
+				</tr>
+				<tr>
+					<td>04/22/2015</td>
+					<td>NRT</td>
+					<td>04/23/2015</td>
+					<td><a href="javascript:openModal();">Call the Midwife</a></td>
+					<td>CMID000405</td>
+					<td>(HD-Pledge Event p452637-001</td>
+					<td>Catergory 2</td>
+					<td>Shaw, KUSM</td>
+					<td><a href="javascript:openModal();">2</a></td>
+					<td>11</td>
+					<td><a href="javascript:openModal();">04/25/2015</a></td>
+				</tr>
+				<tr>
+					<td>04/21/2015</td>
+					<td>HD04</td>
+					<td>04/21/2015</td>
+					<td>My Sinatra: A Musica...</td>
+					<td>MYSI000000</td>
+					<td>(HD-Base) P453669-001</td>
+					<td>No Video</td>
+					<td>Yatlor, Other</td>
+					<td></td>
+					<td>
+						<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
+						<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>04/22/2015</td>
+					<td>HD01</td>
+					<td>04/25/2015</td>
+					<td>HD PROMO REEL</td>
+					<td>HDPR000967</td>
+					<td>(HD-Base) P453669-001</td>
+					<td>Did Not Air</td>
+					<td>Pugh, Other</td>
+					<td>10</td>
+					<td>12/4</td>
+					<td>04/25/2015</td>
+				</tr>
+				<tr>
+					<td>04/22/2015</td>
+					<td>NRT</td>
+					<td>04/23/2015</td>
+					<td><a href="javascript:openModal();">Call the Midwife</a></td>
+					<td>CMID000405</td>
+					<td>(HD-Pledge Event p452637-001</td>
+					<td>Catergory 2</td>
+					<td>Shaw, KUSM</td>
+					<td><a href="javascript:openModal();">2</a></td>
+					<td>11</td>
+					<td><a href="javascript:openModal();">04/25/2015</a></td>
+				</tr>
+				<tr>
+					<td>04/21/2015</td>
+					<td>HD04</td>
+					<td>04/21/2015</td>
+					<td>My Sinatra: A Musica...</td>
+					<td>MYSI000000</td>
+					<td>(HD-Base) P453669-001</td>
+					<td>No Video</td>
+					<td>Yatlor, Other</td>
+					<td></td>
+					<td>
+						<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
+						<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+					</td>
+					<td></td>
+				</tr>
+			</tbody>
+
+		</table>
+		
+
+	</section>
+
+	<!-- Sidebar/drop-down menu -->
+	<section id="menu" role="complementary">
+
+		<!-- This wrapper is used by several responsive layouts -->
+		<div id="menu-content">
+
+			<div class="with-padding">
+
+				<a class="button big full-width margin-bottom" href="#">Refresh Data</a>
+
+				<h5 class="margin-bottom white">Narrow by Date</h5>
+
+				<table class="calendar with-events large-margin-bottom">
+
+					<!-- Month and scroll arrows -->
+					<caption>
+						<span class="cal-prev">◄</span>
+						<a href="#" class="cal-next">►</a>
+						June 2015
+					</caption>
+
+					<!-- Days names -->
+					<thead>
+						<tr>
+							<th scope="col">Sun</th>
+							<th scope="col">Mon</th>
+							<th scope="col">Tue</th>
+							<th scope="col">Wed</th>
+							<th scope="col">Thu</th>
+							<th scope="col">Fri</th>
+							<th scope="col">Sat</th>
+						</tr>
+					</thead>
+
+					<!-- Dates -->
+					<tbody>
+						<tr>
+							<td class="week-end prev-month"><span class="cal-day">30</span></td>
+							<td>
+								<span class="cal-day">1</span>
+							</td>
+							<td>
+								<span class="cal-day">2</span>
+							<td>
+								<a href="#" class="cal-day blue">3</a>
+							</td>
+							<td><span class="cal-day">4</span></td>
+							<td>
+								<a href="#" class="cal-day blue">5</a>
+							</td>
+							<td class="week-end"><span class="cal-day">6</span></td>
+						</tr>
+						<tr>
+							<td class="week-end"><span class="cal-day">7</span></td>
+							<td><span class="cal-day">8</span></td>
+							<td class="today">
+								<span class="cal-day">9</span>
+							</td>
+							<td>
+								<span class="cal-day">10</span>
+							</td>
+							<td><a href="#" class="cal-day blue">11</a></td>
+							<td><span class="cal-day">12</span></td>
+							<td class="week-end"><span class="cal-day">13</span></td>
+						</tr>
+						<tr>
+							<td class="week-end"><span class="cal-day">14</span></td>
+							<td><span class="cal-day">15</span></td>
+							<td><a href="#" class="cal-day blue">16</a></td>
+							<td><span class="cal-day">17</span></td>
+							<td><a href="#" class="cal-day blue">18</a></td>
+							<td class="">
+								<span class="cal-day">19</span>
+							</td>
+							<td class="week-end"><span class="cal-day">20</span></td>
+						</tr>
+						<tr>
+							<td class="week-end">
+								<span class="cal-day">21</span>
+							</td>
+							<td><span class="cal-day">22</span></td>
+							<td><span class="cal-day">23</span></td>
+							<td>
+								<span class="cal-day">24</span>
+							</td>
+							<td><span class="cal-day">25</span></td>
+							<td><span class="cal-day">26</span></td>
+							<td class="week-end"><span class="cal-day">27</span></td>
+						</tr>
+						<tr>
+							<td class="week-end"><span class="cal-day">28</span></td>
+							<td><span class="cal-day">29</span></td>
+							<td><span class="cal-day">30</span></td>
+							<td><span class="cal-day">31</span></td>
+							<td class="next-month"><span class="cal-day">1</span></td>
+							<td class="next-month"><span class="cal-day">2</span></td>
+							<td class="week-end next-month"><span class="cal-day">3</span></td>
+						</tr>
+					</tbody>
+					<!-- End dates -->
+
+				</table>
+
+				<div class="pbs-widget widget-accordion-list">
+					<h5>Narrow by Categories <i class="pbs-icon-keyboard-arrow-up"></i></h5>
+					<ul>
+						<li class="active"><i class="pbs-icon-plus"></i> Distributor <span>68</span></li>
+						<li class="hide active">
+							<a href="">Some Link here</a>
+							<a href="">Some Link here</a>
+						</li>
+						<li class=""><i class="pbs-icon-plus"></i> Channel <span>12</span></li>
+						<li class="hide">
+							<a href="">Some Link here</a>
+							<a href="">Some Link here</a>
+						</li>
+						<li class=""><i class="pbs-icon-plus"></i> Discrepancy <span>10</span></li>
+						<li class="hide">
+							<a href="">Some Link here</a>
+							<a href="">Some Link here</a>
+						</li>
+						<li class=""><i class="pbs-icon-plus"></i> NOLA<span>8</span></li>
+						<li class="hide">
+							<a href="">Some Link here</a>
+							<a href="">Some Link here</a>
+						</li>
+						<li class=""><i class="pbs-icon-plus"></i> Package Type <span>12</span></li>
+						<li class="hide">
+							<a href="">Some Link here</a>
+							<a href="">Some Link here</a>
+						</li>
+						<li class=""><i class="pbs-icon-plus"></i> Author<span>17</span></li>
+						<li class="hide">
+							<a href="">Some Link here</a>
+							<a href="">Some Link here</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+	<!-- End sidebar/drop-down menu -->
+
+	<!-- JavaScript at the bottom for fast page loading -->
+
+	<!-- Scripts -->
+	<script src="_scripts/dashboard/libs/jquery-1.7.2.min.js"></script>
+	<script src="_scripts/dashboard/libs/jquery-ui-1.8.18.custom.min.js"></script>
+	<script src="_scripts/dashboard/setup.js"></script>
+
+	<!-- Template functions -->
+	<script src="_scripts/dashboard/developr.accordions.js"></script>
+	<script src="_scripts/dashboard/developr.auto-resizing.js"></script>
+	<script src="_scripts/dashboard/developr.input.js"></script>
+	<script src="_scripts/dashboard/developr.message.js"></script>
+	<script src="_scripts/dashboard/developr.modal.js"></script>
+	<script src="_scripts/dashboard/developr.navigable.js"></script>
+	<script src="_scripts/dashboard/developr.collapsible.js"></script>
+	<script src="_scripts/dashboard/developr.notify.js"></script>
+	<script src="_scripts/dashboard/developr.scroll.js"></script>
+	<script src="_scripts/dashboard/developr.progress-slider.js"></script>
+	<script src="_scripts/dashboard/developr.tooltip.js"></script>
+	<script src="_scripts/dashboard/developr.confirm.js"></script>
+	<script src="_scripts/dashboard/developr.content-panel.js"></script>
+	<script src="_scripts/dashboard/developr.agenda.js"></script>
+	<script src="_scripts/dashboard/developr.table.js"></script>
+	<script src="_scripts/dashboard/developr.wizard.js"></script>
+	<script src="_scripts/dashboard/developr.tabs.js"></script>		<!-- Must be loaded last -->
+
+	<!-- Tinycon -->
+	<script src="_scripts/dashboard/libs/tinycon.min.js"></script>
+
+	<!-- Google code prettifier -->
+	<script src="_scripts/dashboard/libs/google-code-prettify/prettify.js?v=1"></script>
+
+	<!-- glDatePicker -->
+	<script src="_scripts/dashboard/libs/glDatePicker/glDatePicker.min.js?v=1"></script>
+
+	<!-- Hashchange polyfill -->
+	<script src="_scripts/dashboard/libs/jquery.ba-hashchange.min.js?v=1"></script>
+
+	<!-- CLEditor -->
+    <script src="_scripts/dashboard/libs/CLEditor/jquery.cleditor.min.js"></script>
+
+	<!-- Tablesorter -->
+    <script src="_scripts/dashboard/libs/jquery.tablesorter.min.js"></script>
+
+	<!-- DataTables -->
+    <script src="_scripts/dashboard/libs/DataTables/jquery.dataTables.min.js"></script>
+
+	<!-- Tablesorter -->
+    <script src="http://www.display-inline.fr/demo/developr/version.js"></script>
+
+    <!-- PBS Global -->
+	<script>
+
+		$.template.init();
+
+		// Table sort - simple
+		$('#advisories-board').tablesorter({
+			headers: { 
+				// assign the secound column (we start counting zero) 
+				1: { 
+					// disable it by setting the property sorter to false 
+					sorter: false 
+				}, 
+				// assign the third column (we start counting zero) 
+				3: { 
+					// disable it by setting the property sorter to false 
+					sorter: false
+				},
+				5: { 
+					// disable it by setting the property sorter to false 
+					sorter: false
+				},
+				8: { 
+					// disable it by setting the property sorter to false 
+					sorter: false
+				},
+				9: { 
+					// disable it by setting the property sorter to false 
+					sorter: false
+				}
+			}
+        });
+
+		$('.widget-accordion-list li').click(function(){
+			$(this).next('li').toggle();
+		});
+
+		function openModal(content, buttons){
+			$.modal({
+				title: 'Modal window',
+				content: content,
+				buttons: buttons,
+				beforeContent: '<div class="carbon">',
+				afterContent: '</div>',
+				buttonsAlign: 'center',
+				resizable: false
+			});
+		}
+
+	</script>
+</body>
+</html>

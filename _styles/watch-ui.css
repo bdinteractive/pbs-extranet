@@ -1,0 +1,197 @@
+/* ----------------------------------------------------------------------------
+	Purpose:
+	Global CSS Styles for PBS website
+	$Last Updated: 07-August-2012 12:00:00PM Brad Dedon $
+/*	----------------------------------------------------------------------------
+	Table Of Contents
+	1. Resets & Defaults
+		a. Resets
+		b. Defaults
+	x. Generics
+*/
+
+
+/*	----------------------------------------------------------------------------
+	(1) Defaults & Resets */
+/*	----------------------------------------
+	(1a) Defaults & Resets - Resets */
+*, form, input {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+a img { border: none; }
+img { -ms-interpolation-mode: bicubic; } /* Help IE resize images if needed. */
+ul, ol { list-style-type: none; }
+b, strong { font-weight: bold; }
+
+/*	----------------------------------------
+	(1b) Defaults & Resets - Defaults */
+body {
+	background: #000 none;
+	color: #333;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 12px;
+	height: 100%;
+
+	padding: 10px;
+}
+/*
+a, a:visited { color: #fff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+*/
+
+/*	----------------------------------------------------------------------------
+	(x) Generics */
+	
+.b { font-weight: bold; }
+.c { text-align: center; }
+.r { text-align: right; }
+.l { text-align: left; }
+.j { text-align: justify; }
+.hide { display: none; }
+.invisible { visibility: hidden; }
+.noBorder { border: none !important; }
+.left { float: left !important; }
+.right { float: right !important; }
+.clearfix:after {
+	clear: both;
+	content: " ";
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix { zoom: 1; } /* IE < 8 */
+/*.clear {
+	position: relative;
+	font-size: 0;
+	height: 0;
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+}*/
+.clear { clear: both; }
+.hasLayoutFix { zoom:1\9; } /* All IEs */
+input:focus { outline: none; } /* Prevents highlight of inputs in browsers */
+
+/*	----------------------------------------------------------------------------
+	(x) Watch UI */
+
+.button {
+	border-radius: 5px;
+	padding: 7px 9px;
+	display: inline-block;
+	font-size: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+.button:hover { text-decoration: none; }
+
+.button_grey {
+	color: #fff;
+	background: #4b4b4b; /* Old browsers */
+	background: -moz-linear-gradient(top,  #4b4b4b 0%, #3c3c3c 50%, #303030 51%, #353434 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4b4b4b), color-stop(50%,#3c3c3c), color-stop(51%,#303030), color-stop(100%,#353434)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #4b4b4b 0%,#3c3c3c 50%,#303030 51%,#353434 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #4b4b4b 0%,#3c3c3c 50%,#303030 51%,#353434 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #4b4b4b 0%,#3c3c3c 50%,#303030 51%,#353434 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #4b4b4b 0%,#3c3c3c 50%,#303030 51%,#353434 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4b4b', endColorstr='#353434',GradientType=0 ); /* IE6-9 */
+}
+
+.button_type-add {
+	padding-left: 16px;
+	background-image: url('../_images/watchUI-icon-plus.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.button_rate-video {
+	-moz-box-shadow: 0px 0px 8px 1px #818181;
+	-webkit-box-shadow: 0px 0px 8px 1px #818181;
+	box-shadow: 0px 0px 8px 1px #818181;
+	border: 1px solid #222;
+	padding: 0;
+	color: #969696;
+}
+.button_rate-video div {
+	border-radius: 5px;
+	-moz-box-shadow: inset 0px 0px 3px 1px #2d2d2d;
+	-webkit-box-shadow: inset 0px 0px 3px 1px #2d2d2d;
+	box-shadow: inset 0px 0px 3px 1px #2d2d2d;
+	background-color: #414040;
+	padding: 4px 6px;
+}
+
+.rating-stars { width: 85px; height: 16px; background: url('../_images/watchUI-sprite-ratingStars.png') left top no-repeat; }
+.rating-stars .active-stars { display: block; height: 16px; background: url('../_images/watchUI-sprite-ratingStars.png') left bottom no-repeat; }
+
+
+video { background: #fff; }
+
+.video-player-container {
+	border-radius: 5px;
+	background: #232323;
+	display: inline-block;
+	float: left;
+	padding: 15px 10px;
+}
+
+.video-info-container {
+	border-radius: 5px;
+	background: #232323;
+	float: left;
+	margin-right: 20px;
+	width: 250px;
+
+	min-height: 500px;
+}
+.video-info-container { font-size: 11px; color: #666666; }
+.video-info-container h5 { padding: 12px; font-weight: bold; font-size: 14px; color: #a1a1a1; border-bottom: solid 1px #a1a1a1; }
+.video-info-container h6 { color: #666666; font-size: 12px; text-transform: uppercase; font-weight: bold; margin-bottom: 7px; }
+
+.video-player-container .social-buttons { text-align: center; padding-top: 12px; }
+
+.video-description,
+.video-ratings,
+.video-comments { padding: 12px; border-bottom: solid 1px #a1a1a1; }
+
+.video-description h1 { color: #b06305; font-size: 18px; line-height: 20px; margin-bottom: 10px; }
+.video-description p { line-height: 18px; }
+
+.video-ratings .button_rate-video { margin-top: -10px; float: right; }
+.video-ratings .rating-stars { float: left; }
+
+.video-comments { border-bottom: none; }
+.video-comments ul { }
+.video-comments ul li { padding: 10px 12px; border-bottom: solid 1px #4a4a4a; }
+.video-comments ul li:first-child { padding-top: 5px; }
+.video-comments ul li:nth-child(even) { background-color: #353434; }
+.video-comments span { font-weight: bold; color: #7d7d7d; }
+.video-comments p { line-height: 13px; }
+
+
+#viewer-comments { margin: 0 -12px; height: 165px; }
+#viewer-comments .viewport { height: 165px; overflow: hidden; position: relative; }
+#viewer-comments .overview { list-style: none; position: absolute; left: 0; top: 0; }
+#viewer-comments .scrollbar { position: relative; float: right; width: 0; }
+#viewer-comments .thumb { 
+	background-color: #151515;
+	-moz-box-shadow: 0px 0px 2px 1px #818181;
+	-webkit-box-shadow: 0px 0px 2px 1px #818181;
+	box-shadow: 0px 0px 2px 1px #818181;
+	border-radius: 6px;
+	height: 20px;
+	width: 4px;
+	cursor: pointer;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 4px;
+	z-index: 99;
+}
+#viewer-comments .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }

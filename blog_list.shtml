@@ -1,0 +1,573 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+		<h1>Executive Blog</h1>
+
+	</div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="non-dashboard clearfix">
+
+		<div class="pageTitleTools clearfix">
+			<div class="colLeft">
+				<h2 class="pageTitle">Executive Blog</h2>
+			</div>
+		</div>
+
+		<div class="leftRail">
+
+			<div class="pbs-widget widget-search">
+				<form>
+					<input type="text" name="search-input" placeholder="Search anything" value="">
+					<submit><i class="pbs-icon-magnify-glass"></i></submit>
+				</form>
+			</div>
+
+			<div class="pbs-widget widget-accordion-list">
+				<h5>Filter by Categories <i class="pbs-icon-keyboard-arrow-up"></i></h5>
+				<ul>
+					<li class="active"><i class="pbs-icon-plus"></i> Everything <span>68</span></li>
+					<li class="hide active">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="pbs-widget widget-tags">
+				<h5>Search Tags <i class="pbs-icon-keyboard-arrow-up"></i></h5>
+				<ul>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+				</ul>
+			</div>
+
+			<div class="pbs-widget widget-accordion-list">
+				<h5>Archive <i class="pbs-icon-keyboard-arrow-up"></i></h5>
+				<ul>
+					<li class="active"><i class="pbs-icon-plus"></i> 2014 January <span>15</span></li>
+					<li class="hide active">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 Feburary <span>7</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 April <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 Feburary <span>7</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 April <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 Feburary <span>7</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 April <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 Feburary <span>7</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 April <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 Feburary <span>7</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 April <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+				</ul>
+			</div>
+			
+			
+		</div><!-- end of rightRail -->
+		
+		<div class="rightContent">
+
+			<!-- Message Post Begins -->
+			<a href="#"><img class="blogPostPhoto" src="_images/temp-avatar-2.jpg" alt="Blogger Photo" /><a/>
+			
+			<div class="blogPost clearfix">
+				
+				<div class="blogPostHeader clearfix">
+				
+					<h3><a href="#">The Honor Roll - Rebecca Eaton named to TIME Magazine's 100 Most Influential People<a/></h3>
+				
+					<ul class="meta-row">
+						<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+						<li><a href="#"><i class="pbs-icon-heart"></i> Like</a></li>
+						<li><a href="#"><i class="pbs-icon-share"></i> Share</a></li>
+						<li><a href="#"><i class="pbs-icon-mail"></i> Email</a></li>
+						<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+					</ul>
+
+				</div>
+			
+				<div class="blogPostContent clearfix">
+					
+					<div class="editableContent">
+				
+						<p>There are plenty of opportunities to stay healthy throughout the season in Crystal City. Outdoor Yoga takes place every Monday morning at 7:00 AM in the Crystal City Water Park, across the street from 1750 Crystal Drive. The Crystal City FRESHFARMS Farmers Market is on Crystal Drive between 18th and 20th from 3:00 PM to 7:00 PM every Tuesday. Outdoor Zumba begins its second summer on Wednesday, May 11, at noon in the courtyard in front of 2121 Crystal Drive. A free class, Zumba fuses hypnotic Latin rhythms and easy-to-follow moves to create a one-of-a-kind fitness program that will blow you away. Finally, Street Hockey takes place every Thursday at 6:30 p.m. A new athletic program in Crystal City, Crystal Rolls - Street Hockey, in partnership with the DC Social Sports Club (DCSSC), launched May 5. Street Hockey enthusiasts can join as individuals ($25) or form a team ($250) for 11 weeks of Thursday evening matches in the parking lot adjacent to 220 Twentieth Street. Click here to register.</p>
+						
+						<ul>
+							<li>Nullam dictum felis eu pede mollis pretium</li>
+							<li>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiata, tellus.</li>
+							<li>Nullam dictum felis eu pede mollis pretium</li>
+							<li>Nullam dictum felis eu pede mollis pretium</li>
+						</ul>
+						
+						<ol>
+							<li>Nullam dictum felis eu pede mollis pretium</li>
+							<li>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiata, tellus.</li>
+							<li>Nullam dictum felis eu pede mollis pretium</li>
+							<li>Nullam dictum felis eu pede mollis pretium</li>
+						</ol>
+					
+					</div>
+
+					<ul class="tags-row">
+						<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Blue Tag</a></li>
+						<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Red Tag</a></li>
+					</ul>
+				
+					<ul class="fileList">
+						<li><a href="#" class="fileName">file-name.ppt </a><span class="fileSize">(0.00mb)</span></li>
+					</ul>
+				</div>
+				
+			</div>
+			
+			<div class="blogPostCommentCount clearfix">
+				<a href="#">comments (1)</a>
+			</div>
+			<!-- End of Message Post -->
+			
+			<!-- Message Post Begins -->
+			<a href="#"><img class="blogPostPhoto" src="_images/temp-avatar-2.jpg" alt="Blogger Photo" /><a/>
+			
+			<div class="blogPost clearfix">
+				
+				<div class="blogPostHeader clearfix">
+				
+					<h3><a href="#">The Honor Roll - Rebecca Eaton named to TIME Magazine's 100 Most Influential People</a></h3>
+				
+					<ul class="meta-row">
+						<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+						<li><a href="#"><i class="pbs-icon-heart"></i> Like</a></li>
+						<li><a href="#"><i class="pbs-icon-share"></i> Share</a></li>
+						<li><a href="#"><i class="pbs-icon-mail"></i> Email</a></li>
+						<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+					</ul>
+
+				</div>
+			
+				<div class="blogPostContent clearfix">
+				
+					<p>There are plenty of opportunities to stay healthy throughout the season in Crystal City. Outdoor Yoga takes place every Monday morning at 7:00 AM in the Crystal City Water Park, across the street from 1750 Crystal Drive. The Crystal City FRESHFARMS Farmers Market is on Crystal Drive between 18th and 20th from 3:00 PM to 7:00 PM every Tuesday. Outdoor Zumba begins its second summer on Wednesday, May 11, at noon in the courtyard in front of 2121 Crystal Drive. A free class, Zumba fuses hypnotic Latin rhythms and easy-to-follow moves to create a one-of-a-kind fitness program that will blow you away. Finally, Street Hockey takes place every Thursday at 6:30 p.m. A new athletic program in Crystal City, Crystal Rolls - Street Hockey, in partnership with the DC Social Sports Club (DCSSC), launched May 5. Street Hockey enthusiasts can join as individuals ($25) or form a team ($250) for 11 weeks of Thursday evening matches in the parking lot adjacent to 220 Twentieth Street. Click here to register.</p>
+				
+				</div>
+
+				<ul class="tags-row">
+						<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Blue Tag</a></li>
+						<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Red Tag</a></li>
+					</ul>
+				
+			</div>
+			
+			<div class="blogPostCommentCount clearfix">
+				comments (0)
+			</div>
+			<!-- End of Message Post -->
+			
+			<!-- Message Post Begins -->
+			<a href="#"><img class="blogPostPhoto" src="_images/temp-avatar-2.jpg" alt="Blogger Photo" /><a/>
+			
+			<div class="blogPost clearfix">
+				
+				<div class="blogPostHeader clearfix">
+				
+					<h3><a href="#">The Honor Roll - Rebecca Eaton named to TIME Magazine's 100 Most Influential People</a></h3>
+				
+					<ul class="meta-row">
+						<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+						<li><a href="#"><i class="pbs-icon-heart"></i> Like</a></li>
+						<li><a href="#"><i class="pbs-icon-share"></i> Share</a></li>
+						<li><a href="#"><i class="pbs-icon-mail"></i> Email</a></li>
+						<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+					</ul>
+
+				</div>
+			
+				<div class="blogPostContent clearfix">
+				
+					<p>There are plenty of opportunities to stay healthy throughout the season in Crystal City. Outdoor Yoga takes place every Monday morning at 7:00 AM in the Crystal City Water Park, across the street from 1750 Crystal Drive. The Crystal City FRESHFARMS Farmers Market is on Crystal Drive between 18th and 20th from 3:00 PM to 7:00 PM every Tuesday. Outdoor Zumba begins its second summer on Wednesday, May 11, at noon in the courtyard in front of 2121 Crystal Drive. A free class, Zumba fuses hypnotic Latin rhythms and easy-to-follow moves to create a one-of-a-kind fitness program that will blow you away. Finally, Street Hockey takes place every Thursday at 6:30 p.m. A new athletic program in Crystal City, Crystal Rolls - Street Hockey, in partnership with the DC Social Sports Club (DCSSC), launched May 5. Street Hockey enthusiasts can join as individuals ($25) or form a team ($250) for 11 weeks of Thursday evening matches in the parking lot adjacent to 220 Twentieth Street. Click here to register.</p>
+				
+					<ul class="tags-row">
+						<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Blue Tag</a></li>
+						<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Red Tag</a></li>
+					</ul>
+
+					<ul class="attachmentList clearfix">
+						<li><a href="#"><img src="_images/Image_placeholder.png" /></a></li>
+						<li><a href="#"><img src="_images/Image_placeholder.png" /></a></li>
+						<li><a href="#"><img src="_images/Image_placeholder.png" /></a></li>
+					</ul>
+				
+					<ul class="fileList">
+						<li><a href="#" class="fileName">file-name.ppt </a><span class="fileSize">(0.00mb)</span></li>
+						<li><a href="#" class="fileName">file-name.ppt </a><span class="fileSize">(0.00mb)</span></li>
+						<li><a href="#" class="fileName">file-name.ppt </a><span class="fileSize">(0.00mb)</span></li>
+					</ul>
+				</div>
+				
+			</div>
+			
+			<div class="blogPostCommentCount clearfix">
+				<a href="#">comments (3)</a>
+			</div>
+			<!-- End of Message Post -->
+
+				<ul class="pbs-pagination">
+					<li><a href="#"><i class="pbs-icon-keyboard-arrow-left"></i></a></li>
+					<li><a href="#">1</a></li>
+					<li><a class="active" href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a class="btn-primary" href="#"><i class="pbs-icon-keyboard-arrow-right"></i></a></li>
+				</ul>
+
+
+				
+				<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
+		
+			
+		</div><!-- end of leftContent -->
+		
+	</div><!-- end of content -->
+	
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/department.js"></script>
+	
+</body>
+</html>

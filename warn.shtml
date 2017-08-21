@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+
+		<!-- Begin Dashboard includes -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css?v=1">
+
+	<!-- DataTables -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/DataTables/jquery.dataTables.css?v=1">
+	
+	
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+
+
+
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="_styles/jquery.jscrollpane.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_scripts/fancybox/fancybox.css" type="text/css" media="screen">
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+		
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+		<h1>Transmission</h1>
+
+	</div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="clearfix">
+		
+		<div class="leftContentWide">
+			
+			<div class="editableContent">
+
+				<h1 class="page-title">PBS WARN - Public Safety Reliability Through Broadcast Technology</h1>
+
+				<section class="post-details">
+					<ul class="post-details-info">
+						<li><i class="pbs-icon-calendar"></i> Jun 12, 2015</li>
+						<li><i class="pbs-icon-bubble"></i> <a href="#">0 Comments</a></li>
+						<li><i class="pbs-icon-share"></i> <a href="#">Share</a></li>
+						<li><i class="pbs-icon-magnify-glass"></i> <a href="#">Compare Updated with Original</a></li>
+					</ul>
+					<ul class="post-details-actions">
+						<li><a href="#"><i class="pbs-icon-printer"></i></a></li>
+						<li><a href="#"><i class="pbs-icon-copy"></i></a></li>
+					</ul>
+				</section><!-- END post-details -->
+
+				<p><img src="http://mypbs.org/uploadedImages/e/PBS_Corporate_Areas/Technology_and_Operations_Features/Front-Logo_small.jpg" alt="WARN New Logo Large" title="WARN New Logo Large" width="480" height="90" style="width: 480px; height: 90px;" align="top"></p>
+
+				<p>PBS WARN is a technology and grant program that that allows PTV stations to easily expand their public safety capabilities - and meet federal obligations - through the free, over-the-air delivery of Wireless Emergency Alerts (WEA).</p>
+
+				<p>In 2010, the FCC mandated that public television stations provide a redundant diverse path for WEA, ensuring that cellular carriers receive the alerts, even in the event that the primary system does not work as intended.  PBS WARN combines the geo-targeting and immediacy of cellular telephony with the resilience and durability of broadcast television.</p>
+
+				<p>Funded by the United States Department of Commerce, PBS WARN provided stations with all of the necessary equipment for the delivery of these WEA messages and also provided sub-grants for power back-up equipment to ensure the alerts are transmitted, even during power outages.</p>
+
+				<h3>Emergency Alerts Get Mobile Through WEA</h3>
+
+				<p>Modern cell phones are equipped with technology to provide a wide variety of local and national emergency notifications; however, even the most robust cellular network can be pushed past its limits by the huge influx of messages generated by large-scale emergencies. The Wireless Emergency Alert system enables cellular carriers to bypass network congestion so that these critically important messages can get to the people who most need to see them. </p>
+
+				<p>The PBS WARN redundant message delivery system provides further reliability through the intersection of broadcast transmission and cellular mobile delivery.  Once the equipment is in place, the PBS WARN system will pass the alerts without requiring additional effort from the station or the carriers.  </p>
+
+				<h3>A New Public Safety Resource</h3>
+
+				<p>WEA is a national public safety system that informs communities of Amber Alerts, imminent threats to safety or life, and Presidential Alerts via geographically-targeted, 90-character text-like messages from authorized government alerting authorities to enabled mobile devices.</p>
+
+				<img src="http://mypbs.org/uploadedImages/e/PBS_Corporate_Areas/Technology_and_Operations_Features/primary-path.png" alt="Normal WEA Path" title="Normal WEA Path" width="400" height="96" align="right" style="width: 400px; height: 96px;" class="right">
+
+				<p>Normal WEA PathWEA messages are designed to complement the Emergency Alerting System (EAS) and are drawn from the same IPAWS-OPEN database used by FEMA to power EAS, NOAA Weather Radio and even emergency street signs -- adding a new level of capabilities to current public safety messaging. </p>
+
+				<img src="http://mypbs.org//uploadedImages/e/PBS_Corporate_Areas/Technology_and_Operations_Features/warn-path.PNG" alt="WARN Diversity Path" title="WARN Diversity Path" align="right" width="400" height="114" style="width: 400px; height: 114px;" class="right">
+
+				<h3>Public Service and Public Safety</h3>
+
+				<p>The PBS WARN program is truly public service broadcasting.  PBS WARN is part of a national partnership with the shared goal of public safety.  The following organizations have been instrumental in establishing the PBS WARN system:</p>
+
+				<ul>
+					<li>The Association of Public Television Stations</li>
+					<li>Commercial Mobile Service Providers</li>
+					<li>Department of Homeland Security</li>
+					<li>Federal Communications Commission</li>
+					<li>Federal Emergency Management Agency</li>
+					<li>United States Department of Commerce</li>
+				</ul>
+
+				<h2>WEAs Save Lives </h2>
+
+				<p>On July 1, 2013, drivers in East Windsor, Connecticut saw an immense white object fly across the sky and slam into the ground. They had just witnessed a tornado uproot a municipal sports dome housing a summer camp with 29 kids and five counselors.</p>
+
+				<p>The camp director's WEA-capable cellular phone commanded her attention through distinct vibrations and alert tones. She saw the Wireless Emergency Alert for the tornado and moved everyone to safety. Two minutes later, the dome was a crumpled mass on the side of the highway.</p>
+
+				<p>If the tornado had struck prior to the inception of the Wireless Emergency Alert system (WEA), the counselor would not have received warning of an approaching tornado, and those 34 people might not have escaped the dome. </p>
+
+				<p>PBS WARN allows local stations to be a partner in an essential public safety system that saves lives in communities across the country.</p>
+
+				<h3>Emergency Alerts Get Mobile Through WEA</h3>
+			
+			</div><!-- End of .editableContent -->
+
+
+			<section class="breadcrumb clearfix">
+				<ul>
+					<li><a href="#"><i class="pbs-icon-home-outline"></i></a></li>
+					<li><a href="#">Transmission</a></li>
+					<li><a href="#">WARN</a></li>
+					<li>Veneta Angelova</li>
+				</ul>
+			</section><!-- END breadcrumb -->
+
+
+			<div class="threeColWidgetWrapper clearfix">
+
+			    <div id="" class="threeColWidgetPod clearfix">
+			        <h5>Support</h5>
+			        <ul class="dottedList">
+			            <li class="clearfix">
+			                <h6><a href="/uploadedFiles/e/PBS_Corporate_Areas/Technology_and_Operations_Features/WARN_System_Documentation/WARN System Anomaly Memo.pdf">Technical Bulletin</a></h6>WARN Technical Bulletin - Groomer Error</li>
+			            <li class="clearfix">
+			                <h6><a href="/uploadedFiles/e/PBS_Corporate_Areas/Technology_and_Operations_Features/PBS_WARN Brochure 2014-05-10.pdf">WARN Brochure</a></h6>WARN Brochure giving background on WARN and WEA for the general public. </li>
+			            <li class="clearfix">
+			                <h6><a href="/WARN_Turn_Up/">WARN Turn-up Instructions</a></h6>WARN Turn-Up Instructions - Bringing the Station System out of Bypass</li>
+			            <li class="clearfix">
+			                <h6><a href="/uploadedFiles/e/PBS_Corporate_Areas/Technology_and_Operations_Features/WARN_System_Documentation/WARN FAQ 20140505.pdf">Go-Live FAQ</a></h6>Go-Live FAQ</li>
+			            <li class="clearfix">
+			                <h6><a href="/z/templates/Feature.aspx?id=4295171083">Sencore Support</a></h6>Information on obtaining support from Sencore on WARN equipment.</li>
+			            <li class="clearfix">
+			                <h6><a href="/WARN_mpeg4.aspx">MPEG-4 Conversion</a></h6>Information on configuring MRD3187-B receivers to accommodate MPEG-4 on HD-01 X 24 and DVBS-2.</li>
+			        </ul>
+			    </div>
+
+
+			    <div id="DepartmentResources" class="threeColWidgetPod clearfix">
+			        <h5>Related Resources</h5>
+			        
+			        <div class="ContentText-DataWrap">
+			            <div class="content">
+			                <div class="ContentList">
+			                    <h6>User Guides / Manuals</h6>
+			                    <ul>
+			                        <li><a href="/WorkArea/DownloadAsset.aspx?id=4295172255">Amethyst III Quick Start Guide</a>
+			                        </li>
+			                        <li><a href="/WorkArea/DownloadAsset.aspx?id=4295172258">Amethyst III User Manual</a>
+			                        </li>
+			                        <li><a href="/WorkArea/DownloadAsset.aspx?id=4295172253">MRD 3187B Manual</a>
+			                        </li>
+			                        <li><a href="/WorkArea/DownloadAsset.aspx?id=4295172257">MRD 3187B Quick Start Guide</a>
+			                        </li>
+			                        <li><a href="/WorkArea/DownloadAsset.aspx?id=4295172259">TDI 3000 Manual</a>
+			                        </li>
+			                        <li><a href="/WorkArea/DownloadAsset.aspx?id=4295172256">TDI 3000 Quick Start Guide</a>
+			                        </li>
+			                        <li><a href="/WorkArea/DownloadAsset.aspx?id=4295172254">WARN Station System CAD</a>
+			                        </li>
+			                    </ul>
+			                </div>
+			                <div class="ContentList">
+			                    <h6>Phase Two Documents</h6>
+			                    <br>
+			                    <br>
+			                    <br>
+			                    <br>
+			                    <br>
+			                    <ul>
+			                        <li><a href="http://mypbs.org/uploadedFiles/e/PBS_Corporate_Areas/Technology_and_Operations_Features/WARN_System_Documentation/WARN ACT PHASE TWO GUIDELINES v3.1.docx">Phase Two Guidelines</a>
+			                        </li>
+			                        <li><a href="http://mypbs.org//uploadedFiles/e/PBS_Corporate_Areas/Technology_and_Operations_Features/WARN Phase 2 Application Form.xls">Phase Two Application Form</a>
+			                        </li>
+			                        <li><a href="http://mypbs.org/uploadedFiles/e/PBS_Corporate_Areas/Technology_and_Operations_Features/WARN_System_Documentation/WARN Phase Two Budget-Schedule Template Rev3.xls">Phase Two Budget-Schedule Template</a>
+			                        </li>
+			                        <li><a href="http://mypbs.org/uploadedFiles/e/PBS_Corporate_Areas/Technology_and_Operations_Features/WARN_System_Documentation/Phase Two Frequently Asked Questions Rev2.docx">Phase Two FAQ</a>
+			                        </li>
+			                        <li><a href="http://mypbs.org/uploadedFiles/e/PBS_Corporate_Areas/Technology_and_Operations_Features/WARN_System_Documentation/WARN Certification of Funds Letter Template Rev1.doc">Phase Two Certification of Funds Template</a>
+			                        </li>
+			                        <li><a href="http://mypbs.org/uploadedFiles/e/PBS_Corporate_Areas/Technology_and_Operations_Features/WARN_System_Documentation/WARN example -Panel Schedule.pdf">Phase Two Example Panel Schedule</a>
+			                        </li>
+			                        <li><a href="http://mypbs.org/uploadedFiles/e/PBS_Corporate_Areas/Technology_and_Operations_Features/WARN_System_Documentation/WARN example -System Line Drawing.pdf">Phase Two Example Line Drawing</a>
+			                        </li>
+			                        <li><a href="http://mypbs.org/uploadedFiles/e/PBS_Corporate_Areas/Technology_and_Operations_Features/WARN_System_Documentation/WARN example -System Map.pdf">Phase Two Example System Map</a>
+			                        </li>
+			                    </ul>
+			                </div>
+			                <div class="ContentList">
+			                    <h6>Presentations</h6>
+			                    <ul>
+			                        <li><a href="/WorkArea/DownloadAsset.aspx?id=4295172262">Dec 2012 CES Presentation</a>
+			                        </li>
+			                    </ul>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+
+
+			    <div id="" class="threeColWidgetPod clearfix">
+			        <h5>The WARN Team</h5>
+			        <ul class="dottedListGallery">
+			            <li class="clearfix"><img alt="Dana Golub" src="http://mypbs.org/uploadedImages/e/PBS_Corporate_Areas/Technology_and_Operations_Features/WARN_System_Documentation/dana-80.jpg?n=1147">
+			                <h6><thirdpod_line><p><strong><a href="mailto:dgolub@pbs.org">Dana Golub</a></strong><br>Senior Director, WARN</p>
+			<p>(919) 834-2259</p>
+			</thirdpod_line></h6>
+			            </li>
+			            <li class="clearfix"><img src="http://mypbs.org/uploadedImages/e/PBS_Corporate_Areas/Technology_and_Operations_Features/WARN_System_Documentation/thumb_kulstad.jpg" alt="John Kulstad" title="John Kulstad" width="80" height="100" style="width: 80px; height: 100px;">
+			                <h6><thirdpod_line><p><strong><a href="mailto:jmkulstad@pbs.org">John Kulstad</a></strong><br>Chief&nbsp;Broadcast Engineer</p>
+			<p>(703) 739-5490</p>
+			</thirdpod_line></h6>
+			            </li>
+			            <li class="clearfix"><img alt="Aaron Silverman 80 square" src="http://mypbs.org/uploadedImages/e/PBS_Corporate_Areas/Technology_and_Operations_Features/WARN_System_Documentation/aaron-80.jpg?n=6221">
+			                <h6><thirdpod_line><p><strong><a href="mailto:amsilverman@pbs.org">Aaron Silverman</a></strong><br>Communications Director</p>
+			<p>(703) 739-5054</p>
+			</thirdpod_line></h6>
+			            </li>
+			            <li class="clearfix"><img alt="Susana Lopez 80" src="http://mypbs.org/uploadedImages/e/PBS_Corporate_Areas/Technology_and_Operations_Features/WARN_System_Documentation/susana-80.jpg?n=5006">
+			                <h6><thirdpod_line><p><strong><a href="mailto:smlopez@pbs.org">Susana Lopez</a></strong><br>Sr. Manager&nbsp;of Administration</p>
+			<p>(703) 739-5268</p>
+			</thirdpod_line></h6>
+			            </li>
+			            <li class="clearfix"><img src="http://mypbs.org/uploadedImages/e/PBS_Corporate_Areas/Technology_and_Operations_Features/thumb_Mary Ann.jpg" alt="Mary Ann Chiampa" title="Mary Ann Chiampa" style="width: 66px; height: 80px;" width="66" height="80">
+			                <h6><thirdpod_line><p><strong><a href="mailto:machiampa@pbs.org">Mary Ann Chiampa</a></strong><br>Grants and Compliance Analyst</p>
+			<p>(703) 739-5192</p>
+			</thirdpod_line></h6>
+			            </li>
+			        </ul>
+			    </div>
+
+			</div><!-- END threeColWidgetWrapper -->
+
+
+
+
+
+
+			<!-- related resources and comments section -->
+				<!--#include file="_includes/rltd-res-com-wide.ssi" -->
+			<!-- end of related resources and comments section -->
+
+		</div><!-- end of leftContent -->
+
+		
+	</div><!-- end of content -->
+
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/widget-relrescom.js"></script>
+	<script type="text/javascript" src="_scripts/widget-collapsable-panel.js"></script>
+	<script type="text/javascript" src="_scripts/document-preview.js"></script>
+	
+</body>
+</html>

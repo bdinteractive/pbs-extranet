@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Developr</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- http://davidbcalhoun.com/2010/viewport-metatag -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/reset.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	<link rel="stylesheet" media="print" href="_styles/dashboard/print.css?v=1">
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+	<!-- For Retina displays -->
+	<link rel="stylesheet" media="only all and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5)" href="css/2x.css?v=1">
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/agenda.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/dashboard.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/modal.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/progress-slider.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css?v=1">
+
+
+	<link rel="stylesheet" href="_fonts/style.css">
+
+	<!-- Google code prettifier -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/google-code-prettify/sunburst.css?v=1">
+
+	<!-- glDatePicker -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/glDatePicker/developr.css?v=1">
+
+	<!-- CLEditor -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/CLEditor/jquery.cleditor.css">
+
+	<!-- DataTables -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/DataTables/jquery.dataTables.css">
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+
+	<!-- For Modern Browsers -->
+	<link rel="shortcut icon" href="_images/dashboard/favicons/favicon.png">
+	<!-- For everything else -->
+	<link rel="shortcut icon" href="_images/dashboard/favicons/favicon.ico">
+	<!-- For retina screens -->
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="_images/dashboard/favicons/apple-touch-icon-retina.png">
+	<!-- For iPad 1-->
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="_images/dashboard/favicons/apple-touch-icon-ipad.png">
+	<!-- For iPhone 3G, iPod Touch and Android -->
+	<link rel="apple-touch-icon-precomposed" href="_images/dashboard/favicons/apple-touch-icon.png">
+
+	<!-- iOS web-app metas -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<!-- Startup image for web apps -->
+	<link rel="apple-touch-startup-image" href="_images/dashboard/splash/ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+	<link rel="apple-touch-startup-image" href="_images/dashboard/splash/ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+	<link rel="apple-touch-startup-image" href="_images/dashboard/splash/iphone.png" media="screen and (max-device-width: 320px)">
+
+	<!-- Microsoft clear type rendering -->
+	<meta http-equiv="cleartype" content="on">
+
+
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+
+	<style type="text/css">
+
+	.pbs-overrides ul {
+		margin-left: 0;
+	}
+	.pbs-overrides .tag {
+		background: none;
+	}
+	.widget-search input {
+		padding: 0 12px;
+		width: 67%;
+		float: none;
+	}
+	.widget-search submit {
+		width: 16%;
+	}
+	.pbs-pagination li a {
+		line-height: 31px;
+	}
+
+	</style>
+
+
+</head>
+
+<body class="clearfix with-menu reversed">
+
+	<!-- Prompt IE 6 users to install Chrome Frame -->
+	<!--[if lt IE 7]><p class="message red-gradient simpler">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+	<!-- Title bar -->
+	<header role="banner" id="title-bar">
+		<h2>Call the Midwife</h2>
+	</header>
+
+	<!-- Button to open/hide menu -->
+	<a href="#" id="open-menu"><span>Menu</span></a>
+
+	<!-- Main content -->
+	<section role="main" id="main" class="pbs-overrides">
+
+		<div class="columns">
+
+			<!-- First row -->
+			<div class="three-columns">
+
+			<div class="margin-left">
+				
+			<div class="pbs-widget widget-search">
+				<form>
+					<input type="text" name="search-input" placeholder="Search anything" value="">
+					<submit><i class="pbs-icon-magnify-glass"></i></submit>
+				</form>
+			</div>
+
+			<div class="pbs-widget widget-accordion-list">
+				<h5>Filter by Categories <i class="pbs-icon-keyboard-arrow-up"></i></h5>
+				<ul>
+					<li class="active"><i class="pbs-icon-plus"></i> Everything <span>68</span></li>
+					<li class="hide active">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Art <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical &amp; Opera <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Classical <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Opera <span>12</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> Comedy <span>17</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="pbs-widget widget-tags">
+				<h5>Search Tags <i class="pbs-icon-keyboard-arrow-up"></i></h5>
+				<ul>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Event</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Conference</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Speaker</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Design</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short active">Fashion</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Venue</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Up Coming</a></li>
+					<li><a href="#" class="pbs-button btn-pri-lite btn-short">Hotels</a></li>
+				</ul>
+			</div>
+
+			<div class="pbs-widget widget-accordion-list">
+				<h5>Archive <i class="pbs-icon-keyboard-arrow-up"></i></h5>
+				<ul>
+					<li class="active"><i class="pbs-icon-plus"></i> 2014 January <span>15</span></li>
+					<li class="hide active">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 Feburary <span>7</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 April <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 Feburary <span>7</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 April <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 Feburary <span>7</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 April <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 Feburary <span>7</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 April <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 Feburary <span>7</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 April <span>10</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+					<li class=""><i class="pbs-icon-plus"></i> 2014 May <span>8</span></li>
+					<li class="hide">
+						<a href="">Some Link here</a>
+						<a href="">Some Link here</a>
+					</li>
+				</ul>
+			</div>
+
+
+			</div>
+
+			</div><!-- END column -->
+
+
+			<div class="nine-columns">
+
+			<div class="with-padding">
+							
+			<div class="search-result-filter">
+				<ul>
+					<li><a class="pbs-button btn-primary" href="#">Pledge <i class="pbs-icon-cancel-circle"></i></a></li>
+					<li><a class="pbs-button btn-primary" href="#">Keyword > Health Care <i class="pbs-icon-cancel-circle"></i></a></li>
+					<li><a class="pbs-button btn-primary" href="#">Forms <i class="pbs-icon-cancel-circle"></i></a></li>
+				</ul>
+			</div>
+
+
+				<div class="search-result-pod-list">
+					<div class="content">
+
+						<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-music"></i> Audio</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+							<li><a href="#"><i class="pbs-icon-heart"></i> Like</a></li>
+							<li><a href="#"><i class="pbs-icon-share"></i> Share</a></li>
+							<li><a href="#"><i class="pbs-icon-mail"></i> Email</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">Read More</a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list">
+					<div class="img-wrapper left" style="background-image:url(_images/temp-search-image-02.jpg);"></div>
+					<div class="content">
+
+						<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-camera"></i> Photo</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+							<li><a href="#"><i class="pbs-icon-bubbles"></i> 19</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+						</ul>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+
+						<ul class="right tags-row">
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Blue Tag</a></li>
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Red Tag</a></li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">Read More</a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list">
+					<div class="img-wrapper left" style="background-image:url(_images/temp-search-image-01.jpg);"></div>
+					<div class="content">
+
+						<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-link"></i> Link</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+							<li><a href="#"><i class="pbs-icon-heart"></i> Like</a></li>
+							<li><a href="#"><i class="pbs-icon-share"></i> Share</a></li>
+							<li><a href="#"><i class="pbs-icon-mail"></i> Email</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+						</ul>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+
+						<ul class="right tags-row">
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Blue Tag</a></li>
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Red Tag</a></li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">Read More</a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list">
+					<div class="content">
+
+						<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-music"></i> Audio</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+							<li><a href="#"><i class="pbs-icon-bubbles"></i> 19</a></li>
+							<li><a href="#"><i class="pbs-icon-share"></i> Share</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+						</ul>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+
+						<ul class="right tags-row">
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Blue Tag</a></li>
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Red Tag</a></li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">Read More</a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list">
+					<div class="img-wrapper left" style="background-image:url(_images/temp-search-image-02.jpg);"></div>
+					<div class="content">
+
+						<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-camera"></i> Photo</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+							<li><a href="#"><i class="pbs-icon-bubbles"></i> 19</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+						</ul>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+
+						<ul class="right tags-row">
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Blue Tag</a></li>
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Red Tag</a></li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">Read More</a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+				<div class="search-result-pod-list">
+					<div class="img-wrapper left" style="background-image:url(_images/temp-search-image-02.jpg);"></div>
+					<div class="content">
+
+						<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+
+						<ul class="meta-row">
+							<li><a href="#"><i class="pbs-icon-link"></i> Link</a></li>
+							<li><a href="#"><i class="pbs-icon-calendar"></i> 1 month ago</a></li>
+							<li><a href="#"><i class="pbs-icon-bubbles"></i> 19</a></li>
+							<li><a href="#"><i class="pbs-icon-user"></i> by Admin</a></li>
+						</ul>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. <a href="#">[...]</a></p>
+
+						<ul class="right tags-row">
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Blue Tag</a></li>
+							<li><a class="right tag" href="#"><i class="pbs-icon-tag2"></i> Red Tag</a></li>
+						</ul>
+
+						<a class="pbs-button btn-primary" href="#">Read More</a>
+
+					</div>
+				</div><!-- /end Search-Result-Pod-List -->
+
+
+				<ul class="pbs-pagination">
+					<li><a href="#"><i class="pbs-icon-keyboard-arrow-left"></i></a></li>
+					<li><a href="#">1</a></li>
+					<li><a class="active" href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a class="btn-primary" href="#"><i class="pbs-icon-keyboard-arrow-right"></i></a></li>
+				</ul>
+
+
+
+			</div>
+
+			</div><!-- END column -->
+
+		</div>
+
+		
+
+	</section>
+
+	<!-- Sidebar/drop-down menu -->
+	<section id="menu" role="complementary">
+
+		<!-- This wrapper is used by several responsive layouts -->
+		<div id="menu-content">
+
+			<header>
+				How To
+			</header>
+
+			<div style="height:150px;background-image:url(_images/my-pbs-logo.jpg);background-position-y: -20px;"></div>
+
+			<!-- By default, this section is made for 4 icons, see the doc to learn how to change this, in "basic markup explained" -->
+			<ul id="access" class="children-tooltip">
+				<li><a href="#" title="Follow me on Twitter"><span class="pri-icohome"></span></a></li>
+				<li><a href="#" title="Credits"><span class="pri-icoshare"></span></a></li>
+				<li><a href="#" title="Author profile page"><span class="pri-icotv"></span></a></li>
+				<li><a href="#" title="Follow me on Twitter"><span class="pri-icoplus"></span></a></li>
+			</ul>
+
+			<ul id="access" class="children-tooltip">
+				<li><a href="#" title="Follow me on Twitter"><span class="pri-icocog"></span></a></li>
+				<li><a href="#" title="Credits"><span class="pri-icobullhorn"></span></a></li>
+				<li><a href="#" title="Author profile page"><span class="pri-icobooks"></span></a></li>
+				<li><a href="#" title="Follow me on Twitter"><span class="pri-icobeat"></span></a></li>
+			</ul>
+
+			<section class="navigable" id="doc-menu">
+				<ul class="big-menu">
+					<li class="with-right-arrow">
+						<span>Assets</span>
+						<ul class="big-menu">
+							<li><a href="content/quick/markup.html" title="Basic markup">Basic markup</a></li>
+							<li><a href="content/quick/styles.html" title="Main styles overview">Main styles overview</a></li>
+							<li><a href="content/quick/functions.html" title="Main functions overview">Main functions overview</a></li>
+						</ul>
+					</li>
+					<li class="with-right-arrow">
+						<span>Content</span>
+						<ul class="big-menu">
+							<li><a href="content/basic/markup.html" title="Basic markup explained">Basic markup explained</a></li>
+							<li><a href="content/basic/auto-setup.html" title="Automatic template setup">Automatic template setup</a></li>
+							<li><a href="content/basic/responsive.html" title="Responsive layout">Responsive layout</a></li>
+						</ul>
+					</li>
+					<li class="with-right-arrow">
+						<span>Content Advisories</span>
+						<ul class="big-menu">
+							<li><a href="content/basic/typography.html" title="Typography">Typography</a></li>
+							<li><a href="content/basic/colors.html" title="Colors">Colors</a></li>
+							<li><a href="content/basic/utility-classes.html" title="Utility classes">Utility classes</a></li>
+							<li><a href="content/basic/generic-styles.html" title="Generic styles">Generic styles</a></li>
+							<li><a href="content/basic/buttons.html" title="Buttons">Buttons</a></li>
+							<li><a href="content/basic/icons.html" title="Icons">Icons</a></li>
+							<li><a href="content/basic/visual-elements.html" title="Visual elements">Visual elements</a></li>
+						</ul>
+					</li>
+					<li class="with-right-arrow">
+						<span>Food Schedules</span>
+						<ul class="big-menu">
+							<li><a href="content/reference/menu-styles.html" title="Styles">Styles</a></li>
+							<li><a href="content/reference/menu-navigable.html" title="Navigable menus">Navigable menus</a></li>
+							<li><a href="content/reference/menu-collapsible.html" title="Collapsible menus">Collapsible menus</a></li>
+							<li><a href="content/reference/menu-shortcuts.html" title="Styles">Shortcuts</a></li>
+						</ul>
+					</li>
+					<li class="with-right-arrow">
+						<span>Others</span>
+						<ul class="big-menu">
+							<li><a href="content/reference/notifications.html" title="Notifications">Notifications</a></li>
+							<li><a href="content/reference/messages.html" title="Messages">Messages</a></li>
+							<li><a href="content/reference/modal.html" title="Modal window">Modal window</a></li>
+							<li><a href="content/reference/tooltips.html" title="Tooltips">Tooltips</a></li>
+							<li><a href="content/reference/confirmation.html" title="Tooltips">Confirmation</a></li>
+							<li><a href="content/reference/info-bubble.html" title="Tooltips">Information bubble</a></li>
+						</ul>
+					</li>
+					<li class="with-right-arrow">
+						<span>Off-Air Fundraising</span>
+						<ul class="big-menu">
+							<li><a href="content/reference/tabs.html" title="Tabs">Tabs</a></li>
+							<li><a href="content/reference/columns.html" title="Columns">Columns</a></li>
+							<li><a href="content/reference/content-panels.html" title="Content panels">Content panels</a></li>
+							<li><a href="content/reference/scroll.html" title="Scroll">Scroll</a></li>
+							<li><a href="content/reference/blocks.html" title="Blocks &amp; collapsibles">Blocks &amp; collapsibles</a></li>
+						</ul>
+					</li>
+					<li class="with-right-arrow">
+						<span>Promotions</span>
+						<ul class="big-menu">
+							<li><a href="content/reference/agenda.html" title="Agenda">Agenda</a></li>
+							<li><a href="content/reference/calendars.html" title="Calendars">Calendars</a></li>
+							<li><a href="content/reference/events.html" title="Events list">Events list</a></li>
+						</ul>
+					</li>
+					<li class="with-right-arrow">
+						<span>Public Inspections Files</span>
+						<ul class="big-menu">
+							<li><a href="content/reference/tables.html" title="Tables">Tables</a></li>
+							<li><a href="content/reference/lists.html" title="Lists">Lists</a></li>
+							<li><a href="content/reference/stats.html" title="Stats">Stats</a></li>
+							<li><a href="content/reference/progress.html" title="Progress">Progress</a></li>
+							<li><a href="content/reference/sliders.html" title="Sliders">Sliders</a></li>
+							<li><a href="content/reference/files.html" title="Files">Files</a></li>
+							<li><a href="content/reference/gallery.html" title="Gallery">Gallery</a></li>
+						</ul>
+					</li>
+					<li class="with-right-arrow">
+						<span>Reports</span>
+						<ul class="big-menu">
+							<li><a href="content/reference/form-inputs.html" title="Inputs">Inputs</a></li>
+							<li><a href="content/reference/form-special-inputs.html" title="Special inputs">Special inputs</a></li>
+							<li><a href="content/reference/form-textareas.html" title="Textareas">Textareas</a></li>
+							<li><a href="content/reference/form-switches.html" title="Switches">Switches</a></li>
+							<li><a href="content/reference/form-selects.html" title="Selects">Selects</a></li>
+							<li><a href="content/reference/form-layouts.html" title="Layouts">Layouts</a></li>
+							<li><a href="content/reference/form-validation.html" title="Validation">Validation</a></li>
+							<li><a href="content/reference/form-wizard.html" title="Wizard">Wizard</a></li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+
+		</div>
+
+	</section>
+	<!-- End sidebar/drop-down menu -->
+
+	<!-- JavaScript at the bottom for fast page loading -->
+
+	<!-- Scripts -->
+	<script src="_scripts/dashboard/libs/jquery-1.7.2.min.js"></script>
+	<script src="_scripts/dashboard/libs/jquery-ui-1.8.18.custom.min.js"></script>
+	<script src="_scripts/dashboard/setup.js"></script>
+
+	<!-- Template functions -->
+	<script src="_scripts/dashboard/developr.accordions.js"></script>
+	<script src="_scripts/dashboard/developr.auto-resizing.js"></script>
+	<script src="_scripts/dashboard/developr.input.js"></script>
+	<script src="_scripts/dashboard/developr.message.js"></script>
+	<script src="_scripts/dashboard/developr.modal.js"></script>
+	<script src="_scripts/dashboard/developr.navigable.js"></script>
+	<script src="_scripts/dashboard/developr.collapsible.js"></script>
+	<script src="_scripts/dashboard/developr.notify.js"></script>
+	<script src="_scripts/dashboard/developr.scroll.js"></script>
+	<script src="_scripts/dashboard/developr.progress-slider.js"></script>
+	<script src="_scripts/dashboard/developr.tooltip.js"></script>
+	<script src="_scripts/dashboard/developr.confirm.js"></script>
+	<script src="_scripts/dashboard/developr.content-panel.js"></script>
+	<script src="_scripts/dashboard/developr.agenda.js"></script>
+	<script src="_scripts/dashboard/developr.table.js"></script>
+	<script src="_scripts/dashboard/developr.wizard.js"></script>
+	<script src="_scripts/dashboard/developr.tabs.js"></script>		<!-- Must be loaded last -->
+
+	<!-- Tinycon -->
+	<script src="_scripts/dashboard/libs/tinycon.min.js"></script>
+
+	<!-- Google code prettifier -->
+	<script src="_scripts/dashboard/libs/google-code-prettify/prettify.js?v=1"></script>
+
+	<!-- glDatePicker -->
+	<script src="_scripts/dashboard/libs/glDatePicker/glDatePicker.min.js?v=1"></script>
+
+	<!-- Hashchange polyfill -->
+	<script src="_scripts/dashboard/libs/jquery.ba-hashchange.min.js?v=1"></script>
+
+	<!-- CLEditor -->
+    <script src="_scripts/dashboard/libs/CLEditor/jquery.cleditor.min.js"></script>
+
+	<!-- Tablesorter -->
+    <script src="_scripts/dashboard/libs/jquery.tablesorter.min.js"></script>
+
+	<!-- DataTables -->
+    <script src="_scripts/dashboard/libs/DataTables/jquery.dataTables.min.js"></script>
+
+	<script>
+
+		var win = $(window),
+			bod = $(document.body),
+			main = $('#main'),
+			init = false;
+
+		// Ajax navigation
+		$(document).on('click', 'a', function(event)
+		{
+			var link = $(this),
+				href = link.attr('href'),
+				docmenu;
+
+			// Some elements from the doc shouldn't be processed
+			if (link.closest('#main').length > 0 && link.closest('.navigable, .collapsible').length > 0)
+			{
+				return;
+			}
+
+			// If local link
+			if (href && !href.match(/^(https?:|#|\.\/|javascript:)/))
+			{
+				event.preventDefault();
+				window.location.hash = '#'+href;
+				win.hashchange();
+
+				// If in menu, add visual indicator
+				docmenu = link.closest('#doc-menu');
+				if (docmenu.length > 0)
+				{
+					docmenu.find('.current').removeClass('current');
+					link.addClass('current');
+				}
+			}
+		});
+
+		// Listen to hash changes
+		win.hashchange(function(event)
+		{
+			var hash = $.trim(window.location.hash || '');
+			if (hash.length > 1)
+			{
+				main.load(hash.substring(1), function()
+				{
+					// Code display
+					prettyPrint();
+
+					// Scroll
+					if (init)
+					{
+						bod.animate({
+							scrollTop: 0
+						});
+					}
+				});
+			}
+			else
+			{
+				window.location.reload();
+			}
+		});
+
+		// Init
+		if (window.location.hash && window.location.hash.length > 1)
+		{
+			win.hashchange();
+		}
+		init = true;
+
+		// Documentation won't work on local files with chrome
+		if (document.location.protocol === 'file:' && navigator.userAgent.match(/Chrome/))
+		{
+			$.modal.alert('<p>The documentation won\'t work on Chrome because you opened it as a local file. Place files on any web server to browse it safely.</p>Or use another modern brower, but Chrome just rocks...');
+		}
+
+	</script>
+
+	<!-- Tablesorter -->
+    <script src="http://www.display-inline.fr/demo/developr/version.js"></script>
+	<script>
+
+		// Table sort - simple
+		$('#tablesorter').tablesorter();
+
+		// Current version
+		var thisVersion = 1.3;
+		if (currentVersion)
+		{
+			if (currentVersion > thisVersion)
+			{
+				$('#intro').message('A new version of the template is available! Click here to go to your download page &raquo;', {
+					node:		'a',
+					link:		'http://themeforest.net/',
+					classes:	['align-center', 'blue-gradient'],
+					position:	'bottom',
+					append:		false
+				});
+			}
+			else
+			{
+				$('#intro').message('You have the latest version of the template', {
+					classes:	['align-center', 'green-gradient'],
+					position:	'bottom',
+					append:		false
+				});
+			}
+		}
+		else
+		{
+			$('#intro').message('Error while checking template current version', {
+				classes:	['align-center', 'red-gradient'],
+				position:	'bottom',
+				append:		false
+			});
+		}
+
+	</script>
+</body>
+</html>

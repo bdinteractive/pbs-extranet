@@ -1,0 +1,579 @@
+/* ----------------------------------------------------------------------------
+	Purpose:
+	Global CSS Styles for PBS intranet website
+	$Last Updated: 07-August-2012 12:00:00PM Brad Dedon $
+/*	----------------------------------------------------------------------------
+	Table Of Contents
+	1. Resets & Defaults
+		a. Resets
+*/
+
+
+
+/*	----------------------------------------------------------------------------
+	(1) Defaults & Resets */
+/*	----------------------------------------
+	(1a) Defaults & Resets - Resets */
+
+
+/*	----------------------------------------
+	(1b) Defaults & Resets - Defaults */
+
+
+
+
+
+
+
+
+
+
+
+.off-white-bg {
+	background: #f1f3f4;
+	color: #666666;
+	border-color: #cccccc;
+	}
+	a.white-bg:hover {
+		color: #666666;
+		background: #f3f5f6;
+	}
+.white-bg {
+	background: #fff;
+	color: #666666;
+	border-color: #cccccc;
+	}
+	a.white-bg:hover {
+		color: #666666;
+		background: #f3f5f6;
+	}
+.block,
+details.details,
+.block-title {
+	border-radius: 0;
+}
+.columns .no-left-gutter {
+	margin-left: 0;
+}
+
+
+.block img {
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.primary-navigation {
+	float: right;
+	padding-top: 15px;
+}
+.primary-navigation a {
+	display: inline-block;
+	margin: 0;
+	padding: 0 15px;
+	border-right: solid 1px #fff;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.primary-navigation a:last-child {
+	border-right: none;
+}
+
+
+
+
+
+#find-person {
+
+}
+#find-person label,
+#find-person a {
+	color:#000;
+	text-transform: uppercase;
+	border-right:solid rgba(255,255,255,0.2) 1px;
+	padding: 5px 15px 5px 0;
+	margin: -4px 15px 0 0;
+	float: left;
+}
+#find-person a {
+	background: none;
+	border: none;
+	border-right:solid rgba(255,255,255,0.2) 1px;
+}
+#find-person a:hover {
+	text-decoration: none;
+	color: #555;
+}
+#find-person a:last-child {
+	border: none;
+	margin-right: 0px;
+}
+#find-person input {
+	width: 253px;
+	height: 24px;
+	border: solid 0px #FFF;
+	background-color: #fff;
+	color: #000;
+	padding-left: 7px;
+	margin-right: 10px;
+	float: left;
+	border-radius: 2px;
+	margin-top: -3px;
+}
+#find-person submit {
+	cursor: pointer;
+	float: left;
+	/*border-right: solid rgba(255,255,255,0.2) 1px;*/
+	padding: 0 15px 0 0;
+	/*margin-right: 15px;*/
+	margin-top: -2px;
+}
+#find-person submit i {
+	color:#000;
+	font-size: 20px;
+	float: right;
+}
+#find-person submit i:hover {
+	color: #ea9022;
+}
+#find-person submit::-webkit-input-placeholder {
+   color:#fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color:#fff;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color:#fff;
+}
+
+:-ms-input-placeholder {  
+   color:#fff; 
+}
+
+
+
+
+
+
+
+
+
+/*	----------------------------------------------------------------------------
+	(15) Activity Stream */
+
+.activity-stream {
+	/*width: 520px;*/
+}
+.activity-stream-post {
+	color: #666666;
+}
+.activity-stream-post .as-more {
+	display: none;
+}
+.activity-stream-post a {
+	/*color: #003f92;*/
+}
+.activity-stream-post a:visited {
+	/*color: #C55019;*/
+}
+.activity-stream-post a.joined {
+	border: solid 1px #ddd;
+	border-radius: 3px;
+	background-color: #eee;
+	font-size: 10px;
+	padding: 3px 9px;
+	color: #003f92;
+	display: inline-block;
+}
+.activity-stream-post .activity-post {
+	overflow: hidden;
+}
+.activity-stream-post .activity-avatar {
+	float: left;
+	margin: 0 10px 0 0;
+	border: none;
+	width: 48px;
+}
+.activity-stream-post .activity-avatar img {
+	margin-bottom: 5px;
+	display: block;
+	width: 100%;
+	border-radius: 50%;
+}
+.activity-stream-post .activity-avatar a.follow {
+	border: solid 1px #ddd;
+	border-radius: 3px;
+	background-color: #eee;
+	font-size: 10px;
+	padding: 3px 9px;
+	color: #999;
+	display: inline-block;
+}
+.activity-stream-post .activity-timestamp {
+	float: left;
+	margin: 0 10px 0 0;
+	border: none;
+	width: 100px;
+}
+.activity-stream-post .activity-msg {
+	margin-bottom: 10px;
+}
+.activity-stream-post .activity-action ul {
+	margin-bottom: 10px;
+}
+.activity-stream-post .activity-action li {
+	margin: 0;
+	list-style: none;
+	float: left;
+	margin-right: 3px;
+}
+.activity-stream-post .activity-action li:after {
+	content: "•";
+}
+.activity-stream-post .activity-action li:last-child:after {
+	content: "";
+}
+.activity-stream-post .activity-action a {
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 3px;
+}
+.activity-stream-post .activity-action input {
+	width: 95%;
+	padding: 5px;
+	border: solid 1px #ddd;
+}
+.activity-stream-post img {
+	width: 48px;
+	height: 48px;
+}
+.activity-stream-post .activity-msg {
+	font-size: 14px;
+}
+.activity-stream-post.parent-post {
+	margin-bottom: 30px;
+}
+.activity-stream-post.child-post {
+	background-color: #f4f4f4;
+	padding: 10px;
+	border-bottom: solid 1px #dcdcdc;
+	border-top: solid 1px #fff;
+}
+.activity-stream-actions {
+	position: relative;
+	margin-top: 15px;
+}
+.activity-stream-actions:after {
+	bottom: 100%;
+	left: 30px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #f4f4f4;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.activity-stream-post.child-post .activity-avatar {
+	width: 33px;
+}
+.activity-stream-post.child-post .activity-avatar img {
+	height: 33px;
+}
+.activity-stream-post.child-post .activity-msg {
+	font-size: 12px;
+}
+.activity-stream-post.child-post .activity-msg a:first-child {
+	display: block;
+	margin-bottom: 3px;
+	font-weight: bold;
+}
+
+.activity-comments-collapse {
+	display: none;
+}
+.activity-show-comments,
+.activity-hide-comments {
+	text-align: right;
+}
+
+.single-message {
+	padding: 25px 60px 15px 60px;
+	border-bottom: solid 1px #ccc;
+	border-top: solid 1px #ccc;
+	margin-bottom: 20px;
+}
+
+.activity-static-assets img {
+	width: 150px;
+	height: 150px;
+	margin: 5px;
+}
+
+.marked {
+	padding: 7px 15px;
+	border-left: solid 2px #003F94;
+	margin-left: 5px;
+	margin-top: 20px;
+}
+
+
+
+
+/*	----------------------------------------------------------------------------
+	(15) User Profile */
+
+.avatar {
+	width: 125px;
+	height: 98px;
+	overflow: hidden;
+	border: solid 1px #ddd;
+}
+
+
+/*	----------------------------------------------------------------------------
+	(x) Contribution Box Specific Styles */
+
+.contribution-box {
+	border: solid 6px #eee;
+	margin-bottom: 30px;
+}
+.cont-controls {
+	height: 30px;
+	background-color: #eee;
+}
+.cont-controls a {
+	color: #999;
+	text-decoration: none;
+	width: 30px;
+	display: block;
+	float: left;
+	height: 35px;
+	text-align: center;
+	position: relative;
+	padding-top: 10px;
+}
+.cont-controls a.active:before,
+.cont-controls a:hover:before {
+	font-family: 'pbs-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	content: "\e647";
+	color: #fff;
+	position: absolute;
+	top: -4px;
+}
+.cont-controls a i {
+	font-size: 16px;
+}
+
+.cont-content {
+	display: none;
+	/*padding: 10px;*/
+}
+.cont-content .full-input {
+	width: 95%;
+	border: none;
+	color: #333;
+	font-size: 14px;
+	padding: 10px;
+	border-bottom: solid 1px #eee;
+}
+
+.cont-content .full-input::-webkit-input-placeholder {
+   color: #ccc;
+}
+.cont-content .full-input:-moz-placeholder { /* Firefox 18- */
+   color: #ccc;
+}
+.cont-content .full-input::-moz-placeholder {  /* Firefox 19+ */
+   color: #ccc; 
+}
+.cont-content .full-input:-ms-input-placeholder {  
+   color: #ccc; 
+}
+
+.cont-content .cont-message-step {
+	padding: 10px;
+	border-top: solid 1px #ccc;
+	display: none;
+}
+.cont-content .cont-message-step.active {
+	display: block;
+}
+.cont-content .cont-message-step.active {
+	display: block;
+}
+.cont-content form:first-child {
+	border-top: none;
+}
+.cont-content h4 {
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.cont-content fieldset {
+	display: inline-block;
+	margin-right: 20px;
+}
+.cont-content fieldset i {
+	font-size: 14px;
+}
+.cont-content input.wysiwyg {
+	width: 80%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.cont-content textarea.wysiwyg {
+	display: block;
+	width: 99%;
+	padding: 5px 0 5px 5px;
+	height: 200px;
+	border-color: #ccc;
+	margin-bottom: 25px;
+}
+.cont-content .check-knob {
+	left: 49%;
+	top: 49%;
+}
+
+
+
+.cont-wrapper .active {
+	display: block;
+}
+
+
+#photo-upload {
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.date-pagination {
+	display: inline-block;
+	text-align: center;
+	border-bottom: solid 2px #ccc;
+	border-top: solid 2px #ccc;
+	padding: 0 15px;
+	background-color: #eee;
+}
+.date-pagination a {
+	padding: 15px 10px;
+	display: inline-block;
+	text-decoration: none;
+}
+.date-pagination a.active {
+	background-color: #003f92;
+	color: #fff;
+	border-radius: 4px;
+	margin: 5px;
+	padding: 6px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search-top-bar {
+	margin-top:65px !important;
+}
+.pbs-community-header {
+	background:rgba(0,0,0,0.55);
+	height:45px;
+	margin-top:-4px;
+}
+#pbs-logo {
+	margin-top:-10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 992px) {
+	.max-width-fixed {
+		width: 1200px;
+		margin: 0 auto;
+	}
+}
+
+@media all and (max-width: 992px) {
+	.primary-navigation a {
+		padding: 15px;
+		display: block;
+		border: none;
+	}
+	.search-top-bar {
+		display: none;
+	}
+	.pbs-community-header {
+		height:auto;
+		margin-top:0;
+		margin-bottom: 35px;
+	}
+	#pbs-logo {
+		margin: 25px 0 0 25px;
+	}
+}
+
+
+
+
+
+

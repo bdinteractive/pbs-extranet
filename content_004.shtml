@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+
+		<!-- Begin Dashboard includes -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css?v=1">
+
+	<!-- DataTables -->
+	<link rel="stylesheet" href="_scripts/dashboard/libs/DataTables/jquery.dataTables.css?v=1">
+	
+	
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+
+
+
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="_styles/jquery.jscrollpane.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_scripts/fancybox/fancybox.css" type="text/css" media="screen">
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+		
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+		<h1></h1>
+
+	</div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="non-dashboard clearfix">
+
+		<div class="leftContentWide">
+
+			<h1 class="page-title">Retirement &amp; Savings</h1>
+
+			<section class="post-details">
+				<ul class="post-details-info">
+					<li><i class="pbs-icon-calendar"></i> 8:25 PM, Feb 23</li>
+					<li><i class="pbs-icon-users"></i> 6,254 Views</li>
+					<li><i class="pbs-icon-bubble"></i> <a href="#">6 Comments</a></li>
+					<li><i class="pbs-icon-share"></i> <a href="#">Share</a></li>
+				</ul>
+				<ul class="post-details-actions">
+					<li><a href="#"><i class="pbs-icon-file-word"></i></a></li>
+					<li><a href="#"><i class="pbs-icon-file-pdf"></i></a></li>
+					<li><a href="#"><i class="pbs-icon-printer"></i></a></li>
+					<li><a href="#"><i class="pbs-icon-copy"></i></a></li>
+				</ul>
+			</section><!-- END post-details -->
+
+		</div><!-- END leftContentWide -->
+		
+		<div class="leftContent rightBorder">
+			
+			<div class="editableContent">
+
+				<h3>PBS Retirement Plan</h3>
+
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis esnim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiata, tellus.</p>
+				
+				<ul>
+					<li>Nullam dictum felis eu pede mollis pretium</li>
+					<li>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiata, tellus.</li>
+					<li>Nullam dictum felis eu pede mollis pretium</li>
+					<li>Nullam dictum felis eu pede mollis pretium</li>
+					<li>Nullam dictum felis eu pede mollis pretium. Nullam dictum felis eu pede mollis pretium. Nullam dictum felis eu pede mollis pretium. Nullam dictum felis eu pede mollis pretium. Nullam dictum felis eu pede mollis pretium</li>
+					<li>Nullam dictum felis eu pede mollis pretium</li>
+					<li>Nullam dictum felis eu pede mollis pretium</li>
+					<li>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiata, tellus.</li>
+					<li>Nullam dictum felis eu pede mollis pretium</li>
+				</ul>
+
+				<h4>Another Retirement Plan</h4>
+
+				<p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi augue. Curabitur ullamcorper ultricies nisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis esnim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiata, tellus.</p>
+				
+				<ul>
+					<li>Nullam dictum felis eu pede mollis pretium</li>
+					<li>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiata, tellus.</li>
+					<li>Nullam dictum felis eu pede mollis pretium</li>
+					<li>Nullam dictum felis eu pede mollis pretium</li>
+					<li>Nullam dictum felis eu pede mollis pretium. Nullam dictum felis eu pede mollis pretium. Nullam dictum felis eu pede mollis pretium. Nullam dictum felis eu pede mollis pretium. Nullam dictum felis eu pede mollis pretium</li>
+					<li>Nullam dictum felis eu pede mollis pretium</li>
+					<li>Nullam dictum felis eu pede mollis pretium</li>
+					<li>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiata, tellus.</li>
+					<li>Nullam dictum felis eu pede mollis pretium</li>
+				</ul>
+
+				<ul class="attachmentList clearfix">
+					<li><a href="#"><img src="_images/Image_placeholder.png" /></a></li>
+					<li><a href="#"><img src="_images/Image_placeholder.png" /></a></li>
+					<li><a href="#"><img src="_images/Image_placeholder.png" /></a></li>
+				</ul>
+		
+				<ul class="fileList">
+					<li><a href="#" class="fileName">file-name.ppt </a><span class="fileSize">(0.00mb)</span></li>
+					<li><a href="#" class="fileName">file-name.ppt </a><span class="fileSize">(0.00mb)</span></li>
+					<li><a href="#" class="fileName">file-name.ppt </a><span class="fileSize">(0.00mb)</span></li>
+				</ul>
+			
+			</div><!-- End of .editableContent -->
+			
+			<!-- related resources and comments section -->
+				<!--#include file="_includes/rltd-res-com.ssi" -->
+			<!-- end of related resources and comments section -->
+			
+		</div><!-- end of leftContent -->
+		
+		<div class="rightRail">
+			
+			<!-- Page Contact Widget Begins -->
+			<div id="WidgetPageContact">
+					<div class="tbar">
+						<h5>Contact for this Page</h5>
+					</div>
+						<div class="content clearfix">
+							<a class="photo" href="#"><img src="_images/Photo_Silhouette_small.png"></a>
+							<a class="contactName" href="#">Blanca Brownstone</a>
+							<ul class="socialActions">
+								<li class="first"><a href="#">Friend</a></li>
+								<li><a href="#">Follow</a></li>
+								<li class="last"><a href="#">Email</a></li>
+							</ul>
+						</div>
+				<div class="bottom"></div>
+			</div><!-- End of Page Contact Widget -->
+			
+			<!-- Related Events Widget Begins -->
+			<div id="WidgetRelatedEvents">
+				<div class="tbar clearfix">
+					<h5>Related Events</h5>
+					<a href="#"></a>
+				</div>
+				
+				<div class="content"> 
+				
+					<div class="event clearfix">
+						<a class="calendar" href="#"><img src="_images/icon_calendar.png"></a>
+						<a class="dateName" href="#">July 1, 2011<br />PBS Meeting</a>
+					</div>
+					
+					<div class="event clearfix">
+						<a class="calendar" href="#"><img src="_images/icon_calendar.png"></a>
+						<a class="dateName" href="#">July 1, 2011<br />PBS Meeting</a>
+					</div>
+					
+					<div class="event clearfix">
+						<a class="calendar" href="#"><img src="_images/icon_calendar.png"></a>
+						<a class="dateName" href="#">July 1, 2011<br />PBS Meeting</a>
+					</div>
+					
+					<div class="event last clearfix">
+						<a class="calendar" href="#"><img src="_images/icon_calendar.png"></a>
+						<a class="dateName" href="#">July 1, 2011<br />PBS Meeting</a>
+					</div>
+				
+				</div>
+				<div class="bottom">
+					<a href="#">VIEW ALL</a>
+				</div>
+			</div>
+
+		<!-- End of Related Events Widget -->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- Recent Announcement Widget Begins -->
+		
+		<div id="WidgetRelatedAnnouncements">
+			<div class="tbar clearfix">
+				<h5>Related Announcements</h5>
+				<a href="#"></a>
+			</div>
+			
+			<div class="content"> 
+			
+				<div class="event clearfix">
+					<a class="photo" href="#"><img src="_images/Photo_Silhouette_small.png"></a>
+					<a class="dateName" href="#">Deadline is Approaching<br /><span class="small">4/6/2011 9:21AM</span></a>
+				</div>
+				
+				<div class="event clearfix">
+					<a class="photo" href="#"><img src="_images/Photo_Silhouette_small.png"></a>
+					<a class="dateName" href="#">Deadline is Approaching<br /><span class="small">4/6/2011 9:21AM</span></a>
+				</div>
+				
+				<div class="event last clearfix">
+					<a class="photo" href="#"><img src="_images/Photo_Silhouette_small.png"></a>
+					<a class="dateName" href="#">Deadline is Approaching hjdodwdw dwinwdiwd widihw dwijdwihd hihihwd<br /><span class="small">4/6/2011 9:21AM</span></a>
+				</div>
+			
+			</div>
+			<div class="bottom"></div>
+		</div>
+		<!-- End of Recent Announcement Widget -->
+
+
+	</div>
+		
+	</div><!-- end of content -->
+
+
+
+	
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+
+	<div class="lightbox" style="display:none">
+		<div id="generalContent" class="generalContent">
+			<h5>General Content</h5>
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nulla odio, sagittis a tempus at, tincidunt nec mi. Quisque nec nulla velit. Nullam turpis ante, condimentum vitae ullamcorper at, condimentum at tellus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus dignissim, lorem at aliquam pharetra, purus eros placerat sem, at aliquet dui enim bibendum erat. Morbi metus nunc, lacinia sed scelerisque at, faucibus eu orci. Cras felis elit, feugiat quis facilisis non, ullamcorper vitae mi. Phasellus lobortis odio et nunc convallis mattis. Donec porta sapien eget erat suscipit at mollis nisl adipiscing. Vivamus fermentum turpis vel urna posuere ut sagittis ipsum condimentum. Morbi fringilla tristique porta.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nulla odio, sagittis a tempus at, tincidunt nec mi. Quisque nec nulla velit. Nullam turpis ante, condimentum vitae ullamcorper at, condimentum at tellus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus dignissim, lorem at aliquam pharetra, purus eros placerat sem, at aliquet dui enim bibendum erat. Morbi metus nunc, lacinia sed scelerisque at, faucibus eu orci. Cras felis elit, feugiat quis facilisis non, ullamcorper vitae mi. Phasellus lobortis odio et nunc convallis mattis. Donec porta sapien eget erat suscipit at mollis nisl adipiscing. Vivamus fermentum turpis vel urna posuere ut sagittis ipsum condimentum. Morbi fringilla tristique porta.</p>
+				
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/widget-relrescom.js"></script>
+	<script type="text/javascript" src="_scripts/widget-collapsable-panel.js"></script>
+	<script type="text/javascript" src="_scripts/document-preview.js"></script>
+
+		<!-- Begin Dashboard includes -->
+	<script src="_scripts/dashboard/setup.js"></script>
+	<script src="_scripts/dashboard/developr.input.js"></script>
+	<script src="_scripts/dashboard/developr.navigable.js"></script>
+	<script src="_scripts/dashboard/developr.notify.js"></script>
+	<script src="_scripts/dashboard/developr.scroll.js"></script>
+	<script src="_scripts/dashboard/developr.progress-slider.js"></script>
+	<script src="_scripts/dashboard/developr.tooltip.js"></script>
+	<script src="_scripts/dashboard/developr.content-panel.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>PBS Extranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v2.css" type="text/css" media="screen">
+	
+	<!-- jquery specific -->
+	<link rel="stylesheet" href="_styles/jquery.jscrollpane.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/jqtransform.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/css-dock.css" type="text/css" media="screen">
+	
+	
+	
+	
+	
+	<!-- Begin Dashboard includes -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+	
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/agenda.css?v=1">
+	
+	
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+	
+	
+	
+	
+	<script type="text/javascript" charset="utf-8" src="_scripts/dashboard/libs/jquery-1.7.2.min.js"></script>
+	
+	<!-- theme specific -->
+	<script type="text/javascript" charset="utf-8" src="_scripts/themes.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { background: #00779C url(_themes/theme4/images/background_page.png) top center no-repeat; }
+		.contentBorderTop { border-bottom-color: #289a8a; }
+		
+		/*	----------------------------------------------------------------------------
+			(1) Footer */
+		.miniFooter { background: #00779C; }
+
+		#schedule-morning,
+		#schedule-daytime,
+		#schedule-primetime,
+		#schedule-overnight {
+			display: none;
+		}
+
+		#schedule-morning {
+			display: block;
+		}
+
+	</style>
+	
+	<!-- Microsoft clear type rendering -->
+	<meta http-equiv="cleartype" content="on">
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V2 include -->
+		<!--#include file="_includes/navigationV2.ssi" -->
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/leftnav.ssi" -->
+	
+	<!-- Content glow top and border -->
+	<div class="contentGlowTop"><div class="contentBorderTop"></div></div>
+	
+	<div id="pbs-content" class="clearfix">
+		
+		<!-- Page Label, Breadcrumb, Share and User Menus Begins -->
+		<div class="userArea clearfix">
+			<ul class="breadcrumb">
+				<li><a href="#">Extranet Home</a></li>
+				<li class="last">Feed Schedule</li>
+			</ul>
+		</div>
+		
+		<div class="pageTitleTools clearfix">
+			<div class="colLeft">
+				<h2 class="pageTitle"></h2>
+			</div>
+
+		</div>
+		<!-- End of Page Label, Breadcrumb, Share and User Menus -->
+		
+			<div class="leftContentWide" style="padding-left: 60px;">
+				Refine View: 
+				<span class="input">
+					<span class="icon-calendar"></span>
+					<input type="text" class="input-unstyled datepicker" value="">
+				</span>
+								
+				<select class="select" id="frame-scheduler" data-select-option="frame-scheduler">
+					<option value="morning">Morning</option>
+					<option value="daytime">Daytime</option>
+					<option value="primetime">Primetime</option>
+					<option value="overnight">Overnight</option>
+				</select>
+
+				<select class="select">
+					<option value="HD-1">HD-1</option>
+					<option value="HD-2">HD-2</option>
+					<option value="HD-3">HD-3</option>
+					<option value="HD-4">HD-4</option>
+					<option value="HD-5">HD-5</option>
+				</select>
+
+				<span class="right">
+					Specify a View: 
+					<span class="button-group">
+						<label for="radio-buttons-1" class="button green-active">
+							<input type="radio" name="radio-buttons" id="radio-buttons-1" value="1">
+							Support
+						</label>
+						<label for="radio-buttons-2" class="button green-active">
+							<input type="radio" name="radio-buttons" id="radio-buttons-2" value="2">
+							Production
+						</label>
+						<label for="radio-buttons-3" class="button green-active">
+							<input type="radio" name="radio-buttons" id="radio-buttons-3" value="3" checked>
+							Main
+						</label>
+					</span>
+				</span>
+			</div>
+
+<!-- START Scheduler MORNING -->
+<div id="schedule-morning" class="agenda with-header auto-scroll scrolling-agenda" style="height:600px;">
+
+	<!-- Time markers -->
+	<ul class="agenda-time">
+		<li class="from-7 to-8"><span>7 AM</span></li>
+		<li class="from-8 to-9"><span>8 AM</span></li>
+		<li class="from-9 to-10"><span>9 AM</span></li>
+		<li class="from-10 to-11 blue"><span>10 AM</span></li>
+		<li class="from-11 to-12"><span>11 AM</span></li>
+		<li class="from-12 to-13"><span>12 AM</span></li>
+		<li class="from-13 to-14"><span>1 PM</span></li>
+		<li class="from-14 to-15"><span>2 PM</span></li>
+		<li class="at-15"><span>3 PM</span></li>
+	</ul>
+
+	<!-- Columns wrapper -->
+	<div class="agenda-wrapper">
+
+
+
+		<!-- Events lists -->
+		<div class="agenda-events agenda-day1">
+			<div class="agenda-header">
+				Sunday
+			</div>
+				<div class="dark-stripes from-8 to-9"></div>
+				<div class="dark-stripes from-9 to-10"></div>
+
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-10 to-11 blue-gradient">
+					<time>10 AM - 11 AM</time>
+					Event description
+				</a>
+		</div>
+
+
+		<div class="agenda-events agenda-day2">
+			<div class="agenda-header">
+				Monday
+			</div>
+
+				<div class="dark-stripes from-7 to-8"></div>
+				<div class="dark-stripes from-8 to-9"></div>
+				<div class="dark-stripes from-9 to-10"></div>
+
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-7 to-8">
+					<time>7 AM - 12 PM</time>
+					Event description
+				</a>
+
+				<div class="agenda-now" style="top:60.00%"><span>10:00</span></div>
+		</div>
+		<div class="agenda-events agenda-day3">
+			<div class="agenda-header">
+				Tuesday
+			</div>
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-7 to-9">
+					<span class="ribbon tiny"><span class="ribbon-inner blue-gradient">New</span></span>
+					<time>7 AM - 9 AM</time>
+					Event description
+					<p>Keywords<br />Genre, Diversity, Local Underwriting</p>
+				</a>
+
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-10 to-15 anthracite-gradient">
+					<time>10 AM - 3:00 PM</time>
+					Event description
+				</a>
+		</div>
+		<div class="agenda-events agenda-day4">
+			<div class="agenda-header">
+				Wednesday
+			</div>
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-9 to-10 event-1-on-2">
+					<span class="ribbon tiny"><span class="ribbon-inner red-gradient">rRun</span></span>
+					<time>9 AM - 10 AM</time>
+					Event description
+				</a>
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-9-30 to-13 event-2-on-2 blue-gradient">
+					<span class="ribbon tiny"><span class="ribbon-inner blue-gradient">New</span></span>
+					<time>9 AM - 10 AM</time>
+					Event description
+				</a>
+		</div>
+		<div class="agenda-events agenda-day5">
+			<div class="agenda-header">
+				Thursday
+			</div>
+		</div>
+		<div class="agenda-events agenda-day6">
+			<div class="agenda-header">
+				Friday
+			</div>
+		</div>
+		<div class="agenda-events agenda-day7">
+			<div class="agenda-header">
+				Saturday
+			</div>
+		</div>
+
+	</div>
+
+</div><!-- END Scheduler MORNING -->
+
+<!-- START Scheduler DAYTIME -->
+<div id="schedule-daytime" class="agenda with-header auto-scroll scrolling-agenda" style="height:600px;">
+
+	<!-- Time markers -->
+	<ul class="agenda-time">
+		<li class="from-7 to-8"><span>11 AM</span></li>
+		<li class="from-8 to-9"><span>12 PM</span></li>
+		<li class="from-9 to-10"><span>1 PM</span></li>
+		<li class="from-10 to-11 blue"><span>2 PM</span></li>
+		<li class="from-11 to-12"><span>3 PM</span></li>
+		<li class="from-12 to-13"><span>4 PM</span></li>
+		<li class="from-13 to-14"><span>5 PM</span></li>
+		<li class="from-14 to-15"><span>6 PM</span></li>
+		<li class="at-15"><span>7 PM</span></li>
+	</ul>
+
+	<!-- Columns wrapper -->
+	<div class="agenda-wrapper">
+
+
+
+		<!-- Events lists -->
+		<div class="agenda-events agenda-day1">
+			<div class="agenda-header">
+				Sunday
+			</div>
+				<div class="dark-stripes from-8 to-9"></div>
+				<div class="dark-stripes from-9 to-10"></div>
+
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-10 to-11 blue-gradient">
+					<time>10 AM - 11 AM</time>
+					Event description
+				</a>
+		</div>
+
+
+		<div class="agenda-events agenda-day2">
+			<div class="agenda-header">
+				Monday
+			</div>
+
+				<div class="dark-stripes from-7 to-8"></div>
+				<div class="dark-stripes from-8 to-9"></div>
+				<div class="dark-stripes from-9 to-10"></div>
+
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-7 to-8">
+					<time>7 AM - 12 PM</time>
+					Event description
+				</a>
+
+				<div class="agenda-now" style="top:60.00%"><span>10:00</span></div>
+		</div>
+		<div class="agenda-events agenda-day3">
+			<div class="agenda-header">
+				Tuesday
+			</div>
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-7 to-9">
+					<span class="ribbon tiny"><span class="ribbon-inner blue-gradient">New</span></span>
+					<time>7 AM - 9 AM</time>
+					Event description
+					<p>Keywords<br />Genre, Diversity, Local Underwriting</p>
+				</a>
+
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-10 to-15 anthracite-gradient">
+					<time>10 AM - 3:00 PM</time>
+					Event description
+				</a>
+		</div>
+		<div class="agenda-events agenda-day4">
+			<div class="agenda-header">
+				Wednesday
+			</div>
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-9 to-10 event-1-on-2">
+					<span class="ribbon tiny"><span class="ribbon-inner red-gradient">rRun</span></span>
+					<time>9 AM - 10 AM</time>
+					Event description
+				</a>
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-9-30 to-13 event-2-on-2 blue-gradient">
+					<span class="ribbon tiny"><span class="ribbon-inner blue-gradient">New</span></span>
+					<time>9 AM - 10 AM</time>
+					Event description
+				</a>
+		</div>
+		<div class="agenda-events agenda-day5">
+			<div class="agenda-header">
+				Thursday
+			</div>
+		</div>
+		<div class="agenda-events agenda-day6">
+			<div class="agenda-header">
+				Friday
+			</div>
+		</div>
+		<div class="agenda-events agenda-day7">
+			<div class="agenda-header">
+				Saturday
+			</div>
+		</div>
+	</div>
+</div><!-- END Scheduler DAYTIME -->
+
+
+<!-- START Scheduler PRIMETIME -->
+<div id="schedule-primetime" class="agenda with-header auto-scroll scrolling-agenda" style="height:600px;">
+
+	<!-- Time markers -->
+	<ul class="agenda-time">
+		<li class="from-7 to-8"><span>7 PM</span></li>
+		<li class="from-8 to-9"><span>8 PM</span></li>
+		<li class="from-9 to-10"><span>9 PM</span></li>
+		<li class="from-10 to-11 blue"><span>10 PM</span></li>
+		<li class="from-11 to-12"><span>11 PM</span></li>
+		<li class="from-12 to-13"><span>12 AM</span></li>
+		<li class="from-13 to-14"><span>1 AM</span></li>
+		<li class="from-14 to-15"><span>2 AM</span></li>
+		<li class="at-15"><span>3 AM</span></li>
+	</ul>
+
+	<!-- Columns wrapper -->
+	<div class="agenda-wrapper">
+
+
+
+		<!-- Events lists -->
+		<div class="agenda-events agenda-day1">
+			<div class="agenda-header">
+				Sunday
+			</div>
+				<div class="dark-stripes from-8 to-9"></div>
+				<div class="dark-stripes from-9 to-10"></div>
+
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-10 to-11 blue-gradient">
+					<time>10 AM - 11 AM</time>
+					Event description
+				</a>
+		</div>
+
+
+		<div class="agenda-events agenda-day2">
+			<div class="agenda-header">
+				Monday
+			</div>
+
+				<div class="dark-stripes from-7 to-8"></div>
+				<div class="dark-stripes from-8 to-9"></div>
+				<div class="dark-stripes from-9 to-10"></div>
+
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-7 to-8">
+					<time>7 AM - 12 PM</time>
+					Event description
+				</a>
+
+				<div class="agenda-now" style="top:60.00%"><span>10:00</span></div>
+		</div>
+		<div class="agenda-events agenda-day3">
+			<div class="agenda-header">
+				Tuesday
+			</div>
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-7 to-9">
+					<span class="ribbon tiny"><span class="ribbon-inner blue-gradient">New</span></span>
+					<time>7 AM - 9 AM</time>
+					Event description
+					<p>Keywords<br />Genre, Diversity, Local Underwriting</p>
+				</a>
+
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-10 to-15 anthracite-gradient">
+					<time>10 AM - 3:00 PM</time>
+					Event description
+				</a>
+		</div>
+		<div class="agenda-events agenda-day4">
+			<div class="agenda-header">
+				Wednesday
+			</div>
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-9 to-10 event-1-on-2">
+					<span class="ribbon tiny"><span class="ribbon-inner red-gradient">rRun</span></span>
+					<time>9 AM - 10 AM</time>
+					Event description
+				</a>
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-9-30 to-13 event-2-on-2 blue-gradient">
+					<span class="ribbon tiny"><span class="ribbon-inner blue-gradient">New</span></span>
+					<time>9 AM - 10 AM</time>
+					Event description
+				</a>
+		</div>
+		<div class="agenda-events agenda-day5">
+			<div class="agenda-header">
+				Thursday
+			</div>
+		</div>
+		<div class="agenda-events agenda-day6">
+			<div class="agenda-header">
+				Friday
+			</div>
+		</div>
+		<div class="agenda-events agenda-day7">
+			<div class="agenda-header">
+				Saturday
+			</div>
+		</div>
+
+	</div>
+
+</div><!-- END Scheduler PRIMETIME -->
+
+<!-- START Scheduler OVERNIGHT -->
+<div id="schedule-overnight" class="agenda with-header auto-scroll scrolling-agenda" style="height:600px;">
+
+	<!-- Time markers -->
+	<ul class="agenda-time">
+		<li class="from-7 to-8"><span>11 PM</span></li>
+		<li class="from-8 to-9"><span>12 AM</span></li>
+		<li class="from-9 to-10"><span>1 AM</span></li>
+		<li class="from-10 to-11 blue"><span>2 AM</span></li>
+		<li class="from-11 to-12"><span>3 AM</span></li>
+		<li class="from-12 to-13"><span>4 AM</span></li>
+		<li class="from-13 to-14"><span>5 AM</span></li>
+		<li class="from-14 to-15"><span>6 AM</span></li>
+		<li class="at-15"><span>7 AM</span></li>
+	</ul>
+
+	<!-- Columns wrapper -->
+	<div class="agenda-wrapper">
+
+
+
+		<!-- Events lists -->
+		<div class="agenda-events agenda-day1">
+			<div class="agenda-header">
+				Sunday
+			</div>
+				<div class="dark-stripes from-8 to-9"></div>
+				<div class="dark-stripes from-9 to-10"></div>
+
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-10 to-11 blue-gradient">
+					<time>10 AM - 11 AM</time>
+					Event description
+				</a>
+		</div>
+
+
+		<div class="agenda-events agenda-day2">
+			<div class="agenda-header">
+				Monday
+			</div>
+
+				<div class="dark-stripes from-7 to-8"></div>
+				<div class="dark-stripes from-8 to-9"></div>
+				<div class="dark-stripes from-9 to-10"></div>
+
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-7 to-8">
+					<time>7 AM - 12 PM</time>
+					Event description
+				</a>
+
+				<div class="agenda-now" style="top:60.00%"><span>10:00</span></div>
+		</div>
+		<div class="agenda-events agenda-day3">
+			<div class="agenda-header">
+				Tuesday
+			</div>
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-7 to-9">
+					<span class="ribbon tiny"><span class="ribbon-inner blue-gradient">New</span></span>
+					<time>7 AM - 9 AM</time>
+					Event description
+					<p>Keywords<br />Genre, Diversity, Local Underwriting</p>
+				</a>
+
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-10 to-15 anthracite-gradient">
+					<time>10 AM - 3:00 PM</time>
+					Event description
+				</a>
+		</div>
+		<div class="agenda-events agenda-day4">
+			<div class="agenda-header">
+				Wednesday
+			</div>
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-9 to-10 event-1-on-2">
+					<span class="ribbon tiny"><span class="ribbon-inner red-gradient">rRun</span></span>
+					<time>9 AM - 10 AM</time>
+					Event description
+				</a>
+				<!-- Event with link -->
+				<a href="#" class="agenda-event from-9-30 to-13 event-2-on-2 blue-gradient">
+					<span class="ribbon tiny"><span class="ribbon-inner blue-gradient">New</span></span>
+					<time>9 AM - 10 AM</time>
+					Event description
+				</a>
+		</div>
+		<div class="agenda-events agenda-day5">
+			<div class="agenda-header">
+				Thursday
+			</div>
+		</div>
+		<div class="agenda-events agenda-day6">
+			<div class="agenda-header">
+				Friday
+			</div>
+		</div>
+		<div class="agenda-events agenda-day7">
+			<div class="agenda-header">
+				Saturday
+			</div>
+		</div>
+	</div>
+</div><!-- END Scheduler OVERNIGHT -->
+				
+				
+				
+			</div><!-- end of leftContent -->
+
+		</div><!-- end of content -->
+	
+	
+	<!--bottom dock -->
+	<!--#include file="_includes/bottom-dock.ssi" -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jqtransform.js"></script>
+	<!--<script type="text/javascript" src="_scripts/jquery-ui-1.8.20.custom.min.js"></script>-->
+	
+	<!-- Begin Dashboard includes -->
+	<script src="_scripts/dashboard/setup.js"></script>
+	<script src="_scripts/dashboard/developr.input.js"></script>
+	<script src="_scripts/dashboard/developr.navigable.js"></script>
+	<script src="_scripts/dashboard/developr.notify.js"></script>
+	<script src="_scripts/dashboard/developr.scroll.js"></script>
+	<script src="_scripts/dashboard/developr.progress-slider.js"></script>
+	<script src="_scripts/dashboard/developr.tooltip.js"></script>
+	<script src="_scripts/dashboard/developr.content-panel.js"></script>
+	
+	<!-- Plugins -->
+	<script src="_scripts/dashboard/developr.agenda.js"></script>
+	<script src="_scripts/dashboard/libs/glDatePicker/glDatePicker.min.js"></script>
+	<link rel="stylesheet" href="_scripts/dashboard/libs/glDatePicker/developr.css">
+
+
+	<script type="text/javascript" charset="utf-8" src="_scripts/css-dock.js"></script>
+	<script type="text/javascript" charset="utf-8" src="_scripts/fisheye_patched.js"></script>
+	
+	<script type="text/javascript" charset="utf-8">
+
+		// Call template init (optional, but faster if called manually)
+		$.template.init();
+		jQuery(document).ready(function() {
+			$('.datepicker').glDatePicker({ zIndex: 100 });
+
+			var timeframe;
+			$('#frame-scheduler').parent().on('blur', function(){
+				timeframe = $('#frame-scheduler').parent().children('.select-value').text();
+				//alert(timeframe);
+
+				$('#schedule-morning').hide();
+				$('#schedule-daytime').hide();
+				$('#schedule-primetime').hide();
+				$('#schedule-overnight').hide();
+
+				switch (timeframe){
+					case 'Morning':
+						$('#schedule-morning').show();
+						break
+					case 'Daytime':
+						$('#schedule-daytime').show();
+						break
+					case 'Primetime':
+						$('#schedule-primetime').show();
+						break
+					case 'Overnight':
+						$('#schedule-overnight').show();
+						break
+				}
+
+			});
+		});
+
+	</script>
+	
+</body>
+</html>
+
+
+

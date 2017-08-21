@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>PBS Intranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+
+	<!-- Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+		<h1>Profile Page</h1>
+
+	</div>
+	
+	<!-- Content glow top and border -->
+	<div id="pbs-content" class="non-dashboard clearfix">
+
+		<div class="leftRail">
+
+			<div class="pbs-widget widget-profile-info">
+				
+				<img class="profile-image" src="_images/temp-avatar-4.jpg">
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+				<a href="#" class="pbs-button btn-lite-blue">Follow</a>
+
+				<dl class="profile-meta clearfix">
+					<dt><i class="pbs-icon-mail"></i></dt>
+						<dd><a href="#">email@email.com</a></dd>
+					<dt><i class="pbs-icon-briefcase"></i></dt>
+						<dd>Communications</dd>
+					<dt><i class="pbs-icon-mobile"></i></dt>
+						<dd>703-739-0000</dd>
+					<dt><i class="pbs-icon-tree"></i></dt>
+						<dd>John Doe</dd>
+				</dl>
+
+			</div>
+
+			
+		</div><!-- end of rightRail -->
+		
+		<div class="rightContent fullDark">
+
+				<div class="profile-section-wrapper">
+
+					<div class="content profile">
+
+						<div class="network">
+							<a href="">35</a>
+							<span>Colleague Network</span>
+						</div>
+
+						<h2>Bill Gates, Job Title</h2>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+						<ul>
+							<li>Orginaztion Name | City, ST</li>
+						</ul>
+
+					</div>
+				</div><!-- /end profile-section-wrapper -->
+
+
+
+				<div class="profile-section-wrapper">
+					<div class="header">
+
+						<h4>Message Bill</h4>
+
+					</div>
+
+					<div class="content clearfix">
+
+						<form>
+
+							<textarea></textarea>
+
+							<a class="pbs-button btn-primary right" href="#">Send Mail</a>
+
+						</form>
+
+					</div>
+				</div><!-- /end profile-section-wrapper -->
+
+
+
+
+				<div class="profile-section-wrapper">
+					<div class="header">
+
+						<h4>Bill's Activities</h4>
+
+					</div>
+
+					<div class="content white-bg clearfix">
+
+						<div class="activity-stream-post parent-post clearfix">
+							<div class="activity-timestamp">
+								<span>10/29/2014</span>
+								<span>6:30:01 AM</span>
+							</div>
+							<div class="activity-avatar">
+								<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+							</div>
+							<div class="activity-post">
+								<div class="activity-msg">
+									<a href="#">Rachelle Byars-Sargent</a> contributed to <a href="#">Advisories</a>
+								</div>
+
+								<div class="activity-stream-post announcement-post clearfix">
+									<div class="activity-avatar">
+										<i class="pbs-icon-megaphone"></i>
+									</div>
+									<div class="activity-post">
+										<h4>Advisory</h4>
+										<div class="activity-msg">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum mollis malesuada. Nam egestas egestas accumsan. Maecenas gravida dolor ut quam dapibus lacinia.
+											<span class="as-more">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum mollis malesuada. Nam egestas egestas accumsan. Maecenas gravida dolor ut quam dapibus lacinia. Praesent dapibus libero nec tempor aliquam. Pellentesque eget consequat lorem, ut luctus nibh.
+											</span> <a href="#c" class="js-as-more">[Open]</a>
+										</div>
+										<div class="activity-action clearfix">
+											<ul class="left clearfix">
+												<li><a href="#">tag</a></li>
+												<li><a href="#">tag</a></li>
+												<li><a href="#">tag</a></li>
+											</ul>
+											<ul class="right clearfix">
+												<li><a href="#">Compare to Original</a></li>
+												<li><a href="#">Share</a></li>
+											</ul>
+										</div>
+									</div>
+								</div><!-- /activity-stream-post CHILD -->
+
+								<div class="activity-stream-post child-post clearfix">
+									<div class="activity-timestamp">
+										<span>10/29/2014</span>
+										<span>6:30:01 AM</span>
+									</div>
+									<div class="activity-avatar">
+										<img alt="" src="_images/user-marthastewart-50.jpg" height="50" width="50">
+									</div>
+									<div class="activity-post">
+										<div class="activity-msg">
+											<div class="activity-msg-meta">
+												<a href="#8">R Byars-Sargent</a>
+												<span class="date">1/30/2015 3:00:17 PM</span>
+												<a class="delete" href="#">Delete</a>
+											</div>
+
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum mollis malesuada. Nam egestas egestas accumsan. Maecenas gravida dolor ut quam dapibus lacinia. Praesent dapibus libero nec tempor aliquam. Pellentesque eget consequat lorem, ut luctus nibh.
+
+										</div>
+									</div>
+								</div><!-- /activity-stream-post CHILD -->
+
+							</div>
+
+						</div><!-- /activity-stream-post PARENT -->
+
+
+						<div style="text-align:center;">
+							<nav class="date-pagination">
+								<a href="#"><i class="pbs-icon-circle-left"></i></a>
+								<a href="#">Tue, Nov 04</a>
+								<a href="#">Wed, Nov 05</a>
+								<a href="#">Thu, Nov 06</a>
+								<a href="#" class="active">Fri, Nov 07</a>
+								<a href="#">Sat, Nov 08</a>
+								<a href="#"><i class="pbs-icon-circle-right"></i></a>
+							</nav>
+						</div>
+
+
+
+					</div>
+				</div><!-- /end profile-section-wrapper -->
+
+
+		
+			
+		</div><!-- end of leftContent -->
+		
+	</div><!-- end of content -->
+	
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	<script type="text/javascript" src="_scripts/department.js"></script>
+
+	<script type="text/javascript">
+
+
+	</script>
+	
+</body>
+</html>

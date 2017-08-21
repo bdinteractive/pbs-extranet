@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>PBS Extranet</title>
+	
+	<!-- global resources -->
+	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
+	<![endif]-->
+	
+	<!-- top menu specific -->
+	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
+	
+	<!-- jquery specific -->
+	<link rel="stylesheet" href="_styles/jquery.jscrollpane.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/jqtransform.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="_styles/css-dock.css" type="text/css" media="screen">
+	
+	
+	
+	<!-- Begin Dashboard includes -->
+
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="_styles/dashboard/style.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/colors.css?v=1">
+
+	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/modal.css">
+	<link rel="stylesheet" href="_styles/dashboard/styles/table.css">
+	
+	<!-- For progressively larger displays -->
+	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 992px)" href="_styles/dashboard/992.css?v=1">
+	<link rel="stylesheet" media="only all and (min-width: 1200px)" href="_styles/dashboard/1200.css?v=1">
+
+	<!-- Additional styles -->
+	<link rel="stylesheet" href="_styles/dashboard/styles/form.css?v=1">
+	<link rel="stylesheet" href="_styles/dashboard/styles/files.css?v=1">
+
+
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
+	
+	<!-- End Dashboard includes -->
+	
+	
+	<script type="text/javascript" charset="utf-8" src="_scripts/dashboard/libs/jquery-1.7.2.min.js"></script>
+	
+	<!-- theme specific -->
+	<script type="text/javascript" charset="utf-8" src="_scripts/themes.js"></script>
+	
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(_themes/theme5/images/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="pbsheader">
+		<!-- Navigation V4 include -->
+		<!--#include file="_includes/navigationV4.ssi" -->
+
+		<!-- Primary Side Nav include -->
+		<!--#include file="_includes/pri-side-nav.ssi" -->
+
+	</div><!-- end of header -->
+	
+	<!-- Sidebar include -->
+	<!--#include file="_includes/rightnav.ssi" -->
+
+	<div id="userPage">
+
+		<div class="user-details">
+			<a href="#" class="user-menu js-primary-side-menu"><i class="pbs-icon-menu"></i> <span class="user-avatar"><img src="_images/temp-avatar.jpg"></span> <span class="user-name">MaryAnne Longername</span></a>
+		</div>
+
+		<h1>Engage and Promote</h1>
+
+	</div>
+	
+	<div id="pbs-content" class="clearfix">
+
+		<div class="leftContentWide">
+
+			<h1 class="page-title">Proof of Performance</h1>
+
+			<section class="post-details">
+				<ul class="post-details-info">
+					<li><i class="pbs-icon-calendar"></i> Jun 12, 2015</li>
+					<li><i class="pbs-icon-bubble"></i> <a href="#">0 Comments</a></li>
+					<li><i class="pbs-icon-share"></i> <a href="#">Share</a></li>
+					<li><i class="pbs-icon-magnify-glass"></i> <a href="#">Compare Updated with Original</a></li>
+				</ul>
+				<ul class="post-details-actions">
+					<li><a href="#"><i class="pbs-icon-printer"></i></a></li>
+					<li><a href="#"><i class="pbs-icon-copy"></i></a></li>
+				</ul>
+			</section><!-- END post-details -->
+
+			<h3>Tools, Data, and Text to Document Public Television's Effectiveness</h3>
+
+			<p>The resources on this page provide research data, sample text, graphics, and multimedia resources for stations to use in advancing information about the American public's support for public broadcasting. Looking exclusively for results from our annual trust survey? Visit <a href="#">http://mypbs.org/trust/</a>.</p>
+
+			<p>This page also includes key elements from PBS' microsite, valuePBS.org, which presents facts and information that deliver on our call to action: Trusted, Valued, and Essential.  Stations, supporters, the public and other stakeholders can call upon valuePBS for evidence of our continuing value and importance to the American people.</p>
+
+		</div>
+
+
+
+		<div class="leftContentWide">
+
+			<div class="content-panel">
+
+						<div class="panel-navigation silver-gradient">
+
+							<div class="panel-control">
+								<a href="#" class="button icon-undo">Refresh</a>
+							</div>
+
+							<!--<div class="panel-load-target scrollable" style="height:490px">-->
+							<div class="panel-load-target scrollable">
+
+								<div class="navigable">
+
+									<ul class="files-list mini open-on-panel-content">
+
+										<li>
+											<a href="#" class="file-link">
+												<span class="icon folder-docs"></span>
+												Simple files list
+											</a>
+										</li>
+
+									</ul>
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="panel-content linen">
+
+							<div class="panel-load-target scrollable with-padding" style="height:450px">
+
+								<!--
+
+								This file is an example of sub-menu loaded via ajax
+
+								-->
+								<ul class="files-icons on-dark">
+
+									<li><a href="ajax-demo/explorer-files-controls.html" class="file-link open-on-panel-content">
+										<span class="icon folder-image"></span>
+										PBS Fact Sheet - July 2015 (Word version)</a>
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon file-png"></span>
+										PBS Fact Sheet - July 2015</a>
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon file-gif"></span>
+										PBS Difference - updated March 2014
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon file-jpg"></span>
+										GRAPH: PBS is a Trusted and Safe Place to Visit Online (JPG)
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon file-pdf"></span>
+										GRAPH: PBS is a Trusted and Safe Place to Watch TV (JPG)
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon file-default"></span>
+										GRAPH: PBS is Money Well Spent (JPG)
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon"><img src="_images/dashboard/demo/picture.png" class="framed"></span>
+										PBS Digital Studios Infographic - Jan. 2015
+									</a></li>
+
+									<li><a href="ajax-demo/explorer-files-controls.html" class="file-link open-on-panel-content">
+										<span class="icon folder-image"></span>
+										PBS Fact Sheet - July 2015 (Word version)</a>
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon file-png"></span>
+										PBS Fact Sheet - July 2015</a>
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon file-gif"></span>
+										PBS Difference - updated March 2014
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon file-jpg"></span>
+										GRAPH: PBS is a Trusted and Safe Place to Visit Online (JPG)
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon file-pdf"></span>
+										GRAPH: PBS is a Trusted and Safe Place to Watch TV (JPG)
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon file-default"></span>
+										GRAPH: PBS is Money Well Spent (JPG)
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon"><img src="_images/dashboard/demo/picture.png" class="framed"></span>
+										PBS Digital Studios Infographic - Jan. 2015
+									</a></li>
+
+									<li><a href="ajax-demo/explorer-files-controls.html" class="file-link open-on-panel-content">
+										<span class="icon folder-image"></span>
+										PBS Fact Sheet - July 2015 (Word version)</a>
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon file-png"></span>
+										PBS Fact Sheet - July 2015</a>
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon file-gif"></span>
+										PBS Difference - updated March 2014
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon file-jpg"></span>
+										GRAPH: PBS is a Trusted and Safe Place to Visit Online (JPG)
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon file-pdf"></span>
+										GRAPH: PBS is a Trusted and Safe Place to Watch TV (JPG)
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon file-default"></span>
+										GRAPH: PBS is Money Well Spent (JPG)
+									</a></li>
+
+									<li><a href="#" class="file-link">
+										<span class="icon"><img src="_images/dashboard/demo/picture.png" class="framed"></span>
+										PBS Digital Studios Infographic - Jan. 2015
+									</a></li>
+
+								</ul>
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+		</div><!-- end of leftContent -->
+
+
+	</div><!-- end of content -->
+
+
+	<div class="user-profile">
+
+	</div>
+
+
+	<div id="footer">
+		<!-- Footer Include -->
+		<!--#include file="_includes/footer.ssi" -->
+	</div><!-- end of footer -->
+	
+	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
+	
+	<script type="text/javascript" src="_scripts/jquery-ui-1.8.20.custom.min.js"></script>
+
+	<!-- Begin Dashboard includes -->
+	<script src="_scripts/dashboard/setup.js"></script>
+	<script type="text/javascript" src="_scripts/dashboard/developr.accordions.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.auto-resizing.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.message.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.confirm.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.tabs.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.input.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.modal.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.table.js"></script>
+    <script type="text/javascript" src="_scripts/dashboard/developr.tooltip.js"></script>
+    <script src="_scripts/dashboard/developr.content-panel.js"></script>
+
+	<script type="text/javascript" charset="utf-8">
+
+		// Call template init (optional, but faster if called manually)
+		$.template.init();
+
+		// Gallery size slider
+		$('#gallery-slider').slider({
+			min: 6,
+			value: 13,
+			max: 32,
+			onChange: function(value){
+				$('#demo-gallery').css('font-size', value+'px');
+			}
+		});
+
+		$('.moreTools .share').menuTooltip($('#shareDropdown').hide(),{
+			position: 'bottom'
+		});
+
+	</script>
+	
+</body>
+</html>
