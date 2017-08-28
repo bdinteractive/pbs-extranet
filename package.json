@@ -1,0 +1,14 @@
+{
+  "name": "pbs-extranet",
+  "version": "0.0.1",
+  "description": "A PBS Site",
+  "author": "Brad Dedon",
+  "devDependencies": {
+    "gulp": "^3.9.x",
+    "gulp-util": "^3.0.8",
+    "vinyl-ftp": "0.6.0"
+  },
+  "dependencies": {
+
+  }
+}
