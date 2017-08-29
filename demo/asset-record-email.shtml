@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>PBS Email</title>
+	<style type="text/css">
+    body {
+      font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    body * {
+      padding: 0;
+      margin: 0;
+      border: none;
+    }
+    a {
+      color: #1B77E0;
+    }
+    section {
+      width: 50%;
+      float: left;
+    }
+    .u__bold {
+      font-weight: bold;
+    }
+    .u__clear:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .email-header {
+      background-color: #eee;
+      padding: 10px;
+      margin-bottom: 40px;
+    }
+    .email-header__subscribe-link {
+      margin-bottom: 40px;
+      display: block;
+    }
+    .email-header__title {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .email-header__sub-text {
+      margin-bottom: 10px;
+    }
+    .email-header__sub-text:last-child {
+      margin-bottom: 0;
+    }
+    .asset-info {
+
+    }
+    .asset-info__title {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .asset-info__list {
+
+    }
+    .asset-info__list dt,
+    .asset-info__list dd {
+      float: left;
+      margin-bottom: 15px;
+    }
+    .asset-info__list dt {
+      width: 20%;
+      font-weight: bold;
+      text-align: right;
+      padding-right: 10px;
+    }
+    .asset-info__list dd {
+      width: 60%;
+    }
+    .asset-info__list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .asset-info__list-item {
+      list-style: none;
+      padding: 15px;
+      border-top: solid 1px #ddd;
+    }
+    .asset-info__list-item:nth-of-type(even) {
+      background-color: #eee;
+    }
+    .icon__qt {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+    .footer {
+      padding-top: 40px;
+    }
+    .footer__left,
+    .footer__right {
+      float: left;
+    }
+    .footer__left {
+      width: 80%;
+    }
+    .footer__left p {
+      font-size: 10px;
+      margin-bottom: 20px;
+      color: #ddd;
+    }
+    .footer__right {
+      width: 20%;
+      text-align: center;
+    }
+    .footer__right img {
+      width: 60%;
+    }
+	</style>
+</head>
+
+<body>
+
+	<div class="email-header">
+		<a class="email-header__subscribe-link" href="#">myPBS.org Email Subscription</a>
+		<h1 class="email-header__title">PMWP PROMOS for #699-700 Now Available</h1>
+		<p class="email-header__sub-text">by: Kimbery Mullany</p>
+    <p class="email-header__sub-text"><span class="u__bold">Read more:</span> <a href="#">http://mypbs.org/Programs_Promotions/60131711828/</a></p>
+	</div>
+
+  <article class="u__clear">
+    <section>
+      <div class="asset-info">
+        <h2 class="asset-info__title">Asset Information</h2>
+        <dl class="asset-info__list">
+          <dt>Description:</dt>
+            <dd>Colleges, Promos for Saturdays PNWE #699 and Sundays #700 are now available on the Source.</dd>
+          <dt>Location:</dt>
+            <dd>source.pbs.org (registration and login required)</dd>
+          <dt>Programs:</dt>
+            <dd>PBS Newshour Weekend</dd>
+        </dl>
+      </div>
+    </section>
+
+  	<section>
+      <div class="asset-info">
+        <h2 class="asset-info__title">Quick Links:</h2>
+        <ul class="asset-info__list">
+          <li class="asset-info__list-item">
+            <img class="icon__qt" src="_images/icon-qt-file.png"> <a href="">PNWE000699_Promo_20_Saturday.mov</a>
+          </li>
+          <li class="asset-info__list-item">
+            <img class="icon__qt" src="_images/icon-qt-file.png"> <a href="">PNWE000700_Promo_20_Sunday.mov</a>
+          </li>
+        </ul>
+      </div>
+  	</section>
+  </article>
+
+  <footer class="footer u__clear">
+    <div class="footer__left">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis nisi sed ex tempor aliquet. Curabitur finibus molestie metus. Nulla hendrerit mollis urna vitae interdum. Sed eget quam et nunc commodo sodales a in est. Maecenas gravida porttitor mi, laoreet fringilla sem rhoncus non. Donec mollis metus consectetur varius semper. Integer dictum vel nisi ac egestas. Ut luctus elit blandit nulla eleifend, ac cursus ante venenatis. Curabitur odio neque, viverra eget molestie id, sagittis ut dui. Sed a massa a nulla finibus porttitor. Proin posuere faucibus massa, quis blandit ante accumsan id.</p>
+    </div>
+    <div class="footer__right">
+      <img src="_images/login-logo.png">
+    </div>
+  </footer>
+
+</body>
+</html>
