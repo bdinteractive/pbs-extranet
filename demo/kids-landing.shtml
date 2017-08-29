@@ -11,28 +11,28 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 	<title>PBS Extranet</title>
-	
+
 	<!-- global resources -->
 	<link rel="stylesheet" href="_styles/global.css" type="text/css" media="screen" charset="utf-8">
 	<link rel="stylesheet" href="_styles/pbs-icons.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="_styles/print.css" type="text/css" media="print" charset="utf-8">
-	
+
 	<!--[if IE 7]>
 		<link rel="stylesheet" href="_styles/ie7.css" type="text/css" media="screen">
 	<![endif]-->
-	
+
 	<!-- top menu specific -->
 	<link rel="stylesheet" href="_styles/topNavigation_v4.css" type="text/css" media="screen">
-	
+
 	<!-- jquery specific -->
 	<link rel="stylesheet" href="_styles/jquery.jscrollpane.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="_styles/jqtransform.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="_styles/css-dock.css" type="text/css" media="screen">
 
 	<link href="http://vjs.zencdn.net/5.10.4/video-js.css" rel="stylesheet">
-	
-	
-	
+
+
+
 	<!-- Begin Dashboard includes -->
 
 	<!-- For all browsers -->
@@ -42,7 +42,7 @@
 	<link rel="stylesheet" href="_styles/dashboard/styles/switches.css?v=1">
 	<link rel="stylesheet" href="_styles/dashboard/styles/modal.css">
 	<link rel="stylesheet" href="_styles/dashboard/styles/table.css">
-	
+
 	<!-- For progressively larger displays -->
 	<link rel="stylesheet" media="only all and (min-width: 480px)" href="_styles/dashboard/480.css?v=1">
 	<link rel="stylesheet" media="only all and (min-width: 768px)" href="_styles/dashboard/768.css?v=1">
@@ -55,31 +55,44 @@
 
 	<!-- JavaScript at bottom except for Modernizr -->
 	<script src="_scripts/dashboard/libs/modernizr.custom.js"></script>
-	
+
 	<!-- End Dashboard includes -->
-	
-	
+
+
 	<script type="text/javascript" charset="utf-8" src="_scripts/dashboard/libs/jquery-1.7.2.min.js"></script>
-	
+
 	<!-- theme specific -->
 	<script type="text/javascript" charset="utf-8" src="_scripts/themes.js"></script>
-	
+
 	<style type="text/css" media="screen">
 		/*	----------------------------------------------------------------------------
 			(x) Themes */
-		body { 
+		body {
 			background-color: #000;
-			background-image: url(_themes/theme5/images/background_page.png); 
+			background-image: url(_themes/theme5/images/background_page.png);
 		}
 		p { color: #6E6D6D; }
 
 		.leftContent p a { color: #ea9022; }
 		#pbs-content { border-top-color: #ea9022; }
+    .fb-page {
+      padding: 40px 0;
+      width: 100%;
+    }
 	</style>
-	
+
 </head>
 
 <body>
+
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
 	<div id="pbsheader">
 		<!-- Navigation V4 include -->
@@ -89,7 +102,7 @@
 		<!--#include file="_includes/pri-side-nav.ssi" -->
 
 	</div><!-- end of header -->
-	
+
 	<!-- Sidebar include -->
 	<!--#include file="_includes/rightnav.ssi" -->
 
@@ -102,9 +115,9 @@
 		<h1>Programming</h1>
 
 	</div>
-	
+
 	<div id="pbs-content" class="clearfix">
-		
+
 		<div class="leftContentWide">
 
 			<h1 class="page-title">PBS Kids 24/7 Services</h1>
@@ -121,20 +134,17 @@
 				<ul>
 					<li><a class="active" href="#about">About</a></li>
 					<li><a href="#program-tools">Program Tools</a></li>
-					<li><a href="#faq">FAQs</a></li>
+					<li><a href="#assets">Assets</a></li>
 					<li><a href="#contacts">Contacts</a></li>
 				</ul>
 			</nav><!-- END navigation -->
-
-
-
 
 			<section class="clearfix">
 
 				<div class="halfSection left">
 
 					<div class="kids-headlines">
-					
+
 						<div class="carousel js-carousel">
 
 							<button class="carousel__btn carousel__btn--left" disabled><</button>
@@ -219,32 +229,6 @@
 					</div>
 
 
-					<div id="faq" class="kids-faq">
-
-						<img src="_images/header-faqs.png">
-
-						<div class="clearfix">
-
-							<div class="kids-faq__item">
-								<img src="_images/8cEaGGMca.png">
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit <a href="">esse cillum dolore eu fugiat</a> nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							</div>
-
-							<div class="kids-faq__item">
-								<img src="_images/8cEaGGMca.png">
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit <a href="">esse cillum dolore eu fugiat</a> nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							</div>
-
-							<div class="kids-faq__item">
-								<img src="_images/8cEaGGMca.png">
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit <a href="">esse cillum dolore eu fugiat</a> nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							</div>
-
-						</div>
-
-					</div>
-
-
 
 
 					<div class="widget-content-accordion">
@@ -276,14 +260,42 @@
 					</div>
 
 
+          <div id="assets" class="kids-assets">
+            <img src="_images/header-assets.png">
 
+            <h5 class="kids-asset__title">Most Recent</h5>
+
+            <div class="kids-asset__item">
+              <div class="kids-asset__type">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+              <div class="kids-asset__purpose">Promotion Purpose = PBS Kids 24/7</div>
+              <div class="kids-asset__numbers">1-2-1 1:2</div>
+            </div>
+
+            <div class="kids-asset__item">
+              <div class="kids-asset__type">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+              <div class="kids-asset__purpose">Promotion Purpose = PBS Kids 24/7</div>
+              <div class="kids-asset__numbers">1-2-1 1:2</div>
+            </div>
+
+            <div class="kids-asset__item">
+              <div class="kids-asset__type">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+              <div class="kids-asset__purpose">Promotion Purpose = PBS Kids 24/7</div>
+              <div class="kids-asset__numbers">1-2-1 1:2</div>
+            </div>
+
+            <div class="kids-assets__links">
+              <a class="pbs-button btn-primary" href="#">See More</a>
+              <a class="kids-assets__link" href="#">Leave myPBS</a>
+            </div>
+
+          </div>
 
 
 				</div>
 
 
 				<div class="halfSection right">
-					
+
 					<div id="announcements" class="kids-announcements clearfix">
 						<img src="_images/header-announcements.png">
 
@@ -361,35 +373,7 @@
 
 					</div>
 
-					<div id="assets" class="kids-assets">
-						<img src="_images/header-assets.png">
-						
-						<h5 class="kids-asset__title">Most Recent</h5>
-
-						<div class="kids-asset__item">
-							<div class="kids-asset__type">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-							<div class="kids-asset__purpose">Promotion Purpose = PBS Kids 24/7</div>
-							<div class="kids-asset__numbers">1-2-1 1:2</div>
-						</div>
-
-						<div class="kids-asset__item">
-							<div class="kids-asset__type">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-							<div class="kids-asset__purpose">Promotion Purpose = PBS Kids 24/7</div>
-							<div class="kids-asset__numbers">1-2-1 1:2</div>
-						</div>
-
-						<div class="kids-asset__item">
-							<div class="kids-asset__type">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec arcu at eros bibendum iaculis vel et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-							<div class="kids-asset__purpose">Promotion Purpose = PBS Kids 24/7</div>
-							<div class="kids-asset__numbers">1-2-1 1:2</div>
-						</div>
-
-						<div class="kids-assets__links">
-							<a class="pbs-button btn-primary" href="#">See More</a>
-							<a class="kids-assets__link" href="#">Leave myPBS</a>
-						</div>
-
-					</div>
+<div class="fb-page" data-href="https://www.facebook.com/PBSKIDS/" data-tabs="timeline" data-width="440" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/PBSKIDS/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/PBSKIDS/">PBS KIDS</a></blockquote></div>
 
 					<iframe src="" height="600" width="100%"></iframe>
 
@@ -456,12 +440,12 @@
 		<!-- Footer Include -->
 		<!--#include file="_includes/footer.ssi" -->
 	</div><!-- end of footer -->
-	
+
 	<script type="text/javascript" src="_scripts/global.js" charset="utf-8"></script>
 	<script type="text/javascript" src="_scripts/sticky-leftnav.js" charset="utf-8"></script>
 	<script type="text/javascript" src="_scripts/jquery.mousewheel.js"></script>
 	<script type="text/javascript" src="_scripts/jquery.jscrollpane.js"></script>
-	
+
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.14/jquery.scrollTo.min.js"></script>
 
 	<!-- Begin Dashboard includes -->
@@ -483,9 +467,9 @@
     <script src="http://vjs.zencdn.net/5.10.4/video.js"></script>
 
 	<script type="text/javascript" charset="utf-8">
-	
+
 		$(document).ready(function() {
-			
+
 			$('.announcements__tabs a').on('click', function(e){
 				e.preventDefault();
 				var loc = $(this).attr('href');
@@ -517,10 +501,10 @@
 		        /* Carousel Buttons */
 
 		          var moveLength = 445;
-		          
+
 
 		          _this.find('.carousel__btn--right').on('click',function(){
-		          	// $(".video-js")[0].player.pause(); 
+		          	// $(".video-js")[0].player.pause();
 		            var _thisBtn = $(this);
 		            _thisBtn.siblings('button').prop('disabled', false );
 		            var carouselWindow = _this.find('.carousel__window');
@@ -554,8 +538,8 @@
 		    }
 
 		});
-		
+
 	</script>
-	
+
 </body>
 </html>
